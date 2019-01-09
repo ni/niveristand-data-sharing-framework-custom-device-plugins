@@ -1,0 +1,4 @@
+[submodule "Source/Submodules/Memory Manager"]
+	path = Source/Submodules/Memory Manager
+	url = https://github.com/ryanpoulos/LabVIEW-Memory-Manager
+	branch = develop
