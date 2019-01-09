@@ -10,8 +10,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Classes" Type="Folder"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Libraries" Type="Folder">
+			<Item Name="DSF.Memory.lvlib" Type="Library" URL="../../Source/DSF.Memory.lvlib"/>
+		</Item>
+		<Item Name="Scripting" Type="Folder">
+			<Item Name="Script Numeric Polymorphic.vi" Type="VI" URL="../Scripting/Script Numeric Polymorphic.vi"/>
+		</Item>
+		<Item Name="Submodules" Type="Folder">
+			<Item Name="Memory Manager.lvlib" Type="Library" URL="../../Source/Submodules/Memory Manager/Source/Memory Manager.lvlib"/>
+		</Item>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Source/Submodules/Memory Manager/Source/Submodules/SEH/Source/Static Error Handling.lvlib"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
