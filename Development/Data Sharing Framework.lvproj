@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
+			<Item Name="New Folder" Type="Folder"/>
 			<Item Name="DSF.Execution.lvlib" Type="Library" URL="../../Source/DSF.Execution.lvlib"/>
 			<Item Name="DSF.Memory.lvlib" Type="Library" URL="../../Source/DSF.Memory.lvlib"/>
 		</Item>
