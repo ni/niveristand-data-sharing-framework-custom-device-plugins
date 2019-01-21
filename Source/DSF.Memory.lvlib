@@ -28,7 +28,12 @@
 				<Item Name="DSF.Memory.Pointer.U32.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.U32/DSF.Memory.Pointer.U32.lvclass"/>
 				<Item Name="DSF.Memory.Pointer.U64.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.U64/DSF.Memory.Pointer.U64.lvclass"/>
 			</Item>
+			<Item Name="DSF.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.Data Type/DSF.Memory.Pointer.DataType.lvclass"/>
 		</Item>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="DSF.Memory.Channel Pointer.ctl" Type="VI" URL="../Typedefs/DSF.Memory.Channel Pointer.ctl"/>
+		<Item Name="DSF.Memory.Transfer.ctl" Type="VI" URL="../Typedefs/DSF.Memory.Transfer.ctl"/>
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Pointers" Type="Folder">
