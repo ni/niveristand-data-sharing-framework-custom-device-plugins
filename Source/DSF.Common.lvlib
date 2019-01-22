@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="DSF.Common.Channel Properties.ctl" Type="VI" URL="../Typedefs/DSF.Common.Channel Properties.ctl"/>
 		<Item Name="DSF.Common.DataType.ctl" Type="VI" URL="../Typedefs/DSF.Common.DataType.ctl"/>
 	</Item>
 </Library>
