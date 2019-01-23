@@ -9,10 +9,13 @@
 </Property>
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Buffers" Type="Folder">
+			<Item Name="DSF.Memory.Buffer.Config.lvclass" Type="LVClass" URL="../Classes/Memory.Buffer/DSF.Memory.Buffer.Config.lvclass"/>
 			<Item Name="DSF.Memory.Buffer.lvclass" Type="LVClass" URL="../Classes/Memory.Buffer/DSF.Memory.Buffer.lvclass"/>
 		</Item>
 		<Item Name="Cache" Type="Folder">
+			<Item Name="DSF.Memory.Cache.Framework.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.Framework.lvclass"/>
 			<Item Name="DSF.Memory.Cache.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.lvclass"/>
+			<Item Name="DSF.Memory.Cache.Plugin.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.Plugin.lvclass"/>
 		</Item>
 		<Item Name="Pointers" Type="Folder">
 			<Item Name="Numeric" Type="Folder">
@@ -33,6 +36,7 @@
 			<Item Name="DSF.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.Data Type/DSF.Memory.Pointer.DataType.lvclass"/>
 		</Item>
 		<Item Name="Transfer" Type="Folder">
+			<Item Name="DSF.Memory.Transfer.Config.lvclass" Type="LVClass" URL="../Classes/Memory.Transfer/DSF.Memory.Transfer.Config.lvclass"/>
 			<Item Name="DSF.Memory.Transfer.lvclass" Type="LVClass" URL="../Classes/Memory.Transfer/DSF.Memory.Transfer.lvclass"/>
 		</Item>
 	</Item>
