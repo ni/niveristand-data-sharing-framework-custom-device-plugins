@@ -19,21 +19,21 @@
 		</Item>
 		<Item Name="Pointers" Type="Folder">
 			<Item Name="Numeric" Type="Folder">
-				<Item Name="DSF.Memory.Pointer.Bool.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.Bool/DSF.Memory.Pointer.Bool.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.DBL.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.DBL/DSF.Memory.Pointer.DBL.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.I8.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.I8/DSF.Memory.Pointer.I8.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.I16.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.I16/DSF.Memory.Pointer.I16.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.I32.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.I32/DSF.Memory.Pointer.I32.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.I64.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.I64/DSF.Memory.Pointer.I64.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.SGL.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.SGL/DSF.Memory.Pointer.SGL.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.U8.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.U8/DSF.Memory.Pointer.U8.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.U16.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.U16/DSF.Memory.Pointer.U16.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.U32.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.U32/DSF.Memory.Pointer.U32.lvclass"/>
-				<Item Name="DSF.Memory.Pointer.U64.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.U64/DSF.Memory.Pointer.U64.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.Bool.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.Bool.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.DBL.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.DBL.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.I8.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.I8.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.I16.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.I16.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.I32.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.I32.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.I64.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.I64.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.SGL.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.SGL.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.U8.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.U8.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.U16.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.U16.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.U32.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.U32.lvclass"/>
+				<Item Name="DSF.Memory.Pointer.U64.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.U64.lvclass"/>
 			</Item>
 			<Item Name="DSF.Memory.Pointer.Array.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.Array/DSF.Memory.Pointer.Array.lvclass"/>
-			<Item Name="DSF.Memory.Pointer.Channel Properties.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.Channel Properties/DSF.Memory.Pointer.Channel Properties.lvclass"/>
-			<Item Name="DSF.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.Data Type/DSF.Memory.Pointer.DataType.lvclass"/>
+			<Item Name="DSF.Memory.Pointer.Channel Properties.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.Channel Properties.lvclass"/>
+			<Item Name="DSF.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.DataType.lvclass"/>
 		</Item>
 		<Item Name="Transfer" Type="Folder">
 			<Item Name="DSF.Memory.Transfer.Config.lvclass" Type="LVClass" URL="../Classes/Memory.Transfer/DSF.Memory.Transfer.Config.lvclass"/>
