@@ -18,7 +18,7 @@
 			<Item Name="DSF.Memory.Cache.Plugin.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.Plugin.lvclass"/>
 		</Item>
 		<Item Name="Pointers" Type="Folder">
-			<Item Name="Numeric" Type="Folder">
+			<Item Name="Standard Types" Type="Folder">
 				<Item Name="DSF.Memory.Pointer.Bool.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.Bool.lvclass"/>
 				<Item Name="DSF.Memory.Pointer.DBL.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.DBL.lvclass"/>
 				<Item Name="DSF.Memory.Pointer.I8.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.I8.lvclass"/>
@@ -40,10 +40,7 @@
 			<Item Name="DSF.Memory.Transfer.lvclass" Type="LVClass" URL="../Classes/Memory.Transfer/DSF.Memory.Transfer.lvclass"/>
 		</Item>
 	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="DSF.Memory.Channel Pointer.ctl" Type="VI" URL="../Typedefs/DSF.Memory.Channel Pointer.ctl"/>
-		<Item Name="DSF.Memory.Transfer.ctl" Type="VI" URL="../Typedefs/DSF.Memory.Transfer.ctl"/>
-	</Item>
+	<Item Name="Typedefs" Type="Folder"/>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Pointers" Type="Folder">
 			<Item Name="DSF.Memory.Pointer.New.vi" Type="VI" URL="../VIs/DSF.Memory.Pointer.New.vi"/>
