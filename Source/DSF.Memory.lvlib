@@ -8,7 +8,9 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
-		<Item Name="BufferPool" Type="Folder"/>
+		<Item Name="BufferPool" Type="Folder">
+			<Item Name="DSF.Memory.BufferPool.lvclass" Type="LVClass" URL="../Classes/Memory.BufferPool/DSF.Memory.BufferPool.lvclass"/>
+		</Item>
 		<Item Name="Buffers" Type="Folder">
 			<Item Name="DSF.Memory.Buffer.Config.lvclass" Type="LVClass" URL="../Classes/Memory.Buffer/DSF.Memory.Buffer.Config.lvclass"/>
 			<Item Name="DSF.Memory.Buffer.lvclass" Type="LVClass" URL="../Classes/Memory.Buffer/DSF.Memory.Buffer.lvclass"/>
