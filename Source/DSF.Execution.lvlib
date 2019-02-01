@@ -15,6 +15,7 @@
 		<Item Name="Controller" Type="Folder">
 			<Item Name="DSF.Execution.Controller.lvclass" Type="LVClass" URL="../Classes/Execution.Controller/DSF.Execution.Controller.lvclass"/>
 		</Item>
+		<Item Name="Framework" Type="Folder"/>
 		<Item Name="Plugin" Type="Folder">
 			<Item Name="DSF.Execution.Plugin.lvclass" Type="LVClass" URL="../Classes/Execution.Plugin/DSF.Execution.Plugin.lvclass"/>
 		</Item>
