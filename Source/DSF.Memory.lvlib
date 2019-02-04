@@ -16,10 +16,12 @@
 			<Item Name="DSF.Memory.Buffer.lvclass" Type="LVClass" URL="../Classes/Memory.Buffer/DSF.Memory.Buffer.lvclass"/>
 		</Item>
 		<Item Name="Cache" Type="Folder">
-			<Item Name="DSF.Memory.Cache.Buffer.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.Buffer.lvclass"/>
-			<Item Name="DSF.Memory.Cache.Framework.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.Framework.lvclass"/>
+			<Item Name="Implementations" Type="Folder">
+				<Item Name="DSF.Memory.Cache.Framework.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.Framework.lvclass"/>
+				<Item Name="DSF.Memory.Cache.Plugin.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.Plugin.lvclass"/>
+				<Item Name="DSF.Memory.Cache.Transfer.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.Transfer.lvclass"/>
+			</Item>
 			<Item Name="DSF.Memory.Cache.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.lvclass"/>
-			<Item Name="DSF.Memory.Cache.Plugin.lvclass" Type="LVClass" URL="../Classes/Memory.Cache/DSF.Memory.Cache.Plugin.lvclass"/>
 		</Item>
 		<Item Name="Pointers" Type="Folder">
 			<Item Name="Standard Types" Type="Folder">
