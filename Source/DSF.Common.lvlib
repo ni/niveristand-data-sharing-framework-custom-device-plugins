@@ -13,7 +13,7 @@
 		<Item Name="DSF.Common.Constants.vi" Type="VI" URL="../Constants/DSF.Common.Constants.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="DSF.Common.Channel Properties.ctl" Type="VI" URL="../Typedefs/DSF.Common.Channel Properties.ctl"/>
+		<Item Name="DSF.Common.Channel Configuration.ctl" Type="VI" URL="../Typedefs/DSF.Common.Channel Configuration.ctl"/>
 		<Item Name="DSF.Common.DataType.ctl" Type="VI" URL="../Typedefs/DSF.Common.DataType.ctl"/>
 		<Item Name="DSF.Common.RT Thread Parameters.ctl" Type="VI" URL="../Typedefs/DSF.Common.RT Thread Parameters.ctl"/>
 	</Item>
