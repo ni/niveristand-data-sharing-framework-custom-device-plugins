@@ -40,6 +40,7 @@
 			<Item Name="DSF.Memory.Pointer.Array.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer.Array/DSF.Memory.Pointer.Array.lvclass"/>
 			<Item Name="DSF.Memory.Pointer.Channel Properties.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.Channel Properties.lvclass"/>
 			<Item Name="DSF.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.DataType.lvclass"/>
+			<Item Name="DSF.Memory.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Classes/Memory.Pointer/DSF.Memory.Pointer.VS Channels.lvclass"/>
 		</Item>
 		<Item Name="Transfer" Type="Folder">
 			<Item Name="DSF.Memory.Transfer.Config.lvclass" Type="LVClass" URL="../Classes/Memory.Transfer/DSF.Memory.Transfer.Config.lvclass"/>

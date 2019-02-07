@@ -14,7 +14,9 @@
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="DSF.Common.Channel Configuration.ctl" Type="VI" URL="../Typedefs/DSF.Common.Channel Configuration.ctl"/>
-		<Item Name="DSF.Common.DataType.ctl" Type="VI" URL="../Typedefs/DSF.Common.DataType.ctl"/>
+		<Item Name="DSF.Common.ConversionMode.ctl" Type="VI" URL="../Typedefs/DSF.Common.ConversionMode.ctl"/>
+		<Item Name="DSF.Common.Data Type Counts.ctl" Type="VI" URL="../Typedefs/DSF.Common.Data Type Counts.ctl"/>
+		<Item Name="DSF.Common.Data Type.ctl" Type="VI" URL="../Typedefs/DSF.Common.Data Type.ctl"/>
 		<Item Name="DSF.Common.RT Thread Parameters.ctl" Type="VI" URL="../Typedefs/DSF.Common.RT Thread Parameters.ctl"/>
 	</Item>
 </Library>
