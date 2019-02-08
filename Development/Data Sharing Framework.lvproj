@@ -67,9 +67,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
-			<Item Name="DSF.Common.lvlib" Type="Library" URL="../../Source/DSF.Common.lvlib"/>
-			<Item Name="DSF.Execution.lvlib" Type="Library" URL="../../Source/DSF.Execution.lvlib"/>
+			<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>
 			<Item Name="DSF.Memory.lvlib" Type="Library" URL="../../Source/DSF.Memory.lvlib"/>
+			<Item Name="DSF.Shared.lvlib" Type="Library" URL="../../Source/DSF.Shared.lvlib"/>
 		</Item>
 		<Item Name="Scripting" Type="Folder">
 			<Item Name="Script Numeric Polymorphic.vi" Type="VI" URL="../Scripting/Script Numeric Polymorphic.vi"/>

@@ -8,16 +8,19 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
-		<Item Name="Builder" Type="Folder">
-			<Item Name="DSF.Execution.Builder.lvclass" Type="LVClass" URL="../Classes/Execution.Builder/DSF.Execution.Builder.lvclass"/>
-			<Item Name="DSF.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Classes/Execution.BuilderManager/DSF.Execution.BuilderManager.lvclass"/>
+		<Item Name="Execution" Type="Folder">
+			<Item Name="Builder" Type="Folder">
+				<Item Name="DSF.Execution.Builder.lvclass" Type="LVClass" URL="../Classes/Execution.Builder/DSF.Execution.Builder.lvclass"/>
+				<Item Name="DSF.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Classes/Execution.BuilderManager/DSF.Execution.BuilderManager.lvclass"/>
+			</Item>
+			<Item Name="Controller" Type="Folder">
+				<Item Name="DSF.Execution.Controller.lvclass" Type="LVClass" URL="../Classes/Execution.Controller/DSF.Execution.Controller.lvclass"/>
+			</Item>
+			<Item Name="Framework" Type="Folder"/>
+			<Item Name="Plugin" Type="Folder">
+				<Item Name="DSF.Execution.Plugin.lvclass" Type="LVClass" URL="../Classes/Execution.Plugin/DSF.Execution.Plugin.lvclass"/>
+			</Item>
 		</Item>
-		<Item Name="Controller" Type="Folder">
-			<Item Name="DSF.Execution.Controller.lvclass" Type="LVClass" URL="../Classes/Execution.Controller/DSF.Execution.Controller.lvclass"/>
-		</Item>
-		<Item Name="Framework" Type="Folder"/>
-		<Item Name="Plugin" Type="Folder">
-			<Item Name="DSF.Execution.Plugin.lvclass" Type="LVClass" URL="../Classes/Execution.Plugin/DSF.Execution.Plugin.lvclass"/>
-		</Item>
+		<Item Name="Memory" Type="Folder"/>
 	</Item>
 </Library>
