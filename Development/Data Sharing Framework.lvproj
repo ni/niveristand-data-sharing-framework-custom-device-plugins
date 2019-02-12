@@ -80,18 +80,6 @@
 			<Item Name="Playground.vi" Type="VI" URL="../Testing/Playground.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="DSF.Memory.Buffer.lvclass" Type="LVClass" URL="../../Source/Classes/Memory.Buffer/DSF.Memory.Buffer.lvclass"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.Bool.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.Bool.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.DBL.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.DBL.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.I8.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.I8.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.I16.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.I16.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.I32.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.I32.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.I64.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.I64.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.SGL.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.SGL.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.U8.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.U8.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.U16.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.U16.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.U32.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.U32.vi"/>
-			<Item Name="DSF.Memory.Buffer.Read.0D.U64.vi" Type="VI" URL="../../Source/Classes/Memory.Buffer/Methods/DSF.Memory.Buffer.Read.0D.U64.vi"/>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Source/Submodules/Memory Manager/Source/Submodules/SEH/Source/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
