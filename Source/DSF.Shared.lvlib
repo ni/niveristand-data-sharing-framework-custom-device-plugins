@@ -8,15 +8,15 @@
 
 </Property>
 	<Item Name="Constants" Type="Folder">
-		<Item Name="DSF.Shared.Constant.vit" Type="VI" URL="../Constants/DSF.Shared.Constant.vit"/>
-		<Item Name="DSF.Shared.Constants.Library Name.vi" Type="VI" URL="../Constants/DSF.Shared.Constants.Library Name.vi"/>
-		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Constants/DSF.Shared.Constants.vi"/>
+		<Item Name="DSF.Shared.Constant.vit" Type="VI" URL="../Shared/Constants/DSF.Shared.Constant.vit"/>
+		<Item Name="DSF.Shared.Constants.Library Name.Engine.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.Library Name.Engine.vi"/>
+		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="DSF.Shared.Channel Configuration.ctl" Type="VI" URL="../Typedefs/DSF.Shared.Channel Configuration.ctl"/>
-		<Item Name="DSF.Shared.ConversionMode.ctl" Type="VI" URL="../Typedefs/DSF.Shared.ConversionMode.ctl"/>
-		<Item Name="DSF.Shared.Data Type Counts.ctl" Type="VI" URL="../Typedefs/DSF.Shared.Data Type Counts.ctl"/>
-		<Item Name="DSF.Shared.Data Type.ctl" Type="VI" URL="../Typedefs/DSF.Shared.Data Type.ctl"/>
-		<Item Name="DSF.Shared.RT Thread Parameters.ctl" Type="VI" URL="../Typedefs/DSF.Shared.RT Thread Parameters.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Channel Configuration.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.ConversionMode.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ConversionMode.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Data Type Counts.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type Counts.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Data Type.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.RT Thread Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.RT Thread Parameters.ctl"/>
 	</Item>
 </Library>

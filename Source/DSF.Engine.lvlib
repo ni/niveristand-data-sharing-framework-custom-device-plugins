@@ -10,56 +10,55 @@
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Execution" Type="Folder">
 			<Item Name="Builder" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
-				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
+				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
+				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
 			</Item>
 			<Item Name="Controller" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Controller.lvclass" Type="LVClass" URL="../Classes/Controller/DSF.Engine.Execution.Controller.lvclass"/>
+				<Item Name="DSF.Engine.Execution.Controller.lvclass" Type="LVClass" URL="../Engine/Classes/Controller/DSF.Engine.Execution.Controller.lvclass"/>
 			</Item>
 			<Item Name="Framework" Type="Folder"/>
 			<Item Name="Plugin" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/DSF.Engine.Execution.Plugin.lvclass"/>
+				<Item Name="DSF.Engine.Execution.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Execution.Plugin.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Memory" Type="Folder">
 			<Item Name="BufferPool" Type="Folder">
-				<Item Name="DSF.Engine.Memory.BufferPool.lvclass" Type="LVClass" URL="../Classes/BufferPool/DSF.Engine.Memory.BufferPool.lvclass"/>
+				<Item Name="DSF.Engine.Memory.BufferPool.lvclass" Type="LVClass" URL="../Engine/Classes/BufferPool/DSF.Engine.Memory.BufferPool.lvclass"/>
 			</Item>
 			<Item Name="Buffers" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
 			</Item>
 			<Item Name="Cache" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Cache.Framework.lvclass" Type="LVClass" URL="../Classes/Cache/DSF.Engine.Memory.Cache.Framework.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Cache.Plugin.lvclass" Type="LVClass" URL="../Classes/Cache/DSF.Engine.Memory.Cache.Plugin.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Cache.Transfer.lvclass" Type="LVClass" URL="../Classes/Cache/DSF.Engine.Memory.Cache.Transfer.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Cache.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Framework.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Cache.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Plugin.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Cache.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Transfer.lvclass"/>
 			</Item>
 			<Item Name="Pointers" Type="Folder">
 				<Item Name="Standard Types" Type="Folder">
-					<Item Name="DSF.Memory.Pointer.Bool.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.Bool.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.DBL.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.DBL.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.I8.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.I8.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.I16.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.I16.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.I32.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.I32.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.I64.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.I64.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.SGL.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.SGL.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.U8.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.U8.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.U16.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.U16.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.U32.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.U32.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.U64.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Memory.Pointer.U64.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.Bool.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.Bool.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.DBL.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.DBL.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.I8.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.I8.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.I16.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.I16.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.I32.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.I32.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.I64.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.I64.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.SGL.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.SGL.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.U8.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.U8.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.U16.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.U16.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.U32.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.U32.lvclass"/>
+					<Item Name="DSF.Memory.Pointer.U64.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.U64.lvclass"/>
 				</Item>
-				<Item Name="DSF.Engine.Memory.Pointer.Array.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Engine.Memory.Pointer.Array.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Pointer.Channel Properties.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Engine.Memory.Pointer.Channel Properties.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Engine.Memory.Pointer.DataType.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Classes/Pointer/DSF.Engine.Memory.Pointer.VS Channels.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Pointer.Array.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Array.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Pointer.Channel Properties.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Channel Properties.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.DataType.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.VS Channels.lvclass"/>
 			</Item>
 			<Item Name="Transfer" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Transfer.lvclass" Type="LVClass" URL="../Classes/Transfer/DSF.Engine.Memory.Transfer.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Memory.Transfer.lvclass"/>
 			</Item>
 		</Item>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="DSF.Engine.Buffer Channel Configuration.ctl" Type="VI" URL="../Typedefs/DSF.Engine.Buffer Channel Configuration.ctl"/>
+		<Item Name="DSF.Engine.Typedefs.Buffer Channel Configuration.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Buffer Channel Configuration.ctl"/>
 	</Item>
-	<Item Name="VIs" Type="Folder"/>
 </Library>
