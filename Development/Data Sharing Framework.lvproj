@@ -74,14 +74,13 @@
 			<Item Name="Script Numeric Polymorphic.vi" Type="VI" URL="../Scripting/Script Numeric Polymorphic.vi"/>
 		</Item>
 		<Item Name="Submodules" Type="Folder">
-			<Item Name="Memory Manager.lvlib" Type="Library" URL="../../Source/Submodules/Memory Manager/Source/Memory Manager.lvlib"/>
+			<Item Name="Memory.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Memory.lvlib"/>
+			<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Submodules/SEH/Source/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Testing" Type="Folder">
 			<Item Name="Playground.vi" Type="VI" URL="../Testing/Playground.vi"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Source/Submodules/Memory Manager/Source/Submodules/SEH/Source/Static Error Handling.lvlib"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
