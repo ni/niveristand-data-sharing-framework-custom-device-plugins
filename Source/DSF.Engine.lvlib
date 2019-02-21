@@ -35,19 +35,6 @@
 				<Item Name="DSF.Engine.Memory.Cache.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Transfer.lvclass"/>
 			</Item>
 			<Item Name="Pointers" Type="Folder">
-				<Item Name="Standard Types" Type="Folder">
-					<Item Name="DSF.Memory.Pointer.Bool.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.Bool.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.DBL.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.DBL.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.I8.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.I8.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.I16.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.I16.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.I32.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.I32.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.I64.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.I64.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.SGL.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.SGL.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.U8.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.U8.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.U16.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.U16.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.U32.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.U32.lvclass"/>
-					<Item Name="DSF.Memory.Pointer.U64.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Memory.Pointer.U64.lvclass"/>
-				</Item>
 				<Item Name="DSF.Engine.Memory.Pointer.Array.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Array.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Pointer.Channel Properties.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Channel Properties.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.DataType.lvclass"/>
