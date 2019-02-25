@@ -46,6 +46,12 @@
 		</Item>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Runtime" Type="Folder">
+			<Item Name="Transfer" Type="Folder">
+				<Item Name="DSF.Engine.Typedefs.Runtime.Transfer.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Runtime.Transfer.ctl"/>
+				<Item Name="DSF.Engine.Typedefs.Runtime.Transfer.ID.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Runtime.Transfer.ID.ctl"/>
+			</Item>
+		</Item>
 		<Item Name="DSF.Engine.Typedefs.Buffer Channel Configuration.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Buffer Channel Configuration.ctl"/>
 	</Item>
 </Library>

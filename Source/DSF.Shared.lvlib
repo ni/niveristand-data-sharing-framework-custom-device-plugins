@@ -13,6 +13,17 @@
 		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Configuration" Type="Folder">
+			<Item Name="Transfer" Type="Folder">
+				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Properties.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Properties.ctl"/>
+				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channels.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channels.ctl"/>
+				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.ctl"/>
+			</Item>
+			<Item Name="Transfer Group" Type="Folder">
+				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer Group.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer Group.ctl"/>
+			</Item>
+		</Item>
+		<Item Name="Transfer" Type="Folder"/>
 		<Item Name="DSF.Shared.Typedefs.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Channel Configuration.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.ConversionMode.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ConversionMode.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Data Type Counts.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type Counts.ctl"/>
