@@ -23,7 +23,6 @@
 				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer Group.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer Group.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="Transfer" Type="Folder"/>
 		<Item Name="DSF.Shared.Typedefs.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Channel Configuration.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.ConversionMode.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ConversionMode.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Data Type Counts.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type Counts.ctl"/>

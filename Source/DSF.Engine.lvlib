@@ -20,6 +20,9 @@
 			<Item Name="Plugin" Type="Folder">
 				<Item Name="DSF.Engine.Execution.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Execution.Plugin.lvclass"/>
 			</Item>
+			<Item Name="Transfer" Type="Folder">
+				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Memory" Type="Folder">
 			<Item Name="BufferPool" Type="Folder">
@@ -40,18 +43,9 @@
 				<Item Name="DSF.Engine.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.DataType.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.VS Channels.lvclass"/>
 			</Item>
-			<Item Name="Transfer" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Memory.Transfer.lvclass"/>
-			</Item>
 		</Item>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Runtime" Type="Folder">
-			<Item Name="Transfer" Type="Folder">
-				<Item Name="DSF.Engine.Typedefs.Runtime.Transfer.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Runtime.Transfer.ctl"/>
-				<Item Name="DSF.Engine.Typedefs.Runtime.Transfer.ID.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Runtime.Transfer.ID.ctl"/>
-			</Item>
-		</Item>
 		<Item Name="DSF.Engine.Typedefs.Buffer Channel Configuration.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Buffer Channel Configuration.ctl"/>
 	</Item>
 </Library>
