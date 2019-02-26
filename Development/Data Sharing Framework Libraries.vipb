@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-26 14:14:24" Modified_Date="2019-02-26 14:27:08" Creator="a" Comments="" ID="6972cf47e02d7bfc0741920940856f63">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-02-26 14:14:24" Modified_Date="2019-02-26 14:29:33" Creator="a" Comments="" ID="cba6fdf863ec6a84f9c7df4f7224ca28">
   <Library_General_Settings>
     <Package_File_Name>ni_vs_dsf_libs</Package_File_Name>
     <Library_Version>0.1.0.1</Library_Version>
@@ -102,6 +102,42 @@ Initial build.</Release_Notes>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Source</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Source/Engine</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Source/Shared</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Source/Submodules</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Source/DSF.Engine.lvlib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Source/DSF.Shared.lvlib</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -112,9 +148,18 @@ Initial build.</Release_Notes>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
+      <Exclusions>
+        <Path>Development</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>.gitignore</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>.gitmodules</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>README.md</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
