@@ -14,9 +14,11 @@
 				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
 			</Item>
 			<Item Name="Controller" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Sequencer.lvclass" Type="LVClass" URL="../Engine/Classes/Controller/DSF.Engine.Execution.Sequencer.lvclass"/>
+				<Item Name="DSF.Engine.Execution.Controller.lvclass" Type="LVClass" URL="../Engine/Classes/Controller/DSF.Engine.Execution.Controller.lvclass"/>
 			</Item>
-			<Item Name="Framework" Type="Folder"/>
+			<Item Name="Framework" Type="Folder">
+				<Item Name="DSF.Engine.Execution.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Execution.Framework.lvclass"/>
+			</Item>
 			<Item Name="Plugin" Type="Folder">
 				<Item Name="DSF.Engine.Execution.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Execution.Plugin.lvclass"/>
 			</Item>
