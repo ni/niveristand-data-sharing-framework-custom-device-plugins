@@ -39,6 +39,9 @@
 				<Item Name="DSF.Engine.Memory.Cache.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Plugin.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Cache.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Transfer.lvclass"/>
 			</Item>
+			<Item Name="ObjectPool" Type="Folder">
+				<Item Name="ObjectPool.lvclass" Type="LVClass" URL="../Engine/Classes/Pool/ObjectPool.lvclass"/>
+			</Item>
 			<Item Name="Pointers" Type="Folder">
 				<Item Name="DSF.Engine.Memory.Pointer.Array.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Array.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Pointer.Channel Properties.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Channel Properties.lvclass"/>
