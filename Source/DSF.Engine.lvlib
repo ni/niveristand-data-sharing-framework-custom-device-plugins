@@ -40,7 +40,7 @@
 				<Item Name="DSF.Engine.Memory.Cache.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Transfer.lvclass"/>
 			</Item>
 			<Item Name="ObjectPool" Type="Folder">
-				<Item Name="DSF.Engine.Memory.ObjectPool.Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Pool/DSF.Engine.Memory.ObjectPool.Bundle.lvclass"/>
+				<Item Name="DSF.Engine.Memory.ObjectPool Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Pool/DSF.Engine.Memory.ObjectPool Bundle.lvclass"/>
 				<Item Name="DSF.Engine.Memory.ObjectPool.lvclass" Type="LVClass" URL="../Engine/Classes/Pool/DSF.Engine.Memory.ObjectPool.lvclass"/>
 			</Item>
 			<Item Name="Pointers" Type="Folder">
