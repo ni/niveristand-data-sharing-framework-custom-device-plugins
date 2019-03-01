@@ -29,4 +29,14 @@
 		<Item Name="DSF.Shared.Typedefs.Data Type.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.RT Thread Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.RT Thread Parameters.ctl"/>
 	</Item>
+	<Item Name="VIs" Type="Folder">
+		<Item Name="Configuration" Type="Folder">
+			<Item Name="Transfer" Type="Folder">
+				<Item Name="DSF.Shared.Configuration.Channels Configuration.Validate.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Configuration.Channels Configuration.Validate.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Data Type" Type="Folder">
+			<Item Name="DSF.Shared.Data Type.Sizeof.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Data Type.Sizeof.vi"/>
+		</Item>
+	</Item>
 </Library>
