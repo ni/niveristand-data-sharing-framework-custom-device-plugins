@@ -53,5 +53,6 @@
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="DSF.Engine.Typedefs.Buffer Channel Configuration.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Buffer Channel Configuration.ctl"/>
+		<Item Name="DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl"/>
 	</Item>
 </Library>
