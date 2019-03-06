@@ -19,7 +19,8 @@
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Configuration" Type="Folder">
 			<Item Name="Transfer" Type="Folder">
-				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Block.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Block.ctl"/>
+				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Block Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Block Descriptor.ctl"/>
+				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl"/>
 				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl"/>
 				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channels.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channels.ctl"/>
 				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.ctl"/>
