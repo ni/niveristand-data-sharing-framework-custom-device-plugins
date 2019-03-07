@@ -8,8 +8,14 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
-		<Item Name="DSF.Shared.Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/DSF.Shared.Configuration.lvclass"/>
-		<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
+		<Item Name="Configuration" Type="Folder">
+			<Item Name="Types" Type="Folder">
+				<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
+				<Item Name="DSF.Shared.Configuration.Plugin.lvclass" Type="LVClass" URL="../Shared/Classes/Plugin/DSF.Shared.Configuration.Plugin.lvclass"/>
+				<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
+			</Item>
+			<Item Name="DSF.Shared.Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/DSF.Shared.Configuration.lvclass"/>
+		</Item>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="DSF.Shared.Constant.vit" Type="VI" URL="../Shared/Constants/DSF.Shared.Constant.vit"/>

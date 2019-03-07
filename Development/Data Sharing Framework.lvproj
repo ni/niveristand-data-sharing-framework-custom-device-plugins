@@ -78,6 +78,9 @@
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Submodules/SEH/Source/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Testing" Type="Folder">
+			<Item Name="Configuration" Type="Folder">
+				<Item Name="Configuration.vi" Type="VI" URL="../Testing/Configuration.vi"/>
+			</Item>
 			<Item Name="ObjectPool" Type="Folder">
 				<Item Name="ObjectPool Pointer Test.vi" Type="VI" URL="../Testing/ObjectPool/ObjectPool Pointer Test.vi"/>
 			</Item>
