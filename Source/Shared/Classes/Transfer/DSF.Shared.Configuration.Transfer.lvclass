@@ -150,6 +150,17 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1082929664</Property>
 				</Item>
 			</Item>
+			<Item Name="Optimization" Type="Folder">
+				<Item Name="DSF.Shared.Configuration.Transfer.Channel Array to Blocks.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Channel Array to Blocks.vi">
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!4(!!!!&amp;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!V!#!!'&lt;W:G=W6U!!"]!0%!!!!!!!!!!B"%5U9O5WBB=G6E,GRW&lt;'FC)5242CZ4;'&amp;S:71O6(FQ:72F:H-O2'&amp;U93"5?8"F,G.U&lt;!""1"5!#Q2#&lt;W^M!V.(4!.%1EQ#34A$34%W!UET-A.*.D1#64A$64%W!V5T-A.6.D1!!!FE982B)(2Z='5!@1$R!!!!!!!!!!)12&amp;.',F.I98*F:#ZM&gt;GRJ9E&amp;%5U9O5WBB=G6E,F2Z='6E:7:T,E.P&lt;G:J:X6S982J&lt;WYO6(*B&lt;H.G:8)O1WBB&lt;GZF&lt;#"198*B&lt;76U:8*T,G.U&lt;!!C1&amp;!!!A!&amp;!!931WBB&lt;GZF&lt;#"198*B&lt;76U:8*T!!"5!0%!!!!!!!!!!B&gt;$&gt;8.U&lt;WUA2'6W;7.F)%&amp;133ZM&gt;GRJ9BJ$&gt;8.U&lt;WUA2'6W;7.F)%FU:7UA5G6G,G.U&lt;!!:1!A!$F:4)%.I97ZO:7QA5G6G!!#$!0%!!!!!!!!!!B"%5U9O5WBB=G6E,GRW&lt;'FC15242CZ4;'&amp;S:71O6(FQ:72F:H-O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZ$;'&amp;O&lt;G6M)%2F=W.S;8"U&lt;X)O9X2M!#B!5!!#!!=!#"B';8*T&gt;#"$;'&amp;O&lt;G6M)%2F=W.S;8"U&lt;X)!!!N!#!!&amp;9W^V&lt;H1!#U!)!!6J&lt;G2F?!#&amp;!0%!!!!!!!!!!B"%5U9O5WBB=G6E,GRW&lt;'FC2U242CZ4;'&amp;S:71O6(FQ:72F:H-O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZ$;'&amp;O&lt;G6M)%*M&lt;W.L)%2F=W.S;8"U&lt;X)O9X2M!#2!5!!$!!E!#A!,%E.I97ZO:7QA5'&amp;S97VF&gt;'6S=Q!!*E"!!!(`````!!Q:1WBB&lt;GZF&lt;#"#&lt;'^D;S"%:8.D=GFQ&gt;'^S=Q"C1(!!(A!!0""%5U9O5WBB=G6E,GRW&lt;'FC+5242CZ4;'&amp;S:71O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZM&gt;G.M98.T!!!;6(*B&lt;H.G:8)A1W^O:GFH&gt;8*B&gt;'FP&lt;C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!@1$R!!!!!!!!!!)12&amp;.',F.I98*F:#ZM&gt;GRJ9E&amp;%5U9O5WBB=G6E,F2Z='6E:7:T,E.P&lt;G:J:X6S982J&lt;WYO6(*B&lt;H.G:8)O1WBB&lt;GZF&lt;#"%:8.D=GFQ&gt;'^S,G.U&lt;!!C1&amp;!!!A!(!!A31WBB&lt;GZF&lt;#"1=G^Q:8*U;76T!!!A1%!!!@````]!%".$;'&amp;O&lt;G6M)%2F=W.S;8"U&lt;X*T!'"!=!!?!!!]%%242CZ4;'&amp;S:71O&lt;(:M;7)J2&amp;.',F.I98*F:#Z$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,GRW9WRB=X-!!"F5=G&amp;O=W:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O)'FO!'%!]!!-!!-!"!!.!!Y!"!!%!!1!"!!0!!1!%1!3!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!B)!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!"-!!!!!</Property>
+					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+					<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">278929424</Property>
+				</Item>
+			</Item>
 			<Item Name="Parameter Check" Type="Folder">
 				<Item Name="Channel Parameters" Type="Folder">
 					<Item Name="DSF.Shared.Configuration.Transfer.Check.Channel Parameters.Contiguous.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Check.Channel Parameters.Contiguous.vi">
@@ -184,18 +195,18 @@
 					<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 				</Item>
 			</Item>
-			<Item Name="DSF.Shared.Configuration.Transfer.Channel Array to Blocks.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Channel Array to Blocks.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!4(!!!!&amp;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!V!#!!'&lt;W:G=W6U!!"]!0%!!!!!!!!!!B"%5U9O5WBB=G6E,GRW&lt;'FC)5242CZ4;'&amp;S:71O6(FQ:72F:H-O2'&amp;U93"5?8"F,G.U&lt;!""1"5!#Q2#&lt;W^M!V.(4!.%1EQ#34A$34%W!UET-A.*.D1#64A$64%W!V5T-A.6.D1!!!FE982B)(2Z='5!@1$R!!!!!!!!!!)12&amp;.',F.I98*F:#ZM&gt;GRJ9E&amp;%5U9O5WBB=G6E,F2Z='6E:7:T,E.P&lt;G:J:X6S982J&lt;WYO6(*B&lt;H.G:8)O1WBB&lt;GZF&lt;#"198*B&lt;76U:8*T,G.U&lt;!!C1&amp;!!!A!&amp;!!931WBB&lt;GZF&lt;#"198*B&lt;76U:8*T!!"5!0%!!!!!!!!!!B&gt;$&gt;8.U&lt;WUA2'6W;7.F)%&amp;133ZM&gt;GRJ9BJ$&gt;8.U&lt;WUA2'6W;7.F)%FU:7UA5G6G,G.U&lt;!!:1!A!$F:4)%.I97ZO:7QA5G6G!!#$!0%!!!!!!!!!!B"%5U9O5WBB=G6E,GRW&lt;'FC15242CZ4;'&amp;S:71O6(FQ:72F:H-O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZ$;'&amp;O&lt;G6M)%2F=W.S;8"U&lt;X)O9X2M!#B!5!!#!!=!#"B';8*T&gt;#"$;'&amp;O&lt;G6M)%2F=W.S;8"U&lt;X)!!!N!#!!&amp;9W^V&lt;H1!#U!)!!6J&lt;G2F?!#&amp;!0%!!!!!!!!!!B"%5U9O5WBB=G6E,GRW&lt;'FC2U242CZ4;'&amp;S:71O6(FQ:72F:H-O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZ$;'&amp;O&lt;G6M)%*M&lt;W.L)%2F=W.S;8"U&lt;X)O9X2M!#2!5!!$!!E!#A!,%E.I97ZO:7QA5'&amp;S97VF&gt;'6S=Q!!*E"!!!(`````!!Q:1WBB&lt;GZF&lt;#"#&lt;'^D;S"%:8.D=GFQ&gt;'^S=Q"C1(!!(A!!0""%5U9O5WBB=G6E,GRW&lt;'FC+5242CZ4;'&amp;S:71O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZM&gt;G.M98.T!!!;6(*B&lt;H.G:8)A1W^O:GFH&gt;8*B&gt;'FP&lt;C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!@1$R!!!!!!!!!!)12&amp;.',F.I98*F:#ZM&gt;GRJ9E&amp;%5U9O5WBB=G6E,F2Z='6E:7:T,E.P&lt;G:J:X6S982J&lt;WYO6(*B&lt;H.G:8)O1WBB&lt;GZF&lt;#"%:8.D=GFQ&gt;'^S,G.U&lt;!!C1&amp;!!!A!(!!A31WBB&lt;GZF&lt;#"1=G^Q:8*U;76T!!!A1%!!!@````]!%".$;'&amp;O&lt;G6M)%2F=W.S;8"U&lt;X*T!'"!=!!?!!!]%%242CZ4;'&amp;S:71O&lt;(:M;7)J2&amp;.',F.I98*F:#Z$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,GRW9WRB=X-!!"F5=G&amp;O=W:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O)'FO!'%!]!!-!!-!"!!.!!Y!"!!%!!1!"!!0!!1!%1!3!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!B)!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!"-!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">278929424</Property>
-			</Item>
 		</Item>
 		<Item Name="Public" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+			<Item Name="DSF.Shared.Configuration.Transfer.Create From String.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Create From String.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!!]%%242CZ4;'&amp;S:71O&lt;(:M;7)J2&amp;.',F.I98*F:#Z$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,GRW9WRB=X-!!"J5=G&amp;O=W:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!11$$`````"F.U=GFO:Q!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!1#!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!!!!!!!!!1!)!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
+			</Item>
 			<Item Name="DSF.Shared.Configuration.Transfer.Create.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Create.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-[!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!!]%%242CZ4;'&amp;S:71O&lt;(:M;7)J2&amp;.',F.I98*F:#Z$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,GRW9WRB=X-!!"J5=G&amp;O=W:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71&amp;-21X6T&gt;'^N)&amp;"B=G&amp;N:82F=H-!$E!Q`````Q2/97VF!!!.1!A!"G^G:H.F&gt;!!!@!$R!!!!!!!!!!)12&amp;.',F.I98*F:#ZM&gt;GRJ9C&amp;%5U9O5WBB=G6E,F2Z='6E:7:T,E2B&gt;'%A6(FQ:3ZD&gt;'Q!15!6!!M%1G^P&lt;!.42UQ$2%*-!EEY!UER.A.*-T)$349U!F5Y!V5R.A.6-T)$649U!!!*:'&amp;U93"U?8"F!(U!]1!!!!!!!!!#%%242CZ4;'&amp;S:71O&lt;(:M;7*"2&amp;.',F.I98*F:#Z5?8"F:'6G=SZ$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,E.I97ZO:7QA5'&amp;S97VF&gt;'6S=SZD&gt;'Q!)E"1!!)!#1!+%E.I97ZO:7QA5'&amp;S97VF&gt;'6S=Q!!6!$R!!!!!!!!!!)81X6T&gt;'^N)%2F&gt;GFD:3""5%EO&lt;(:M;7);1X6T&gt;'^N)%2F&gt;GFD:3"*&gt;'6N)&amp;*F:CZD&gt;'Q!'5!)!!Z75S"$;'&amp;O&lt;G6M)&amp;*F:A!!@1$R!!!!!!!!!!)12&amp;.',F.I98*F:#ZM&gt;GRJ9E&amp;%5U9O5WBB=G6E,F2Z='6E:7:T,E.P&lt;G:J:X6S982J&lt;WYO6(*B&lt;H.G:8)O1WBB&lt;GZF&lt;#"%:8.D=GFQ&gt;'^S,G.U&lt;!!C1&amp;!!!A!,!!Q31WBB&lt;GZF&lt;#"1=G^Q:8*U;76T!!!A1%!!!@````]!$2.$;'&amp;O&lt;G6M)%2F=W.S;8"U&lt;X*T!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!/!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!B!!!!!3!!!!!!%!$Q!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -204,15 +215,6 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
-			</Item>
-			<Item Name="DSF.Shared.Configuration.Transfer.From String.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.From String.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!!]%%242CZ4;'&amp;S:71O&lt;(:M;7)J2&amp;.',F.I98*F:#Z$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,GRW9WRB=X-!!"J5=G&amp;O=W:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!11$$`````"F.U=GFO:Q!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!1#!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!!!!!!!!!1!)!!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 			</Item>
 		</Item>
 		<Item Name="DSF.Shared.Configuration.Transfer Method.vit" Type="VI" URL="../DSF.Shared.Configuration.Transfer Method.vit">
