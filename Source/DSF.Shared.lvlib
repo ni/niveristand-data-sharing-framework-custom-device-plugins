@@ -12,6 +12,7 @@
 			<Item Name="Types" Type="Folder">
 				<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Plugin.lvclass" Type="LVClass" URL="../Shared/Classes/Plugin/DSF.Shared.Configuration.Plugin.lvclass"/>
+				<Item Name="DSF.Shared.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer Group/DSF.Shared.Configuration.Transfer Group.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
 			</Item>
 			<Item Name="DSF.Shared.Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/DSF.Shared.Configuration.lvclass"/>
@@ -37,6 +38,7 @@
 		</Item>
 		<Item Name="DSF.Shared.Typedefs.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Channel Configuration.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.ConversionMode.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ConversionMode.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Cycle Timing Factors.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Cycle Timing Factors.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Data Type Counts.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type Counts.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Data Type.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.RT Thread Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.RT Thread Parameters.ctl"/>
