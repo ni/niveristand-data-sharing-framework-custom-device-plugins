@@ -15,6 +15,7 @@
 				<Item Name="DSF.Shared.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer Group/DSF.Shared.Configuration.Transfer Group.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
 			</Item>
+			<Item Name="DSF.Shared.Configuration.Cycle Timed.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/DSF.Shared.Configuration.Cycle Timed.lvclass"/>
 			<Item Name="DSF.Shared.Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/DSF.Shared.Configuration.lvclass"/>
 		</Item>
 	</Item>
