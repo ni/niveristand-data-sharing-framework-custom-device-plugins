@@ -31,11 +31,8 @@
 				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl"/>
 				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl"/>
 				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channels.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channels.ctl"/>
-				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.ctl"/>
 			</Item>
-			<Item Name="Transfer Group" Type="Folder">
-				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer Group.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer Group.ctl"/>
-			</Item>
+			<Item Name="Transfer Group" Type="Folder"/>
 		</Item>
 		<Item Name="DSF.Shared.Typedefs.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Channel Configuration.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.ConversionMode.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ConversionMode.ctl"/>
@@ -46,11 +43,6 @@
 		<Item Name="DSF.Shared.Typedefs.RT Thread Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.RT Thread Parameters.ctl"/>
 	</Item>
 	<Item Name="VIs" Type="Folder">
-		<Item Name="Configuration" Type="Folder">
-			<Item Name="Transfer" Type="Folder">
-				<Item Name="DSF.Shared.Configuration.Channels Configuration.Validate.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Configuration.Channels Configuration.Validate.vi"/>
-			</Item>
-		</Item>
 		<Item Name="Data Type" Type="Folder">
 			<Item Name="DSF.Shared.Data Type.Sizeof.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Data Type.Sizeof.vi"/>
 		</Item>

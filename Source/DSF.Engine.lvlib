@@ -37,7 +37,11 @@
 				<Item Name="DSF.Engine.Memory.Cache.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Framework.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Cache.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Plugin.lvclass"/>
+				<Item Name="DSF.Engine.Memory.Cache.Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Transfer Group.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Cache.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Transfer.lvclass"/>
+			</Item>
+			<Item Name="FIFO" Type="Folder">
+				<Item Name="DSF.Engine.Memory.Index FIFO.lvclass" Type="LVClass" URL="../Engine/Classes/FIFO/DSF.Engine.Memory.Index FIFO.lvclass"/>
 			</Item>
 			<Item Name="ObjectPool" Type="Folder">
 				<Item Name="DSF.Engine.Memory.ObjectPool Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Pool/DSF.Engine.Memory.ObjectPool Bundle.lvclass"/>

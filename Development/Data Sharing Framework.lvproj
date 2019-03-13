@@ -94,6 +94,7 @@
 					<Item Name="UDP Configuration Test.vi" Type="VI" URL="../Testing/Plugins/UDP Configuration Test.vi"/>
 				</Item>
 			</Item>
+			<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
 			<Item Name="Playground.vi" Type="VI" URL="../Testing/Playground.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
