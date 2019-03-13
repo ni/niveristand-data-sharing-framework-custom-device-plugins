@@ -84,6 +84,16 @@
 			<Item Name="ObjectPool" Type="Folder">
 				<Item Name="ObjectPool Pointer Test.vi" Type="VI" URL="../Testing/ObjectPool/ObjectPool Pointer Test.vi"/>
 			</Item>
+			<Item Name="Plugins" Type="Folder">
+				<Item Name="UDP" Type="Folder">
+					<Item Name="Configuration" Type="Folder">
+						<Item Name="DSF.UDP.Configuration.Plugin.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.UDP.Configuration.Plugin.lvclass"/>
+						<Item Name="DSF.UDP.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.UDP.Configuration.Transfer Group.lvclass"/>
+						<Item Name="DSF.UDP.Configuration.Transfer.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.UDP.Configuration.Transfer.lvclass"/>
+					</Item>
+					<Item Name="UDP Configuration Test.vi" Type="VI" URL="../Testing/Plugins/UDP Configuration Test.vi"/>
+				</Item>
+			</Item>
 			<Item Name="Playground.vi" Type="VI" URL="../Testing/Playground.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">

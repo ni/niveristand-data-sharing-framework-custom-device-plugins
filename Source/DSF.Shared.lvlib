@@ -42,6 +42,7 @@
 		<Item Name="DSF.Shared.Typedefs.Cycle Timing Factors.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Cycle Timing Factors.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Data Type Counts.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type Counts.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Data Type.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Direction.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Direction.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.RT Thread Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.RT Thread Parameters.ctl"/>
 	</Item>
 	<Item Name="VIs" Type="Folder">
