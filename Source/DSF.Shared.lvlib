@@ -44,6 +44,7 @@
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Data Type" Type="Folder">
+			<Item Name="DSF.Shared.Data Type.Sizeof.1D.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Data Type.Sizeof.1D.vi"/>
 			<Item Name="DSF.Shared.Data Type.Sizeof.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Data Type.Sizeof.vi"/>
 		</Item>
 	</Item>
