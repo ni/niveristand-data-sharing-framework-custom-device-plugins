@@ -73,13 +73,13 @@
 		<Item Name="Public" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="DSF.Engine.Memory.Pointer.VS Channels.New.vi" Type="VI" URL="../DSF.Engine.Memory.Pointer.VS Channels.New.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%@!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!"!%%242CZ&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7)N2&amp;.',E6O:WFO:3Z.:7VP=HEO5'^J&lt;H2F=CZ75S"$;'&amp;O&lt;G6M=SZM&gt;G.M98.T!!!86F-A1WBB&lt;GZF&lt;(-A5'^J&lt;H2F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"!)!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!"!!=!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;_!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!"!%%242CZ&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7)N2&amp;.',E6O:WFO:3Z.:7VP=HEO5'^J&lt;H2F=CZ75S"$;'&amp;O&lt;G6M=SZM&gt;G.M98.T!!!86F-A1WBB&lt;GZF&lt;(-A5'^J&lt;H2F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!41!A!$7.I97ZO:7QA9W^V&lt;H1!4!$R!!!!!!!!!!)81X6T&gt;'^N)%2F&gt;GFD:3""5%EO&lt;(:M;7)32'&amp;U93"3:7:F=G6O9W5O9X2M!"F!!Q!/2'&amp;U93"3:7:F=G6O9W5!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!!3!!!!!!%!#1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 			</Item>
 			<Item Name="DSF.Engine.Memory.Pointer.VS Channels.Read.1D.vi" Type="VI" URL="../DSF.Engine.Memory.Pointer.VS Channels.Read.1D.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)B!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%5!)!!JP:G:T:81A&lt;X6U!!!01!I!#8:B&lt;(6F)'^V&gt;!!A1%!!!@````]!"2*$;'&amp;O&lt;G6M=S""=H*B?3"P&gt;81!!'*!=!!?!!"!%%242CZ&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7)N2&amp;.',E6O:WFO:3Z.:7VP=HEO5'^J&lt;H2F=CZ75S"$;'&amp;O&lt;G6M=SZM&gt;G.M98.T!!!86F-A1WBB&lt;GZF&lt;(-A5'^J&lt;H2F=C"P&gt;81!"!!!!"6!"!!09W^V&lt;H1A+#UR/C"B&lt;'QJ!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!)!!JP:G:T:81A+$!J!!!01!I!#(:B&lt;(6F)'FO!!!?1%!!!@````]!$"&amp;$;'&amp;O&lt;G6M=S""=H*B?3"J&lt;A"C1(!!(A!!1""%5U9O27ZH;7ZF,GRW&lt;'FC,5242CZ&amp;&lt;G&gt;J&lt;G5O476N&lt;X*Z,F"P;7ZU:8)O6F-A1WBB&lt;GZF&lt;(-O&lt;(:D&lt;'&amp;T=Q!!&amp;F:4)%.I97ZO:7RT)&amp;"P;7ZU:8)A;7Y!!'%!]!!-!!-!"!!'!!=!#!!)!!A!#1!+!!M!$1!/!Q!!?!!!$1A!!!U*!!!.#A!!$1M!!!!!!!!!!!!!!!!!!!A!!!!+!!!!#!!!!B!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!]!!!!!</Property>
@@ -89,15 +89,6 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
-			</Item>
-			<Item Name="DSF.Engine.Memory.Pointer.VS Channels.Valid.vi" Type="VI" URL="../DSF.Engine.Memory.Pointer.VS Channels.Valid.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'/!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!"!%%242CZ&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7)N2&amp;.',E6O:WFO:3Z.:7VP=HEO5'^J&lt;H2F=CZ75S"$;'&amp;O&lt;G6M=SZM&gt;G.M98.T!!!86F-A1WBB&lt;GZF&lt;(-A5'^J&lt;H2F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"C1(!!(A!!1""%5U9O27ZH;7ZF,GRW&lt;'FC,5242CZ&amp;&lt;G&gt;J&lt;G5O476N&lt;X*Z,F"P;7ZU:8)O6F-A1WBB&lt;GZF&lt;(-O&lt;(:D&lt;'&amp;T=Q!!&amp;F:4)%.I97ZO:7RT)&amp;"P;7ZU:8)A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">1090519040</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 			</Item>
 			<Item Name="DSF.Engine.Memory.Pointer.VS Channels.Write.1D.vi" Type="VI" URL="../DSF.Engine.Memory.Pointer.VS Channels.Write.1D.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)B!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%5!)!!JP:G:T:81A&lt;X6U!!!01!I!#8:B&lt;(6F)'^V&gt;!!A1%!!!@````]!"2*$;'&amp;O&lt;G6M=S""=H*B?3"P&gt;81!!'*!=!!?!!"!%%242CZ&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7)N2&amp;.',E6O:WFO:3Z.:7VP=HEO5'^J&lt;H2F=CZ75S"$;'&amp;O&lt;G6M=SZM&gt;G.M98.T!!!86F-A1WBB&lt;GZF&lt;(-A5'^J&lt;H2F=C"P&gt;81!"!!!!"6!"!!09W^V&lt;H1A+#UR/C"B&lt;'QJ!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!)!!JP:G:T:81A+$!J!!!01!I!#(:B&lt;(6F)'FO!!!?1%!!!@````]!$"&amp;$;'&amp;O&lt;G6M=S""=H*B?3"J&lt;A"C1(!!(A!!1""%5U9O27ZH;7ZF,GRW&lt;'FC,5242CZ&amp;&lt;G&gt;J&lt;G5O476N&lt;X*Z,F"P;7ZU:8)O6F-A1WBB&lt;GZF&lt;(-O&lt;(:D&lt;'&amp;T=Q!!&amp;F:4)%.I97ZO:7RT)&amp;"P;7ZU:8)A;7Y!!'%!]!!-!!-!"!!'!!=!#!!)!!A!#1!+!!M!$1!/!Q!!?!!!$1A!!!U*!!!.#A!!$1M!!!!!!!!!!!!!!!!!!!A!!!!+!!!!#!!!!B!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!]!!!!!</Property>
