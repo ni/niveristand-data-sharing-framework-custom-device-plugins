@@ -191,14 +191,32 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 			</Item>
-			<Item Name="DSF.Shared.Configuration.Transfer.Required Buffer Size.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Required Buffer Size.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!!]%%242CZ4;'&amp;S:71O&lt;(:M;7)J2&amp;.',F.I98*F:#Z$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,GRW9WRB=X-!!"J5=G&amp;O=W:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"A1(!!(A!!0""%5U9O5WBB=G6E,GRW&lt;'FC+5242CZ4;'&amp;S:71O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZM&gt;G.M98.T!!!:6(*B&lt;H.G:8)A1W^O:GFH&gt;8*B&gt;'FP&lt;C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!E!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!!!!"!!A!!!!!</Property>
+			<Item Name="DSF.Shared.Configuration.Transfer.Get Access Mode.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Get Access Mode.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(A!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;1!]1!!!!!!!!!#&amp;U.V=X2P&lt;3"%:8:J9W5A16"*,GRW&lt;'FC&amp;%2B&gt;'%A17.D:8.T)&amp;2Z='5O9X2M!"^!&amp;A!#"&amp;*F971&amp;6X*J&gt;'5!!!:"9W.F=X-!!'*!=!!?!!!]%%242CZ4;'&amp;S:71O&lt;(:M;7)J2&amp;.',F.I98*F:#Z$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,GRW9WRB=X-!!"J5=G&amp;O=W:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"A1(!!(A!!0""%5U9O5WBB=G6E,GRW&lt;'FC+5242CZ4;'&amp;S:71O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZM&gt;G.M98.T!!!:6(*B&lt;H.G:8)A1W^O:GFH&gt;8*B&gt;'FP&lt;C"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">34078736</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
+			</Item>
+			<Item Name="DSF.Shared.Configuration.Transfer.Get Channel Count.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Get Channel Count.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!".!#!!.9WBB&lt;GZF&lt;#"D&lt;X6O&gt;!"C1(!!(A!!0""%5U9O5WBB=G6E,GRW&lt;'FC+5242CZ4;'&amp;S:71O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZM&gt;G.M98.T!!!;6(*B&lt;H.G:8)A1W^O:GFH&gt;8*B&gt;'FP&lt;C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!9%"Q!"Y!!$Q12&amp;.',F.I98*F:#ZM&gt;GRJ9CF%5U9O5WBB=G6E,E.P&lt;G:J:X6S982J&lt;WYO6(*B&lt;H.G:8)O&lt;(:D&lt;'&amp;T=Q!!'62S97ZT:G6S)%.P&lt;G:J:X6S982J&lt;WYA;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
+			</Item>
+			<Item Name="DSF.Shared.Configuration.Transfer.Required Buffer Size.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Required Buffer Size.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'H!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!#!!5=G6R&gt;7FS:71A9H6G:G6S)(.J?G5!!'*!=!!?!!!]%%242CZ4;'&amp;S:71O&lt;(:M;7)J2&amp;.',F.I98*F:#Z$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,GRW9WRB=X-!!"J5=G&amp;O=W:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"A1(!!(A!!0""%5U9O5WBB=G6E,GRW&lt;'FC+5242CZ4;'&amp;S:71O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZM&gt;G.M98.T!!!:6(*B&lt;H.G:8)A1W^O:GFH&gt;8*B&gt;'FP&lt;C"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 			</Item>
 			<Item Name="DSF.Shared.Configuration.Transfer.Validate.vi" Type="VI" URL="../DSF.Shared.Configuration.Transfer.Validate.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!!]%%242CZ4;'&amp;S:71O&lt;(:M;7)J2&amp;.',F.I98*F:#Z$&lt;WZG;7&gt;V=G&amp;U;7^O,F2S97ZT:G6S,GRW9WRB=X-!!"J5=G&amp;O=W:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"A1(!!(A!!0""%5U9O5WBB=G6E,GRW&lt;'FC+5242CZ4;'&amp;S:71O1W^O:GFH&gt;8*B&gt;'FP&lt;CZ5=G&amp;O=W:F=CZM&gt;G.M98.T!!!:6(*B&lt;H.G:8)A1W^O:GFH&gt;8*B&gt;'FP&lt;C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
