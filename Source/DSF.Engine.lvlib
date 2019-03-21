@@ -45,10 +45,6 @@
 			<Item Name="FIFO" Type="Folder">
 				<Item Name="DSF.Engine.Memory.Index FIFO.lvclass" Type="LVClass" URL="../Engine/Classes/FIFO/DSF.Engine.Memory.Index FIFO.lvclass"/>
 			</Item>
-			<Item Name="ObjectPool" Type="Folder">
-				<Item Name="DSF.Engine.Memory.ObjectPool Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Pool/DSF.Engine.Memory.ObjectPool Bundle.lvclass"/>
-				<Item Name="DSF.Engine.Memory.ObjectPool.lvclass" Type="LVClass" URL="../Engine/Classes/Pool/DSF.Engine.Memory.ObjectPool.lvclass"/>
-			</Item>
 			<Item Name="Pointers" Type="Folder">
 				<Item Name="DSF.Engine.Memory.Pointer.Array.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Array.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Pointer.Channel Properties.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Channel Properties.lvclass"/>
