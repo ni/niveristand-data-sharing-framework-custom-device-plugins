@@ -8,30 +8,12 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
-		<Item Name="Execution" Type="Folder">
-			<Item Name="Builder" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
-				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
-			</Item>
-			<Item Name="Controller" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Controller.lvclass" Type="LVClass" URL="../Engine/Classes/Controller/DSF.Engine.Execution.Controller.lvclass"/>
-			</Item>
-			<Item Name="Framework" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Execution.Framework.lvclass"/>
-			</Item>
-			<Item Name="Plugin" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Execution.Plugin.lvclass"/>
-			</Item>
-			<Item Name="Transfer" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
-			</Item>
-		</Item>
 		<Item Name="Memory" Type="Folder">
+			<Item Name="Buffer" Type="Folder">
+				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
+			</Item>
 			<Item Name="BufferPool" Type="Folder">
 				<Item Name="DSF.Engine.Memory.BufferPool.lvclass" Type="LVClass" URL="../Engine/Classes/BufferPool/DSF.Engine.Memory.BufferPool.lvclass"/>
-			</Item>
-			<Item Name="Buffers" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
 			</Item>
 			<Item Name="Cache" Type="Folder">
 				<Item Name="Types" Type="Folder">
@@ -52,9 +34,35 @@
 				<Item Name="DSF.Engine.Memory.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.VS Channels.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="Runtime" Type="Folder">
+			<Item Name="Builder" Type="Folder">
+				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
+				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
+			</Item>
+			<Item Name="Controller" Type="Folder">
+				<Item Name="DSF.Engine.Execution.Controller.lvclass" Type="LVClass" URL="../Engine/Classes/Controller/DSF.Engine.Execution.Controller.lvclass"/>
+			</Item>
+			<Item Name="Framework" Type="Folder">
+				<Item Name="DSF.Engine.Runtime.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Runtime.Framework.lvclass"/>
+			</Item>
+			<Item Name="Plugin" Type="Folder">
+				<Item Name="DSF.Engine.Execution.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Execution.Plugin.lvclass"/>
+			</Item>
+			<Item Name="Plugin Manager" Type="Folder"/>
+			<Item Name="Transfer" Type="Folder">
+				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="DSF.Engine.Typedefs.Buffer Channel Configuration.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Buffer Channel Configuration.ctl"/>
+		<Item Name="DSF.Engine.Typedefs.CPU Info.ctl" Type="VI" URL="../Engine/Classes/Framework/DSF.Engine.Typedefs.CPU Info.ctl"/>
 		<Item Name="DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl"/>
+	</Item>
+	<Item Name="VIs" Type="Folder">
+		<Item Name="Hardware Info" Type="Folder">
+			<Item Name="DSF.Engine.Get Hardware Info.CPU.vi" Type="VI" URL="../Engine/VIs/DSF.Engine.Get Hardware Info.CPU.vi"/>
+			<Item Name="DSF.Engine.Get Hardware Info.vi" Type="VI" URL="../Engine/VIs/DSF.Engine.Get Hardware Info.vi"/>
+		</Item>
 	</Item>
 </Library>
