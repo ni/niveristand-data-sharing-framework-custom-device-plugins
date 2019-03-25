@@ -46,9 +46,9 @@
 				<Item Name="DSF.Engine.Runtime.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Runtime.Framework.lvclass"/>
 			</Item>
 			<Item Name="Plugin" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Execution.Plugin.lvclass"/>
+				<Item Name="DSF.Engine.Runtime.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Runtime.Plugin.lvclass"/>
+				<Item Name="Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/Plugin Manager.lvclass"/>
 			</Item>
-			<Item Name="Plugin Manager" Type="Folder"/>
 			<Item Name="Transfer" Type="Folder">
 				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
 			</Item>
