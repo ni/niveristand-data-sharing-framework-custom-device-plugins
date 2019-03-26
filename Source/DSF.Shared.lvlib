@@ -40,6 +40,12 @@
 		<Item Name="DSF.Shared.Typedefs.Data Type Counts.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type Counts.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Data Type.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Direction.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Direction.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Plugin Classes.Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Classes.Configuration.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Plugin Classes.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Classes.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Plugin Classes.Runtime.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Classes.Runtime.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Plugin Paths.Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Paths.Configuration.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Plugin Paths.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Paths.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.Plugin Paths.Runtime.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Paths.Runtime.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.RT Thread Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.RT Thread Parameters.ctl"/>
 	</Item>
 	<Item Name="VIs" Type="Folder">
