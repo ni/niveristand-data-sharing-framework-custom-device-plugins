@@ -8,6 +8,9 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
+		<Item Name="Base" Type="Folder">
+			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
+		</Item>
 		<Item Name="Memory" Type="Folder">
 			<Item Name="Buffer" Type="Folder">
 				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
@@ -47,7 +50,9 @@
 			</Item>
 			<Item Name="Plugin" Type="Folder">
 				<Item Name="DSF.Engine.Runtime.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Runtime.Plugin.lvclass"/>
-				<Item Name="Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/Plugin Manager.lvclass"/>
+			</Item>
+			<Item Name="Plugin Manager" Type="Folder">
+				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
 			</Item>
 			<Item Name="Transfer" Type="Folder">
 				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
