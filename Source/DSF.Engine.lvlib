@@ -42,9 +42,6 @@
 				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
 				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
 			</Item>
-			<Item Name="Controller" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Controller.lvclass" Type="LVClass" URL="../Engine/Classes/Controller/DSF.Engine.Execution.Controller.lvclass"/>
-			</Item>
 			<Item Name="Framework" Type="Folder">
 				<Item Name="DSF.Engine.Runtime.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Runtime.Framework.lvclass"/>
 			</Item>
