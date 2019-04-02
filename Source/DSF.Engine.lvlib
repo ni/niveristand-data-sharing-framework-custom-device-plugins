@@ -40,6 +40,8 @@
 		<Item Name="Runtime" Type="Folder">
 			<Item Name="Builder" Type="Folder">
 				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
+			</Item>
+			<Item Name="Builder Manager" Type="Folder">
 				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
 			</Item>
 			<Item Name="Framework" Type="Folder">
