@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Base" Type="Folder">
+			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 		</Item>
 		<Item Name="Memory" Type="Folder">
