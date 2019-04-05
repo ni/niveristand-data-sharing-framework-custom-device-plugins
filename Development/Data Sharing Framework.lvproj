@@ -98,10 +98,10 @@
 				<Item Name="Implementations" Type="Folder">
 					<Item Name="Simulated DSF Custom Device.lvclass" Type="LVClass" URL="../Testing/Simulated DSF Custom Device/Simulated DSF Custom Device.lvclass"/>
 				</Item>
-				<Item Name="Framework Simulation.vi" Type="VI" URL="../Testing/Framework Simulation.vi"/>
 				<Item Name="Simulated VeriStand Custom Device.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Custom Device/Simulated VeriStand Custom Device.lvclass"/>
 				<Item Name="Simulated VeriStand Engine.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Engine/Simulated VeriStand Engine.lvclass"/>
 			</Item>
+			<Item Name="Framework Simulation.vi" Type="VI" URL="../Testing/Framework Simulation.vi"/>
 			<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
 			<Item Name="Playground.vi" Type="VI" URL="../Testing/Playground.vi"/>
 			<Item Name="Plugin Manager.vi" Type="VI" URL="../Testing/Plugin Manager.vi"/>
@@ -119,8 +119,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
-			<Item Name="Framework.lvclass" Type="LVClass" URL="../Testing/Framework/Framework.lvclass"/>
-			<Item Name="Read control pointers.vi" Type="VI" URL="../Testing/Framework/Accessors/Read control pointers.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="UDP Plugin (LLB)" Type="Source Distribution">
