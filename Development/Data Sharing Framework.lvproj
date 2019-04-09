@@ -95,13 +95,20 @@
 				</Item>
 			</Item>
 			<Item Name="Simulation" Type="Folder">
-				<Item Name="Implementations" Type="Folder">
-					<Item Name="Simulated DSF Custom Device.lvclass" Type="LVClass" URL="../Testing/Simulated DSF Custom Device/Simulated DSF Custom Device.lvclass"/>
+				<Item Name="Custom Device" Type="Folder">
+					<Item Name="Implementations" Type="Folder">
+						<Item Name="Simulated DSF Custom Device.lvclass" Type="LVClass" URL="../Testing/Simulated DSF Custom Device/Simulated DSF Custom Device.lvclass"/>
+					</Item>
+					<Item Name="Simulated VeriStand Custom Device.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Custom Device/Simulated VeriStand Custom Device.lvclass"/>
 				</Item>
-				<Item Name="Simulated VeriStand Custom Device.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Custom Device/Simulated VeriStand Custom Device.lvclass"/>
-				<Item Name="Simulated VeriStand Engine.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Engine/Simulated VeriStand Engine.lvclass"/>
+				<Item Name="Engine" Type="Folder">
+					<Item Name="Interface" Type="Folder">
+						<Item Name="Simulated VeriStand Engine.Interface.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Engine Interface/Simulated VeriStand Engine.Interface.lvclass"/>
+					</Item>
+					<Item Name="Simulated VeriStand Engine.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Engine/Simulated VeriStand Engine.lvclass"/>
+				</Item>
+				<Item Name="Simulation.vi" Type="VI" URL="../Testing/Simulation.vi"/>
 			</Item>
-			<Item Name="Framework Simulation.vi" Type="VI" URL="../Testing/Framework Simulation.vi"/>
 			<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
 			<Item Name="Playground.vi" Type="VI" URL="../Testing/Playground.vi"/>
 			<Item Name="Plugin Manager.vi" Type="VI" URL="../Testing/Plugin Manager.vi"/>
