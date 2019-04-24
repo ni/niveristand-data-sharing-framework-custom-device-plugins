@@ -8,10 +8,6 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
-		<Item Name="Base" Type="Folder">
-			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
-			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
-		</Item>
 		<Item Name="Memory" Type="Folder">
 			<Item Name="Buffer" Type="Folder">
 				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
@@ -54,10 +50,18 @@
 			<Item Name="Plugin Manager" Type="Folder">
 				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
 			</Item>
+			<Item Name="Sequencer" Type="Folder">
+				<Item Name="DSF.Engine.Sequencer.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer.lvclass"/>
+			</Item>
+			<Item Name="Timing" Type="Folder">
+				<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
+			</Item>
 			<Item Name="Transfer" Type="Folder">
 				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
+		<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="DSF.Engine.Typedefs.Buffer Channel Configuration.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Buffer Channel Configuration.ctl"/>

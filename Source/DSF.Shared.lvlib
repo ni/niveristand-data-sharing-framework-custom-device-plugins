@@ -34,6 +34,11 @@
 			</Item>
 			<Item Name="Transfer Group" Type="Folder"/>
 		</Item>
+		<Item Name="Scalars" Type="Folder">
+			<Item Name="DSF.Shared.Typedefs.Scalars.Decimation.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Decimation.ctl"/>
+			<Item Name="DSF.Shared.Typedefs.Scalars.Offset.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Offset.ctl"/>
+			<Item Name="DSF.Shared.Typedefs.Scalars.Priority.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Priority.ctl"/>
+		</Item>
 		<Item Name="DSF.Shared.Typedefs.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Channel Configuration.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.ConversionMode.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ConversionMode.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Cycle Timing Factors.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Cycle Timing Factors.ctl"/>
