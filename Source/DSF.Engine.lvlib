@@ -10,6 +10,7 @@
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="Types" Type="Folder">
+				<Item Name="DSF.Engine.Interface.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.Builder.lvclass"/>
 				<Item Name="DSF.Engine.Interface.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.Plugin.lvclass"/>
 			</Item>
 			<Item Name="DSF.Engine.Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.lvclass"/>
