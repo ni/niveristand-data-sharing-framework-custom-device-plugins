@@ -9,9 +9,24 @@
 </Property>
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Execution" Type="Folder">
+			<Item Name="Builder" Type="Folder">
+				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
+			</Item>
+			<Item Name="Builder Manager" Type="Folder">
+				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
+			</Item>
+			<Item Name="Plugin Manager" Type="Folder">
+				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
+			</Item>
+			<Item Name="Sequencer" Type="Folder">
+				<Item Name="DSF.Engine.Sequencer.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer.lvclass"/>
+			</Item>
 			<Item Name="Timing" Type="Folder">
 				<Item Name="Types" Type="Folder"/>
 				<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
+			</Item>
+			<Item Name="Transfer" Type="Folder">
+				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Hardware Info" Type="Folder">
@@ -50,23 +65,6 @@
 				<Item Name="DSF.Engine.Runtime.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Runtime.Plugin.lvclass"/>
 			</Item>
 			<Item Name="DSF.Engine.Runtime.lvclass" Type="LVClass" URL="../Engine/Classes/Runtime/DSF.Engine.Runtime.lvclass"/>
-		</Item>
-		<Item Name="Temp" Type="Folder">
-			<Item Name="Builder" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
-			</Item>
-			<Item Name="Builder Manager" Type="Folder">
-				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
-			</Item>
-			<Item Name="Plugin Manager" Type="Folder">
-				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
-			</Item>
-			<Item Name="Sequencer" Type="Folder">
-				<Item Name="DSF.Engine.Sequencer.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer.lvclass"/>
-			</Item>
-			<Item Name="Transfer" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
-			</Item>
 		</Item>
 		<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 		<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
