@@ -574,15 +574,4 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
 		</Item>
 	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="DSF.Engine.Memory.Buffer.Configuration.ctl" Type="VI" URL="../DSF.Engine.Memory.Buffer.Configuration.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!"1!41!A!$7.I97ZO:7QA9W^V&lt;H1!4E"Q!"Y!!$%12&amp;.',E6O:WFO:3ZM&gt;GRJ9BZ%5U9O476N&lt;X*Z,F"P;7ZU:8)O649U,GRW9WRB=X-!%W.I97ZO:7QA&lt;W:G=W6U=S"Q&gt;()!4%"Q!"Y!!$%12&amp;.',E6O:WFO:3ZM&gt;GRJ9BZ%5U9O476N&lt;X*Z,F"P;7ZU:8)O649U,GRW9WRB=X-!%7.I97ZO:7QA=WF[:8-A=(2S!&amp;:!=!!?!!!^%%242CZ&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7)K2&amp;.',E6O:WFO:3Z.:7VP=HEO5'^J&lt;H2F=CZ%982B6(FQ:3ZM&gt;G.M98.T!!ZE982B)(2Z='6T)("U=A!!&gt;!$R!!!!!!!!!!):2&amp;.',EVF&lt;7^S?3Z#&gt;7:G:8)O&lt;(:D&lt;'&amp;T=SF%5U9O476N&lt;X*Z,E*V:G:F=CZ#&gt;7:G:8*$&lt;WZG;7&gt;V=G&amp;U;7^O,G.U&lt;!!I1&amp;!!"!!!!!%!!A!$&amp;%*V:G:F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O!!!"!!1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-		</Item>
-	</Item>
 </LVClass>

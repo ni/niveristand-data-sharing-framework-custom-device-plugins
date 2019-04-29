@@ -31,9 +31,6 @@
 			<Item Name="Buffer" Type="Folder">
 				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
 			</Item>
-			<Item Name="BufferPool" Type="Folder">
-				<Item Name="DSF.Engine.Memory.BufferPool.lvclass" Type="LVClass" URL="../Engine/Classes/BufferPool/DSF.Engine.Memory.BufferPool.lvclass"/>
-			</Item>
 			<Item Name="Cache" Type="Folder">
 				<Item Name="Types" Type="Folder">
 					<Item Name="DSF.Engine.Memory.Cache.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Framework.lvclass"/>
@@ -43,13 +40,7 @@
 				</Item>
 				<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
 			</Item>
-			<Item Name="FIFO" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Index FIFO.lvclass" Type="LVClass" URL="../Engine/Classes/FIFO/DSF.Engine.Memory.Index FIFO.lvclass"/>
-			</Item>
 			<Item Name="Pointers" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Pointer.Array.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Array.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Pointer.Channel Properties.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.Channel Properties.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Pointer.DataType.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.DataType.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.VS Channels.lvclass"/>
 			</Item>
 		</Item>
