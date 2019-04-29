@@ -14,7 +14,7 @@
 				<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="Hardware" Type="Folder">
+		<Item Name="Hardware Info" Type="Folder">
 			<Item Name="CPU" Type="Folder">
 				<Item Name="DSF.Engine.Hardware Info.CPU.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/DSF.Engine.Hardware Info.CPU.lvclass"/>
 			</Item>
