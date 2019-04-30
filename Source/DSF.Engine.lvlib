@@ -10,9 +10,9 @@
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Execution" Type="Folder">
 			<Item Name="Builder" Type="Folder">
+				<Item Name="Build Dispatcher.lvclass" Type="LVClass" URL="../Engine/Classes/Build Dispatcher/Build Dispatcher.lvclass"/>
+				<Item Name="Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/Builder.lvclass"/>
 				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
-			</Item>
-			<Item Name="Builder Manager" Type="Folder">
 				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
 			</Item>
 			<Item Name="Plugin Manager" Type="Folder">
@@ -21,6 +21,9 @@
 			<Item Name="Sequencer" Type="Folder">
 				<Item Name="DSF.Engine.Sequencer Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer Bundle.lvclass"/>
 				<Item Name="DSF.Engine.Sequencer.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer.lvclass"/>
+			</Item>
+			<Item Name="Thread Parameters" Type="Folder">
+				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 			</Item>
 			<Item Name="Timing" Type="Folder">
 				<Item Name="Types" Type="Folder"/>
@@ -66,6 +69,12 @@
 				<Item Name="DSF.Engine.Runtime.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Runtime.Plugin.lvclass"/>
 			</Item>
 			<Item Name="DSF.Engine.Runtime.lvclass" Type="LVClass" URL="../Engine/Classes/Runtime/DSF.Engine.Runtime.lvclass"/>
+		</Item>
+		<Item Name="Status" Type="Folder">
+			<Item Name="Types" Type="Folder">
+				<Item Name="Builder Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Builder Status.lvclass"/>
+			</Item>
+			<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 		</Item>
 		<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 		<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
