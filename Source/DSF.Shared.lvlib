@@ -24,6 +24,9 @@
 		<Item Name="DSF.Shared.Constants.Library Name.Engine.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.Library Name.Engine.vi"/>
 		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.vi"/>
 	</Item>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="DSF.Shared.Controls.Timeout.ms.ctl" Type="VI" URL="../Shared/Controls/DSF.Shared.Controls.Timeout.ms.ctl"/>
+	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Configuration" Type="Folder">
 			<Item Name="Transfer" Type="Folder">
