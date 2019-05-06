@@ -10,10 +10,8 @@
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Execution" Type="Folder">
 			<Item Name="Builder" Type="Folder">
-				<Item Name="Build Dispatcher.lvclass" Type="LVClass" URL="../Engine/Classes/Build Dispatcher/Build Dispatcher.lvclass"/>
-				<Item Name="Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/Builder.lvclass"/>
-				<Item Name="DSF.Engine.Execution.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Execution.Builder.lvclass"/>
-				<Item Name="DSF.Engine.Execution.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.Execution.BuilderManager.lvclass"/>
+				<Item Name="DSF.Engine.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Builder.lvclass"/>
+				<Item Name="DSF.Engine.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.BuilderManager.lvclass"/>
 			</Item>
 			<Item Name="Plugin Manager" Type="Folder">
 				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
@@ -73,6 +71,8 @@
 		<Item Name="Status" Type="Folder">
 			<Item Name="Types" Type="Folder">
 				<Item Name="Builder Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Builder Status.lvclass"/>
+				<Item Name="Plugin Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Plugin Status.lvclass"/>
+				<Item Name="Transfer Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Transfer Status.lvclass"/>
 			</Item>
 			<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 		</Item>
@@ -81,8 +81,8 @@
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="DSF.Engine.Typedefs.Buffer Channel Configuration.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Buffer Channel Configuration.ctl"/>
-		<Item Name="DSF.Engine.Typedefs.CPU Info.ctl" Type="VI" URL="../Engine/Classes/Framework/DSF.Engine.Typedefs.CPU Info.ctl"/>
+		<Item Name="DSF.Engine.Typedefs.CPU Info.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.CPU Info.ctl"/>
 		<Item Name="DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl"/>
-		<Item Name="DSF.Engine.Typedefs.Type Buffers.ctl" Type="VI" URL="../Engine/Classes/Builder/DSF.Engine.Typedefs.Type Buffers.ctl"/>
+		<Item Name="DSF.Engine.Typedefs.Type Buffers.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Type Buffers.ctl"/>
 	</Item>
 </Library>
