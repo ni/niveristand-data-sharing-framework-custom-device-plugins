@@ -69,9 +69,14 @@
 			<Item Name="DSF.Engine.Runtime.lvclass" Type="LVClass" URL="../Engine/Classes/Runtime/DSF.Engine.Runtime.lvclass"/>
 		</Item>
 		<Item Name="Status" Type="Folder">
-			<Item Name="Types" Type="Folder">
-				<Item Name="Builder Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Builder Status.lvclass"/>
+			<Item Name="Builder" Type="Folder">
+				<Item Name="Status.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Builder.lvclass"/>
+				<Item Name="Status.Builder.State.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Builder.State.lvclass"/>
+			</Item>
+			<Item Name="Plugin" Type="Folder">
 				<Item Name="Plugin Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Plugin Status.lvclass"/>
+			</Item>
+			<Item Name="Transfer" Type="Folder">
 				<Item Name="Transfer Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Transfer Status.lvclass"/>
 			</Item>
 			<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
