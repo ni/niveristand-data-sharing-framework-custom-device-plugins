@@ -74,10 +74,10 @@
 				<Item Name="Status.Builder.State.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Builder.State.lvclass"/>
 			</Item>
 			<Item Name="Plugin" Type="Folder">
-				<Item Name="Plugin Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Plugin Status.lvclass"/>
+				<Item Name="Status.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Plugin.lvclass"/>
 			</Item>
 			<Item Name="Transfer" Type="Folder">
-				<Item Name="Transfer Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Transfer Status.lvclass"/>
+				<Item Name="Status.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Transfer.lvclass"/>
 			</Item>
 			<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 		</Item>
