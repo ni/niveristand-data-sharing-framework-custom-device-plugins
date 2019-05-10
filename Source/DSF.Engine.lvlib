@@ -58,7 +58,12 @@
 				<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
 			</Item>
 			<Item Name="Pointers" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Memory.Pointer.VS Channels.lvclass"/>
+				<Item Name="Status" Type="Folder">
+					<Item Name="Builder" Type="Folder">
+						<Item Name="DSF.Engine.Pointer.Status.Builder.State.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.Status.Builder.State.lvclass"/>
+					</Item>
+				</Item>
+				<Item Name="DSF.Engine.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.VS Channels.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Runtime" Type="Folder">
@@ -71,7 +76,6 @@
 		<Item Name="Status" Type="Folder">
 			<Item Name="Builder" Type="Folder">
 				<Item Name="Status.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Builder.lvclass"/>
-				<Item Name="Status.Builder.State.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Builder.State.lvclass"/>
 			</Item>
 			<Item Name="Plugin" Type="Folder">
 				<Item Name="Status.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Plugin.lvclass"/>
