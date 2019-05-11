@@ -84,35 +84,9 @@
 				<Item Name="UDP Configuration Test.vi" Type="VI" URL="../Testing/Plugins/UDP Configuration Test.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Scripting" Type="Folder">
-			<Item Name="Script Numeric Polymorphic.vi" Type="VI" URL="../Scripting/Script Numeric Polymorphic.vi"/>
-		</Item>
 		<Item Name="Submodules" Type="Folder">
 			<Item Name="Memory.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Memory.lvlib"/>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Submodules/SEH/Source/Static Error Handling.lvlib"/>
-		</Item>
-		<Item Name="Testing" Type="Folder">
-			<Item Name="Configuration" Type="Folder">
-				<Item Name="Configuration.vi" Type="VI" URL="../Testing/Configuration.vi"/>
-			</Item>
-			<Item Name="Simulation" Type="Folder">
-				<Item Name="Custom Device" Type="Folder">
-					<Item Name="Implementations" Type="Folder">
-						<Item Name="Simulated DSF Custom Device.lvclass" Type="LVClass" URL="../Testing/Simulated DSF Custom Device/Simulated DSF Custom Device.lvclass"/>
-					</Item>
-					<Item Name="Simulated VeriStand Custom Device.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Custom Device/Simulated VeriStand Custom Device.lvclass"/>
-				</Item>
-				<Item Name="Engine" Type="Folder">
-					<Item Name="Interface" Type="Folder">
-						<Item Name="Simulated VeriStand Engine.Interface.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Engine Interface/Simulated VeriStand Engine.Interface.lvclass"/>
-					</Item>
-					<Item Name="Simulated VeriStand Engine.lvclass" Type="LVClass" URL="../Testing/Simulated VeriStand Engine/Simulated VeriStand Engine.lvclass"/>
-				</Item>
-				<Item Name="Simulation.vi" Type="VI" URL="../Testing/Simulation.vi"/>
-			</Item>
-			<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
-			<Item Name="Playground.vi" Type="VI" URL="../Testing/Playground.vi"/>
-			<Item Name="Plugin Manager.vi" Type="VI" URL="../Testing/Plugin Manager.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -126,6 +100,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
+			<Item Name="Memory.Count to Size.Power of 2.vi" Type="VI" URL="../../Source/Submodules/Memory/Source/VIs/Memory.Count to Size.Power of 2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DSF Engine" Type="Source Distribution">
