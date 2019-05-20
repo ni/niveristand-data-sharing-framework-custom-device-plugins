@@ -23,10 +23,6 @@
 			<Item Name="Thread Parameters" Type="Folder">
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 			</Item>
-			<Item Name="Timing" Type="Folder">
-				<Item Name="Types" Type="Folder"/>
-				<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
-			</Item>
 			<Item Name="Transfer" Type="Folder">
 				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
 			</Item>
