@@ -23,9 +23,6 @@
 			<Item Name="Thread Parameters" Type="Folder">
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 			</Item>
-			<Item Name="Transfer" Type="Folder">
-				<Item Name="DSF.Engine.Execution.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Execution.Transfer.lvclass"/>
-			</Item>
 		</Item>
 		<Item Name="Hardware Info" Type="Folder">
 			<Item Name="CPU" Type="Folder">
@@ -81,12 +78,16 @@
 			</Item>
 			<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 		</Item>
+		<Item Name="Transfer" Type="Folder">
+			<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
+		</Item>
 		<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 		<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="DSF.Engine.Typedefs.Buffer Channel Configuration.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Buffer Channel Configuration.ctl"/>
 		<Item Name="DSF.Engine.Typedefs.CPU Info.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.CPU Info.ctl"/>
+		<Item Name="DSF.Engine.Typedefs.ID.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.ID.ctl"/>
 		<Item Name="DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl"/>
 		<Item Name="DSF.Engine.Typedefs.Type Buffers.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Type Buffers.ctl"/>
 	</Item>
