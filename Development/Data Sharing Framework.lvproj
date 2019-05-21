@@ -88,6 +88,7 @@
 			<Item Name="Memory.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Memory.lvlib"/>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Submodules/SEH/Source/Static Error Handling.lvlib"/>
 		</Item>
+		<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
