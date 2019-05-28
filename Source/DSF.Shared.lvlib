@@ -10,6 +10,7 @@
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Configuration" Type="Folder">
 			<Item Name="Types" Type="Folder">
+				<Item Name="DSF.Shared.Configuration.Channel.lvclass" Type="LVClass" URL="../Shared/Classes/Channel/DSF.Shared.Configuration.Channel.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Plugin.lvclass" Type="LVClass" URL="../Shared/Classes/Plugin/DSF.Shared.Configuration.Plugin.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer Group/DSF.Shared.Configuration.Transfer Group.lvclass"/>
