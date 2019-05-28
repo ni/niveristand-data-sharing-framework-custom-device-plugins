@@ -71,18 +71,7 @@
 			<Item Name="DSF.Shared.lvlib" Type="Library" URL="../../Source/DSF.Shared.lvlib"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
-			<Item Name="UDP" Type="Folder">
-				<Item Name="Configuration" Type="Folder">
-					<Item Name="DSF.Plugin.UDP.Configuration.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.Configuration.lvclass"/>
-					<Item Name="DSF.Plugin.UDP.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.Configuration.Transfer Group.lvclass"/>
-					<Item Name="DSF.Plugin.UDP.Configuration.Transfer.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.Configuration.Transfer.lvclass"/>
-				</Item>
-				<Item Name="Runtime" Type="Folder">
-					<Item Name="DSF.Plugin.UDP.Runtime.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.Runtime.lvclass"/>
-				</Item>
-				<Item Name="DSF.Plugin.UDP.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.lvclass"/>
-				<Item Name="UDP Configuration Test.vi" Type="VI" URL="../Testing/Plugins/UDP Configuration Test.vi"/>
-			</Item>
+			<Item Name="UDP" Type="Folder"/>
 		</Item>
 		<Item Name="Submodules" Type="Folder">
 			<Item Name="Memory.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Memory.lvlib"/>
@@ -204,19 +193,19 @@
 				<Property Name="Source[0].itemID" Type="Str">{8E4CFCF9-C51B-4376-A6A1-4A3E2E2A5896}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.lvclass</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.Transfer Group.lvclass</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.Transfer.lvclass</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Plugins/UDP/Runtime/DSF.Plugin.UDP.Runtime.lvclass</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
@@ -229,10 +218,10 @@
 				<Property Name="DestinationItemCount" Type="Int">1</Property>
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
 				<Property Name="IncludedItemCount" Type="Int">4</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.lvclass</Property>
-				<Property Name="IncludedItems[1]" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.Transfer Group.lvclass</Property>
-				<Property Name="IncludedItems[2]" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.Transfer.lvclass</Property>
-				<Property Name="IncludedItems[3]" Type="Ref">/My Computer/Plugins/UDP/Runtime/DSF.Plugin.UDP.Runtime.lvclass</Property>
+				<Property Name="IncludedItems[0]" Type="Ref"></Property>
+				<Property Name="IncludedItems[1]" Type="Ref"></Property>
+				<Property Name="IncludedItems[2]" Type="Ref"></Property>
+				<Property Name="IncludedItems[3]" Type="Ref"></Property>
 				<Property Name="IncludeProject" Type="Bool">false</Property>
 				<Property Name="Path[0]" Type="Path">../../../../../Users/Ryan/Desktop/Plugins/DSF.UDP.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
