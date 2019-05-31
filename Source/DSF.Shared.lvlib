@@ -45,12 +45,14 @@
 			<Item Name="DSF.Shared.Typedefs.Scalars.Offset.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Offset.ctl"/>
 			<Item Name="DSF.Shared.Typedefs.Scalars.Priority.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Priority.ctl"/>
 		</Item>
+		<Item Name="DSF.Shared.Typedefs.Byte Order.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Byte Order.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Channel Configuration.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.ConversionMode.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ConversionMode.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Cycle Timing Factors.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Cycle Timing Factors.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Data Type Counts.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type Counts.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Data Type.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Direction.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Direction.ctl"/>
+		<Item Name="DSF.Shared.Typedefs.ID.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ID.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Plugin Classes.Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Classes.Configuration.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Plugin Classes.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Classes.ctl"/>
 		<Item Name="DSF.Shared.Typedefs.Plugin Classes.Runtime.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Classes.Runtime.ctl"/>
