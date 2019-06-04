@@ -77,6 +77,11 @@
 		<Item Name="Plugins" Type="Folder">
 			<Item Name="UDP" Type="Folder"/>
 		</Item>
+		<Item Name="Prototyping" Type="Folder">
+			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
+			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
+			<Item Name="JSON Configuration.vi" Type="VI" URL="../../Source/Shared/Classes/Framework/JSON Configuration.vi"/>
+		</Item>
 		<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
