@@ -68,7 +68,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Dependencies" Type="Folder">
 			<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Memory Manager.lvlib"/>
-			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Submodules/SEH/Source/Static Error Handling.lvlib"/>
+			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>

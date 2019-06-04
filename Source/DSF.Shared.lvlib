@@ -40,6 +40,18 @@
 			</Item>
 			<Item Name="Transfer Group" Type="Folder"/>
 		</Item>
+		<Item Name="refactor" Type="Folder">
+			<Item Name="JSON" Type="Folder">
+				<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Channel Configuration.ctl"/>
+				<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl"/>
+				<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Transfer Group Configuration.ctl"/>
+			</Item>
+			<Item Name="DSF.Shared.Refactor.Typedefs.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Channel Configuration.ctl"/>
+			<Item Name="DSF.Shared.Refactor.Typedefs.Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Framework Configuration.ctl"/>
+			<Item Name="DSF.Shared.Refactor.Typedefs.Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Plugin Configuration.ctl"/>
+			<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Configuration.ctl"/>
+			<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl"/>
+		</Item>
 		<Item Name="Scalars" Type="Folder">
 			<Item Name="DSF.Shared.Typedefs.Scalars.Decimation.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Decimation.ctl"/>
 			<Item Name="DSF.Shared.Typedefs.Scalars.Offset.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Offset.ctl"/>
