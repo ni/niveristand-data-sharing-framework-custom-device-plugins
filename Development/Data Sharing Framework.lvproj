@@ -66,13 +66,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Folder">
-			<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Memory Manager.lvlib"/>
-			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
-		</Item>
 		<Item Name="Libraries" Type="Folder">
-			<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>
-			<Item Name="DSF.Shared.lvlib" Type="Library" URL="../../Source/DSF.Shared.lvlib"/>
+			<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Memory Manager.lvlib"/>
+			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Submodules/SEH/Source/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
 			<Item Name="UDP" Type="Folder"/>
@@ -82,6 +78,8 @@
 			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
 			<Item Name="JSON Configuration.vi" Type="VI" URL="../../Source/Shared/Classes/Framework/JSON Configuration.vi"/>
 		</Item>
+		<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>
+		<Item Name="DSF.Shared.lvlib" Type="Library" URL="../../Source/DSF.Shared.lvlib"/>
 		<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -127,7 +125,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{93112D00-782A-4B5B-9682-5BC816AFCE75}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Libraries/DSF.Engine.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
@@ -163,7 +161,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{93112D00-782A-4B5B-9682-5BC816AFCE75}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Libraries/DSF.Shared.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Shared.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
