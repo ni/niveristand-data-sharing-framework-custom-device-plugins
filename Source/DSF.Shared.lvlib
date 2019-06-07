@@ -8,6 +8,9 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
+		<Item Name="Class Loader" Type="Folder">
+			<Item Name="Class Loader.lvclass" Type="LVClass" URL="../Shared/Classes/Class Loader/Class Loader.lvclass"/>
+		</Item>
 		<Item Name="Configuration" Type="Folder">
 			<Item Name="JSON" Type="Folder">
 				<Item Name="DSF.Shared.Configuration.JSON.lvclass" Type="LVClass" URL="../Shared/Classes/JSON/DSF.Shared.Configuration.JSON.lvclass"/>
