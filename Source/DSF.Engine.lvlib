@@ -17,8 +17,8 @@
 				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
 			</Item>
 			<Item Name="Sequencer" Type="Folder">
-				<Item Name="DSF.Engine.Sequencer Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer Bundle.lvclass"/>
 				<Item Name="DSF.Engine.Sequencer.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer.lvclass"/>
+				<Item Name="DSF.Engine.Sequencer.Timing Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer.Timing Bundle.lvclass"/>
 			</Item>
 			<Item Name="Thread Parameters" Type="Folder">
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
