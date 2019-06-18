@@ -56,13 +56,14 @@
 						<Item Name="DSF.Engine.Pointer.Status.Builder.State.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.Status.Builder.State.lvclass"/>
 					</Item>
 				</Item>
+				<Item Name="DSF.Engine.Pointer.DBL.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.DBL.lvclass"/>
 				<Item Name="DSF.Engine.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.VS Channels.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Runtime" Type="Folder">
 			<Item Name="Types" Type="Folder">
+				<Item Name="DSF.Engine.Plugin.Runtime.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Plugin.Runtime.lvclass"/>
 				<Item Name="DSF.Engine.Runtime.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Runtime.Framework.lvclass"/>
-				<Item Name="DSF.Engine.Runtime.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Runtime.Plugin.lvclass"/>
 			</Item>
 			<Item Name="DSF.Engine.Runtime.lvclass" Type="LVClass" URL="../Engine/Classes/Runtime/DSF.Engine.Runtime.lvclass"/>
 		</Item>
@@ -78,6 +79,8 @@
 			</Item>
 			<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 		</Item>
+		<Item Name="DSF.Engine.Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.lvclass"/>
+		<Item Name="DSF.Engine.Pool.Plugin Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.Plugin Interface.lvclass"/>
 		<Item Name="DSF.Engine.Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer Group.lvclass"/>
 		<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
 		<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>

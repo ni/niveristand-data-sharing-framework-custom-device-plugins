@@ -62,6 +62,7 @@
 				<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Configuration.ctl"/>
 				<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl"/>
 			</Item>
+			<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.UDP.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.UDP.ctl"/>
 		</Item>
 		<Item Name="Scalars" Type="Folder">
 			<Item Name="DSF.Shared.Typedefs.Scalars.Decimation.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Decimation.ctl"/>
