@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -67,33 +67,39 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
-			<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>
-			<Item Name="DSF.Shared.lvlib" Type="Library" URL="../../Source/DSF.Shared.lvlib"/>
+			<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Memory Manager.lvlib"/>
+			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
-			<Item Name="UDP" Type="Folder">
-				<Item Name="Configuration" Type="Folder">
-					<Item Name="DSF.Plugin.UDP.Configuration.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.Configuration.lvclass"/>
-					<Item Name="DSF.Plugin.UDP.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.Configuration.Transfer Group.lvclass"/>
-					<Item Name="DSF.Plugin.UDP.Configuration.Transfer.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.Configuration.Transfer.lvclass"/>
+			<Item Name="UDP" Type="Folder"/>
+		</Item>
+		<Item Name="Prototyping" Type="Folder">
+			<Item Name="Classes" Type="Folder">
+				<Item Name="Plugin" Type="Folder">
+					<Item Name="Plugin.lvclass" Type="LVClass" URL="../Prototyping/Classes/Plugin.lvclass"/>
+					<Item Name="UDP Plugin.lvclass" Type="LVClass" URL="../Prototyping/Classes/UDP/UDP Plugin.lvclass"/>
 				</Item>
-				<Item Name="Runtime" Type="Folder">
-					<Item Name="DSF.Plugin.UDP.Runtime.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.Runtime.lvclass"/>
-				</Item>
-				<Item Name="DSF.Plugin.UDP.lvclass" Type="LVClass" URL="../Testing/Plugins/UDP/DSF.Plugin.UDP.lvclass"/>
-				<Item Name="UDP Configuration Test.vi" Type="VI" URL="../Testing/Plugins/UDP Configuration Test.vi"/>
 			</Item>
+			<Item Name="ThreadPool" Type="Folder">
+				<Item Name="Runnable.lvclass" Type="LVClass" URL="../Prototyping/Thread Pool/Runnable.lvclass"/>
+				<Item Name="Thread Pool.vi" Type="VI" URL="../Prototyping/Thread Pool/Thread Pool.vi"/>
+				<Item Name="Thread.lvclass" Type="LVClass" URL="../Prototyping/Thread Pool/Thread.lvclass"/>
+			</Item>
+			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
+			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
+			<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
+			<Item Name="JSON Configuration.vi" Type="VI" URL="../../Source/Shared/Classes/Framework/JSON Configuration.vi"/>
+			<Item Name="Plugin Thread Pool.vi" Type="VI" URL="../Prototyping/Plugin Thread Pool.vi"/>
 		</Item>
-		<Item Name="Submodules" Type="Folder">
-			<Item Name="Memory.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Memory.lvlib"/>
-			<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Source/Submodules/Memory/Source/Submodules/SEH/Source/Static Error Handling.lvlib"/>
-		</Item>
+		<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>
+		<Item Name="DSF.Shared.lvlib" Type="Library" URL="../../Source/DSF.Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -132,7 +138,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{93112D00-782A-4B5B-9682-5BC816AFCE75}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Libraries/DSF.Engine.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
@@ -168,7 +174,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{93112D00-782A-4B5B-9682-5BC816AFCE75}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Libraries/DSF.Shared.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Shared.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
@@ -203,19 +209,19 @@
 				<Property Name="Source[0].itemID" Type="Str">{8E4CFCF9-C51B-4376-A6A1-4A3E2E2A5896}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.lvclass</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.Transfer Group.lvclass</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.Transfer.lvclass</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Plugins/UDP/Runtime/DSF.Plugin.UDP.Runtime.lvclass</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
@@ -228,10 +234,10 @@
 				<Property Name="DestinationItemCount" Type="Int">1</Property>
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
 				<Property Name="IncludedItemCount" Type="Int">4</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.lvclass</Property>
-				<Property Name="IncludedItems[1]" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.Transfer Group.lvclass</Property>
-				<Property Name="IncludedItems[2]" Type="Ref">/My Computer/Plugins/UDP/Configuration/DSF.Plugin.UDP.Configuration.Transfer.lvclass</Property>
-				<Property Name="IncludedItems[3]" Type="Ref">/My Computer/Plugins/UDP/Runtime/DSF.Plugin.UDP.Runtime.lvclass</Property>
+				<Property Name="IncludedItems[0]" Type="Ref"></Property>
+				<Property Name="IncludedItems[1]" Type="Ref"></Property>
+				<Property Name="IncludedItems[2]" Type="Ref"></Property>
+				<Property Name="IncludedItems[3]" Type="Ref"></Property>
 				<Property Name="IncludeProject" Type="Bool">false</Property>
 				<Property Name="Path[0]" Type="Path">../../../../../Users/Ryan/Desktop/Plugins/DSF.UDP.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
