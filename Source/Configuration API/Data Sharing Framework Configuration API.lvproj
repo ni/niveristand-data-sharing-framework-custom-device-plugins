@@ -18,6 +18,7 @@
 			<Item Name="dsf plugin.ctl" Type="VI" URL="../Controls/dsf plugin.ctl"/>
 			<Item Name="dsf settings.ctl" Type="VI" URL="../Controls/dsf settings.ctl"/>
 			<Item Name="dsf timing.ctl" Type="VI" URL="../Controls/dsf timing.ctl"/>
+			<Item Name="dsf transfer.ctl" Type="VI" URL="../Controls/dsf transfer.ctl"/>
 		</Item>
 		<Item Name="DSFChannel" Type="Folder">
 			<Item Name="DSFChannel.lvclass" Type="LVClass" URL="../Classes/DSFChannel/DSFChannel.lvclass"/>
@@ -46,7 +47,6 @@
 		</Item>
 		<Item Name="API Cleanup Directory.vi" Type="VI" URL="../../../Development/Scripting/API Cleanup Directory.vi"/>
 		<Item Name="test data setting.vi" Type="VI" URL="../Classes/DSFConfiguration/test data setting.vi"/>
-		<Item Name="transfer.ctl" Type="VI" URL="../Controls/transfer.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
