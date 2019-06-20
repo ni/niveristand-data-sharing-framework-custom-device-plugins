@@ -20,30 +20,32 @@
 			<Item Name="dsf timing.ctl" Type="VI" URL="../Controls/dsf timing.ctl"/>
 			<Item Name="dsf transfer.ctl" Type="VI" URL="../Controls/dsf transfer.ctl"/>
 		</Item>
-		<Item Name="DSFChannel" Type="Folder">
-			<Item Name="DSFChannel.lvclass" Type="LVClass" URL="../Classes/DSFChannel/DSFChannel.lvclass"/>
-		</Item>
 		<Item Name="DSFConfiguration" Type="Folder">
 			<Item Name="DSFConfiguration.lvclass" Type="LVClass" URL="../Classes/DSFConfiguration/DSFConfiguration.lvclass"/>
 		</Item>
-		<Item Name="DSFGroup" Type="Folder">
-			<Item Name="DSFGroup.lvclass" Type="LVClass" URL="../Classes/DSFGroup/DSFGroup.lvclass"/>
-		</Item>
-		<Item Name="DSFPlugin" Type="Folder">
-			<Item Name="DSFPlugin.lvclass" Type="LVClass" URL="../Classes/DSFPlugin/DSFPlugin.lvclass"/>
-		</Item>
-		<Item Name="DSFPluginSettings" Type="Folder">
-			<Item Name="DSFPluginSettings.lvclass" Type="LVClass" URL="../Classes/DSFPluginSettings/DSFPluginSettings.lvclass"/>
-		</Item>
-		<Item Name="DSFTiming" Type="Folder">
-			<Item Name="DSFTiming.lvclass" Type="LVClass" URL="../Classes/DSFTiming/DSFTiming.lvclass"/>
-		</Item>
-		<Item Name="DSFTransfer" Type="Folder">
-			<Item Name="DSFTransfer.lvclass" Type="LVClass" URL="../Classes/DSFTransfer/DSFTransfer.lvclass"/>
-		</Item>
-		<Item Name="IDable" Type="Folder">
-			<Item Name="ID API.lvclass" Type="LVClass" URL="../Classes/ID API/ID API.lvclass"/>
-			<Item Name="IDable.lvclass" Type="LVClass" URL="../Classes/IDable/IDable.lvclass"/>
+		<Item Name="subclasses" Type="Folder">
+			<Item Name="DSFChannel" Type="Folder">
+				<Item Name="DSFChannel.lvclass" Type="LVClass" URL="../Classes/DSFChannel/DSFChannel.lvclass"/>
+			</Item>
+			<Item Name="DSFGroup" Type="Folder">
+				<Item Name="DSFGroup.lvclass" Type="LVClass" URL="../Classes/DSFGroup/DSFGroup.lvclass"/>
+			</Item>
+			<Item Name="DSFPlugin" Type="Folder">
+				<Item Name="DSFPlugin.lvclass" Type="LVClass" URL="../Classes/DSFPlugin/DSFPlugin.lvclass"/>
+			</Item>
+			<Item Name="DSFPluginSettings" Type="Folder">
+				<Item Name="DSFPluginSettings.lvclass" Type="LVClass" URL="../Classes/DSFPluginSettings/DSFPluginSettings.lvclass"/>
+			</Item>
+			<Item Name="DSFTiming" Type="Folder">
+				<Item Name="DSFTiming.lvclass" Type="LVClass" URL="../Classes/DSFTiming/DSFTiming.lvclass"/>
+			</Item>
+			<Item Name="DSFTransfer" Type="Folder">
+				<Item Name="DSFTransfer.lvclass" Type="LVClass" URL="../Classes/DSFTransfer/DSFTransfer.lvclass"/>
+			</Item>
+			<Item Name="IDable" Type="Folder">
+				<Item Name="ID API.lvclass" Type="LVClass" URL="../Classes/ID API/ID API.lvclass"/>
+				<Item Name="IDable.lvclass" Type="LVClass" URL="../Classes/IDable/IDable.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="API Cleanup Directory.vi" Type="VI" URL="../../../Development/Scripting/API Cleanup Directory.vi"/>
 		<Item Name="test data setting.vi" Type="VI" URL="../Classes/DSFConfiguration/test data setting.vi"/>
