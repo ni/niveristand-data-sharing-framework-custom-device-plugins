@@ -71,7 +71,9 @@
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Plugins" Type="Folder">
-			<Item Name="UDP" Type="Folder"/>
+			<Item Name="DSF.Plugin.GE Reflective Memory.lvclass" Type="LVClass" URL="../../Source/Plugins/Reflective Memory/DSF.Plugin.GE Reflective Memory.lvclass"/>
+			<Item Name="DSF.Plugin.PXImc.lvclass" Type="LVClass" URL="../../Source/Plugins/PXImc/DSF.Plugin.PXImc.lvclass"/>
+			<Item Name="DSF.Plugin.UDP.lvclass" Type="LVClass" URL="../../Source/Plugins/UDP/DSF.Plugin.UDP.lvclass"/>
 		</Item>
 		<Item Name="Prototyping" Type="Folder">
 			<Item Name="Classes" Type="Folder">
