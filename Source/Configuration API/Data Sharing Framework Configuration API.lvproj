@@ -45,6 +45,7 @@
 			<Item Name="IDable.lvclass" Type="LVClass" URL="../Classes/IDable/IDable.lvclass"/>
 		</Item>
 		<Item Name="API Cleanup Directory.vi" Type="VI" URL="../../../Development/Scripting/API Cleanup Directory.vi"/>
+		<Item Name="test data setting.vi" Type="VI" URL="../Classes/DSFConfiguration/test data setting.vi"/>
 		<Item Name="transfer.ctl" Type="VI" URL="../Controls/transfer.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
