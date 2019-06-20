@@ -13,11 +13,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
-			<Item Name="channel.ctl" Type="VI" URL="../Channel/channel.ctl"/>
-			<Item Name="group.ctl" Type="VI" URL="../Channel/group.ctl"/>
-			<Item Name="plugin.ctl" Type="VI" URL="../Channel/plugin.ctl"/>
-			<Item Name="settings.ctl" Type="VI" URL="../Channel/settings.ctl"/>
-			<Item Name="timing.ctl" Type="VI" URL="../Channel/timing.ctl"/>
+			<Item Name="dsf channel.ctl" Type="VI" URL="../Controls/dsf channel.ctl"/>
+			<Item Name="dsf group.ctl" Type="VI" URL="../Controls/dsf group.ctl"/>
+			<Item Name="dsf plugin.ctl" Type="VI" URL="../Controls/dsf plugin.ctl"/>
+			<Item Name="dsf settings.ctl" Type="VI" URL="../Controls/dsf settings.ctl"/>
+			<Item Name="dsf timing.ctl" Type="VI" URL="../Controls/dsf timing.ctl"/>
 		</Item>
 		<Item Name="DSFChannel" Type="Folder">
 			<Item Name="DSFChannel.lvclass" Type="LVClass" URL="../Classes/DSFChannel/DSFChannel.lvclass"/>
@@ -45,7 +45,7 @@
 			<Item Name="IDable.lvclass" Type="LVClass" URL="../Classes/IDable/IDable.lvclass"/>
 		</Item>
 		<Item Name="API Cleanup Directory.vi" Type="VI" URL="../../../Development/Scripting/API Cleanup Directory.vi"/>
-		<Item Name="transfer.ctl" Type="VI" URL="../Channel/transfer.ctl"/>
+		<Item Name="transfer.ctl" Type="VI" URL="../Controls/transfer.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
