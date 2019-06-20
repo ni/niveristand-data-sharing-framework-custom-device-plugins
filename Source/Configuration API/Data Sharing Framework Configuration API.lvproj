@@ -12,6 +12,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="controls" Type="Folder">
+			<Item Name="channel.ctl" Type="VI" URL="../Channel/channel.ctl"/>
+			<Item Name="group.ctl" Type="VI" URL="../Channel/group.ctl"/>
+			<Item Name="plugin.ctl" Type="VI" URL="../Channel/plugin.ctl"/>
+			<Item Name="settings.ctl" Type="VI" URL="../Channel/settings.ctl"/>
+			<Item Name="timing.ctl" Type="VI" URL="../Channel/timing.ctl"/>
+		</Item>
 		<Item Name="DSFChannel" Type="Folder">
 			<Item Name="DSFChannel.lvclass" Type="LVClass" URL="../Classes/DSFChannel/DSFChannel.lvclass"/>
 		</Item>
@@ -33,8 +40,12 @@
 		<Item Name="DSFTransfer" Type="Folder">
 			<Item Name="DSFTransfer.lvclass" Type="LVClass" URL="../Classes/DSFTransfer/DSFTransfer.lvclass"/>
 		</Item>
+		<Item Name="IDable" Type="Folder">
+			<Item Name="ID API.lvclass" Type="LVClass" URL="../Classes/ID API/ID API.lvclass"/>
+			<Item Name="IDable.lvclass" Type="LVClass" URL="../Classes/IDable/IDable.lvclass"/>
+		</Item>
 		<Item Name="API Cleanup Directory.vi" Type="VI" URL="../../../Development/Scripting/API Cleanup Directory.vi"/>
-		<Item Name="XML Config.vi" Type="VI" URL="../XML Config.vi"/>
+		<Item Name="transfer.ctl" Type="VI" URL="../Channel/transfer.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -44,7 +55,6 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
