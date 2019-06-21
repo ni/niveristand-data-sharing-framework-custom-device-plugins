@@ -76,17 +76,6 @@
 			<Item Name="DSF.Plugin.UDP.lvclass" Type="LVClass" URL="../../Source/Plugins/UDP/DSF.Plugin.UDP.lvclass"/>
 		</Item>
 		<Item Name="Prototyping" Type="Folder">
-			<Item Name="Classes" Type="Folder">
-				<Item Name="Plugin" Type="Folder">
-					<Item Name="Plugin.lvclass" Type="LVClass" URL="../Prototyping/Classes/Plugin.lvclass"/>
-					<Item Name="UDP Plugin.lvclass" Type="LVClass" URL="../Prototyping/Classes/UDP/UDP Plugin.lvclass"/>
-				</Item>
-			</Item>
-			<Item Name="ThreadPool" Type="Folder">
-				<Item Name="Runnable.lvclass" Type="LVClass" URL="../Prototyping/Thread Pool/Runnable.lvclass"/>
-				<Item Name="Thread Pool.vi" Type="VI" URL="../Prototyping/Thread Pool/Thread Pool.vi"/>
-				<Item Name="Thread.lvclass" Type="LVClass" URL="../Prototyping/Thread Pool/Thread.lvclass"/>
-			</Item>
 			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
 			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
 			<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
