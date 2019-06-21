@@ -67,6 +67,7 @@
 		</Item>
 		<Item Name="DSF.Engine.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Framework.lvclass"/>
 		<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
+		<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
 		<Item Name="DSF.Engine.Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer Group.lvclass"/>
 		<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
 	</Item>

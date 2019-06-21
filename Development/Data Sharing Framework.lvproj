@@ -70,11 +70,6 @@
 			<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Memory Manager.lvlib"/>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
-		<Item Name="Plugins" Type="Folder">
-			<Item Name="DSF.Plugin.GE Reflective Memory.lvclass" Type="LVClass" URL="../../Source/Plugins/Reflective Memory/DSF.Plugin.GE Reflective Memory.lvclass"/>
-			<Item Name="DSF.Plugin.PXImc.lvclass" Type="LVClass" URL="../../Source/Plugins/PXImc/DSF.Plugin.PXImc.lvclass"/>
-			<Item Name="DSF.Plugin.UDP.lvclass" Type="LVClass" URL="../../Source/Plugins/UDP/DSF.Plugin.UDP.lvclass"/>
-		</Item>
 		<Item Name="Prototyping" Type="Folder">
 			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
 			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
@@ -82,6 +77,11 @@
 			<Item Name="JSON Configuration.vi" Type="VI" URL="../../Source/Shared/Classes/Framework/JSON Configuration.vi"/>
 			<Item Name="Plugin Thread Pool.vi" Type="VI" URL="../Prototyping/Plugin Thread Pool.vi"/>
 			<Item Name="Timing Sort by Priority.vi" Type="VI" URL="../Prototyping/Timing Sort by Priority.vi"/>
+		</Item>
+		<Item Name="Transceivers" Type="Folder">
+			<Item Name="DSF.Transceiver.GE Reflective Memory.lvclass" Type="LVClass" URL="../../Source/Plugins/Reflective Memory/DSF.Transceiver.GE Reflective Memory.lvclass"/>
+			<Item Name="DSF.Transceiver.PXImc.lvclass" Type="LVClass" URL="../../Source/Plugins/PXImc/DSF.Transceiver.PXImc.lvclass"/>
+			<Item Name="DSF.Transceiver.UDP.lvclass" Type="LVClass" URL="../../Source/Plugins/UDP/DSF.Transceiver.UDP.lvclass"/>
 		</Item>
 		<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>
 		<Item Name="DSF.Shared.lvlib" Type="Library" URL="../../Source/DSF.Shared.lvlib"/>
