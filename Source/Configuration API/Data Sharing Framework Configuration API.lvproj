@@ -14,6 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
 			<Item Name="dsf channel.ctl" Type="VI" URL="../Controls/dsf channel.ctl"/>
+			<Item Name="dsf configuration.ctl" Type="VI" URL="../Controls/dsf configuration.ctl"/>
 			<Item Name="dsf group.ctl" Type="VI" URL="../Controls/dsf group.ctl"/>
 			<Item Name="dsf plugin.ctl" Type="VI" URL="../Controls/dsf plugin.ctl"/>
 			<Item Name="dsf settings.ctl" Type="VI" URL="../Controls/dsf settings.ctl"/>
