@@ -36,9 +36,6 @@
 			<Item Name="DSFPluginSettings" Type="Folder">
 				<Item Name="DSFPluginSettings.lvclass" Type="LVClass" URL="../Classes/DSFPluginSettings/DSFPluginSettings.lvclass"/>
 			</Item>
-			<Item Name="DSFTiming" Type="Folder">
-				<Item Name="DSFTiming.lvclass" Type="LVClass" URL="../Classes/DSFTiming/DSFTiming.lvclass"/>
-			</Item>
 			<Item Name="DSFTransfer" Type="Folder">
 				<Item Name="DSFTransfer.lvclass" Type="LVClass" URL="../Classes/DSFTransfer/DSFTransfer.lvclass"/>
 			</Item>
