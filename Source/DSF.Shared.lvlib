@@ -27,9 +27,6 @@
 			</Item>
 			<Item Name="DSF.Shared.Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/DSF.Shared.Configuration.lvclass"/>
 		</Item>
-		<Item Name="Timing" Type="Folder">
-			<Item Name="DSF.Shared.Timing.lvclass" Type="LVClass" URL="../Shared/Classes/Timing/DSF.Shared.Timing.lvclass"/>
-		</Item>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="DSF.Shared.Constant.vit" Type="VI" URL="../Shared/Constants/DSF.Shared.Constant.vit"/>

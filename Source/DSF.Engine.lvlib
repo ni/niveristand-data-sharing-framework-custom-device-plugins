@@ -27,6 +27,9 @@
 			<Item Name="Thread Parameters" Type="Folder">
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 			</Item>
+			<Item Name="Timing" Type="Folder">
+				<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Hardware Info" Type="Folder">
 			<Item Name="DSF.Engine.Hardware Info.CPU.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/DSF.Engine.Hardware Info.CPU.lvclass"/>
@@ -67,6 +70,7 @@
 		</Item>
 		<Item Name="DSF.Engine.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Framework.lvclass"/>
 		<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
+		<Item Name="DSF.Engine.Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver Thread.lvclass"/>
 		<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
 		<Item Name="DSF.Engine.Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer Group.lvclass"/>
 		<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
