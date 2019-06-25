@@ -9,20 +9,12 @@
 </Property>
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Execution" Type="Folder">
-			<Item Name="Builder" Type="Folder">
-				<Item Name="DSF.Engine.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Builder/DSF.Engine.Builder.lvclass"/>
-				<Item Name="DSF.Engine.BuilderManager.lvclass" Type="LVClass" URL="../Engine/Classes/BuilderManager/DSF.Engine.BuilderManager.lvclass"/>
-			</Item>
 			<Item Name="Plugin Manager" Type="Folder">
 				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
 				<Item Name="DSF.Engine.Pool.ID.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.ID.lvclass"/>
 				<Item Name="DSF.Engine.Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.lvclass"/>
-			</Item>
-			<Item Name="Sequencer" Type="Folder">
-				<Item Name="DSF.Engine.Sequencer.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer.lvclass"/>
-				<Item Name="DSF.Engine.Sequencer.Timing Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Sequencer/DSF.Engine.Sequencer.Timing Bundle.lvclass"/>
 			</Item>
 			<Item Name="Thread Parameters" Type="Folder">
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
@@ -38,29 +30,18 @@
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="DSF.Engine.Interface.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.Builder.lvclass"/>
 			<Item Name="DSF.Engine.Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.lvclass"/>
-			<Item Name="DSF.Engine.Interface.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.Plugin.lvclass"/>
+			<Item Name="DSF.Engine.Interface.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.Transceiver.lvclass"/>
 		</Item>
 		<Item Name="Memory" Type="Folder">
-			<Item Name="Buffer" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
-			</Item>
 			<Item Name="Cache" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Cache.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Framework.lvclass"/>
 				<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Cache.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Plugin.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Cache.Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Transfer Group.lvclass"/>
-				<Item Name="DSF.Engine.Memory.Cache.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.Transfer.lvclass"/>
 			</Item>
 			<Item Name="Pointers" Type="Folder">
+				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
 				<Item Name="DSF.Engine.Pointer.DBL.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.DBL.lvclass"/>
 				<Item Name="DSF.Engine.Pointer.Status.Builder.State.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.Status.Builder.State.lvclass"/>
 				<Item Name="DSF.Engine.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.VS Channels.lvclass"/>
 			</Item>
-		</Item>
-		<Item Name="Runtime" Type="Folder">
-			<Item Name="DSF.Engine.Plugin.Runtime.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Plugin.Runtime.lvclass"/>
-			<Item Name="DSF.Engine.Runtime.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Runtime.Framework.lvclass"/>
-			<Item Name="DSF.Engine.Runtime.lvclass" Type="LVClass" URL="../Engine/Classes/Runtime/DSF.Engine.Runtime.lvclass"/>
 		</Item>
 		<Item Name="Status" Type="Folder">
 			<Item Name="Status.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Builder.lvclass"/>
@@ -68,10 +49,12 @@
 			<Item Name="Status.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Plugin.lvclass"/>
 			<Item Name="Status.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Transfer.lvclass"/>
 		</Item>
+		<Item Name="Transceiver" Type="Folder">
+			<Item Name="DSF.Engine.Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver Thread.lvclass"/>
+			<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
+		</Item>
 		<Item Name="DSF.Engine.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Framework.lvclass"/>
 		<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
-		<Item Name="DSF.Engine.Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver Thread.lvclass"/>
-		<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
 		<Item Name="DSF.Engine.Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer Group.lvclass"/>
 		<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
 	</Item>

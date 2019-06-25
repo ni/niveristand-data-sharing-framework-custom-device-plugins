@@ -12,12 +12,6 @@
 			<Item Name="Class Loader.lvclass" Type="LVClass" URL="../Shared/Classes/Class Loader/Class Loader.lvclass"/>
 		</Item>
 		<Item Name="Configuration" Type="Folder">
-			<Item Name="JSON" Type="Folder">
-				<Item Name="DSF.Shared.Configuration.JSON.lvclass" Type="LVClass" URL="../Shared/Classes/JSON/DSF.Shared.Configuration.JSON.lvclass"/>
-			</Item>
-			<Item Name="Manager" Type="Folder">
-				<Item Name="DSF.Shared.Configuration.Manager.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/DSF.Shared.Configuration.Manager.lvclass"/>
-			</Item>
 			<Item Name="Types" Type="Folder">
 				<Item Name="DSF.Shared.Configuration.Channel Array.lvclass" Type="LVClass" URL="../Shared/Classes/Channel/DSF.Shared.Configuration.Channel Array.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
@@ -32,9 +26,6 @@
 		<Item Name="DSF.Shared.Constant.vit" Type="VI" URL="../Shared/Constants/DSF.Shared.Constant.vit"/>
 		<Item Name="DSF.Shared.Constants.Library Name.Engine.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.Library Name.Engine.vi"/>
 		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.vi"/>
-	</Item>
-	<Item Name="Controls" Type="Folder">
-		<Item Name="DSF.Shared.Controls.Timeout.ms.ctl" Type="VI" URL="../Shared/Controls/DSF.Shared.Controls.Timeout.ms.ctl"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Configuration" Type="Folder">
