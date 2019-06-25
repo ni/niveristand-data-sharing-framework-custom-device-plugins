@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-24 16:48:45" Modified_Date="2019-06-24 17:21:07" Creator="Tanner Blair" Comments="" ID="fa6233df8f8421f7e7125e444adb2d45">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-06-24 16:48:45" Modified_Date="2019-06-25 17:30:47" Creator="Tanner Blair" Comments="" ID="c029c9c248f3e5be7f5beff4039b448d">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_Data_Sharing_Framework_Configuration</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds\Configuration</Library_Output_Folder>
@@ -356,7 +356,7 @@
         <Path>configuration</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3CB0B409CB69C97B27D942E70B1F8153</GUID>
+      <GUID>E0C1B92DA366982871AA6EBBBEC82C04</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -475,7 +475,7 @@
         <Path>Classes\DSFConfiguration\set channel resource path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22E9D24C6132F657D6399EC5A560B47D</GUID>
+      <GUID>EB7B5977C15F3B82D3568EE7E0727531</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -594,7 +594,7 @@
         <Path>Classes\DSFConfiguration\set plugin settings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B5F33A9B6927DF16BBFBD1EE3A47687</GUID>
+      <GUID>5C23DB8C570716CF4888ECB3FDF2841D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -643,7 +643,7 @@
         <Path>Classes\DSFConfiguration\add settings to configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9E13893C4BB5ED5A18157C78C39141F</GUID>
+      <GUID>9837F001292C5137D6DE45D78B405D3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -664,7 +664,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>C63BBA89ADC9878A651794DBEF8EEC28</GUID>
+      <GUID>A004A45B1E93579824B3BC49F2944ED0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -769,7 +769,7 @@
         <Path>Classes\DSFConfiguration\set group timing.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEA0444924DD095A6220D308251AA4F1</GUID>
+      <GUID>6F7B4EC4038DC63F59C9E3773DB851BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -846,7 +846,7 @@
         <Path>Classes\DSFConfiguration\set transfer settings id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>081C7A259878D015D3CC956D842106BA</GUID>
+      <GUID>AF2E9677F32AC965BB2A8209D5AF1733</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1007,7 +1007,7 @@
         <Path>Classes\DSFConfiguration\Write transfers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>687078734752732E09695C6B54003474</GUID>
+      <GUID>C2D1C10FD206D7FAA1AF8F726321C9F8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
