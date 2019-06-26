@@ -38,9 +38,11 @@
 			</Item>
 		</Item>
 		<Item Name="types" Type="Folder">
+			<Item Name="dsf configuration data v1.0.0.lvlib" Type="Library" URL="../Controls/dsf configuration data/1.0.0/dsf configuration data v1.0.0.lvlib"/>
 			<Item Name="dsf configuration file v1.0.0.lvlib" Type="Library" URL="../Controls/dsf configuration file/1.0.0/dsf configuration file v1.0.0.lvlib"/>
 		</Item>
-		<Item Name="dsf configuration data v1.0.0.lvlib" Type="Library" URL="../Controls/dsf configuration data/1.0.0/dsf configuration data v1.0.0.lvlib"/>
+		<Item Name="DSF Configuration API v1.0.0.lvlib" Type="Library" URL="../API/1.0.0/DSF Configuration API v1.0.0.lvlib"/>
+		<Item Name="flatten unflatten equality.vi" Type="VI" URL="../API/1.0.0/tests/flatten unflatten/flatten unflatten equality.vi"/>
 		<Item Name="test data setting.vi" Type="VI" URL="../Classes/DSFConfiguration/test data setting.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
