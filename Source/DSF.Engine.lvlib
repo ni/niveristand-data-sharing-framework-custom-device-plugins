@@ -40,7 +40,6 @@
 				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
 				<Item Name="DSF.Engine.Pointer.DBL.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.DBL.lvclass"/>
 				<Item Name="DSF.Engine.Pointer.Status.Builder.State.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.Status.Builder.State.lvclass"/>
-				<Item Name="DSF.Engine.Pointer.VS Channels.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.VS Channels.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Status" Type="Folder">
@@ -57,12 +56,5 @@
 		<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
 		<Item Name="DSF.Engine.Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer Group.lvclass"/>
 		<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
-	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="DSF.Engine.Typedefs.Buffer Channel Configuration.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Buffer Channel Configuration.ctl"/>
-		<Item Name="DSF.Engine.Typedefs.CPU Info.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.CPU Info.ctl"/>
-		<Item Name="DSF.Engine.Typedefs.ID.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.ID.ctl"/>
-		<Item Name="DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Transfer.Channel Parameters.ctl"/>
-		<Item Name="DSF.Engine.Typedefs.Type Buffers.ctl" Type="VI" URL="../Engine/Typedefs/DSF.Engine.Typedefs.Type Buffers.ctl"/>
 	</Item>
 </Library>
