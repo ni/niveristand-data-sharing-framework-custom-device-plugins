@@ -41,7 +41,6 @@
 				<Item Name="DSFTransfer.lvclass" Type="LVClass" URL="../Classes/DSFTransfer/DSFTransfer.lvclass"/>
 			</Item>
 			<Item Name="IDable" Type="Folder">
-				<Item Name="ID API.lvclass" Type="LVClass" URL="../Classes/ID API/ID API.lvclass"/>
 				<Item Name="IDable.lvclass" Type="LVClass" URL="../Classes/IDable/IDable.lvclass"/>
 			</Item>
 		</Item>
