@@ -12,27 +12,29 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="DSFConfiguration" Type="Folder">
-			<Item Name="DSFConfiguration.lvclass" Type="LVClass" URL="../Classes/DSFConfiguration/DSFConfiguration.lvclass"/>
-		</Item>
-		<Item Name="subclasses" Type="Folder">
-			<Item Name="DSFChannel" Type="Folder">
-				<Item Name="DSFChannel.lvclass" Type="LVClass" URL="../Classes/DSFChannel/DSFChannel.lvclass"/>
+		<Item Name="deprecated" Type="Folder">
+			<Item Name="DSFConfiguration" Type="Folder">
+				<Item Name="DSFConfiguration.lvclass" Type="LVClass" URL="../Classes/DSFConfiguration/DSFConfiguration.lvclass"/>
 			</Item>
-			<Item Name="DSFGroup" Type="Folder">
-				<Item Name="DSFGroup.lvclass" Type="LVClass" URL="../Classes/DSFGroup/DSFGroup.lvclass"/>
-			</Item>
-			<Item Name="DSFPlugin" Type="Folder">
-				<Item Name="DSFPlugin.lvclass" Type="LVClass" URL="../Classes/DSFPlugin/DSFPlugin.lvclass"/>
-			</Item>
-			<Item Name="DSFPluginSettings" Type="Folder">
-				<Item Name="DSFPluginSettings.lvclass" Type="LVClass" URL="../Classes/DSFPluginSettings/DSFPluginSettings.lvclass"/>
-			</Item>
-			<Item Name="DSFTransfer" Type="Folder">
-				<Item Name="DSFTransfer.lvclass" Type="LVClass" URL="../Classes/DSFTransfer/DSFTransfer.lvclass"/>
-			</Item>
-			<Item Name="IDable" Type="Folder">
-				<Item Name="IDable.lvclass" Type="LVClass" URL="../Classes/IDable/IDable.lvclass"/>
+			<Item Name="subclasses" Type="Folder">
+				<Item Name="DSFChannel" Type="Folder">
+					<Item Name="DSFChannel.lvclass" Type="LVClass" URL="../Classes/DSFChannel/DSFChannel.lvclass"/>
+				</Item>
+				<Item Name="DSFGroup" Type="Folder">
+					<Item Name="DSFGroup.lvclass" Type="LVClass" URL="../Classes/DSFGroup/DSFGroup.lvclass"/>
+				</Item>
+				<Item Name="DSFPlugin" Type="Folder">
+					<Item Name="DSFPlugin.lvclass" Type="LVClass" URL="../Classes/DSFPlugin/DSFPlugin.lvclass"/>
+				</Item>
+				<Item Name="DSFPluginSettings" Type="Folder">
+					<Item Name="DSFPluginSettings.lvclass" Type="LVClass" URL="../Classes/DSFPluginSettings/DSFPluginSettings.lvclass"/>
+				</Item>
+				<Item Name="DSFTransfer" Type="Folder">
+					<Item Name="DSFTransfer.lvclass" Type="LVClass" URL="../Classes/DSFTransfer/DSFTransfer.lvclass"/>
+				</Item>
+				<Item Name="IDable" Type="Folder">
+					<Item Name="IDable.lvclass" Type="LVClass" URL="../Classes/IDable/IDable.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="types" Type="Folder">
