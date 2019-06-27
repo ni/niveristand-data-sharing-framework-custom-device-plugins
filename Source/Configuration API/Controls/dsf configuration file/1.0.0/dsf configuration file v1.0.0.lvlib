@@ -4,12 +4,4 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="dsf channel.ctl" Type="VI" URL="../dsf channel.ctl"/>
-	<Item Name="dsf configuration.ctl" Type="VI" URL="../dsf configuration.ctl"/>
-	<Item Name="dsf group.ctl" Type="VI" URL="../dsf group.ctl"/>
-	<Item Name="dsf plugin.ctl" Type="VI" URL="../dsf plugin.ctl"/>
-	<Item Name="dsf settings.ctl" Type="VI" URL="../dsf settings.ctl"/>
-	<Item Name="dsf timing.ctl" Type="VI" URL="../dsf timing.ctl"/>
-	<Item Name="dsf transfer.ctl" Type="VI" URL="../dsf transfer.ctl"/>
-	<Item Name="version.ctl" Type="VI" URL="../version.ctl"/>
 </Library>
