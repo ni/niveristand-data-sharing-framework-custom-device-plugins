@@ -9,6 +9,9 @@
 </Property>
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Execution" Type="Folder">
+			<Item Name="Buffer Converter" Type="Folder">
+				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer Converter.lvclass"/>
+			</Item>
 			<Item Name="Plugin Manager" Type="Folder">
 				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
 			</Item>
