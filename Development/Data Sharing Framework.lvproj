@@ -78,7 +78,6 @@
 					<Item Name="Create Transfer Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Transfer Configuration.vi"/>
 					<Item Name="Create Transfer Group Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Transfer Group Configuration.vi"/>
 				</Item>
-				<Item Name="Channel Array to Blocks.vi" Type="VI" URL="../Prototyping/Configuration/Channel Array to Blocks.vi"/>
 				<Item Name="Create Framework Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Framework Configuration.vi"/>
 			</Item>
 			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
