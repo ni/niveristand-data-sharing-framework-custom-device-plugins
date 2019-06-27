@@ -71,9 +71,18 @@
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Prototyping" Type="Folder">
+			<Item Name="Configuration" Type="Folder">
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Create Channel Configuration.vi" Type="VI" URL="../../Source/Shared/Typedefs/Create Channel Configuration.vi"/>
+					<Item Name="Create Plugin Configuration.vi" Type="VI" URL="../../Source/Shared/Typedefs/Create Plugin Configuration.vi"/>
+					<Item Name="Create Transfer Configuration.vi" Type="VI" URL="../../Source/Shared/Typedefs/Create Transfer Configuration.vi"/>
+					<Item Name="Create Transfer Group Configuration.vi" Type="VI" URL="../../Source/Shared/Typedefs/Create Transfer Group Configuration.vi"/>
+				</Item>
+				<Item Name="Create Framework Configuration.vi" Type="VI" URL="../../Source/Shared/Typedefs/Create Framework Configuration.vi"/>
+			</Item>
 			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
 			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
-			<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
+			<Item Name="Framework Test.vi" Type="VI" URL="../Testing/Framework Test.vi"/>
 			<Item Name="JSON Configuration.vi" Type="VI" URL="../../Source/Shared/Classes/Framework/JSON Configuration.vi"/>
 			<Item Name="Plugin Thread Pool.vi" Type="VI" URL="../Prototyping/Plugin Thread Pool.vi"/>
 			<Item Name="Timing Sort by Priority.vi" Type="VI" URL="../Prototyping/Timing Sort by Priority.vi"/>

@@ -38,6 +38,11 @@
 		</Item>
 		<Item Name="refactor" Type="Folder">
 			<Item Name="Core" Type="Folder">
+				<Item Name="Aggregate" Type="Folder">
+					<Item Name="DSF.Shared.Refactor.Typedefs.Framework Configuration.Aggregate.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Framework Configuration.Aggregate.ctl"/>
+					<Item Name="DSF.Shared.Refactor.Typedefs.Plugin Configuration.Aggregate.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Plugin Configuration.Aggregate.ctl"/>
+					<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.Aggregate.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.Aggregate.ctl"/>
+				</Item>
 				<Item Name="JSON" Type="Folder">
 					<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Channel Array Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Channel Array Configuration.ctl"/>
 					<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl"/>
