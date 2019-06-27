@@ -71,10 +71,21 @@
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Prototyping" Type="Folder">
+			<Item Name="Configuration" Type="Folder">
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Create Channel Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Channel Configuration.vi"/>
+					<Item Name="Create Plugin Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Plugin Configuration.vi"/>
+					<Item Name="Create Transfer Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Transfer Configuration.vi"/>
+					<Item Name="Create Transfer Group Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Transfer Group Configuration.vi"/>
+				</Item>
+				<Item Name="Channel Array to Blocks.vi" Type="VI" URL="../Prototyping/Configuration/Channel Array to Blocks.vi"/>
+				<Item Name="Create Framework Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Framework Configuration.vi"/>
+			</Item>
 			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
+			<Item Name="Data Conversion.vi" Type="VI" URL="../Prototyping/Data Conversion.vi"/>
 			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
-			<Item Name="Framework.vi" Type="VI" URL="../Testing/Framework.vi"/>
-			<Item Name="JSON Configuration.vi" Type="VI" URL="../../Source/Shared/Classes/Framework/JSON Configuration.vi"/>
+			<Item Name="Framework Test.vi" Type="VI" URL="../Prototyping/Framework Test.vi"/>
+			<Item Name="JSON Configuration.vi" Type="VI" URL="../Prototyping/JSON Configuration.vi"/>
 			<Item Name="Plugin Thread Pool.vi" Type="VI" URL="../Prototyping/Plugin Thread Pool.vi"/>
 			<Item Name="Timing Sort by Priority.vi" Type="VI" URL="../Prototyping/Timing Sort by Priority.vi"/>
 		</Item>
@@ -89,7 +100,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
