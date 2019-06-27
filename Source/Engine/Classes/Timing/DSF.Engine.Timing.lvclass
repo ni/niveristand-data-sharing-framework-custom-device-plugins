@@ -162,14 +162,5 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 		</Item>
-		<Item Name="DSF.Engine.Timing.Max Concurrent Activations.vi" Type="VI" URL="../DSF.Engine.Timing.Max Concurrent Activations.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;P!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!M%%242CZ&amp;&lt;G&gt;J&lt;G5O&lt;(:M;7):2&amp;.',E6O:WFO:3Z5;7VJ&lt;G=O&lt;(:D&lt;'&amp;T=Q!!#F2J&lt;7FO:S"P&gt;81!!"B!1!!"`````Q!&amp;#V2J&lt;7FO:X-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!1%"Q!"Y!!#Q12&amp;.',E6O:WFO:3ZM&gt;GRJ9BF%5U9O27ZH;7ZF,F2J&lt;7FO:SZM&gt;G.M98.T!!!*6'FN;7ZH)'FO!"B!1!!"`````Q!)#F2J&lt;7FO:X-A;7Y!!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!1!"!!*!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!)1!!!!!!%!#A!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
-		</Item>
 	</Item>
 </LVClass>
