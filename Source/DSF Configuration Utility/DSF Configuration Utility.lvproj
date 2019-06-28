@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,34 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Tree Item Helpers" Type="Folder">
-				<Item Name="Channel ID to Tree Items.vi" Type="VI" URL="../Tree Helpers/Channel ID to Tree Items.vi"/>
-				<Item Name="create tree item.vi" Type="VI" URL="../Tree Helpers/create tree item.vi"/>
-				<Item Name="get tree item type.vi" Type="VI" URL="../Tree Helpers/get tree item type.vi"/>
-				<Item Name="Group ID to Tree Items.vi" Type="VI" URL="../Tree Helpers/Group ID to Tree Items.vi"/>
-				<Item Name="Plugin ID to Tree Items.vi" Type="VI" URL="../Tree Helpers/Plugin ID to Tree Items.vi"/>
-				<Item Name="Transfer ID to Tree Items.vi" Type="VI" URL="../Tree Helpers/Transfer ID to Tree Items.vi"/>
-				<Item Name="Tree Item Type.ctl" Type="VI" URL="../Tree Helpers/Tree Item Type.ctl"/>
-				<Item Name="Tree Item.ctl" Type="VI" URL="../../../../../System Explorer/Tree Helpers/Tree Item.ctl"/>
-			</Item>
-			<Item Name="add item to tree.vi" Type="VI" URL="../Tree Helpers/add item to tree.vi"/>
-			<Item Name="Apply View to All Controls.vi" Type="VI" URL="../Apply View to All Controls.vi"/>
-			<Item Name="Apply View to Tree Control.vi" Type="VI" URL="../Apply View to Tree Control.vi"/>
-			<Item Name="Configuration to Tree Items.vi" Type="VI" URL="../Tree Helpers/Configuration to Tree Items.vi"/>
-			<Item Name="get tree display name.vi" Type="VI" URL="../Tree Helpers/get tree display name.vi"/>
-			<Item Name="load new file.vi" Type="VI" URL="../load new file.vi"/>
-			<Item Name="View Mode.ctl" Type="VI" URL="../View Mode.ctl"/>
-			<Item Name="Window State.ctl" Type="VI" URL="../Window State.ctl"/>
-		</Item>
-		<Item Name="add item and setting.vi" Type="VI" URL="../Tree Helpers/add item and setting.vi"/>
-		<Item Name="Application Data.ctl" Type="VI" URL="../Application Data.ctl"/>
-		<Item Name="create menu.vi" Type="VI" URL="../create menu.vi"/>
-		<Item Name="Data Sharing Framework Configuration Explorer.vi" Type="VI" URL="../Data Sharing Framework Configuration Explorer.vi"/>
-		<Item Name="Defer Front Panel Updates.vi" Type="VI" URL="../Tree Helpers/Defer Front Panel Updates.vi"/>
-		<Item Name="Expand All Items.vi" Type="VI" URL="../../../../../../../../Users/Tanner Blair/Desktop/DSF Configuration/Expand All Items.vi"/>
-		<Item Name="expand tree item.vi" Type="VI" URL="../Tree Helpers/expand tree item.vi"/>
-		<Item Name="get if tree item is preloaded.vi" Type="VI" URL="../Tree Helpers/get if tree item is preloaded.vi"/>
+		<Item Name="DSF Configuration Utility.lvlib" Type="Library" URL="../DSF Configuration Utility.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
