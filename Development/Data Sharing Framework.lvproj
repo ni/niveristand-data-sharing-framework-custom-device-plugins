@@ -83,10 +83,12 @@
 			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
 			<Item Name="Data Conversion.vi" Type="VI" URL="../Prototyping/Data Conversion.vi"/>
 			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
-			<Item Name="Framework Test.vi" Type="VI" URL="../Prototyping/Framework Test.vi"/>
 			<Item Name="JSON Configuration.vi" Type="VI" URL="../Prototyping/JSON Configuration.vi"/>
 			<Item Name="Plugin Thread Pool.vi" Type="VI" URL="../Prototyping/Plugin Thread Pool.vi"/>
 			<Item Name="Timing Sort by Priority.vi" Type="VI" URL="../Prototyping/Timing Sort by Priority.vi"/>
+		</Item>
+		<Item Name="Test" Type="Folder">
+			<Item Name="Framework Test.vi" Type="VI" URL="../Prototyping/Framework Test.vi"/>
 		</Item>
 		<Item Name="Transceivers" Type="Folder">
 			<Item Name="DSF.Transceiver.GE Reflective Memory.lvclass" Type="LVClass" URL="../../Source/Plugins/Reflective Memory/DSF.Transceiver.GE Reflective Memory.lvclass"/>
