@@ -83,10 +83,12 @@
 			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
 			<Item Name="Data Conversion.vi" Type="VI" URL="../Prototyping/Data Conversion.vi"/>
 			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
-			<Item Name="Framework Test.vi" Type="VI" URL="../Prototyping/Framework Test.vi"/>
 			<Item Name="JSON Configuration.vi" Type="VI" URL="../Prototyping/JSON Configuration.vi"/>
 			<Item Name="Plugin Thread Pool.vi" Type="VI" URL="../Prototyping/Plugin Thread Pool.vi"/>
 			<Item Name="Timing Sort by Priority.vi" Type="VI" URL="../Prototyping/Timing Sort by Priority.vi"/>
+		</Item>
+		<Item Name="Test" Type="Folder">
+			<Item Name="Framework Test.vi" Type="VI" URL="../Prototyping/Framework Test.vi"/>
 		</Item>
 		<Item Name="Transceivers" Type="Folder">
 			<Item Name="DSF.Transceiver.GE Reflective Memory.lvclass" Type="LVClass" URL="../../Source/Plugins/Reflective Memory/DSF.Transceiver.GE Reflective Memory.lvclass"/>
@@ -98,6 +100,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
