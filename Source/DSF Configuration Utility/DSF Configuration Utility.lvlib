@@ -32,6 +32,7 @@
 		<Item Name="Application Data.ctl" Type="VI" URL="../Source/Main VI/Application Data.ctl"/>
 		<Item Name="Create Menus.vi" Type="VI" URL="../Source/Main VI/Create Menus.vi"/>
 		<Item Name="Display Tree Item.vi" Type="VI" URL="../Source/Main VI/Display Tree Item.vi"/>
+		<Item Name="format version as string.vi" Type="VI" URL="../Source/Main VI/format version as string.vi"/>
 		<Item Name="Initialize Tree with Plugins.vi" Type="VI" URL="../Source/Main VI/Initialize Tree with Plugins.vi"/>
 		<Item Name="Initialize UI.vi" Type="VI" URL="../Source/Main VI/Initialize UI.vi"/>
 		<Item Name="Load and Open All Items.vi" Type="VI" URL="../Source/Main VI/Load and Open All Items.vi"/>

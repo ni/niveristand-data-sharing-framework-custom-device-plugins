@@ -22,7 +22,6 @@
 			<Item Name="Load.vi" Type="VI" URL="../Private/File IO/Load.vi"/>
 			<Item Name="Save Config File.vi" Type="VI" URL="../Private/File IO/Save Config File.vi"/>
 			<Item Name="Write Configuration Version.vi" Type="VI" URL="../Private/File IO/Write Configuration Version.vi"/>
-			<Item Name="Read Configuration Version.vi" Type="VI" URL="../Private/File IO/Read Configuration Version.vi"/>
 		</Item>
 		<Item Name="Session" Type="Folder">
 			<Item Name="New Config to Queue.vi" Type="VI" URL="../Private/Session/New Config to Queue.vi"/>
@@ -113,5 +112,6 @@
 		<Item Name="Not A DSF Config Data Refnum.vi" Type="VI" URL="../Public/Not A DSF Config Data Refnum.vi"/>
 		<Item Name="Open DSFConfig Data.vi" Type="VI" URL="../Public/Open DSFConfig Data.vi"/>
 		<Item Name="Read DSF Version.vi" Type="VI" URL="../Public/Read DSF Version.vi"/>
+		<Item Name="Read Configuration Version.vi" Type="VI" URL="../Private/File IO/Read Configuration Version.vi"/>
 	</Item>
 </Library>
