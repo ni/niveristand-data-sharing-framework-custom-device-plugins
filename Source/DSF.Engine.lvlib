@@ -12,6 +12,9 @@
 			<Item Name="Buffer Converter" Type="Folder">
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer Converter.lvclass"/>
 			</Item>
+			<Item Name="Debug" Type="Folder">
+				<Item Name="DSF.Engine.Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/DSF.Engine.Debug Flags.lvclass"/>
+			</Item>
 			<Item Name="Plugin Manager" Type="Folder">
 				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
 			</Item>
@@ -46,6 +49,10 @@
 			</Item>
 		</Item>
 		<Item Name="Status" Type="Folder">
+			<Item Name="Execution" Type="Folder">
+				<Item Name="Plugin Execution.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Plugin Execution.lvclass"/>
+			</Item>
+			<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
 			<Item Name="Status.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Builder.lvclass"/>
 			<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 			<Item Name="Status.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Plugin.lvclass"/>
