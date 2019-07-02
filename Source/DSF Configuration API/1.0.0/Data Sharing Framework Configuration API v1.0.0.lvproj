@@ -12,9 +12,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="Create File.vi" Type="VI" URL="../Tests/Create File.vi"/>
-		</Item>
 		<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../DSF Configuration API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
