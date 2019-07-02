@@ -24,11 +24,13 @@
 			<Item Name="Write Configuration Version.vi" Type="VI" URL="../Private/File IO/Write Configuration Version.vi"/>
 		</Item>
 		<Item Name="Session" Type="Folder">
-			<Item Name="New Config to Queue.vi" Type="VI" URL="../Private/Session/New Config to Queue.vi"/>
+			<Item Name="New Configuration to DSF Configuration Session.vi" Type="VI" URL="../Private/Session/New Configuration to DSF Configuration Session.vi"/>
 			<Item Name="Parse Config to Queue.vi" Type="VI" URL="../Private/Session/Parse Config to Queue.vi"/>
-			<Item Name="String to Config.vi" Type="VI" URL="../Private/Session/String to Config.vi"/>
-			<Item Name="Typecast Queue to Refnum.vi" Type="VI" URL="../Private/Session/Typecast Queue to Refnum.vi"/>
-			<Item Name="Typecast Refnum to Queue.vi" Type="VI" URL="../Private/Session/Typecast Refnum to Queue.vi"/>
+			<Item Name="String to DSF Configuration Session.vi" Type="VI" URL="../Private/Session/String to DSF Configuration Session.vi"/>
+			<Item Name="Typecast Session to Refnum.vi" Type="VI" URL="../Private/Session/Typecast Session to Refnum.vi"/>
+			<Item Name="Typecast Refnum to Session.vi" Type="VI" URL="../Private/Session/Typecast Refnum to Session.vi"/>
+			<Item Name="Destroy DSF Configuration Session.vi" Type="VI" URL="../Private/Session/Destroy DSF Configuration Session.vi"/>
+			<Item Name="Create DSF Configuration Session.vi" Type="VI" URL="../Private/Session/Create DSF Configuration Session.vi"/>
 		</Item>
 		<Item Name="Add Item" Type="Folder">
 			<Item Name="Add Plugin.vi" Type="VI" URL="../Private/Add Item/Add Plugin.vi"/>
@@ -47,7 +49,7 @@
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Session" Type="Folder">
 				<Item Name="Config Data.ctl" Type="VI" URL="../Private/Controls/Session/Config Data.ctl"/>
-				<Item Name="Config Queue.ctl" Type="VI" URL="../Private/Controls/Session/Config Queue.ctl"/>
+				<Item Name="DSF Configuration Reference.ctl" Type="VI" URL="../Private/Controls/Session/DSF Configuration Reference.ctl"/>
 			</Item>
 			<Item Name="DSF File Format" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -108,7 +110,7 @@
 		<Item Name="Read Names.vi" Type="VI" URL="../Public/Read Names.vi"/>
 		<Item Name="Remove Item.vi" Type="VI" URL="../Public/Remove Item.vi"/>
 		<Item Name="Write Item.vi" Type="VI" URL="../Public/Write Item/Write Item.vi"/>
-		<Item Name="Close DSF Config Data.vi" Type="VI" URL="../Public/Close DSF Config Data.vi"/>
+		<Item Name="Close DSF Configuration Data.vi" Type="VI" URL="../Public/Close DSF Configuration Data.vi"/>
 		<Item Name="Not A DSF Config Data Refnum.vi" Type="VI" URL="../Public/Not A DSF Config Data Refnum.vi"/>
 		<Item Name="Open DSFConfig Data.vi" Type="VI" URL="../Public/Open DSFConfig Data.vi"/>
 		<Item Name="Read DSF Version.vi" Type="VI" URL="../Public/Read DSF Version.vi"/>
