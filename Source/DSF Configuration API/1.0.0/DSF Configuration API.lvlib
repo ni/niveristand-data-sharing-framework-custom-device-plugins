@@ -83,6 +83,17 @@
 			<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../Public/Controls/DSF Transfer Info.ctl"/>
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Public/Controls/DSF Version Info.ctl"/>
 		</Item>
+		<Item Name="Find Invalid Item Children" Type="Folder">
+			<Item Name="Find Invalid Group Transfers.vi" Type="VI" URL="../Public/Find Invalid Item Children/Find Invalid Group Transfers.vi"/>
+			<Item Name="Find Invalid Plugin Groups.vi" Type="VI" URL="../Public/Find Invalid Item Children/Find Invalid Plugin Groups.vi"/>
+			<Item Name="Find Invalid Transfer Channels.vi" Type="VI" URL="../Public/Find Invalid Item Children/Find Invalid Transfer Channels.vi"/>
+		</Item>
+		<Item Name="Find Invalid Settings" Type="Folder">
+			<Item Name="Find Invalid Channel Settings.vi" Type="VI" URL="../Public/Find Invalid Settings/Find Invalid Channel Settings.vi"/>
+			<Item Name="Find Invalid Group Settings.vi" Type="VI" URL="../Public/Find Invalid Settings/Find Invalid Group Settings.vi"/>
+			<Item Name="Find Invalid Plugin Settings.vi" Type="VI" URL="../Public/Find Invalid Settings/Find Invalid Plugin Settings.vi"/>
+			<Item Name="Find Invalid Transfer Settings.vi" Type="VI" URL="../Public/Find Invalid Settings/Find Invalid Transfer Settings.vi"/>
+		</Item>
 		<Item Name="Read All Item IDs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Read All Plugin IDs.vi" Type="VI" URL="../Public/Read All Item IDs/Read All Plugin IDs.vi"/>
@@ -127,11 +138,13 @@
 			<Item Name="Write Settings.vi" Type="VI" URL="../Public/Write Item/Write Settings.vi"/>
 		</Item>
 		<Item Name="Close DSF Configuration Data.vi" Type="VI" URL="../Public/Close DSF Configuration Data.vi"/>
+		<Item Name="Find Invalid Item Children.vi" Type="VI" URL="../Public/Find Invalid Item Children.vi"/>
+		<Item Name="Find Invalid Settings.vi" Type="VI" URL="../Public/Find Invalid Settings.vi"/>
 		<Item Name="Not A DSF Configuration Data Refnum.vi" Type="VI" URL="../Public/Not A DSF Configuration Data Refnum.vi"/>
 		<Item Name="Open DSF Configuration Data.vi" Type="VI" URL="../Public/Open DSF Configuration Data.vi"/>
+		<Item Name="Read All Item IDs.vi" Type="VI" URL="../Public/Read All Item IDs.vi"/>
 		<Item Name="Read Configuration Version.vi" Type="VI" URL="../Private/File IO/Read Configuration Version.vi"/>
 		<Item Name="Read DSF Version.vi" Type="VI" URL="../Public/Read DSF Version.vi"/>
-		<Item Name="Read IDs.vi" Type="VI" URL="../Public/Read IDs.vi"/>
 		<Item Name="Read Item Child IDs.vi" Type="VI" URL="../Public/Read Item Child IDs.vi"/>
 		<Item Name="Read Item Settings ID.vi" Type="VI" URL="../Public/Read Item Settings ID.vi"/>
 		<Item Name="Read Item.vi" Type="VI" URL="../Public/Read Item.vi"/>
