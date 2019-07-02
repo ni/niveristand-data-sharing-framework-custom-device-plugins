@@ -53,26 +53,36 @@
 			</Item>
 			<Item Name="DSF File Format" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="DSF Plugin.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Plugin.ctl"/>
-				<Item Name="DSF Config.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Config.ctl"/>
-				<Item Name="DSF Group.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Group.ctl"/>
-				<Item Name="DSF Transfer.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Transfer.ctl"/>
-				<Item Name="DSF Channel.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Channel.ctl"/>
-				<Item Name="DSF Settings.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Settings.ctl"/>
+				<Item Name="DSF Plugin with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Plugin with ID.ctl"/>
+				<Item Name="DSF Configuration with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Configuration with ID.ctl"/>
+				<Item Name="DSF Group with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Group with ID.ctl"/>
+				<Item Name="DSF Transfer with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Transfer with ID.ctl"/>
+				<Item Name="DSF Channel with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Channel with ID.ctl"/>
+				<Item Name="DSF Settings with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Settings with ID.ctl"/>
+				<Item Name="Internal.DSF Settings Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Settings Info.ctl"/>
+				<Item Name="Internal.DSF Plugin Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Plugin Info.ctl"/>
+				<Item Name="Internal.DSF Group Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Group Info.ctl"/>
+				<Item Name="Internal.DSF Transfer Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Transfer Info.ctl"/>
+				<Item Name="Internal.DSF Timing Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Timing Info.ctl"/>
+				<Item Name="Internal.DSF Channel Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Channel Info.ctl"/>
 			</Item>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Controls" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="DSF Byte Order.ctl" Type="VI" URL="../Public/Controls/DSF Byte Order.ctl"/>
 			<Item Name="DSF Channel Info.ctl" Type="VI" URL="../Public/Controls/DSF Channel Info.ctl"/>
 			<Item Name="DSF Config Data RefNum.ctl" Type="VI" URL="../Public/Controls/DSF Config Data RefNum.ctl"/>
+			<Item Name="DSF Data Type.ctl" Type="VI" URL="../Public/Controls/DSF Data Type.ctl"/>
+			<Item Name="DSF Direction.ctl" Type="VI" URL="../Public/Controls/DSF Direction.ctl"/>
 			<Item Name="DSF Group Info.ctl" Type="VI" URL="../Public/Controls/DSF Group Info.ctl"/>
 			<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../Public/Controls/DSF Plugin Info.ctl"/>
 			<Item Name="DSF Settings Info.ctl" Type="VI" URL="../Public/Controls/DSF Settings Info.ctl"/>
 			<Item Name="DSF Timing Info.ctl" Type="VI" URL="../Public/Controls/DSF Timing Info.ctl"/>
 			<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../Public/Controls/DSF Transfer Info.ctl"/>
-			<Item Name="Version Info.ctl" Type="VI" URL="../Public/Controls/Version Info.ctl"/>
+			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Public/Controls/DSF Version Info.ctl"/>
 		</Item>
 		<Item Name="Remove" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
