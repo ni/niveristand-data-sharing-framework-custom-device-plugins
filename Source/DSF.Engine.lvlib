@@ -13,6 +13,7 @@
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer Converter.lvclass"/>
 			</Item>
 			<Item Name="Debug" Type="Folder">
+				<Item Name="DSF.Engine.Debug Flags.FIFO.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/DSF.Engine.Debug Flags.FIFO.lvclass"/>
 				<Item Name="DSF.Engine.Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/DSF.Engine.Debug Flags.lvclass"/>
 			</Item>
 			<Item Name="Plugin Manager" Type="Folder">
