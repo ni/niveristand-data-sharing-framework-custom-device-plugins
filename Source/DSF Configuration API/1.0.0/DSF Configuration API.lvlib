@@ -24,13 +24,13 @@
 			<Item Name="Write Configuration Version.vi" Type="VI" URL="../Private/File IO/Write Configuration Version.vi"/>
 		</Item>
 		<Item Name="Session" Type="Folder">
-			<Item Name="New Config to Queue.vi" Type="VI" URL="../Private/Session/New Config to Queue.vi"/>
+			<Item Name="New Configuration to DSF Configuration Session.vi" Type="VI" URL="../Private/Session/New Configuration to DSF Configuration Session.vi"/>
 			<Item Name="Parse Config to Queue.vi" Type="VI" URL="../Private/Session/Parse Config to Queue.vi"/>
-			<Item Name="String to Config.vi" Type="VI" URL="../Private/Session/String to Config.vi"/>
-			<Item Name="Typecast Queue to Refnum.vi" Type="VI" URL="../Private/Session/Typecast Queue to Refnum.vi"/>
-			<Item Name="Typecast Refnum to Queue.vi" Type="VI" URL="../Private/Session/Typecast Refnum to Queue.vi"/>
-			<Item Name="Discard DSF Configuration Refnum.vi" Type="VI" URL="../Private/Session/Discard DSF Configuration Refnum.vi"/>
-			<Item Name="Create DSF Configuration Reference.vi" Type="VI" URL="../Private/Session/Create DSF Configuration Reference.vi"/>
+			<Item Name="String to DSF Configuration Session.vi" Type="VI" URL="../Private/Session/String to DSF Configuration Session.vi"/>
+			<Item Name="Typecast Session to Refnum.vi" Type="VI" URL="../Private/Session/Typecast Session to Refnum.vi"/>
+			<Item Name="Typecast Refnum to Session.vi" Type="VI" URL="../Private/Session/Typecast Refnum to Session.vi"/>
+			<Item Name="Destroy DSF Configuration Session.vi" Type="VI" URL="../Private/Session/Destroy DSF Configuration Session.vi"/>
+			<Item Name="Create DSF Configuration Session.vi" Type="VI" URL="../Private/Session/Create DSF Configuration Session.vi"/>
 		</Item>
 		<Item Name="Add Item" Type="Folder">
 			<Item Name="Add Plugin.vi" Type="VI" URL="../Private/Add Item/Add Plugin.vi"/>
