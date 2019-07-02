@@ -108,7 +108,7 @@
 			<Item Name="Read Settings.vi" Type="VI" URL="../Public/Read Item/Read Settings.vi"/>
 			<Item Name="Read Transfer.vi" Type="VI" URL="../Public/Read Item/Read Transfer.vi"/>
 		</Item>
-		<Item Name="Read Names" Type="Folder">
+		<Item Name="Read Item Names" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Read Plugin Names.vi" Type="VI" URL="../Public/Read Names/Read Plugin Names.vi"/>
 			<Item Name="Read Group Names.vi" Type="VI" URL="../Public/Read Names/Read Group Names.vi"/>
@@ -116,6 +116,11 @@
 			<Item Name="Read Channel Names.vi" Type="VI" URL="../Public/Read Names/Read Channel Names.vi"/>
 			<Item Name="Read Settings Names.vi" Type="VI" URL="../Public/Read Names/Read Settings Names.vi"/>
 		</Item>
+		<Item Name="Read Child Names" Type="Folder">
+			<Item Name="Read Plugin Group Names.vi" Type="VI" URL="../Public/Read Plugin Group Names/Read Plugin Group Names.vi"/>
+		</Item>
+		<Item Name="Read Items" Type="Folder"/>
+		<Item Name="Read Item Property" Type="Folder"/>
 		<Item Name="Read Item.vi" Type="VI" URL="../Public/Read Item.vi"/>
 		<Item Name="Read Names.vi" Type="VI" URL="../Public/Read Names.vi"/>
 		<Item Name="Remove Item.vi" Type="VI" URL="../Public/Remove Item.vi"/>
@@ -126,4 +131,5 @@
 		<Item Name="Read DSF Version.vi" Type="VI" URL="../Public/Read DSF Version.vi"/>
 		<Item Name="Read Configuration Version.vi" Type="VI" URL="../Private/File IO/Read Configuration Version.vi"/>
 	</Item>
+	<Item Name="method.vit" Type="VI" URL="../method.vit"/>
 </Library>

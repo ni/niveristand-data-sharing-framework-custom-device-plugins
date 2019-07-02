@@ -73,7 +73,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
-			<Item Name="Version Info.ctl" Type="VI" URL="../../DSF Configuration API/1.0.0/Public/Controls/Version Info.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
