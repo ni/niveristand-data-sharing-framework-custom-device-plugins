@@ -8,7 +8,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="NI_IconEditor" Type="Str">49 55 48 49 56 48 49 48 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 13 40 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 12 188 0 0 0 0 0 0 0 0 0 0 12 158 0 40 0 0 12 152 0 0 12 0 0 0 0 0 0 32 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 128 128 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 255 255 255 0 0 0 255 255 255 0 0 0 255 255 255 0 0 0 255 255 255 0 128 128 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 128 128 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 255 255 255 0 0 0 255 255 255 0 0 0 255 255 255 0 0 0 255 255 255 0 128 128 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 128 128 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 128 0 0 1 128 8 8 1 128 10 168 1 128 8 8 1 128 10 168 1 128 8 8 1 128 0 0 1 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 98 114 101 97 100 98 111 97 114 100 100 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 9 1 1
 
 </Property>
@@ -48,23 +47,23 @@
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Session" Type="Folder">
-				<Item Name="Config Data.ctl" Type="VI" URL="../Private/Controls/Session/Config Data.ctl"/>
+				<Item Name="DSF Config Data.ctl" Type="VI" URL="../Private/Controls/Session/DSF Config Data.ctl"/>
 				<Item Name="DSF Configuration Reference.ctl" Type="VI" URL="../Private/Controls/Session/DSF Configuration Reference.ctl"/>
 			</Item>
 			<Item Name="DSF File Format" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="DSF Plugin with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Plugin with ID.ctl"/>
-				<Item Name="DSF Configuration with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Configuration with ID.ctl"/>
-				<Item Name="DSF Group with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Group with ID.ctl"/>
-				<Item Name="DSF Transfer with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Transfer with ID.ctl"/>
-				<Item Name="DSF Channel with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Channel with ID.ctl"/>
-				<Item Name="DSF Settings with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/DSF Settings with ID.ctl"/>
-				<Item Name="Internal.DSF Settings Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Settings Info.ctl"/>
-				<Item Name="Internal.DSF Plugin Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Plugin Info.ctl"/>
-				<Item Name="Internal.DSF Group Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Group Info.ctl"/>
-				<Item Name="Internal.DSF Transfer Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Transfer Info.ctl"/>
-				<Item Name="Internal.DSF Timing Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Timing Info.ctl"/>
+				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Internal.DSF Channel Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Channel Info.ctl"/>
+				<Item Name="Internal.DSF Channel with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Channel with ID.ctl"/>
+				<Item Name="Internal.DSF Configuration.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Configuration.ctl"/>
+				<Item Name="Internal.DSF Group Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Group Info.ctl"/>
+				<Item Name="Internal.DSF Group with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Group with ID.ctl"/>
+				<Item Name="Internal.DSF Plugin Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Plugin Info.ctl"/>
+				<Item Name="Internal.DSF Plugin with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Plugin with ID.ctl"/>
+				<Item Name="Internal.DSF Settings Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Settings Info.ctl"/>
+				<Item Name="Internal.DSF Settings with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Settings with ID.ctl"/>
+				<Item Name="Internal.DSF Timing Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Timing Info.ctl"/>
+				<Item Name="Internal.DSF Transfer Info.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Transfer Info.ctl"/>
+				<Item Name="Internal.DSF Transfer with ID.ctl" Type="VI" URL="../Private/Controls/DSF File Format/Internal.DSF Transfer with ID.ctl"/>
 			</Item>
 		</Item>
 	</Item>
@@ -84,22 +83,18 @@
 			<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../Public/Controls/DSF Transfer Info.ctl"/>
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Public/Controls/DSF Version Info.ctl"/>
 		</Item>
-		<Item Name="Remove" Type="Folder">
+		<Item Name="Read All Item IDs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Remove Plugin.vi" Type="VI" URL="../Public/Remove Item/Remove Plugin.vi"/>
-			<Item Name="Remove Group.vi" Type="VI" URL="../Public/Remove Item/Remove Group.vi"/>
-			<Item Name="Remove Transfer.vi" Type="VI" URL="../Public/Remove Item/Remove Transfer.vi"/>
-			<Item Name="Remove Channel.vi" Type="VI" URL="../Public/Remove Item/Remove Channel.vi"/>
-			<Item Name="Remove Settings.vi" Type="VI" URL="../Public/Remove Item/Remove Settings.vi"/>
-			<Item Name="Remove All.vi" Type="VI" URL="../Public/Remove Item/Remove All.vi"/>
+			<Item Name="Read All Plugin IDs.vi" Type="VI" URL="../Public/Read All Item IDs/Read All Plugin IDs.vi"/>
+			<Item Name="Read All Group IDs.vi" Type="VI" URL="../Public/Read All Item IDs/Read All Group IDs.vi"/>
+			<Item Name="Read All Transfer IDs.vi" Type="VI" URL="../Public/Read All Item IDs/Read All Transfer IDs.vi"/>
+			<Item Name="Read All Channel IDs.vi" Type="VI" URL="../Public/Read All Item IDs/Read All Channel IDs.vi"/>
+			<Item Name="Read All Settings IDs.vi" Type="VI" URL="../Public/Read All Item IDs/Read All Settings IDs.vi"/>
 		</Item>
-		<Item Name="Write" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Write Plugin.vi" Type="VI" URL="../Public/Write Item/Write Plugin.vi"/>
-			<Item Name="Write Group.vi" Type="VI" URL="../Public/Write Item/Write Group.vi"/>
-			<Item Name="Write Transfer.vi" Type="VI" URL="../Public/Write Item/Write Transfer.vi"/>
-			<Item Name="Write Channel.vi" Type="VI" URL="../Public/Write Item/Write Channel.vi"/>
-			<Item Name="Write Settings.vi" Type="VI" URL="../Public/Write Item/Write Settings.vi"/>
+		<Item Name="Read Child IDs" Type="Folder">
+			<Item Name="Read Group Transfer IDs.vi" Type="VI" URL="../Public/Read Item Child IDs/Read Group Transfer IDs.vi"/>
+			<Item Name="Read Plugin Group IDs.vi" Type="VI" URL="../Public/Read Item Child IDs/Read Plugin Group IDs.vi"/>
+			<Item Name="Read Transfer Channel IDs.vi" Type="VI" URL="../Public/Read Item Child IDs/Read Transfer Channel IDs.vi"/>
 		</Item>
 		<Item Name="Read Item" Type="Folder">
 			<Item Name="Read Channel.vi" Type="VI" URL="../Public/Read Item/Read Channel.vi"/>
@@ -108,22 +103,40 @@
 			<Item Name="Read Settings.vi" Type="VI" URL="../Public/Read Item/Read Settings.vi"/>
 			<Item Name="Read Transfer.vi" Type="VI" URL="../Public/Read Item/Read Transfer.vi"/>
 		</Item>
-		<Item Name="Read Names" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Read Plugin Names.vi" Type="VI" URL="../Public/Read Names/Read Plugin Names.vi"/>
-			<Item Name="Read Group Names.vi" Type="VI" URL="../Public/Read Names/Read Group Names.vi"/>
-			<Item Name="Read Transfer Names.vi" Type="VI" URL="../Public/Read Names/Read Transfer Names.vi"/>
-			<Item Name="Read Channel Names.vi" Type="VI" URL="../Public/Read Names/Read Channel Names.vi"/>
-			<Item Name="Read Settings Names.vi" Type="VI" URL="../Public/Read Names/Read Settings Names.vi"/>
+		<Item Name="Read Item Settings ID" Type="Folder">
+			<Item Name="Read Channel Settings ID.vi" Type="VI" URL="../Public/Read Item Settings ID/Read Channel Settings ID.vi"/>
+			<Item Name="Read Group Settings ID.vi" Type="VI" URL="../Public/Read Item Settings ID/Read Group Settings ID.vi"/>
+			<Item Name="Read Plugin Settings ID.vi" Type="VI" URL="../Public/Read Item Settings ID/Read Plugin Settings ID.vi"/>
+			<Item Name="Read Transfer Settings ID.vi" Type="VI" URL="../Public/Read Item Settings ID/Read Transfer Settings ID.vi"/>
 		</Item>
+		<Item Name="Remove Item" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Remove Plugin.vi" Type="VI" URL="../Public/Remove Item/Remove Plugin.vi"/>
+			<Item Name="Remove Group.vi" Type="VI" URL="../Public/Remove Item/Remove Group.vi"/>
+			<Item Name="Remove Transfer.vi" Type="VI" URL="../Public/Remove Item/Remove Transfer.vi"/>
+			<Item Name="Remove Channel.vi" Type="VI" URL="../Public/Remove Item/Remove Channel.vi"/>
+			<Item Name="Remove Settings.vi" Type="VI" URL="../Public/Remove Item/Remove Settings.vi"/>
+			<Item Name="Remove All.vi" Type="VI" URL="../Public/Remove Item/Remove All.vi"/>
+		</Item>
+		<Item Name="Write Item" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Write Plugin.vi" Type="VI" URL="../Public/Write Item/Write Plugin.vi"/>
+			<Item Name="Write Group.vi" Type="VI" URL="../Public/Write Item/Write Group.vi"/>
+			<Item Name="Write Transfer.vi" Type="VI" URL="../Public/Write Item/Write Transfer.vi"/>
+			<Item Name="Write Channel.vi" Type="VI" URL="../Public/Write Item/Write Channel.vi"/>
+			<Item Name="Write Settings.vi" Type="VI" URL="../Public/Write Item/Write Settings.vi"/>
+		</Item>
+		<Item Name="Close DSF Configuration Data.vi" Type="VI" URL="../Public/Close DSF Configuration Data.vi"/>
+		<Item Name="Not A DSF Configuration Data Refnum.vi" Type="VI" URL="../Public/Not A DSF Configuration Data Refnum.vi"/>
+		<Item Name="Open DSF Configuration Data.vi" Type="VI" URL="../Public/Open DSF Configuration Data.vi"/>
+		<Item Name="Read Configuration Version.vi" Type="VI" URL="../Private/File IO/Read Configuration Version.vi"/>
+		<Item Name="Read DSF Version.vi" Type="VI" URL="../Public/Read DSF Version.vi"/>
+		<Item Name="Read IDs.vi" Type="VI" URL="../Public/Read IDs.vi"/>
+		<Item Name="Read Item Child IDs.vi" Type="VI" URL="../Public/Read Item Child IDs.vi"/>
+		<Item Name="Read Item Settings ID.vi" Type="VI" URL="../Public/Read Item Settings ID.vi"/>
 		<Item Name="Read Item.vi" Type="VI" URL="../Public/Read Item.vi"/>
-		<Item Name="Read Names.vi" Type="VI" URL="../Public/Read Names.vi"/>
 		<Item Name="Remove Item.vi" Type="VI" URL="../Public/Remove Item.vi"/>
 		<Item Name="Write Item.vi" Type="VI" URL="../Public/Write Item/Write Item.vi"/>
-		<Item Name="Close DSF Configuration Data.vi" Type="VI" URL="../Public/Close DSF Configuration Data.vi"/>
-		<Item Name="Not A DSF Config Data Refnum.vi" Type="VI" URL="../Public/Not A DSF Config Data Refnum.vi"/>
-		<Item Name="Open DSFConfig Data.vi" Type="VI" URL="../Public/Open DSFConfig Data.vi"/>
-		<Item Name="Read DSF Version.vi" Type="VI" URL="../Public/Read DSF Version.vi"/>
-		<Item Name="Read Configuration Version.vi" Type="VI" URL="../Private/File IO/Read Configuration Version.vi"/>
 	</Item>
+	<Item Name="method.vit" Type="VI" URL="../method.vit"/>
 </Library>
