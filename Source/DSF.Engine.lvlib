@@ -16,9 +16,6 @@
 				<Item Name="DSF.Engine.Debug Flags.FIFO.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/DSF.Engine.Debug Flags.FIFO.lvclass"/>
 				<Item Name="DSF.Engine.Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/DSF.Engine.Debug Flags.lvclass"/>
 			</Item>
-			<Item Name="Plugin Manager" Type="Folder">
-				<Item Name="DSF.Engine.Runtime.Plugin Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin Manager/DSF.Engine.Runtime.Plugin Manager.lvclass"/>
-			</Item>
 			<Item Name="Pool" Type="Folder">
 				<Item Name="DSF.Engine.Pool.ID.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.ID.lvclass"/>
 				<Item Name="DSF.Engine.Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.lvclass"/>
@@ -64,6 +61,7 @@
 			<Item Name="Status.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Transfer.lvclass"/>
 		</Item>
 		<Item Name="Transceiver" Type="Folder">
+			<Item Name="DSF.Engine.Transceiver Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver Loader.lvclass"/>
 			<Item Name="DSF.Engine.Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver Thread.lvclass"/>
 			<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
 		</Item>
