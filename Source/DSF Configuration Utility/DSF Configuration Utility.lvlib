@@ -23,7 +23,7 @@
 		<Item Name="Get Item Type.vi" Type="VI" URL="../Source/Item Tree/Get Item Type.vi"/>
 		<Item Name="Get Plugins from Configuration.vi" Type="VI" URL="../Source/Item Tree/Get Plugins from Configuration.vi"/>
 		<Item Name="Is Item Preloaded" Type="VI" URL="../Source/Item Tree/Is Item Preloaded"/>
-		<Item Name="Load All Subitems.vi" Type="VI" URL="../../../../../../../../Users/Tanner Blair/Desktop/DSF Configuration/Load All Subitems.vi"/>
+		<Item Name="Load All Subitems.vi" Type="VI" URL="../Source/Item Tree/Load All Subitems.vi"/>
 		<Item Name="Load Subitems.vi" Type="VI" URL="../Source/Item Tree/Load Subitems.vi"/>
 		<Item Name="Select First Item.vi" Type="VI" URL="../Source/Item Tree/Select First Item.vi"/>
 		<Item Name="Tree Item.ctl" Type="VI" URL="../Source/Item Tree/Tree Item.ctl"/>
@@ -38,7 +38,7 @@
 		<Item Name="Load DSF Configuration File.vi" Type="VI" URL="../Source/Main VI/Load DSF Configuration File.vi"/>
 		<Item Name="No File Loaded Message.vi" Type="VI" URL="../Source/Main VI/No File Loaded Message.vi"/>
 		<Item Name="Prepare for Close.vi" Type="VI" URL="../Source/Main VI/Prepare for Close.vi"/>
-		<Item Name="Prompt User for DSF Config File.vi" Type="VI" URL="../../../../../../../../Users/Tanner Blair/Desktop/Prompt User for DSF Config File.vi"/>
+		<Item Name="Prompt User for DSF Config File.vi" Type="VI" URL="../Source/Main VI/Prompt User for DSF Config File.vi"/>
 		<Item Name="Set UI Busy State.vi" Type="VI" URL="../Source/Main VI/Set UI Busy State.vi"/>
 		<Item Name="View Mode.ctl" Type="VI" URL="../Source/Main VI/View Mode.ctl"/>
 		<Item Name="Window State.ctl" Type="VI" URL="../Source/Main VI/Window State.ctl"/>
