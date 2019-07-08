@@ -17,6 +17,7 @@
 				<Item Name="DSF.Engine.Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/DSF.Engine.Debug Flags.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
+				<Item Name="DSF.Engine.Pool.Errors.Return Timeout.vi" Type="VI" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.Errors.Return Timeout.vi"/>
 				<Item Name="DSF.Engine.Pool.ID.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.ID.lvclass"/>
 				<Item Name="DSF.Engine.Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.lvclass"/>
 			</Item>
@@ -50,12 +51,11 @@
 			</Item>
 		</Item>
 		<Item Name="Status" Type="Folder">
-			<Item Name="Execution" Type="Folder">
-				<Item Name="Plugin Execution.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Plugin Execution.lvclass"/>
-			</Item>
-			<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
+			<Item Name="Performance" Type="Folder"/>
+			<Item Name="DSF.Engine.Status.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Status/DSF.Engine.Status.Framework.lvclass"/>
+			<Item Name="DSF.Engine.Status.Framework.Performance.lvclass" Type="LVClass" URL="../Engine/Classes/Status/DSF.Engine.Status.Framework.Performance.lvclass"/>
+			<Item Name="DSF.Engine.Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/DSF.Engine.Status.lvclass"/>
 			<Item Name="Status.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Builder.lvclass"/>
-			<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 			<Item Name="Status.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Plugin.lvclass"/>
 			<Item Name="Status.Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Timing.lvclass"/>
 			<Item Name="Status.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.Transfer.lvclass"/>
