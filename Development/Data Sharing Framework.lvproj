@@ -348,7 +348,34 @@ AddOutputFilter chunkFilter
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
-			<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Memory Manager.lvlib"/>
+			<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../Built/Memory/Memory Manager.lvlibp">
+				<Item Name="Build" Type="Folder">
+					<Item Name="Blacklist" Type="Folder">
+						<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
+					</Item>
+					<Item Name="Progress Window" Type="Folder">
+						<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
+						<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
+						<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
+					</Item>
+					<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
+					<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
+				</Item>
+				<Item Name="Classes" Type="Folder">
+					<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
+				</Item>
+				<Item Name="Constants" Type="Folder">
+					<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
+					<Item Name="Memory.Constants.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
+				</Item>
+				<Item Name="Controls" Type="Folder">
+					<Item Name="Memory.Null.ctl" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
+				</Item>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+			</Item>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Prototyping" Type="Folder">
@@ -372,9 +399,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Framework Test.vi" Type="VI" URL="../Prototyping/Framework Test.vi"/>
 		</Item>
 		<Item Name="Transceivers" Type="Folder">
-			<Item Name="DSF.Transceiver.GE Reflective Memory.lvlib" Type="Library" URL="../Transceivers/DSF.Transceiver.GE Reflective Memory.lvlib"/>
-			<Item Name="DSF.Transceiver.PXImc.lvlib" Type="Library" URL="../Transceivers/DSF.Transceiver.PXImc.lvlib"/>
-			<Item Name="DSF.Transceiver.UDP.lvlib" Type="Library" URL="../Transceivers/DSF.Transceiver.UDP.lvlib"/>
+			<Item Name="DSF.Transceiver.UDP.lvclass" Type="LVClass" URL="../../Source/Plugins/UDP/DSF.Transceiver.UDP.lvclass"/>
 		</Item>
 		<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>
 		<Item Name="DSF.Shared.lvlib" Type="Library" URL="../../Source/DSF.Shared.lvlib"/>
@@ -421,27 +446,25 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Data Sharing Framework" Type="Packed Library">
+			<Item Name="DSF.Engine" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6E70C32C-8D19-4185-8588-EBA753B8CA4D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/DSF</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DSF.Engine</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F39917F-F305-481E-9D57-4849BCD23BA8}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DSF.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/DSF/DSF.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/DSF</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{771FBFA8-85E6-496C-927F-D6D40241ED97}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{66581A40-15EA-40E5-BA5D-2779E8F1F915}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
@@ -454,172 +477,68 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DSF.Shared.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Data Sharing Framework</Property>
-				<Property Name="TgtF_internalName" Type="Str">Data Sharing Framework</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">Data Sharing Framework</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{3B35F7B1-FA28-4E43-BAEA-AB3695C76B63}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DSF.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Transceiver.GE Reflective Memory" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{6C975F01-A0A1-456D-B4D6-731078ED6B9E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Transceiver.GE Reflective Memory</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/DSF/Transceivers</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{EE04C6B6-317E-4E11-ADD8-BD90D6859433}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DSF.Transceiver.GE Reflective Memory.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/DSF/Transceivers/DSF.Transceiver.GE Reflective Memory.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/DSF/Transceivers</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EFD48E0E-D61A-4689-BA88-3E27CB0FD99C}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Transceivers/DSF.Transceiver.UDP.lvlib/DSF.Transceiver.UDP.lvclass</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
-				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Transceivers/DSF.Transceiver.UDP.lvlib</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Libraries/Static Error Handling.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Transceivers/DSF.Transceiver.GE Reflective Memory.lvlib</Property>
-				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[4].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[4].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Libraries/Memory Manager.lvlibp</Property>
 				<Property Name="Source[4].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">UDP Transceiver</Property>
-				<Property Name="TgtF_internalName" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DSF.Engine</Property>
+				<Property Name="TgtF_internalName" Type="Str">DSF.Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">UDP Transceiver</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{46C6749F-A496-412B-A777-EEA299218F73}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DSF.Transceiver.GE Reflective Memory.lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">DSF.Engine</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{3B35F7B1-FA28-4E43-BAEA-AB3695C76B63}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DSF.Engine.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Transceiver.PXImc" Type="Packed Library">
+			<Item Name="DSF.Shared" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{F6421C35-C82E-44B0-8A5C-0EC2BC1EB80E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Transceiver.PXImc</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/DSF/Transceivers</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{76E448CC-87A0-47A7-8900-77306600CBE1}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1A99B1AE-AD79-4905-AD2A-A87042140CDA}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DSF.Shared</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{31C5AE97-6744-40E9-A3DE-E429A3E2CE09}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DSF.Transceiver.PXImc.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/DSF/Transceivers/DSF.Transceiver.PXImc.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].destName" Type="Str">DSF.Shared.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/DSF.Shared.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/DSF/Transceivers</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EFD48E0E-D61A-4689-BA88-3E27CB0FD99C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{66581A40-15EA-40E5-BA5D-2779E8F1F915}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Transceivers/DSF.Transceiver.UDP.lvlib/DSF.Transceiver.UDP.lvclass</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DSF.Shared.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[2].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Transceivers/DSF.Transceiver.UDP.lvlib</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Libraries/Static Error Handling.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Transceivers/DSF.Transceiver.GE Reflective Memory.lvlib</Property>
-				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Transceivers/DSF.Transceiver.PXImc.lvlib</Property>
-				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[5].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[5].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[5].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">UDP Transceiver</Property>
-				<Property Name="TgtF_internalName" Type="Str">UDP Transceiver</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">UDP Transceiver</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{39A70222-EE24-4A9A-A896-E3261B2B78D1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DSF.Transceiver.PXImc.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Transceiver.UDP" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{AE855DA8-5D5C-4A91-BFB3-3F599199B000}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Transceiver.UDP</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/DSF/Transceivers</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{80A153C9-546C-40FF-BF1B-B5063B359AF9}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DSF.Transceiver.UDP.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/DSF/Transceivers/DSF.Transceiver.UDP.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/DSF/Transceivers</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EFD48E0E-D61A-4689-BA88-3E27CB0FD99C}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Transceivers/DSF.Transceiver.UDP.lvlib/DSF.Transceiver.UDP.lvclass</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
-				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Transceivers/DSF.Transceiver.UDP.lvlib</Property>
-				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[3].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[3].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Transceiver.UDP</Property>
-				<Property Name="TgtF_internalName" Type="Str">Transceiver.UDP</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DSF.Engine</Property>
+				<Property Name="TgtF_internalName" Type="Str">DSF.Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">Transceiver.UDP</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{9BF38357-F172-49B1-A4AA-A5545A33F797}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DSF.Transceiver.UDP.lvlibp</Property>
+				<Property Name="TgtF_productName" Type="Str">DSF.Engine</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D7BE4A77-9E66-463F-AF07-2288AEBE140E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DSF.Shared.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

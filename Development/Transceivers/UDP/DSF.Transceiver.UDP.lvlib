@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="DSF.Transceiver.UDP.lvclass" Type="LVClass" URL="../../../Source/Plugins/UDP/DSF.Transceiver.UDP.lvclass"/>
+	<Item Name="DSF.Transceiver.UDP.lvclass" Type="LVClass" URL="../DSF.Transceiver.UDP.lvclass"/>
 </Library>
