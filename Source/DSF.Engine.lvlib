@@ -96,6 +96,7 @@
 				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl"/>
 			</Item>
 			<Item Name="Transfer Group" Type="Folder"/>
+			<Item Name="Settings.ctl" Type="VI" URL="../Engine/Configuration/Settings.ctl"/>
 		</Item>
 		<Item Name="refactor" Type="Folder">
 			<Item Name="Core" Type="Folder">
@@ -150,5 +151,6 @@
 			<Item Name="DSF.Shared.Data Type.Sizeof.1D.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Data Type.Sizeof.1D.vi"/>
 			<Item Name="DSF.Shared.Data Type.Sizeof.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Data Type.Sizeof.vi"/>
 		</Item>
+		<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
 	</Item>
 </Library>
