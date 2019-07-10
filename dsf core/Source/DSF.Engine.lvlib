@@ -89,7 +89,6 @@
 		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Config" Type="Folder"/>
 		<Item Name="DELETE" Type="Folder">
 			<Item Name="DELETE.DSF Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Framework Configuration.ctl"/>
 			<Item Name="DELETE.DSF Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Plugin Configuration.ctl"/>
