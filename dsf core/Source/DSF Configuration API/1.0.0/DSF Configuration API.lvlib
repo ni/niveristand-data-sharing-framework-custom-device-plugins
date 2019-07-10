@@ -76,11 +76,11 @@
 			<Item Name="DSF Config Data RefNum.ctl" Type="VI" URL="../Public/Controls/DSF Config Data RefNum.ctl"/>
 			<Item Name="DSF Data Type.ctl" Type="VI" URL="../Public/Controls/DSF Data Type.ctl"/>
 			<Item Name="DSF Direction.ctl" Type="VI" URL="../Public/Controls/DSF Direction.ctl"/>
-			<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../../../Shared/Typedefs/DSF Engine Channel Configuration.ctl"/>
-			<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../../../Shared/Typedefs/DSF Engine Framework Configuration.ctl"/>
-			<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../../../Shared/Typedefs/DSF Engine Plugin Configuration.ctl"/>
-			<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../../../Shared/Typedefs/DSF Engine Transfer Configuration.ctl"/>
-			<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../../../Shared/Typedefs/DSF Engine Transfer Group Configuration.ctl"/>
+			<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../Public/Controls/DSF Engine Channel Configuration.ctl"/>
+			<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../Public/Controls/DSF Engine Framework Configuration.ctl"/>
+			<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../Public/Controls/DSF Engine Plugin Configuration.ctl"/>
+			<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../Public/Controls/DSF Engine Transfer Configuration.ctl"/>
+			<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
 			<Item Name="DSF Group Info.ctl" Type="VI" URL="../Public/Controls/DSF Group Info.ctl"/>
 			<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../Public/Controls/DSF Plugin Info.ctl"/>
 			<Item Name="DSF Settings Info.ctl" Type="VI" URL="../Public/Controls/DSF Settings Info.ctl"/>

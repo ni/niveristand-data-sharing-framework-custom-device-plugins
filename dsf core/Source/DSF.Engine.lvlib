@@ -89,26 +89,12 @@
 		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="DELETE" Type="Folder">
-			<Item Name="DELETE.DSF Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Framework Configuration.ctl"/>
-			<Item Name="DELETE.DSF Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Plugin Configuration.ctl"/>
-			<Item Name="DELETE.DSF Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Transfer Group Configuration.ctl"/>
-			<Item Name="DELETE.DSF.Shared.Refactor.Typedefs.JSON.Channel Array Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF.Shared.Refactor.Typedefs.JSON.Channel Array Configuration.ctl"/>
-			<Item Name="DELETE.DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl"/>
-			<Item Name="DELETE.DSF.Shared.Refactor.Typedefs.JSON.Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF.Shared.Refactor.Typedefs.JSON.Transfer Group Configuration.ctl"/>
-			<Item Name="DSF.Shared.Refactor.Typedefs.Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Framework Configuration.ctl"/>
-			<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.UDP.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.UDP.ctl"/>
-			<Item Name="DSF.Shared.Refactor.Typedefs.Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Plugin Configuration.ctl"/>
-			<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl"/>
-		</Item>
-		<Item Name="Runtime" Type="Folder">
-			<Item Name="DSF.Shared.Refactor.Typedefs.Channel Block.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Channel Block.ctl"/>
-			<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Block Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Block Descriptor.ctl"/>
-			<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl"/>
-			<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl"/>
-			<Item Name="DSF.Shared.Typedefs.ID.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ID.ctl"/>
-			<Item Name="DSF.Shared.Typedefs.Type Buffers.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Type Buffers.ctl"/>
-		</Item>
+		<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF Runtime Channel Block Descriptor.ctl"/>
+		<Item Name="DSF Runtime Channel Block.ctl" Type="VI" URL="../Shared/Typedefs/DSF Runtime Channel Block.ctl"/>
+		<Item Name="DSF Runtime Channel Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF Runtime Channel Descriptor.ctl"/>
+		<Item Name="DSF Runtime Channel Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF Runtime Channel Parameters.ctl"/>
+		<Item Name="DSF Runtime Index.ctl" Type="VI" URL="../Shared/Typedefs/DSF Runtime Index.ctl"/>
+		<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Data Type" Type="Folder">
@@ -117,6 +103,6 @@
 		</Item>
 		<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
 		<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../Engine/Configuration/Engine Config Cluster to DSF Config File.vi"/>
+		<Item Name="Write Settings to file.vi" Type="VI" URL="../Engine/Configuration/Write Settings to file.vi"/>
 	</Item>
-	<Item Name="Write Settings to file.vi" Type="VI" URL="../Engine/Configuration/Write Settings to file.vi"/>
 </Library>
