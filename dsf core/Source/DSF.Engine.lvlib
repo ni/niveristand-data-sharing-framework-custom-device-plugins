@@ -89,62 +89,34 @@
 		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Configuration" Type="Folder">
-			<Item Name="Transfer" Type="Folder">
-				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Block Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Block Descriptor.ctl"/>
-				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl"/>
-				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl"/>
-			</Item>
-			<Item Name="Transfer Group" Type="Folder"/>
+		<Item Name="Config" Type="Folder">
+			<Item Name="DSF Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Channel Configuration.ctl"/>
+			<Item Name="DSF Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Framework Configuration.ctl"/>
+			<Item Name="DSF Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Plugin Configuration.ctl"/>
+			<Item Name="DSF Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Transfer Configuration.ctl"/>
+			<Item Name="DSF Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Transfer Group Configuration.ctl"/>
 			<Item Name="Settings.ctl" Type="VI" URL="../Engine/Configuration/Settings.ctl"/>
 		</Item>
-		<Item Name="refactor" Type="Folder">
-			<Item Name="Core" Type="Folder">
-				<Item Name="Aggregate" Type="Folder">
-					<Item Name="JSON" Type="Folder">
-						<Item Name="DSF.Shared.Refactor.Typedefs.Framework Configuration.Aggregate.JSON.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Framework Configuration.Aggregate.JSON.ctl"/>
-						<Item Name="DSF.Shared.Refactor.Typedefs.Plugin Configuration.Aggregate.JSON.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Plugin Configuration.Aggregate.JSON.ctl"/>
-						<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.Aggregate.JSON.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.Aggregate.JSON.ctl"/>
-					</Item>
-					<Item Name="DSF.Shared.Refactor.Typedefs.Framework Configuration.Aggregate.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Framework Configuration.Aggregate.ctl"/>
-					<Item Name="DSF.Shared.Refactor.Typedefs.Plugin Configuration.Aggregate.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Plugin Configuration.Aggregate.ctl"/>
-					<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.Aggregate.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.Aggregate.ctl"/>
-				</Item>
-				<Item Name="JSON" Type="Folder">
-					<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Channel Array Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Channel Array Configuration.ctl"/>
-					<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl"/>
-					<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Transfer Group Configuration.ctl"/>
-				</Item>
-				<Item Name="DSF.Shared.Refactor.Typedefs.Channel Array Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Channel Array Configuration.ctl"/>
-				<Item Name="DSF.Shared.Refactor.Typedefs.Channel Block.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Channel Block.ctl"/>
-				<Item Name="DSF.Shared.Refactor.Typedefs.Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Framework Configuration.ctl"/>
-				<Item Name="DSF.Shared.Refactor.Typedefs.Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Plugin Configuration.ctl"/>
-				<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Configuration.ctl"/>
-				<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl"/>
-			</Item>
+		<Item Name="DELETE" Type="Folder">
+			<Item Name="DELETE.DSF Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Framework Configuration.ctl"/>
+			<Item Name="DELETE.DSF Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Plugin Configuration.ctl"/>
+			<Item Name="DELETE.DSF Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Transfer Group Configuration.ctl"/>
+			<Item Name="DELETE.DSF.Shared.Refactor.Typedefs.JSON.Channel Array Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF.Shared.Refactor.Typedefs.JSON.Channel Array Configuration.ctl"/>
+			<Item Name="DELETE.DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.ctl"/>
+			<Item Name="DELETE.DSF.Shared.Refactor.Typedefs.JSON.Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF.Shared.Refactor.Typedefs.JSON.Transfer Group Configuration.ctl"/>
+			<Item Name="DSF.Shared.Refactor.Typedefs.Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Framework Configuration.ctl"/>
 			<Item Name="DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.UDP.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.JSON.Transfer Configuration.UDP.ctl"/>
+			<Item Name="DSF.Shared.Refactor.Typedefs.Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Plugin Configuration.ctl"/>
+			<Item Name="DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Transfer Group Configuration.ctl"/>
 		</Item>
-		<Item Name="Scalars" Type="Folder">
-			<Item Name="DSF.Shared.Typedefs.Scalars.Decimation.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Decimation.ctl"/>
-			<Item Name="DSF.Shared.Typedefs.Scalars.Offset.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Offset.ctl"/>
-			<Item Name="DSF.Shared.Typedefs.Scalars.Priority.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Scalars.Priority.ctl"/>
+		<Item Name="Runtime" Type="Folder">
+			<Item Name="DSF.Shared.Refactor.Typedefs.Channel Block.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Refactor.Typedefs.Channel Block.ctl"/>
+			<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Block Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Block Descriptor.ctl"/>
+			<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Descriptor.ctl"/>
+			<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl"/>
+			<Item Name="DSF.Shared.Typedefs.ID.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ID.ctl"/>
+			<Item Name="DSF.Shared.Typedefs.Type Buffers.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Type Buffers.ctl"/>
 		</Item>
-		<Item Name="DSF.Shared.Typedefs.Byte Order.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Byte Order.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Channel Configuration.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.ConversionMode.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ConversionMode.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Cycle Timing Factors.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Cycle Timing Factors.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Data Type Counts.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type Counts.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Data Type.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Data Type.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Direction.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Direction.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.ID.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.ID.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Plugin Classes.Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Classes.Configuration.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Plugin Classes.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Classes.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Plugin Classes.Runtime.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Classes.Runtime.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Plugin Paths.Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Paths.Configuration.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Plugin Paths.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Paths.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Plugin Paths.Runtime.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Plugin Paths.Runtime.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.RT Thread Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.RT Thread Parameters.ctl"/>
-		<Item Name="DSF.Shared.Typedefs.Type Buffers.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Type Buffers.ctl"/>
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Data Type" Type="Folder">
