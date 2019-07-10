@@ -23,7 +23,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Memory</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D1DCB8AC-DCDF-4AFF-B76D-03899D2A0649}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Memory Manager.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Memory/Memory Manager.lvlibp</Property>

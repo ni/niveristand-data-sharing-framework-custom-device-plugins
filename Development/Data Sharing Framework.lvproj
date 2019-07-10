@@ -454,7 +454,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F39917F-F305-481E-9D57-4849BCD23BA8}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/DSF.Engine.lvlibp</Property>
@@ -464,7 +464,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">../Built</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{66581A40-15EA-40E5-BA5D-2779E8F1F915}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8C6A1396-317B-4A69-80D5-E8353754FB42}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
@@ -487,58 +487,13 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[4].preventRename" Type="Bool">true</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DSF.Engine</Property>
 				<Property Name="TgtF_internalName" Type="Str">DSF.Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">DSF.Engine</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{3B35F7B1-FA28-4E43-BAEA-AB3695C76B63}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DSF.Engine.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="DSF.Shared" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{1A99B1AE-AD79-4905-AD2A-A87042140CDA}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DSF.Shared</Property>
-				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{31C5AE97-6744-40E9-A3DE-E429A3E2CE09}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DSF.Shared.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/DSF.Shared.lvlibp</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{66581A40-15EA-40E5-BA5D-2779E8F1F915}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DSF.Shared.lvlib</Property>
-				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[2].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Libraries/Static Error Handling.lvlib</Property>
-				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DSF.Engine</Property>
-				<Property Name="TgtF_internalName" Type="Str">DSF.Engine</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">DSF.Engine</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{D7BE4A77-9E66-463F-AF07-2288AEBE140E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DSF.Shared.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
