@@ -89,14 +89,7 @@
 		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Config" Type="Folder">
-			<Item Name="DSF Channel Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Channel Configuration.ctl"/>
-			<Item Name="DSF Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Framework Configuration.ctl"/>
-			<Item Name="DSF Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Plugin Configuration.ctl"/>
-			<Item Name="DSF Transfer Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Transfer Configuration.ctl"/>
-			<Item Name="DSF Transfer Group Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF Transfer Group Configuration.ctl"/>
-			<Item Name="Settings.ctl" Type="VI" URL="../Engine/Configuration/Settings.ctl"/>
-		</Item>
+		<Item Name="Config" Type="Folder"/>
 		<Item Name="DELETE" Type="Folder">
 			<Item Name="DELETE.DSF Framework Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Framework Configuration.ctl"/>
 			<Item Name="DELETE.DSF Plugin Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DELETE.DSF Plugin Configuration.ctl"/>
