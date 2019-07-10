@@ -35,6 +35,7 @@
 				<Item Name="DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Configuration.Transfer.Channel Parameters.ctl"/>
 			</Item>
 			<Item Name="Transfer Group" Type="Folder"/>
+			<Item Name="DSF.Shared.Typedefs.Settings.Configuration.ctl" Type="VI" URL="../Shared/Typedefs/DSF.Shared.Typedefs.Settings.Configuration.ctl"/>
 		</Item>
 		<Item Name="refactor" Type="Folder">
 			<Item Name="Core" Type="Folder">
