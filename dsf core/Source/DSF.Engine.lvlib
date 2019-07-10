@@ -116,5 +116,7 @@
 			<Item Name="DSF.Shared.Data Type.Sizeof.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Data Type.Sizeof.vi"/>
 		</Item>
 		<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
+		<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../Engine/Configuration/Engine Config Cluster to DSF Config File.vi"/>
 	</Item>
+	<Item Name="Write Settings to file.vi" Type="VI" URL="../Engine/Configuration/Write Settings to file.vi"/>
 </Library>
