@@ -68,6 +68,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../Source/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
+			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
+		</Item>
+		<Item Name="Libraries (Packed)" Type="Folder">
 			<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp">
 				<Item Name="Build" Type="Folder">
 					<Item Name="Blacklist" Type="Folder">
@@ -96,29 +99,13 @@
 				</Item>
 				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
 			</Item>
-			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
 		<Item Name="Prototyping" Type="Folder">
-			<Item Name="Configuration" Type="Folder">
-				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Create Channel Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Channel Configuration.vi"/>
-					<Item Name="Create Plugin Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Plugin Configuration.vi"/>
-					<Item Name="Create Transfer Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Transfer Configuration.vi"/>
-					<Item Name="Create Transfer Group Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Transfer Group Configuration.vi"/>
-				</Item>
-				<Item Name="Create Framework Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Framework Configuration.vi"/>
-			</Item>
 			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
 			<Item Name="Data Conversion.vi" Type="VI" URL="../Prototyping/Data Conversion.vi"/>
 			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
 			<Item Name="Plugin Thread Pool.vi" Type="VI" URL="../Prototyping/Plugin Thread Pool.vi"/>
 			<Item Name="Timing Sort by Priority.vi" Type="VI" URL="../Prototyping/Timing Sort by Priority.vi"/>
-		</Item>
-		<Item Name="Test" Type="Folder">
-			<Item Name="Framework Test.vi" Type="VI" URL="../Prototyping/Framework Test.vi"/>
-		</Item>
-		<Item Name="Transceivers" Type="Folder">
-			<Item Name="DSF.Transceiver.UDP.lvclass" Type="LVClass" URL="../../Source/Plugins/UDP/DSF.Transceiver.UDP.lvclass"/>
 		</Item>
 		<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -162,6 +149,9 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Memory.Pointer.Copy All.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.Copy All.vi"/>
+			<Item Name="Memory.Pointer.Read.1D.DBL.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.Read.1D.DBL.vi"/>
+			<Item Name="Memory.Pointer.Read.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.Read.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DSF.Engine.Windows" Type="Packed Library">
@@ -197,7 +187,7 @@
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Libraries/Memory Manager.lvlibp</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Libraries (Packed)/Memory Manager.lvlibp</Property>
 				<Property Name="Source[3].preventRename" Type="Bool">true</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
