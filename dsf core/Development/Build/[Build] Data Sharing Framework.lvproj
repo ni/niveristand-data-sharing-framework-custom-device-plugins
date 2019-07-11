@@ -151,7 +151,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Engine</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6353D77E-405F-4CFE-AC5C-F5A4C3081551}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Engine/DSF.Engine.lvlibp</Property>
@@ -163,7 +163,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{24A6650C-236D-417F-9B42-03826D094FB5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F74B84B3-3AE4-47BD-9E40-F2967F984CA4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
@@ -287,7 +287,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Git/DSF/DSF Core/Built/PharLap x86/Engine</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{312DB0B2-2AB4-48BE-892C-B48D6F1D5EE2}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/DSF.Engine.lvlibp</Property>
@@ -298,7 +298,7 @@
 				<Property Name="Destination[1].path" Type="Path">/c</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E606C6E-5A65-415F-95C8-B4939C55FA15}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CAB5059C-A312-46E5-AB08-DC7065D9F1FA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
