@@ -149,9 +149,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Memory.Pointer.Copy All.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.Copy All.vi"/>
-			<Item Name="Memory.Pointer.Read.1D.DBL.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.Read.1D.DBL.vi"/>
-			<Item Name="Memory.Pointer.Read.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.Read.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DSF.Engine.Windows" Type="Packed Library">
