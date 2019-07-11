@@ -68,33 +68,33 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../Source/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
-			<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../Built/Memory/Memory Manager.lvlibp">
+			<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp">
 				<Item Name="Build" Type="Folder">
 					<Item Name="Blacklist" Type="Folder">
-						<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
+						<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
 					</Item>
 					<Item Name="Progress Window" Type="Folder">
-						<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
-						<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
-						<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
-						<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
-						<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
-						<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
+						<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
+						<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
+						<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
 					</Item>
-					<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
-					<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
+					<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
+					<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
 				</Item>
 				<Item Name="Classes" Type="Folder">
-					<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
+					<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
 				</Item>
 				<Item Name="Constants" Type="Folder">
-					<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
-					<Item Name="Memory.Constants.vi" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
+					<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
+					<Item Name="Memory.Constants.vi" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
 				</Item>
 				<Item Name="Controls" Type="Folder">
-					<Item Name="Memory.Null.ctl" Type="VI" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
+					<Item Name="Memory.Null.ctl" Type="VI" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
 				</Item>
-				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Built/Memory/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
 			</Item>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
