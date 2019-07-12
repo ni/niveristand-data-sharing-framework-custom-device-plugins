@@ -199,7 +199,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Data Sharing Framework/Data Sharing Framework Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5761A385-5E2D-4772-87C4-200525D444D5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2E9113BC-8848-42C2-8B27-EA31B9E1A4FD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Data Sharing Framework.xml</Property>
