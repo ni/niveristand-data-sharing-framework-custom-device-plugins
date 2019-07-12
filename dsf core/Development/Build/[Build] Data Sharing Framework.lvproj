@@ -151,7 +151,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Engine</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6353D77E-405F-4CFE-AC5C-F5A4C3081551}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Engine/DSF.Engine.lvlibp</Property>
