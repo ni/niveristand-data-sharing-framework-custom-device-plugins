@@ -8,6 +8,7 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="GUIDs" Type="Folder">
 				<Item Name="Channel GUID.vi" Type="VI" URL="../GUIDs/Channel GUID.vi"/>
+				<Item Name="file path property name.vi" Type="VI" URL="../GUIDs/file path property name.vi"/>
 				<Item Name="Get page GUID.vi" Type="VI" URL="../Get page GUID.vi"/>
 				<Item Name="Group GUID.vi" Type="VI" URL="../GUIDs/Group GUID.vi"/>
 				<Item Name="Main Page GUID.vi" Type="VI" URL="../GUIDs/Main Page GUID.vi"/>
@@ -21,7 +22,6 @@
 			<Item Name="Plugin.vi" Type="VI" URL="../Plugin.vi"/>
 			<Item Name="Transfer.vi" Type="VI" URL="../Transfer.vi"/>
 		</Item>
-		<Item Name="file path property name.vi" Type="VI" URL="../GUIDs/file path property name.vi"/>
 	</Item>
 	<Item Name="Apply DSF Configuration to Node.vi" Type="VI" URL="../Apply DSF Configuration to Node.vi"/>
 	<Item Name="Apply DSF Configuration.vi" Type="VI" URL="../Apply DSF Configuration to VS/Apply DSF Configuration.vi"/>
