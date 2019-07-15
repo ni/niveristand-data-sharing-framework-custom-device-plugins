@@ -5,7 +5,13 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Classes" Type="Folder">
-		<Item Name="VeriStand Framework.lvclass" Type="LVClass" URL="../VeriStand Framework/VeriStand Framework.lvclass"/>
+		<Item Name="Configuration" Type="Folder">
+			<Item Name="VeriStand DSF.Framework.Configuration.lvclass" Type="LVClass" URL="../VeriStand Framework Configuration/VeriStand DSF.Framework.Configuration.lvclass"/>
+			<Item Name="VeriStand DSF.Plugin.Configuration.lvclass" Type="LVClass" URL="../VeriStand Framework Configuration/VeriStand DSF.Plugin.Configuration.lvclass"/>
+			<Item Name="VeriStand DSF.Transfer Group.Configuration.lvclass" Type="LVClass" URL="../VeriStand Framework Configuration/VeriStand DSF.Transfer Group.Configuration.lvclass"/>
+			<Item Name="VeriStand DSF.Transfer.Configuration.lvclass" Type="LVClass" URL="../VeriStand Framework Configuration/VeriStand DSF.Transfer.Configuration.lvclass"/>
+		</Item>
+		<Item Name="VeriStand DSF.Framework.lvclass" Type="LVClass" URL="../VeriStand Framework/VeriStand DSF.Framework.lvclass"/>
 	</Item>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder"/>
@@ -13,5 +19,6 @@
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
 	<Item Name="Types" Type="Folder"/>
+	<Item Name="VIs" Type="Folder"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>

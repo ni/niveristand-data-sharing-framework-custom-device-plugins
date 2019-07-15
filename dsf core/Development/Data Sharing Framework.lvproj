@@ -151,25 +151,25 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="DSF.Engine.Windows" Type="Packed Library">
+			<Item Name="DSF.Engine" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6E70C32C-8D19-4185-8588-EBA753B8CA4D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DSF.Engine.Windows</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DSF.Engine</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Windows</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Windows/Engine</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F39917F-F305-481E-9D57-4849BCD23BA8}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Windows/DSF.Engine.Windows.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Windows/Engine/DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Windows/Engine</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F1EE64B5-CD3E-4FB1-9EEA-880A7E2F796E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D52B0A32-77D6-497A-A90D-5AB37129AFDC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
@@ -189,10 +189,10 @@
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DSF.Engine.Windows</Property>
-				<Property Name="TgtF_internalName" Type="Str">DSF.Engine.Windows</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DSF.Engine</Property>
+				<Property Name="TgtF_internalName" Type="Str">DSF.Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">DSF.Engine.Windows</Property>
+				<Property Name="TgtF_productName" Type="Str">DSF.Engine</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{3B35F7B1-FA28-4E43-BAEA-AB3695C76B63}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DSF.Engine.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
