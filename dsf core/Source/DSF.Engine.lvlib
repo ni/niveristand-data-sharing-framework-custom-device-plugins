@@ -8,14 +8,16 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
-		<Item Name="Class Loader" Type="Folder">
+		<Item Name="Component Loader" Type="Folder">
 			<Item Name="Class Loader.lvclass" Type="LVClass" URL="../Shared/Classes/Class Loader/Class Loader.lvclass"/>
+			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Component Loader/Component Loader.lvclass"/>
 		</Item>
 		<Item Name="Configuration" Type="Folder">
 			<Item Name="Types" Type="Folder">
 				<Item Name="DSF.Shared.Configuration.Channel.lvclass" Type="LVClass" URL="../Shared/Classes/Channel/DSF.Shared.Configuration.Channel.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Plugin.lvclass" Type="LVClass" URL="../Shared/Classes/Plugin/DSF.Shared.Configuration.Plugin.lvclass"/>
+				<Item Name="DSF.Shared.Configuration.Transceiver.lvclass" Type="LVClass" URL="../Shared/Classes/Transceiver/DSF.Shared.Configuration.Transceiver.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer Group/DSF.Shared.Configuration.Transfer Group.lvclass"/>
 				<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
 			</Item>

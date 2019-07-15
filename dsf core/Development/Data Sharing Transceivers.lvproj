@@ -14,14 +14,16 @@
 		<Item Name="DSF Libraries" Type="Folder">
 			<Item Name="DSF.Engine.lvlibp" Type="LVLibp" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp">
 				<Item Name="Classes" Type="Folder">
-					<Item Name="Class Loader" Type="Folder">
+					<Item Name="Component Loader" Type="Folder">
 						<Item Name="Class Loader.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Class Loader/Class Loader.lvclass"/>
+						<Item Name="Component Loader.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Component Loader/Component Loader.lvclass"/>
 					</Item>
 					<Item Name="Configuration" Type="Folder">
 						<Item Name="Types" Type="Folder">
 							<Item Name="DSF.Shared.Configuration.Channel.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Channel/DSF.Shared.Configuration.Channel.lvclass"/>
 							<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
 							<Item Name="DSF.Shared.Configuration.Plugin.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Plugin/DSF.Shared.Configuration.Plugin.lvclass"/>
+							<Item Name="DSF.Shared.Configuration.Transceiver.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Transceiver/DSF.Shared.Configuration.Transceiver.lvclass"/>
 							<Item Name="DSF.Shared.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Transfer Group/DSF.Shared.Configuration.Transfer Group.lvclass"/>
 							<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
 						</Item>
@@ -204,7 +206,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Windows/Transceivers</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8CCA5BDB-6574-49D0-B54C-9BA46F26783C}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Transceiver.UDP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Windows/Transceivers/DSF.Transceiver.UDP.lvlibp</Property>
