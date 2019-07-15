@@ -8,6 +8,7 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="GUIDs" Type="Folder">
 				<Item Name="Channel GUID.vi" Type="VI" URL="../GUIDs/Channel GUID.vi"/>
+				<Item Name="file path property name.vi" Type="VI" URL="../GUIDs/file path property name.vi"/>
 				<Item Name="Get page GUID.vi" Type="VI" URL="../Get page GUID.vi"/>
 				<Item Name="Group GUID.vi" Type="VI" URL="../GUIDs/Group GUID.vi"/>
 				<Item Name="Main Page GUID.vi" Type="VI" URL="../GUIDs/Main Page GUID.vi"/>
@@ -28,7 +29,6 @@
 	<Item Name="Create Plugin Groups.vi" Type="VI" URL="../Apply DSF Configuration to VS/Create Plugin Groups.vi"/>
 	<Item Name="Create Transfer Channels.vi" Type="VI" URL="../Apply DSF Configuration to VS/Create Transfer Channels.vi"/>
 	<Item Name="Delete All Children.vi" Type="VI" URL="../Delete All Children.vi"/>
-	<Item Name="file path property name.vi" Type="VI" URL="../GUIDs/file path property name.vi"/>
 	<Item Name="generate test config.vi" Type="VI" URL="../generate test config.vi"/>
 	<Item Name="get dsf config file path.vi" Type="VI" URL="../get dsf config file path.vi"/>
 	<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
