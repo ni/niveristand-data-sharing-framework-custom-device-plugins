@@ -25,181 +25,167 @@
 			<Item Name="DSF" Type="Folder">
 				<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../../../../dsf core/Source/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
 				<Item Name="DSF Configuration Utility.lvlib" Type="Library" URL="../../../../../dsf core/Source/DSF Configuration Utility/DSF Configuration Utility.lvlib"/>
-				<Item Name="DSF.Engine.lvlibp" Type="LVLibp" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp">
+				<Item Name="DSF.Engine.lvlibp" Type="LVLibp" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp">
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Class Loader" Type="Folder">
-							<Item Name="Class Loader.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Class Loader/Class Loader.lvclass"/>
+						<Item Name="Component Loader" Type="Folder">
+							<Item Name="Class Loader.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Classes/Class Loader/Class Loader.lvclass"/>
+							<Item Name="Component Loader.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Component Loader/Component Loader.lvclass"/>
 						</Item>
 						<Item Name="Configuration" Type="Folder">
 							<Item Name="Types" Type="Folder">
-								<Item Name="DSF.Shared.Configuration.Channel.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Channel/DSF.Shared.Configuration.Channel.lvclass"/>
-								<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
-								<Item Name="DSF.Shared.Configuration.Plugin.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Plugin/DSF.Shared.Configuration.Plugin.lvclass"/>
-								<Item Name="DSF.Shared.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Transfer Group/DSF.Shared.Configuration.Transfer Group.lvclass"/>
-								<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
+								<Item Name="DSF.Shared.Configuration.Channel.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Classes/Channel/DSF.Shared.Configuration.Channel.lvclass"/>
+								<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
+								<Item Name="DSF.Shared.Configuration.Plugin.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Classes/Plugin/DSF.Shared.Configuration.Plugin.lvclass"/>
+								<Item Name="DSF.Shared.Configuration.Transceiver.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Classes/Transceiver/DSF.Shared.Configuration.Transceiver.lvclass"/>
+								<Item Name="DSF.Shared.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Classes/Transfer Group/DSF.Shared.Configuration.Transfer Group.lvclass"/>
+								<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
 							</Item>
-							<Item Name="DSF.Shared.Configuration.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Configuration/DSF.Shared.Configuration.lvclass"/>
+							<Item Name="DSF.Shared.Configuration.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Classes/Configuration/DSF.Shared.Configuration.lvclass"/>
 						</Item>
 						<Item Name="Execution" Type="Folder">
 							<Item Name="Buffer Converter" Type="Folder">
-								<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Buffer/Buffer Converter.lvclass"/>
+								<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Buffer/Buffer Converter.lvclass"/>
 							</Item>
 							<Item Name="Debug" Type="Folder">
-								<Item Name="DSF.Engine.Debug Flags.FIFO.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Debug/DSF.Engine.Debug Flags.FIFO.lvclass"/>
-								<Item Name="DSF.Engine.Debug Flags.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Debug/DSF.Engine.Debug Flags.lvclass"/>
+								<Item Name="DSF.Engine.Debug Flags.FIFO.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Debug/DSF.Engine.Debug Flags.FIFO.lvclass"/>
+								<Item Name="DSF.Engine.Debug Flags.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Debug/DSF.Engine.Debug Flags.lvclass"/>
 							</Item>
 							<Item Name="Pool" Type="Folder">
-								<Item Name="DSF.Engine.Pool.Errors.Return Timeout.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Thread Pool/DSF.Engine.Pool.Errors.Return Timeout.vi"/>
-								<Item Name="DSF.Engine.Pool.ID.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Thread Pool/DSF.Engine.Pool.ID.lvclass"/>
-								<Item Name="DSF.Engine.Pool.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Thread Pool/DSF.Engine.Pool.lvclass"/>
+								<Item Name="DSF.Engine.Pool.Errors.Return Timeout.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Thread Pool/DSF.Engine.Pool.Errors.Return Timeout.vi"/>
+								<Item Name="DSF.Engine.Pool.ID.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Thread Pool/DSF.Engine.Pool.ID.lvclass"/>
+								<Item Name="DSF.Engine.Pool.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Thread Pool/DSF.Engine.Pool.lvclass"/>
 							</Item>
 							<Item Name="State" Type="Folder">
-								<Item Name="Framework State.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/State/Framework State.lvclass"/>
+								<Item Name="Framework State.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/State/Framework State.lvclass"/>
 							</Item>
 							<Item Name="Thread Parameters" Type="Folder">
-								<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
+								<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 							</Item>
 							<Item Name="Timing" Type="Folder">
-								<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
+								<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
 							</Item>
 						</Item>
 						<Item Name="Hardware Info" Type="Folder">
-							<Item Name="DSF.Engine.Hardware Info.CPU.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Hardware/DSF.Engine.Hardware Info.CPU.lvclass"/>
-							<Item Name="DSF.Engine.Hardware Info.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Hardware/DSF.Engine.Hardware Info.lvclass"/>
+							<Item Name="DSF.Engine.Hardware Info.CPU.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Hardware/DSF.Engine.Hardware Info.CPU.lvclass"/>
+							<Item Name="DSF.Engine.Hardware Info.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Hardware/DSF.Engine.Hardware Info.lvclass"/>
 						</Item>
 						<Item Name="Interfaces" Type="Folder">
-							<Item Name="DSF.Engine.Interface.Builder.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Interface/DSF.Engine.Interface.Builder.lvclass"/>
-							<Item Name="DSF.Engine.Interface.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Interface/DSF.Engine.Interface.lvclass"/>
-							<Item Name="DSF.Engine.Interface.Transceiver.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Interface/DSF.Engine.Interface.Transceiver.lvclass"/>
+							<Item Name="DSF.Engine.Interface.Builder.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Interface/DSF.Engine.Interface.Builder.lvclass"/>
+							<Item Name="DSF.Engine.Interface.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Interface/DSF.Engine.Interface.lvclass"/>
+							<Item Name="DSF.Engine.Interface.Transceiver.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Interface/DSF.Engine.Interface.Transceiver.lvclass"/>
 						</Item>
 						<Item Name="Memory" Type="Folder">
 							<Item Name="Cache" Type="Folder">
-								<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
+								<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
 							</Item>
 							<Item Name="Pointers" Type="Folder">
-								<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
-								<Item Name="DSF.Engine.Pointer.DBL.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Pointer/DSF.Engine.Pointer.DBL.lvclass"/>
-								<Item Name="DSF.Engine.Pointer.Status.Builder.State.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Pointer/DSF.Engine.Pointer.Status.Builder.State.lvclass"/>
+								<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
+								<Item Name="DSF.Engine.Pointer.DBL.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Pointer/DSF.Engine.Pointer.DBL.lvclass"/>
+								<Item Name="DSF.Engine.Pointer.Status.Builder.State.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Pointer/DSF.Engine.Pointer.Status.Builder.State.lvclass"/>
 							</Item>
 						</Item>
 						<Item Name="Status" Type="Folder">
 							<Item Name="Performance" Type="Folder"/>
-							<Item Name="DSF.Engine.Status.Framework.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Status/DSF.Engine.Status.Framework.lvclass"/>
-							<Item Name="DSF.Engine.Status.Framework.Performance.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Status/DSF.Engine.Status.Framework.Performance.lvclass"/>
-							<Item Name="DSF.Engine.Status.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Status/DSF.Engine.Status.lvclass"/>
-							<Item Name="Status.Builder.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Status/Status.Builder.lvclass"/>
-							<Item Name="Status.Plugin.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Status/Status.Plugin.lvclass"/>
-							<Item Name="Status.Timing.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Status/Status.Timing.lvclass"/>
-							<Item Name="Status.Transfer.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Status/Status.Transfer.lvclass"/>
+							<Item Name="DSF.Engine.Status.Framework.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Status/DSF.Engine.Status.Framework.lvclass"/>
+							<Item Name="DSF.Engine.Status.Framework.Performance.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Status/DSF.Engine.Status.Framework.Performance.lvclass"/>
+							<Item Name="DSF.Engine.Status.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Status/DSF.Engine.Status.lvclass"/>
+							<Item Name="Status.Builder.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Status/Status.Builder.lvclass"/>
+							<Item Name="Status.Plugin.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Status/Status.Plugin.lvclass"/>
+							<Item Name="Status.Timing.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Status/Status.Timing.lvclass"/>
+							<Item Name="Status.Transfer.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Status/Status.Transfer.lvclass"/>
 						</Item>
 						<Item Name="Transceiver" Type="Folder">
-							<Item Name="DSF.Engine.Transceiver Loader.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Transceiver/DSF.Engine.Transceiver Loader.lvclass"/>
-							<Item Name="DSF.Engine.Transceiver Thread.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Transceiver/DSF.Engine.Transceiver Thread.lvclass"/>
-							<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
+							<Item Name="DSF.Engine.Transceiver Loader.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Transceiver/DSF.Engine.Transceiver Loader.lvclass"/>
+							<Item Name="DSF.Engine.Transceiver Thread.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Transceiver/DSF.Engine.Transceiver Thread.lvclass"/>
+							<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
 						</Item>
-						<Item Name="DSF.Engine.Framework.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Framework/DSF.Engine.Framework.lvclass"/>
-						<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
-						<Item Name="DSF.Engine.Transfer Group.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Transfer/DSF.Engine.Transfer Group.lvclass"/>
-						<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
+						<Item Name="DSF.Engine.Framework.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Framework/DSF.Engine.Framework.lvclass"/>
+						<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
+						<Item Name="DSF.Engine.Transfer Group.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Transfer/DSF.Engine.Transfer Group.lvclass"/>
+						<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
 					</Item>
 					<Item Name="Constants" Type="Folder">
-						<Item Name="DSF.Shared.Constant.vit" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Constants/DSF.Shared.Constant.vit"/>
-						<Item Name="DSF.Shared.Constants.Library Name.Engine.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Constants/DSF.Shared.Constants.Library Name.Engine.vi"/>
-						<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Constants/DSF.Shared.Constants.vi"/>
+						<Item Name="DSF.Shared.Constant.vit" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Constants/DSF.Shared.Constant.vit"/>
+						<Item Name="DSF.Shared.Constants.Library Name.Engine.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Constants/DSF.Shared.Constants.Library Name.Engine.vi"/>
+						<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Constants/DSF.Shared.Constants.vi"/>
 					</Item>
 					<Item Name="Typedefs" Type="Folder">
-						<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Channel Block Descriptor.ctl"/>
-						<Item Name="DSF Runtime Channel Block.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Channel Block.ctl"/>
-						<Item Name="DSF Runtime Channel Descriptor.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Channel Descriptor.ctl"/>
-						<Item Name="DSF Runtime Channel Parameters.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Channel Parameters.ctl"/>
-						<Item Name="DSF Runtime Index.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Index.ctl"/>
-						<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
+						<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Channel Block Descriptor.ctl"/>
+						<Item Name="DSF Runtime Channel Block.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Channel Block.ctl"/>
+						<Item Name="DSF Runtime Channel Descriptor.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Channel Descriptor.ctl"/>
+						<Item Name="DSF Runtime Channel Parameters.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Channel Parameters.ctl"/>
+						<Item Name="DSF Runtime Index.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Index.ctl"/>
+						<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
 					</Item>
 					<Item Name="VIs" Type="Folder">
 						<Item Name="Data Type" Type="Folder">
-							<Item Name="DSF.Shared.Data Type.Sizeof.1D.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/VIs/DSF.Shared.Data Type.Sizeof.1D.vi"/>
-							<Item Name="DSF.Shared.Data Type.Sizeof.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Shared/VIs/DSF.Shared.Data Type.Sizeof.vi"/>
+							<Item Name="DSF.Shared.Data Type.Sizeof.1D.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/VIs/DSF.Shared.Data Type.Sizeof.1D.vi"/>
+							<Item Name="DSF.Shared.Data Type.Sizeof.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Shared/VIs/DSF.Shared.Data Type.Sizeof.vi"/>
 						</Item>
-						<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
-						<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Configuration/Engine Config Cluster to DSF Config File.vi"/>
-						<Item Name="Write Settings to file.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Configuration/Write Settings to file.vi"/>
+						<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
+						<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Configuration/Engine Config Cluster to DSF Config File.vi"/>
+						<Item Name="Write Settings to file.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/Engine/Configuration/Write Settings to file.vi"/>
 					</Item>
-					<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-					<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
-					<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-					<Item Name="Check Path.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Check Path.vi"/>
-					<Item Name="Check Special Tags.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
-					<Item Name="Clear Errors.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-					<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
-					<Item Name="Create Mask By Alpha.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Create Mask By Alpha.vi"/>
-					<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
-					<Item Name="DialogType.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
-					<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
-					<Item Name="Directory of Top Level VI.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-					<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
-					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-					<Item Name="Error Code Database.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
-					<Item Name="ErrWarn.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
-					<Item Name="eventvkey.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
-					<Item Name="Find Tag.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
-					<Item Name="Format Message String.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
-					<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
-					<Item Name="General Error Handler.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
-					<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-					<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
-					<Item Name="Get Text Rect.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
-					<Item Name="GetHelpDir.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
-					<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-					<Item Name="imagedata.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/imagedata.ctl"/>
-					<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-					<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-					<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-					<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-					<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
-					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-					<Item Name="nirviCommon.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-					<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
-					<Item Name="Read PNG File.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/png.llb/Read PNG File.vi"/>
-					<Item Name="Recursive File List.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
-					<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
-					<Item Name="Set Bold Text.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
-					<Item Name="Set String Value.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
-					<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
-					<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
-					<Item Name="TagReturnType.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-					<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
-					<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
-					<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-					<Item Name="whitespace.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-					<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../../../dsf core/Built/Windows/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+					<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+					<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+					<Item Name="Check Path.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Check Path.vi"/>
+					<Item Name="Check Special Tags.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+					<Item Name="Clear Errors.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+					<Item Name="Create Mask By Alpha.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Create Mask By Alpha.vi"/>
+					<Item Name="DialogType.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
+					<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
+					<Item Name="Directory of Top Level VI.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+					<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
+					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="Error Code Database.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+					<Item Name="Find Tag.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
+					<Item Name="Format Message String.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
+					<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
+					<Item Name="General Error Handler.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
+					<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+					<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+					<Item Name="imagedata.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/imagedata.ctl"/>
+					<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+					<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
+					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+					<Item Name="nirviCommon.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+					<Item Name="Read PNG File.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/picture/png.llb/Read PNG File.vi"/>
+					<Item Name="Recursive File List.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
+					<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+					<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
+					<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+					<Item Name="TagReturnType.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+					<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+					<Item Name="whitespace.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+					<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../../../DSF Core/Built/PharLap x86/Engine/c/DSF.Engine.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 				</Item>
-				<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp">
+				<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp">
 					<Item Name="Build" Type="Folder">
 						<Item Name="Blacklist" Type="Folder">
-							<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
+							<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
 						</Item>
 						<Item Name="Progress Window" Type="Folder">
-							<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
-							<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
-							<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
-							<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
-							<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
-							<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
+							<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
+							<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
+							<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
+							<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
+							<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
+							<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
 						</Item>
-						<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
-						<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
+						<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
+						<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
 					</Item>
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
+						<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
 					</Item>
 					<Item Name="Constants" Type="Folder">
-						<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
-						<Item Name="Memory.Constants.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
+						<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
+						<Item Name="Memory.Constants.vi" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
 					</Item>
 					<Item Name="Controls" Type="Folder">
-						<Item Name="Memory.Null.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
+						<Item Name="Memory.Null.ctl" Type="VI" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
 					</Item>
-					<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+					<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../../../DSF Core/Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
 				</Item>
 			</Item>
 			<Item Name="Helper Libraries" Type="Folder">
@@ -208,23 +194,15 @@
 			</Item>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
-		<Item Name="Custom Device Data Sharing Framework.xml" Type="Document" URL="../Custom Device Data Sharing Framework.xml"/>
 		<Item Name="Data Sharing Framework Engine.lvlib" Type="Library" URL="../Engine/Data Sharing Framework Engine.lvlib"/>
 		<Item Name="Data Sharing Framework Shared.lvlib" Type="Library" URL="../Shared/Data Sharing Framework Shared.lvlib"/>
-		<Item Name="Data Sharing Framework System Explorer.lvlib" Type="Library" URL="../System Explorer/Data Sharing Framework System Explorer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
-				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
-				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
-				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
@@ -292,112 +270,6 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Configuration Debug" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{C72B7E85-C986-4628-A4AF-93FE5FFE5918}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Configuration Debug</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Data Sharing Framework</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{ABE103FD-8E06-4287-92FA-28F9CAA41336}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Data Sharing Framework</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Data Sharing Framework/Data</Property>
-				<Property Name="Destination[2].destName" Type="Str">Data Sharing Framework Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Data Sharing Framework/Data Sharing Framework Configuration.llb</Property>
-				<Property Name="Destination[2].type" Type="Str">LLB</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{08BECEEA-C2C4-4262-8351-7D8564FF9CB1}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Data Sharing Framework.xml</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Data Sharing Framework System Explorer.lvlib/System Explorer</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-			</Item>
-			<Item Name="Configuration Release" Type="Source Distribution">
-				<Property Name="Bld_buildCacheID" Type="Str">{F7E936A1-C50B-4217-AC2B-A4DA3629CD4B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Configuration Release</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Data Sharing Framework</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Data Sharing Framework</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Data Sharing Framework/Data</Property>
-				<Property Name="Destination[2].destName" Type="Str">Data Sharing Framework Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Data Sharing Framework/Data Sharing Framework Configuration.llb</Property>
-				<Property Name="Destination[2].type" Type="Str">LLB</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B8B45A8-9E09-410B-9B9B-F48351574469}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Data Sharing Framework.xml</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Data Sharing Framework System Explorer.lvlib/System Explorer</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Data Sharing Framework Shared.lvlib/Shared</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
-			</Item>
 			<Item Name="Engine Debug" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{C67C1B30-A649-4BB4-8780-C96741B30EB4}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Debug</Property>
@@ -499,5 +371,57 @@
 				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
+	</Item>
+	<Item Name="RT PXI Target" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
+		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
+		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
+		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
+		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
+		<Property Name="host.TargetCPUID" Type="UInt">3</Property>
+		<Property Name="host.TargetOSID" Type="UInt">15</Property>
+		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
+		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
+		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
+		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Faults" Type="Str"></Property>
+		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="target.IOScan.Period" Type="UInt">10000</Property>
+		<Property Name="target.IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
+		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
+		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
+		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
+		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
+		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
+		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
+		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
+		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
+		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
+		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
+		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.vi.access" Type="Str">+*</Property>
+		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
+		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
+		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
+		<Property Name="target.WebServer.Port" Type="Int">80</Property>
+		<Property Name="target.WebServer.RootPath" Type="Path">/c/ni-rt/system/www</Property>
+		<Property Name="target.WebServer.TcpAccess" Type="Str">c+*</Property>
+		<Property Name="target.WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
+		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
+		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

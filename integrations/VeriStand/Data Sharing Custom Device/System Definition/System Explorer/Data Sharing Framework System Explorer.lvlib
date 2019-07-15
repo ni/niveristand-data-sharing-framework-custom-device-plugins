@@ -15,6 +15,7 @@
 				<Item Name="Plugin GUID.vi" Type="VI" URL="../GUIDs/Plugin GUID.vi"/>
 				<Item Name="Transfer GUID.vi" Type="VI" URL="../GUIDs/Transfer GUID.vi"/>
 			</Item>
+			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			<Item Name="Channel.vi" Type="VI" URL="../Channel.vi"/>
 			<Item Name="Group.vi" Type="VI" URL="../Group.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>

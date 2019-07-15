@@ -159,7 +159,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Windows/Engine</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F39917F-F305-481E-9D57-4849BCD23BA8}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Windows/Engine/DSF.Engine.lvlibp</Property>
@@ -169,7 +169,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Windows/Engine</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D52B0A32-77D6-497A-A90D-5AB37129AFDC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{36A2F2D2-42C3-498F-9F8F-912B0E888996}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>

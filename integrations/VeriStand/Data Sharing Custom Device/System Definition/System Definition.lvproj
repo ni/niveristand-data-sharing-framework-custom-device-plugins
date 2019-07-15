@@ -25,38 +25,38 @@
 			<Item Name="DSF" Type="Folder">
 				<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../../../../dsf core/Source/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
 				<Item Name="DSF Configuration Utility.lvlib" Type="Library" URL="../../../../../dsf core/Source/DSF Configuration Utility/DSF Configuration Utility.lvlib"/>
-				<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp">
+				<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp">
 					<Item Name="Build" Type="Folder">
 						<Item Name="Blacklist" Type="Folder">
-							<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
+							<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
 						</Item>
 						<Item Name="Progress Window" Type="Folder">
-							<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
-							<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
-							<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
-							<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
-							<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
-							<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
+							<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
+							<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
+							<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
+							<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
+							<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
+							<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
 						</Item>
-						<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
-						<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
+						<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
+						<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
 					</Item>
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
+						<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
 					</Item>
 					<Item Name="Constants" Type="Folder">
-						<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
-						<Item Name="Memory.Constants.vi" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
+						<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
+						<Item Name="Memory.Constants.vi" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
 					</Item>
 					<Item Name="Controls" Type="Folder">
-						<Item Name="Memory.Null.ctl" Type="VI" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
+						<Item Name="Memory.Null.ctl" Type="VI" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
 					</Item>
-					<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../../../dsf core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+					<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../../../DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
 				</Item>
 			</Item>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
@@ -65,12 +65,9 @@
 		</Item>
 		<Item Name="Custom Device Data Sharing Framework.xml" Type="Document" URL="../Custom Device Data Sharing Framework.xml"/>
 		<Item Name="Data Sharing Framework System Explorer.lvlib" Type="Library" URL="../System Explorer/Data Sharing Framework System Explorer.lvlib"/>
-		<Item Name="Get DSF Configuration Runtime File Path.vi" Type="VI" URL="../../Source/Shared/Get DSF Configuration Runtime File Path.vi"/>
 		<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
-				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
 			</Item>

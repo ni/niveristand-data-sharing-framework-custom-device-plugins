@@ -19,6 +19,8 @@
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
 	<Item Name="Types" Type="Folder"/>
-	<Item Name="VIs" Type="Folder"/>
+	<Item Name="VIs" Type="Folder">
+		<Item Name="Get DSF Configuration Runtime File Path.vi" Type="VI" URL="../VIs/Get DSF Configuration Runtime File Path.vi"/>
+	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
