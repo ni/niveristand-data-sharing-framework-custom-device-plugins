@@ -15,14 +15,16 @@
 			<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../Source/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
 			<Item Name="DSF.Engine.lvlibp" Type="LVLibp" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp">
 				<Item Name="Classes" Type="Folder">
-					<Item Name="Class Loader" Type="Folder">
+					<Item Name="Component Loader" Type="Folder">
 						<Item Name="Class Loader.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Class Loader/Class Loader.lvclass"/>
+						<Item Name="Component Loader.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Engine/Classes/Component Loader/Component Loader.lvclass"/>
 					</Item>
 					<Item Name="Configuration" Type="Folder">
 						<Item Name="Types" Type="Folder">
 							<Item Name="DSF.Shared.Configuration.Channel.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Channel/DSF.Shared.Configuration.Channel.lvclass"/>
 							<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
 							<Item Name="DSF.Shared.Configuration.Plugin.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Plugin/DSF.Shared.Configuration.Plugin.lvclass"/>
+							<Item Name="DSF.Shared.Configuration.Transceiver.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Transceiver/DSF.Shared.Configuration.Transceiver.lvclass"/>
 							<Item Name="DSF.Shared.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Transfer Group/DSF.Shared.Configuration.Transfer Group.lvclass"/>
 							<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../../Built/Windows/Engine/DSF.Engine.lvlibp/Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
 						</Item>
@@ -199,6 +201,7 @@
 		</Item>
 		<Item Name="Transceivers" Type="Folder">
 			<Item Name="DSF.Transceiver.UDP.lvlibp" Type="LVLibp" URL="../../Built/Windows/Transceivers/DSF.Transceiver.UDP.lvlibp">
+				<Item Name="DSF.Transceiver.UDP.Configuration.lvclass" Type="LVClass" URL="../../Built/Windows/Transceivers/DSF.Transceiver.UDP.lvlibp/DSF.Transceiver.UDP.Configuration.lvclass"/>
 				<Item Name="DSF.Transceiver.UDP.lvclass" Type="LVClass" URL="../../Built/Windows/Transceivers/DSF.Transceiver.UDP.lvlibp/DSF.Transceiver.UDP.lvclass"/>
 			</Item>
 		</Item>
