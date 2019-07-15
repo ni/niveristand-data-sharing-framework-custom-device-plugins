@@ -68,7 +68,6 @@
 				<loc>Data Sharing Framework</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>37c56d03-17da-482b-8988-568955beadf2</GUID>
 			<Glyph>
@@ -79,6 +78,10 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Data Sharing Framework\Data Sharing Framework Configuration.llb\Main Page.vi</Path>
 			</Item2Launch>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Data Sharing Framework\Data Sharing Framework Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
 		</Page>
 		<Page>
 			<Name>
