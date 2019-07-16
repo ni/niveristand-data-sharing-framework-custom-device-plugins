@@ -19,22 +19,22 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9FC8AB1A-29CD-4A9D-A97A-4BCD1FD50EE8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Memory Manager</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Dependencies</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Core</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D1DCB8AC-DCDF-4AFF-B76D-03899D2A0649}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Memory Manager.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Dependencies/Memory Manager.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Core/Memory Manager.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Dependencies</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Core</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{14E1F75C-B8DF-423C-8DC1-C0DED03E73C7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{995B811C-64A9-479F-9CFC-5B6BE2A7D898}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Memory Manager.lvlib</Property>
@@ -47,7 +47,6 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Static Error Handling.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
@@ -118,21 +117,24 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{BF3CAAEA-B357-45C5-9BC0-D4C4BFEF51BA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Memory Manager</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Git/DSF/DSF Core/Built/PharLap x86/Dependencies</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">..</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1B15E0D3-0C13-4DA9-AD6F-9A4BA554AA44}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/c</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Built/Core</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Memory Manager.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/Memory Manager.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Built/Core/Memory Manager.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/c</Property>
+				<Property Name="Destination[1].path" Type="Path">/Built/Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C3B6B64E-5515-462C-A86E-8E6BD3224EBC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{88A21A22-0486-48FA-A3FE-4631BE70ACCB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/PharLap PXI/Memory Manager.lvlib</Property>

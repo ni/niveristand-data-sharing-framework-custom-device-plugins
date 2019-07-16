@@ -70,43 +70,47 @@
 			<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../../Source/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
-		<Item Name="PPLs (Windows)" Type="Folder">
-			<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp">
+		<Item Name="Libraries (Packed)" Type="Folder">
+			<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../../Built/Core/Memory Manager.lvlibp">
 				<Item Name="Build" Type="Folder">
 					<Item Name="Blacklist" Type="Folder">
-						<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
+						<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
 					</Item>
 					<Item Name="Progress Window" Type="Folder">
-						<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
-						<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
-						<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
-						<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
-						<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
-						<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
+						<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
+						<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
+						<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
 					</Item>
-					<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
-					<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
+					<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
+					<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
 				</Item>
 				<Item Name="Classes" Type="Folder">
-					<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
+					<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
 				</Item>
 				<Item Name="Constants" Type="Folder">
-					<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
-					<Item Name="Memory.Constants.vi" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
+					<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
+					<Item Name="Memory.Constants.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
 				</Item>
 				<Item Name="Controls" Type="Folder">
-					<Item Name="Memory.Null.ctl" Type="VI" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
+					<Item Name="Memory.Null.ctl" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
 				</Item>
-				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../Built/Windows/Dependencies/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
 			</Item>
 		</Item>
+		<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../../Source/DSF.Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -114,25 +118,26 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{11414196-454C-4A06-A88C-A37E2E58788E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DSF.Engine</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Engine</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Git/DSF/DSF Core/Built/Core</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6353D77E-405F-4CFE-AC5C-F5A4C3081551}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Engine/DSF.Engine.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Git/DSF/DSF Core/Built/Core/DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Git/DSF/DSF Core/Built/Windows/Engine</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Git/DSF/DSF Core/Built/Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F74B84B3-3AE4-47BD-9E40-F2967F984CA4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{76725488-B129-47E3-B692-8CA8F7582ADC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF.Engine.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -205,77 +210,47 @@
 			<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../../Source/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
-		<Item Name="PPLs (PharLap)" Type="Folder">
-			<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp">
+		<Item Name="Libraries (Packed)" Type="Folder">
+			<Item Name="Memory Manager.lvlibp" Type="LVLibp" URL="../../../Built/Core/Memory Manager.lvlibp">
 				<Item Name="Build" Type="Folder">
 					<Item Name="Blacklist" Type="Folder">
-						<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
+						<Item Name="Configure VIs.Blacklist.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Blacklist.vi"/>
 					</Item>
 					<Item Name="Progress Window" Type="Folder">
-						<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
-						<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
-						<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
-						<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
-						<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
-						<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
+						<Item Name="Configure VIs.Progress Window.Close.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Close.vi"/>
+						<Item Name="Configure VIs.Progress Window.New.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.New.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Progress.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Progress.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Status.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Status.vi"/>
+						<Item Name="Configure VIs.Progress Window.Set Stop.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.Set Stop.vi"/>
+						<Item Name="Configure VIs.Progress Window.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs.Progress Window.vi"/>
 					</Item>
-					<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
-					<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
+					<Item Name="Configure VIs for Development.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Development.vi"/>
+					<Item Name="Configure VIs for Execution.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/VIs/Configure VIs for Execution.vi"/>
 				</Item>
 				<Item Name="Classes" Type="Folder">
-					<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
+					<Item Name="Memory.Pointer.lvclass" Type="LVClass" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass"/>
 				</Item>
 				<Item Name="Constants" Type="Folder">
-					<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
-					<Item Name="Memory.Constants.vi" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
+					<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
+					<Item Name="Memory.Constants.vi" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Constants/Memory.Constants.vi"/>
 				</Item>
 				<Item Name="Controls" Type="Folder">
-					<Item Name="Memory.Null.ctl" Type="VI" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
+					<Item Name="Memory.Null.ctl" Type="VI" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Controls/Memory.Null.ctl"/>
 				</Item>
-				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../Built/PharLap x86/Dependencies/c/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../../Source/DSF.Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -283,22 +258,23 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{CB1202A9-F21E-465E-ADF9-E4218472FE76}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DSF.Engine</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Git/DSF/DSF Core/Built/PharLap x86/Engine</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Git/DSF/DSF Core</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{312DB0B2-2AB4-48BE-892C-B48D6F1D5EE2}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/c</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Built/Core</Property>
 				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/DSF.Engine.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Built/Core/DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/c</Property>
+				<Property Name="Destination[1].path" Type="Path">/Built/Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E6796284-07A8-4781-B483-55EC63B507D7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C2C8AE8-6BA0-4717-839E-8F37A167D13D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/PharLap PXI/DSF.Engine.lvlib</Property>
