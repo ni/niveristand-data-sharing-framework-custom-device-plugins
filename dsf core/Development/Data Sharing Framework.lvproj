@@ -93,7 +93,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Engine</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F39917F-F305-481E-9D57-4849BCD23BA8}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Engine/DSF.Engine.lvlibp</Property>

@@ -147,7 +147,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/DSF/Components</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8CCA5BDB-6574-49D0-B54C-9BA46F26783C}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF.Transceiver.UDP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/DSF/Components/DSF.Transceiver.UDP.lvlibp</Property>
