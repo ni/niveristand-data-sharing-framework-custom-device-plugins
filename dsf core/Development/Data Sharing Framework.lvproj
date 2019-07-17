@@ -100,13 +100,6 @@
 				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../Built/Core/Memory Manager.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="Prototyping" Type="Folder">
-			<Item Name="Byte Order Conversion.vi" Type="VI" URL="../Prototyping/Byte Order Conversion.vi"/>
-			<Item Name="Data Conversion.vi" Type="VI" URL="../Prototyping/Data Conversion.vi"/>
-			<Item Name="Dynamic Class Loading.vi" Type="VI" URL="../Prototyping/Dynamic Class Loading.vi"/>
-			<Item Name="Plugin Thread Pool.vi" Type="VI" URL="../Prototyping/Plugin Thread Pool.vi"/>
-			<Item Name="Timing Sort by Priority.vi" Type="VI" URL="../Prototyping/Timing Sort by Priority.vi"/>
-		</Item>
 		<Item Name="DSF.Engine.lvlib" Type="Library" URL="../../Source/DSF.Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -119,6 +112,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
+			<Item Name="DSF.Engine.Interface.Builder.Command.ctl" Type="VI" URL="../../Source/Engine/Classes/Interface/DSF.Engine.Interface.Builder.Command.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DSF.Engine" Type="Packed Library">

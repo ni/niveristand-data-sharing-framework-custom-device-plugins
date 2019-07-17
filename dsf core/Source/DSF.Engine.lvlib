@@ -32,7 +32,6 @@
 				<Item Name="DSF.Engine.Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/DSF.Engine.Debug Flags.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
-				<Item Name="DSF.Engine.Pool.Errors.Return Timeout.vi" Type="VI" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.Errors.Return Timeout.vi"/>
 				<Item Name="DSF.Engine.Pool.ID.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.ID.lvclass"/>
 				<Item Name="DSF.Engine.Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.lvclass"/>
 			</Item>
@@ -51,7 +50,6 @@
 			<Item Name="DSF.Engine.Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/DSF.Engine.Hardware Info.lvclass"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
-			<Item Name="DSF.Engine.Interface.Builder.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.Builder.lvclass"/>
 			<Item Name="DSF.Engine.Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.lvclass"/>
 			<Item Name="DSF.Engine.Interface.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.Transceiver.lvclass"/>
 		</Item>
