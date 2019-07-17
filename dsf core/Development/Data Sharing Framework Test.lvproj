@@ -11,6 +11,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Configuration Creation" Type="Folder">
+			<Item Name="Create Channel Configuration.vi" Type="VI" URL="../Testing/Configuration/Create Channel Configuration.vi"/>
+			<Item Name="Create Framework Configuration.vi" Type="VI" URL="../Testing/Configuration/Create Framework Configuration.vi"/>
+			<Item Name="Create Plugin Configuration.vi" Type="VI" URL="../Testing/Configuration/Create Plugin Configuration.vi"/>
+			<Item Name="Create Transfer Configuration.vi" Type="VI" URL="../Testing/Configuration/Create Transfer Configuration.vi"/>
+			<Item Name="Create Transfer Group Configuration.vi" Type="VI" URL="../Testing/Configuration/Create Transfer Group Configuration.vi"/>
+		</Item>
 		<Item Name="DSF Libraries" Type="Folder">
 			<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../Source/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
 			<Item Name="DSF.Engine.lvlibp" Type="LVLibp" URL="../../Built/Engine/DSF.Engine.lvlibp">
@@ -130,26 +137,14 @@
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../Built/Engine/DSF.Engine.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="UDP" Type="Folder">
+		<Item Name="UDP Test" Type="Folder">
+			<Item Name="SubVIs" Type="Folder">
 				<Item Name="UDP.Rx.Launch.vi" Type="VI" URL="../Testing/UDP/UDP.Rx.Launch.vi"/>
-				<Item Name="UDP.Rx.Top.vi" Type="VI" URL="../Testing/UDP/UDP.Rx.Top.vi"/>
 				<Item Name="UDP.Rx.vi" Type="VI" URL="../Testing/UDP/UDP.Rx.vi"/>
 			</Item>
-			<Item Name="Create Channel Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Channel Configuration.vi"/>
-			<Item Name="Create Framework Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Framework Configuration.vi"/>
-			<Item Name="Create Plugin Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Plugin Configuration.vi"/>
-			<Item Name="Create Transfer Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Transfer Configuration.vi"/>
-			<Item Name="Create Transfer Group Configuration.vi" Type="VI" URL="../Prototyping/Configuration/Create Transfer Group Configuration.vi"/>
+			<Item Name="UDP.Rx.Top.vi" Type="VI" URL="../Testing/UDP/UDP.Rx.Top.vi"/>
 		</Item>
-		<Item Name="Transceivers" Type="Folder">
-			<Item Name="DSF.Transceiver.UDP.lvlibp" Type="LVLibp" URL="../../../../../DSF/Components/DSF.Transceiver.UDP.lvlibp">
-				<Item Name="DSF.Transceiver.UDP.Configuration.lvclass" Type="LVClass" URL="../../../../../DSF/Components/DSF.Transceiver.UDP.lvlibp/DSF.Transceiver.UDP.Configuration.lvclass"/>
-				<Item Name="DSF.Transceiver.UDP.lvclass" Type="LVClass" URL="../../../../../DSF/Components/DSF.Transceiver.UDP.lvlibp/DSF.Transceiver.UDP.lvclass"/>
-				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../../../DSF/Components/DSF.Transceiver.UDP.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
-			</Item>
-		</Item>
-		<Item Name="Framework Test.vi" Type="VI" URL="../Prototyping/Framework Test.vi"/>
+		<Item Name="Framework Test.vi" Type="VI" URL="../Testing/Framework Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
