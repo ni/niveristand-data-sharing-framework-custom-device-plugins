@@ -112,7 +112,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
-			<Item Name="DSF.Engine.Interface.Builder.Command.ctl" Type="VI" URL="../../Source/Engine/Classes/Interface/DSF.Engine.Interface.Builder.Command.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="DSF.Engine" Type="Packed Library">
