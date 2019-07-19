@@ -30,7 +30,7 @@
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Data Sharing Custom Device\PharLap\Data Sharing Custom Device Engine Pharlap.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Data Sharing Custom Device\Pharlap\Data Sharing Custom Device Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Data Sharing Custom Device\Data Sharing Custom Device Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
@@ -62,11 +62,22 @@
 	</CustomDeviceVI>
 	<Dependencies>
 		<Dependency>
+			<SupportedTarget>Windows</SupportedTarget>
 			<Source>
-				<Type>To Application Data Dir</Type>
+				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Data Sharing\Windows\Data Sharing Framework Core.lvlibp</Path>
 			</Source>
 			<RealTimeSystemDestination />
+			<ForceDownload>true</ForceDownload>
+			<Version />
+		</Dependency>
+		<Dependency>
+			<SupportedTarget>Pharlap</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Data Sharing Custom Device\Pharlap\Data Sharing Framework Core.lvlibp</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Data Sharing Custom Device\Data Sharing Framework Core.lvlibp</RealTimeSystemDestination>
 			<ForceDownload>true</ForceDownload>
 			<Version />
 		</Dependency>

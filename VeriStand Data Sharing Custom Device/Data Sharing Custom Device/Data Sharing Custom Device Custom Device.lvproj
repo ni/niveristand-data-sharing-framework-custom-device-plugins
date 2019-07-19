@@ -31,23 +31,17 @@
 		<Item Name="Data Sharing Custom Device Shared.lvlib" Type="Library" URL="../Shared/Data Sharing Custom Device Shared.lvlib"/>
 		<Item Name="Data Sharing Custom Device System Explorer.lvlib" Type="Library" URL="../System Explorer/Data Sharing Custom Device System Explorer.lvlib"/>
 		<Item Name="Data Sharing Framework Core.lvlibp" Type="LVLibp" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp">
-			<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 			<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-			<Item Name="Check Path.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Check Path.vi"/>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Create Mask By Alpha.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Create Mask By Alpha.vi"/>
 			<Item Name="Data Sharing Framework Configuration.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Configuration/1.0.0/Data Sharing Framework Configuration.lvlib"/>
 			<Item Name="Data Sharing Framework Engine.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Engine/Data Sharing Framework Engine.lvlib"/>
-			<Item Name="Directory of Top Level VI.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-			<Item Name="imagedata.ctl" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/imagedata.ctl"/>
 			<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 			<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Memory Manager.lvlib"/>
 			<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
 			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-			<Item Name="Read PNG File.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/png.llb/Read PNG File.vi"/>
 			<Item Name="Recursive File List.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
@@ -416,6 +410,22 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Data Sharing Framework Core.lvlibp" Type="LVLibp" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp">
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Data Sharing Framework Configuration.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Configuration/1.0.0/Data Sharing Framework Configuration.lvlib"/>
+				<Item Name="Data Sharing Framework Engine.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Engine/Data Sharing Framework Engine.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Memory Manager.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nirviCommon.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -453,7 +463,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Data Sharing Custom Device</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/Data Sharing Custom Device</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
@@ -467,7 +477,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1B74FDB-E933-45FF-A2CF-0CF469EDB97D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{41578137-3DE3-4ACC-BFC5-DACB38C5061B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Data Sharing Custom Device Engine.lvlib/RT Driver VI.vi</Property>
@@ -655,6 +665,22 @@ DirectoryIndex index.htm
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="Data Sharing Framework Core.lvlibp" Type="LVLibp" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp">
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Data Sharing Framework Configuration.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Configuration/1.0.0/Data Sharing Framework Configuration.lvlib"/>
+				<Item Name="Data Sharing Framework Engine.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Engine/Data Sharing Framework Engine.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Memory Manager.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nirviCommon.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -864,6 +890,22 @@ DirectoryIndex index.htm
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Data Sharing Framework Core.lvlibp" Type="LVLibp" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp">
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Data Sharing Framework Configuration.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Configuration/1.0.0/Data Sharing Framework Configuration.lvlib"/>
+				<Item Name="Data Sharing Framework Engine.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Engine/Data Sharing Framework Engine.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Memory Manager.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nirviCommon.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1072,6 +1114,22 @@ DirectoryIndex index.htm
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="Data Sharing Framework Core.lvlibp" Type="LVLibp" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp">
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Data Sharing Framework Configuration.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Configuration/1.0.0/Data Sharing Framework Configuration.lvlib"/>
+				<Item Name="Data Sharing Framework Engine.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Engine/Data Sharing Framework Engine.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Memory Manager.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nirviCommon.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../Data Sharing Framework/Builds/Current/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
