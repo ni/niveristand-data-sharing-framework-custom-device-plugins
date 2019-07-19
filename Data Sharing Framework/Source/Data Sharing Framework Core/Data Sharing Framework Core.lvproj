@@ -120,6 +120,45 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Data Sharing Framework Core Debug" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C67ACC56-F748-40CA-8CB8-642731803346}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core Debug</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Debug/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8F7D7508-6E0D-4460-B1B6-58FB4BCA7C3E}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Debug/NI_AB_PROJECTNAME/Data Sharing Framework Core.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Debug/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3F7DD506-21E7-4135-806D-08965BB4DDD8}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Data Sharing Framework Core.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="TgtF_internalName" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{842CF830-473D-4D9D-973C-A8D54AEA5303}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 		</Item>
 	</Item>
 	<Item Name="RT PXI Target" Type="RT PXI Chassis">

@@ -4,6 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="UDP Configuration.lvclass" Type="LVClass" URL="../../Configuration/UDP Configuration.lvclass"/>
-	<Item Name="UDP Transceiver.lvclass" Type="LVClass" URL="../UDP Transceiver.lvclass"/>
+	<Item Name="UDP Configuration.lvclass" Type="LVClass" URL="../Configuration/UDP Configuration.lvclass"/>
+	<Item Name="UDP Transceiver.lvclass" Type="LVClass" URL="../Runtime/UDP Transceiver.lvclass"/>
 </Library>
