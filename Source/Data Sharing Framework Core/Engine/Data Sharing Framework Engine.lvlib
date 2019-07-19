@@ -55,8 +55,8 @@
 		<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Hardware Info/Hardware Info/Hardware Info.lvclass"/>
 	</Item>
 	<Item Name="Interfaces" Type="Folder">
-		<Item Name="DSF.Engine.Interface.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Interface/DSF.Engine.Interface.lvclass"/>
-		<Item Name="DSF.Engine.Interface.Transceiver.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Interface/DSF.Engine.Interface.Transceiver.lvclass"/>
+		<Item Name="Engine Interface.lvclass" Type="LVClass" URL="../Interfaces/Engine Interface/Engine Interface.lvclass"/>
+		<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../Interfaces/Transceiver Interface/Transceiver Interface.lvclass"/>
 	</Item>
 	<Item Name="Memory" Type="Folder">
 		<Item Name="Cache" Type="Folder">
