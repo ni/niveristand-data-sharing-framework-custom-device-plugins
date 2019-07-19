@@ -82,47 +82,42 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="DSF.Engine" Type="Packed Library">
+			<Item Name="Data Sharing Framework Core" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{6E70C32C-8D19-4185-8588-EBA753B8CA4D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DSF.Engine</Property>
-				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Engine</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{3F39917F-F305-481E-9D57-4849BCD23BA8}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0512F93A-51A5-4107-8C7E-93F4AD59BEB1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/data-sharing-framework/Builds/Windows/32/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C394DEB0-3E85-46D0-84FB-AA261491738C}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DSF.Engine.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Engine/DSF.Engine.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/data-sharing-framework/Builds/Windows/32/NI_AB_PROJECTNAME/Data Sharing Framework Core.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Engine</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/data-sharing-framework/Builds/Windows/32/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{82A108E2-BA46-472A-80C5-D1DE5A05AF34}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{11E01038-FA15-465E-9AE2-068E36391540}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Data Sharing Framework Core.lvlib/Data Sharing Framework Engine.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Data Sharing Framework Core.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dependencies/vi.lib/Static Error Handling.lvlib</Property>
-				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DSF.Engine</Property>
-				<Property Name="TgtF_internalName" Type="Str">DSF.Engine</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">DSF.Engine</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{3B35F7B1-FA28-4E43-BAEA-AB3695C76B63}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DSF.Engine.lvlibp</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="TgtF_internalName" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{38135D1B-F67A-485D-A591-F1A64D20869C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
