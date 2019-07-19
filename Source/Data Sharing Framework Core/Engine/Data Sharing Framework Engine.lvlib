@@ -13,22 +13,22 @@
 	</Item>
 	<Item Name="Configuration" Type="Folder">
 		<Item Name="Types" Type="Folder">
-			<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Framework Configuration/Framework Configuration.lvclass"/>
-			<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Plugin Configuration/Plugin Configuration.lvclass"/>
-			<Item Name="Transceiver Configuration.lvclass" Type="LVClass" URL="../Transceiver/Transceiver Configuration.lvclass"/>
-			<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Transfer Configuration/Transfer Configuration.lvclass"/>
-			<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Shared/Classes/Transfer Group/Transfer Group Configuration.lvclass"/>
+			<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Framework Configuration/Framework Configuration.lvclass"/>
+			<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Plugin Configuration/Plugin Configuration.lvclass"/>
+			<Item Name="Transceiver Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Transceiver Configuration/Transceiver Configuration.lvclass"/>
+			<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Transfer Configuration/Transfer Configuration.lvclass"/>
+			<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Transfer Group Configuration/Transfer Group Configuration.lvclass"/>
 		</Item>
-		<Item Name="Configuration.lvclass" Type="LVClass" URL="../Configuration/Configuration.lvclass"/>
+		<Item Name="Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Configuration/Configuration.lvclass"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
-		<Item Name="DSF.Shared.Constant.vit" Type="VI" URL="../../../../old/dsf core/Source/Shared/Constants/DSF.Shared.Constant.vit"/>
-		<Item Name="DSF.Shared.Constants.Library Name.Engine.vi" Type="VI" URL="../../../../old/dsf core/Source/Shared/Constants/DSF.Shared.Constants.Library Name.Engine.vi"/>
-		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../../../../old/dsf core/Source/Shared/Constants/DSF.Shared.Constants.vi"/>
+		<Item Name="Constant.vit" Type="VI" URL="../Constants/Constant.vit"/>
+		<Item Name="Constants.vi" Type="VI" URL="../Constants/Constants.vi"/>
+		<Item Name="Engine Library Name.vi" Type="VI" URL="../Constants/Engine Library Name.vi"/>
 	</Item>
 	<Item Name="Debug" Type="Folder">
-		<Item Name="DSF.Engine.Debug Flags.FIFO.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Debug/DSF.Engine.Debug Flags.FIFO.lvclass"/>
-		<Item Name="DSF.Engine.Debug Flags.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Debug/DSF.Engine.Debug Flags.lvclass"/>
+		<Item Name="Debug Flags FIFO.lvclass" Type="LVClass" URL="../Debug/Debug Flags FIFO/Debug Flags FIFO.lvclass"/>
+		<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Debug/Debug Flags/Debug Flags.lvclass"/>
 	</Item>
 	<Item Name="Execution" Type="Folder">
 		<Item Name="Buffer Converter" Type="Folder">

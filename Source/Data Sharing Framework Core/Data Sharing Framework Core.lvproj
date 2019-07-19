@@ -67,7 +67,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
-			<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../../../old/dsf core/Source/DSF Configuration API/1.0.0/DSF Configuration API.lvlib"/>
+			<Item Name="DSF Configuration API.lvlib" Type="Library" URL="../Configuration/1.0.0/DSF Configuration API.lvlib"/>
 			<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Memory Manager.lvlib"/>
 			<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 		</Item>
