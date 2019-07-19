@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
+	<Property Name="NI.Lib.ContainingLib" Type="Str">Data Sharing Framework Core.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Data Sharing Framework Core.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+[!!!*Q(C=\:5R&lt;V-R%-=PC%CI&lt;YL5$Q$:SX)D,%BB\J41"=;&lt;W+-/F&gt;J/_1IXVV0Y"&amp;7'C,GXP+V,"H95#3&amp;FC#+6HRWX#BXI1A6$T\E8ZX`WX?`:FC.3\)8)=\FZS.+OL?Z&lt;DK^VF.,I9,U&lt;P\K[D1`4K(O1UFZXF)9\]=OWRA`4=&gt;/MV^X8R_EQF:E9]?U!ZA_((\J(2^W0&gt;%L]-I?WTV,`-+6GLWF3\O4Y@$ZP[\0%BSG^;:J0+8&gt;1WGSL&gt;BN?&lt;&gt;^PU`3_`0Z_\@S7L_DHZ`@?PWV8O`%`L-]$*E`W:0`74B]]J)^_:DO3,S)]=-=.6]GF&lt;A)^U!-^U!-^U"X&gt;U2X&gt;U2X&gt;U1X&gt;U!X&gt;U!X&gt;U"6&gt;U26&gt;U26&gt;U5N$&amp;X2"&amp;X31AO*"I3"JE#!9$)I%DY!HY!FY!BZ_3M!4]!1]!5`!QR!*?!+?A#@A#8C9*A&amp;0Q"0Q"$Q"$[E+3:3'$E`!1XJR?"Q?B]@B=8AI+1[0!_!5=R)\3=!1*_BU("[(R_'B+Q[0Q_0Q/$Q/$W&amp;R?"Q?B]@B=8C95F&lt;&amp;#UVO[0#12AQ?A]@A-8A-(F+,Q70Q'$Q'D]&amp;$/4&amp;Y$"Y$QCBI*!&gt;"D%H'!//(Q70Q]#5'D]&amp;D]"A]"A_BME.76C&lt;4Z)9/D]+D]#A]#I`#1QJ2?"1?B5@B58B)+QK0QK0Q+$Q+$[6%Y6&amp;Y&amp;"Y&amp;2#F+?6'3+2/619KA]0!JJU8,,HEBU&gt;*%[O'6?CCF(D;JBUDKY:#[[6)X5_IG36V]K9MK&gt;&lt;'E,I,5FZ-+,26';B'JE`.!7@*=Y$.]CE`Q-4\%"XA@\_7J@XHA=LG5R7)BM^F-JN/J4#94'9`(QF_Z$!9$[@@\UOPV\K["F\3\#[(?3RPJ`(T&lt;/&lt;P9\\S\W$^Z&gt;4JYX\P_@0,D_PP*N]WG]`6GUTH,9R\JP`1`O"PFG?TG:9V_!6:^%59!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -8,90 +10,90 @@
 
 </Property>
 	<Item Name="Component Loader" Type="Folder">
-		<Item Name="Class Loader.lvclass" Type="LVClass" URL="../Class Loader/Class Loader.lvclass"/>
-		<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Component Loader/Component Loader.lvclass"/>
+		<Item Name="Class Loader.lvclass" Type="LVClass" URL="../Internal/Class Loader/Class Loader.lvclass"/>
+		<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Internal/Component Loader/Component Loader.lvclass"/>
 	</Item>
 	<Item Name="Configuration" Type="Folder">
 		<Item Name="Types" Type="Folder">
-			<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Framework Configuration/Framework Configuration.lvclass"/>
-			<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Plugin Configuration/Plugin Configuration.lvclass"/>
-			<Item Name="Transceiver Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Transceiver Configuration/Transceiver Configuration.lvclass"/>
-			<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Transfer Configuration/Transfer Configuration.lvclass"/>
-			<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Transfer Group Configuration/Transfer Group Configuration.lvclass"/>
+			<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Internal/Configuration Classes/Framework Configuration/Framework Configuration.lvclass"/>
+			<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Internal/Configuration Classes/Plugin Configuration/Plugin Configuration.lvclass"/>
+			<Item Name="Transceiver Configuration.lvclass" Type="LVClass" URL="../Internal/Configuration Classes/Transceiver Configuration/Transceiver Configuration.lvclass"/>
+			<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Internal/Configuration Classes/Transfer Configuration/Transfer Configuration.lvclass"/>
+			<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../Internal/Configuration Classes/Transfer Group Configuration/Transfer Group Configuration.lvclass"/>
 		</Item>
-		<Item Name="Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Configuration/Configuration.lvclass"/>
-		<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Configuration Classes/DSF Config File to Engine Config Cluster.vi"/>
-		<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../Configuration Classes/Engine Config Cluster to DSF Config File.vi"/>
-		<Item Name="Write Settings to file.vi" Type="VI" URL="../Configuration Classes/Write Settings to file.vi"/>
+		<Item Name="Configuration.lvclass" Type="LVClass" URL="../Internal/Configuration Classes/Configuration/Configuration.lvclass"/>
+		<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Internal/Configuration Classes/DSF Config File to Engine Config Cluster.vi"/>
+		<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../Internal/Configuration Classes/Engine Config Cluster to DSF Config File.vi"/>
+		<Item Name="Write Settings to file.vi" Type="VI" URL="../Internal/Configuration Classes/Write Settings to file.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
-		<Item Name="Constant.vit" Type="VI" URL="../Constants/Constant.vit"/>
-		<Item Name="Constants.vi" Type="VI" URL="../Constants/Constants.vi"/>
-		<Item Name="Engine Library Name.vi" Type="VI" URL="../Constants/Engine Library Name.vi"/>
+		<Item Name="Constant.vit" Type="VI" URL="../Internal/Constants/Constant.vit"/>
+		<Item Name="Constants.vi" Type="VI" URL="../Internal/Constants/Constants.vi"/>
+		<Item Name="Engine Library Name.vi" Type="VI" URL="../Internal/Constants/Engine Library Name.vi"/>
 	</Item>
 	<Item Name="Datatype Size" Type="Folder">
-		<Item Name="Get Array of Datatype Size.vi" Type="VI" URL="../Datatype Size Methods/Get Array of Datatype Size.vi"/>
-		<Item Name="Get Datatype Size.vi" Type="VI" URL="../Datatype Size Methods/Get Datatype Size.vi"/>
+		<Item Name="Get Array of Datatype Size.vi" Type="VI" URL="../Internal/Datatype Size Methods/Get Array of Datatype Size.vi"/>
+		<Item Name="Get Datatype Size.vi" Type="VI" URL="../Internal/Datatype Size Methods/Get Datatype Size.vi"/>
 	</Item>
 	<Item Name="Debug" Type="Folder">
-		<Item Name="Debug Flags FIFO.lvclass" Type="LVClass" URL="../Debug/Debug Flags FIFO/Debug Flags FIFO.lvclass"/>
-		<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Debug/Debug Flags/Debug Flags.lvclass"/>
+		<Item Name="Debug Flags FIFO.lvclass" Type="LVClass" URL="../Internal/Debug/Debug Flags FIFO/Debug Flags FIFO.lvclass"/>
+		<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Internal/Debug/Debug Flags/Debug Flags.lvclass"/>
 	</Item>
 	<Item Name="Execution" Type="Folder">
 		<Item Name="Buffer Converter" Type="Folder">
-			<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Execution/Buffer Converter/Buffer Converter.lvclass"/>
+			<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Internal/Execution/Buffer Converter/Buffer Converter.lvclass"/>
 		</Item>
 		<Item Name="Pool" Type="Folder">
-			<Item Name="Pool ID.lvclass" Type="LVClass" URL="../Execution/Pool/Pool ID/Pool ID.lvclass"/>
-			<Item Name="Pool.lvclass" Type="LVClass" URL="../Execution/Pool/Pool/Pool.lvclass"/>
+			<Item Name="Pool ID.lvclass" Type="LVClass" URL="../Internal/Execution/Pool/Pool ID/Pool ID.lvclass"/>
+			<Item Name="Pool.lvclass" Type="LVClass" URL="../Internal/Execution/Pool/Pool/Pool.lvclass"/>
 		</Item>
 		<Item Name="State" Type="Folder">
-			<Item Name="Framework State.lvclass" Type="LVClass" URL="../Execution/Framework State/Framework State.lvclass"/>
+			<Item Name="Framework State.lvclass" Type="LVClass" URL="../Internal/Execution/Framework State/Framework State.lvclass"/>
 		</Item>
 		<Item Name="Status" Type="Folder">
-			<Item Name="Engine Status.lvclass" Type="LVClass" URL="../Engine Status/Engine Status.lvclass"/>
-			<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../Framework Performance/Framework Performance.lvclass"/>
-			<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Execution/Framework Status/Framework Status.lvclass"/>
+			<Item Name="Engine Status.lvclass" Type="LVClass" URL="../Internal/Engine Status/Engine Status.lvclass"/>
+			<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../Internal/Framework Performance/Framework Performance.lvclass"/>
+			<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Internal/Execution/Framework Status/Framework Status.lvclass"/>
 		</Item>
 		<Item Name="Thread Parameters" Type="Folder">
-			<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
+			<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Internal/Execution/Thread Parameters/Thread Parameters.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="Hardware Info" Type="Folder">
-		<Item Name="CPU Hardware Info.lvclass" Type="LVClass" URL="../Hardware Info/CPU Hardware Info/CPU Hardware Info.lvclass"/>
-		<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Hardware Info/Hardware Info/Hardware Info.lvclass"/>
+		<Item Name="CPU Hardware Info.lvclass" Type="LVClass" URL="../Internal/Hardware Info/CPU Hardware Info/CPU Hardware Info.lvclass"/>
+		<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Internal/Hardware Info/Hardware Info/Hardware Info.lvclass"/>
 	</Item>
 	<Item Name="Interfaces" Type="Folder">
-		<Item Name="Engine Interface.lvclass" Type="LVClass" URL="../Interfaces/Engine Interface/Engine Interface.lvclass"/>
-		<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../Interfaces/Transceiver Interface/Transceiver Interface.lvclass"/>
+		<Item Name="Engine Interface.lvclass" Type="LVClass" URL="../Internal/Interfaces/Engine Interface/Engine Interface.lvclass"/>
+		<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../Internal/Interfaces/Transceiver Interface/Transceiver Interface.lvclass"/>
 	</Item>
 	<Item Name="Memory" Type="Folder">
 		<Item Name="Cache" Type="Folder">
-			<Item Name="Memory Cache.lvclass" Type="LVClass" URL="../Memory/Memory Cache/Memory Cache.lvclass"/>
+			<Item Name="Memory Cache.lvclass" Type="LVClass" URL="../Internal/Memory/Memory Cache/Memory Cache.lvclass"/>
 		</Item>
 		<Item Name="Pointers" Type="Folder">
-			<Item Name="Double Pointer.lvclass" Type="LVClass" URL="../Memory/Double Pointer/Double Pointer.lvclass"/>
-			<Item Name="Memory Buffer.lvclass" Type="LVClass" URL="../Memory/Memory Buffer/Memory Buffer.lvclass"/>
+			<Item Name="Double Pointer.lvclass" Type="LVClass" URL="../Internal/Memory/Double Pointer/Double Pointer.lvclass"/>
+			<Item Name="Memory Buffer.lvclass" Type="LVClass" URL="../Internal/Memory/Memory Buffer/Memory Buffer.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="Timing" Type="Folder">
-		<Item Name="Engine Timing.lvclass" Type="LVClass" URL="../Timing/Engine Timing.lvclass"/>
+		<Item Name="Engine Timing.lvclass" Type="LVClass" URL="../Internal/Timing/Engine Timing.lvclass"/>
 	</Item>
 	<Item Name="Transceiver" Type="Folder">
-		<Item Name="Transceiver Loader.lvclass" Type="LVClass" URL="../Transceiver/Transceiver Loader/Transceiver Loader.lvclass"/>
-		<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Transceiver/Transceiver Thread/Transceiver Thread.lvclass"/>
-		<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Transceiver/Transceiver/Transceiver.lvclass"/>
+		<Item Name="Transceiver Loader.lvclass" Type="LVClass" URL="../Internal/Transceiver/Transceiver Loader/Transceiver Loader.lvclass"/>
+		<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Internal/Transceiver/Transceiver Thread/Transceiver Thread.lvclass"/>
+		<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Internal/Transceiver/Transceiver/Transceiver.lvclass"/>
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
-		<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Channel Block Descriptor.ctl"/>
-		<Item Name="DSF Runtime Channel Block.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Channel Block.ctl"/>
-		<Item Name="DSF Runtime Channel Descriptor.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Channel Descriptor.ctl"/>
-		<Item Name="DSF Runtime Channel Parameters.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Channel Parameters.ctl"/>
-		<Item Name="DSF Runtime Index.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Index.ctl"/>
-		<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Type Buffers.ctl"/>
+		<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../Internal/Type Definitions/DSF Runtime Channel Block Descriptor.ctl"/>
+		<Item Name="DSF Runtime Channel Block.ctl" Type="VI" URL="../Internal/Type Definitions/DSF Runtime Channel Block.ctl"/>
+		<Item Name="DSF Runtime Channel Descriptor.ctl" Type="VI" URL="../Internal/Type Definitions/DSF Runtime Channel Descriptor.ctl"/>
+		<Item Name="DSF Runtime Channel Parameters.ctl" Type="VI" URL="../Internal/Type Definitions/DSF Runtime Channel Parameters.ctl"/>
+		<Item Name="DSF Runtime Index.ctl" Type="VI" URL="../Internal/Type Definitions/DSF Runtime Index.ctl"/>
+		<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../Internal/Type Definitions/DSF Runtime Type Buffers.ctl"/>
 	</Item>
-	<Item Name="DSF.Engine.Framework.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Framework/DSF.Engine.Framework.lvclass"/>
-	<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
-	<Item Name="DSF.Engine.Transfer Group.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Transfer/DSF.Engine.Transfer Group.lvclass"/>
-	<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
+	<Item Name="Framework.lvclass" Type="LVClass" URL="../Framework/Framework.lvclass"/>
+	<Item Name="Plugin.lvclass" Type="LVClass" URL="../Plugin/Plugin.lvclass"/>
+	<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Transfer Group/Transfer Group.lvclass"/>
+	<Item Name="Transfer.lvclass" Type="LVClass" URL="../Transfer/Transfer.lvclass"/>
 </Library>

@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
 	<Property Name="" Type="Bool">true</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">Data Sharing Framework Core.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../Data Sharing Framework Core.lvlib</Property>
 	<Property Name="NI.Lib.FriendGUID" Type="Str">0befa190-b666-49f7-8b1d-6d51fb8b905e</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)6!!!*Q(C=\&gt;8.41*2&amp;-8RIX&amp;"X.'"Q2*/#\2!#\=&amp;NCRJY8:A;)'&gt;[^M#,&gt;!#`O&gt;Z9T127@A24:TR-=.Z8T`?@#C.&lt;3&lt;&gt;[(2JUY@&lt;G`L\0D[?L4_.`8T^^`:`V`_JH`_``7^`@NN=@!C_`4GY'E]CJ3B*#9L(UXMK]C)P]C)P]C*0]C20]C20]C10]C!0]C!0]C!XO=F.&lt;H+47`V+)2?ZS%5/K:C]G+A9N"CA;!R&amp;R5@B+4S&amp;J`$Q697H]"3?QF.Y;+,#5XA+4_%J0(24Y3E]B;@Q&amp;"[''J);/TG?QM0Q3DS**`%EHM4$F%I]#3#:,"EY'13'EMLE*0%EHM4$K2*0YEE]C3@R5+X%EXA34_**0(1:KZ*$-_XE?"B'A3@Q"*\!%XA97I%H]!3?Q".YG%["*`!%C'$#9(!)#DI&amp;$9)PA3@Q=&amp;$A#4S"*`!%(KL'&amp;9KR-J.GWMHR')`R')`R'!^$S(C-RXC-RXA96M:D0-:D0-&lt;$6$)?YT%?!T'4-LX-9+;D;71#Y_&amp;PX#U?6SG(R'/8_O:6XZ4KGUV^%[FP$P6&amp;6V^-^563,\Z[5&gt;7,J6Y%^9^4I^59^34KTF.$(@E]50;5(76,76.7F#6F1:F08&lt;_YY@&amp;YV/&amp;QU([`VW[XUX;\V8K^VGKVUH+ZV'+RU(Q_@XE.X,'`P"#?XUM&lt;TD?TW&gt;8G^O(NE@Q(`D``AH?DLP6[$N&lt;I#5IX%LI!!!!!</Property>

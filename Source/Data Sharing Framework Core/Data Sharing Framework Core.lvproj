@@ -66,8 +66,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Data Sharing Framework Configuration.lvlib" Type="Library" URL="../Configuration/1.0.0/Data Sharing Framework Configuration.lvlib"/>
-		<Item Name="Data Sharing Framework Engine.lvlib" Type="Library" URL="../Engine/Data Sharing Framework Engine.lvlib"/>
+		<Item Name="Data Sharing Framework Core.lvlib" Type="Library" URL="../Data Sharing Framework Core.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -104,7 +103,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{82A108E2-BA46-472A-80C5-D1DE5A05AF34}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Data Sharing Framework Engine.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Data Sharing Framework Core.lvlib/Data Sharing Framework Engine.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
