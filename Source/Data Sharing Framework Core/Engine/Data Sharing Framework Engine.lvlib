@@ -20,11 +20,18 @@
 			<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Transfer Group Configuration/Transfer Group Configuration.lvclass"/>
 		</Item>
 		<Item Name="Configuration.lvclass" Type="LVClass" URL="../Configuration Classes/Configuration/Configuration.lvclass"/>
+		<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Configuration Classes/DSF Config File to Engine Config Cluster.vi"/>
+		<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../Configuration Classes/Engine Config Cluster to DSF Config File.vi"/>
+		<Item Name="Write Settings to file.vi" Type="VI" URL="../Configuration Classes/Write Settings to file.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="Constant.vit" Type="VI" URL="../Constants/Constant.vit"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants/Constants.vi"/>
 		<Item Name="Engine Library Name.vi" Type="VI" URL="../Constants/Engine Library Name.vi"/>
+	</Item>
+	<Item Name="Datatype Size" Type="Folder">
+		<Item Name="Get Array of Datatype Size.vi" Type="VI" URL="../Datatype Size Methods/Get Array of Datatype Size.vi"/>
+		<Item Name="Get Datatype Size.vi" Type="VI" URL="../Datatype Size Methods/Get Datatype Size.vi"/>
 	</Item>
 	<Item Name="Debug" Type="Folder">
 		<Item Name="Debug Flags FIFO.lvclass" Type="LVClass" URL="../Debug/Debug Flags FIFO/Debug Flags FIFO.lvclass"/>
@@ -60,37 +67,28 @@
 	</Item>
 	<Item Name="Memory" Type="Folder">
 		<Item Name="Cache" Type="Folder">
-			<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
+			<Item Name="Memory Cache.lvclass" Type="LVClass" URL="../Memory/Memory Cache/Memory Cache.lvclass"/>
 		</Item>
 		<Item Name="Pointers" Type="Folder">
-			<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
-			<Item Name="DSF.Engine.Pointer.DBL.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Pointer/DSF.Engine.Pointer.DBL.lvclass"/>
+			<Item Name="Double Pointer.lvclass" Type="LVClass" URL="../Memory/Double Pointer/Double Pointer.lvclass"/>
+			<Item Name="Memory Buffer.lvclass" Type="LVClass" URL="../Memory/Memory Buffer/Memory Buffer.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="Timing" Type="Folder">
-		<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
+		<Item Name="Engine Timing.lvclass" Type="LVClass" URL="../Timing/Engine Timing.lvclass"/>
 	</Item>
 	<Item Name="Transceiver" Type="Folder">
-		<Item Name="DSF.Engine.Transceiver Loader.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Transceiver/DSF.Engine.Transceiver Loader.lvclass"/>
-		<Item Name="DSF.Engine.Transceiver Thread.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Transceiver/DSF.Engine.Transceiver Thread.lvclass"/>
-		<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
+		<Item Name="Transceiver Loader.lvclass" Type="LVClass" URL="../Transceiver/Transceiver Loader/Transceiver Loader.lvclass"/>
+		<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Transceiver/Transceiver Thread/Transceiver Thread.lvclass"/>
+		<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Transceiver/Transceiver/Transceiver.lvclass"/>
 	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../../../../old/dsf core/Source/Shared/Typedefs/DSF Runtime Channel Block Descriptor.ctl"/>
-		<Item Name="DSF Runtime Channel Block.ctl" Type="VI" URL="../../../../old/dsf core/Source/Shared/Typedefs/DSF Runtime Channel Block.ctl"/>
-		<Item Name="DSF Runtime Channel Descriptor.ctl" Type="VI" URL="../../../../old/dsf core/Source/Shared/Typedefs/DSF Runtime Channel Descriptor.ctl"/>
-		<Item Name="DSF Runtime Channel Parameters.ctl" Type="VI" URL="../../../../old/dsf core/Source/Shared/Typedefs/DSF Runtime Channel Parameters.ctl"/>
-		<Item Name="DSF Runtime Index.ctl" Type="VI" URL="../../../../old/dsf core/Source/Shared/Typedefs/DSF Runtime Index.ctl"/>
-		<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../../../../old/dsf core/Source/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
-	</Item>
-	<Item Name="VIs" Type="Folder">
-		<Item Name="Data Type" Type="Folder">
-			<Item Name="DSF.Shared.Data Type.Sizeof.1D.vi" Type="VI" URL="../../../../old/dsf core/Source/Shared/VIs/DSF.Shared.Data Type.Sizeof.1D.vi"/>
-			<Item Name="DSF.Shared.Data Type.Sizeof.vi" Type="VI" URL="../../../../old/dsf core/Source/Shared/VIs/DSF.Shared.Data Type.Sizeof.vi"/>
-		</Item>
-		<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../../../../old/dsf core/Source/Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
-		<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../../../../old/dsf core/Source/Engine/Configuration/Engine Config Cluster to DSF Config File.vi"/>
-		<Item Name="Write Settings to file.vi" Type="VI" URL="../../../../old/dsf core/Source/Engine/Configuration/Write Settings to file.vi"/>
+	<Item Name="Type Definitions" Type="Folder">
+		<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Channel Block Descriptor.ctl"/>
+		<Item Name="DSF Runtime Channel Block.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Channel Block.ctl"/>
+		<Item Name="DSF Runtime Channel Descriptor.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Channel Descriptor.ctl"/>
+		<Item Name="DSF Runtime Channel Parameters.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Channel Parameters.ctl"/>
+		<Item Name="DSF Runtime Index.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Index.ctl"/>
+		<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../Type Definitions/DSF Runtime Type Buffers.ctl"/>
 	</Item>
 	<Item Name="DSF.Engine.Framework.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Framework/DSF.Engine.Framework.lvclass"/>
 	<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
