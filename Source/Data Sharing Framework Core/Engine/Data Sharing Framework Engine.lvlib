@@ -32,11 +32,11 @@
 	</Item>
 	<Item Name="Execution" Type="Folder">
 		<Item Name="Buffer Converter" Type="Folder">
-			<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Buffer/Buffer Converter.lvclass"/>
+			<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Execution/Buffer Converter/Buffer Converter.lvclass"/>
 		</Item>
 		<Item Name="Pool" Type="Folder">
-			<Item Name="DSF.Engine.Pool.ID.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Thread Pool/DSF.Engine.Pool.ID.lvclass"/>
-			<Item Name="DSF.Engine.Pool.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Thread Pool/DSF.Engine.Pool.lvclass"/>
+			<Item Name="Pool ID.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Thread Pool/Pool ID.lvclass"/>
+			<Item Name="Pool.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/Thread Pool/Pool.lvclass"/>
 		</Item>
 		<Item Name="State" Type="Folder">
 			<Item Name="Framework State.lvclass" Type="LVClass" URL="../../../../old/dsf core/Source/Engine/Classes/State/Framework State.lvclass"/>
