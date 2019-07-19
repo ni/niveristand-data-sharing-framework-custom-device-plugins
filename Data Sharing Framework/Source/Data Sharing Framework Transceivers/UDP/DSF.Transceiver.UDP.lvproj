@@ -40,30 +40,31 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="UDP Transceiver" Type="Packed Library">
+			<Item Name="UDP Transceiver Release" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{87DE155A-E995-4403-9EED-5E32BC930B20}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">UDP Transceiver</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">s</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">UDP Transceiver Release</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/github/data-sharing-framework/Builds/Windows/32/Transceivers/UDP</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/data-sharing-framework/Data Sharing Framework/Builds/Windows/32/Transceivers/UDP</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{51488ED2-3CE1-44DB-B7B4-A0EE50041843}</Property>
 				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP Transceiver.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/github/data-sharing-framework/Builds/Windows/32/Transceivers/UDP/UDP Transceiver.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/data-sharing-framework/Data Sharing Framework/Builds/Windows/32/Transceivers/UDP/UDP Transceiver Release.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/github/data-sharing-framework/Builds/Windows/32/Transceivers/UDP</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/data-sharing-framework/Data Sharing Framework/Builds/Windows/32/Transceivers/UDP</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8614F68B-82DC-4877-86E6-30BE77F425AF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3AE162DC-10D8-412A-A4D1-572ACB84436E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UDP Transceiver.lvlib</Property>
@@ -76,8 +77,8 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">UDP Transceiver</Property>
-				<Property Name="TgtF_internalName" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">UDP Transceiver Release</Property>
+				<Property Name="TgtF_internalName" Type="Str">UDP Transceiver Release</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">UDP Transceiver</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B19EDFAB-3002-4608-993B-3C06879B04C7}</Property>

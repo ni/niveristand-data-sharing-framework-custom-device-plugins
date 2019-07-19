@@ -86,21 +86,21 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{0512F93A-51A5-4107-8C7E-93F4AD59BEB1}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/github/data-sharing-framework/Builds/Windows/32/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/data-sharing-framework/Data Sharing Framework/Builds/Windows/32/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C394DEB0-3E85-46D0-84FB-AA261491738C}</Property>
 				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/github/data-sharing-framework/Builds/Windows/32/NI_AB_PROJECTNAME/Data Sharing Framework Core.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/data-sharing-framework/Data Sharing Framework/Builds/Windows/32/NI_AB_PROJECTNAME/Data Sharing Framework Core.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/github/data-sharing-framework/Builds/Windows/32/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/data-sharing-framework/Data Sharing Framework/Builds/Windows/32/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{11E01038-FA15-465E-9AE2-068E36391540}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{01A10BDE-5EAF-4CAF-B829-93335319254C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Data Sharing Framework Core.lvlib</Property>

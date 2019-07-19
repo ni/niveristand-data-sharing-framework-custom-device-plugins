@@ -23,28 +23,6 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
-				<Item Name="Data Sharing Framework Core.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp">
-					<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-					<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-					<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Check Path.vi"/>
-					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-					<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Create Mask By Alpha.vi"/>
-					<Item Name="Data Sharing Framework Configuration.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Configuration/1.0.0/Data Sharing Framework Configuration.lvlib"/>
-					<Item Name="Data Sharing Framework Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Engine/Data Sharing Framework Engine.lvlib"/>
-					<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-					<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-					<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/imagedata.ctl"/>
-					<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-					<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Memory Manager.lvlib"/>
-					<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
-					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-					<Item Name="nirviCommon.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-					<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/png.llb/Read PNG File.vi"/>
-					<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
-					<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
-					<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-				</Item>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -91,6 +69,28 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="Data Sharing Framework Core.lvlibp" Type="LVLibp" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp">
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Data Sharing Framework Configuration.lvlib" Type="Library" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Configuration/1.0.0/Data Sharing Framework Configuration.lvlib"/>
+				<Item Name="Data Sharing Framework Engine.lvlib" Type="Library" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/Engine/Data Sharing Framework Engine.lvlib"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/National Instruments/Memory Manager/Memory Manager.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nirviCommon.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/NI/Static Error Handling/Static Error Handling.lvlib"/>
+				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../../../../../DSF/Data Sharing Framework Core/Data Sharing Framework Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
