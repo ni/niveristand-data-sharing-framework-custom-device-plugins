@@ -67,7 +67,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Data Sharing Framework Core.lvlib" Type="Library" URL="../Data Sharing Framework Core.lvlib"/>
-		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -75,9 +74,11 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Memory Manager.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -87,7 +88,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C394DEB0-3E85-46D0-84FB-AA261491738C}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/NI_AB_PROJECTNAME/Data Sharing Framework Core.lvlibp</Property>
@@ -116,6 +117,45 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 National Instruments</Property>
 				<Property Name="TgtF_productName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{38135D1B-F67A-485D-A591-F1A64D20869C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Data Sharing Framework Core Debug" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C67ACC56-F748-40CA-8CB8-642731803346}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core Debug</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Debug/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8F7D7508-6E0D-4460-B1B6-58FB4BCA7C3E}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Debug/NI_AB_PROJECTNAME/Data Sharing Framework Core.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Debug/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3F7DD506-21E7-4135-806D-08965BB4DDD8}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Data Sharing Framework Core.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="TgtF_internalName" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{842CF830-473D-4D9D-973C-A8D54AEA5303}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
@@ -178,10 +218,11 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
+				<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Memory Manager/Memory Manager.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Static Error Handling.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Static Error Handling/Static Error Handling.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -195,7 +236,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{91E922BE-EC84-44A5-9F13-E8A4A9D4BBC8}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Data Sharing Framework Core</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Data Sharing Framework Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/NI_AB_PROJECTNAME/Data Sharing Framework Core.lvlibp</Property>
