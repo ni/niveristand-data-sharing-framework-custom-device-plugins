@@ -14,17 +14,19 @@
 		</Item>
 		<Item Name="Configuration" Type="Folder">
 			<Item Name="Types" Type="Folder">
-				<Item Name="DSF.Shared.Configuration.Framework.lvclass" Type="LVClass" URL="../Shared/Classes/Framework/DSF.Shared.Configuration.Framework.lvclass"/>
-				<Item Name="DSF.Shared.Configuration.Plugin.lvclass" Type="LVClass" URL="../Shared/Classes/Plugin/DSF.Shared.Configuration.Plugin.lvclass"/>
-				<Item Name="DSF.Shared.Configuration.Transceiver.lvclass" Type="LVClass" URL="../Shared/Classes/Transceiver/DSF.Shared.Configuration.Transceiver.lvclass"/>
-				<Item Name="DSF.Shared.Configuration.Transfer Group.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer Group/DSF.Shared.Configuration.Transfer Group.lvclass"/>
-				<Item Name="DSF.Shared.Configuration.Transfer.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer/DSF.Shared.Configuration.Transfer.lvclass"/>
+				<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Framework/Framework Configuration.lvclass"/>
+				<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Plugin/Plugin Configuration.lvclass"/>
+				<Item Name="Transceiver Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Transceiver/Transceiver Configuration.lvclass"/>
+				<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer/Transfer Configuration.lvclass"/>
+				<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer Group/Transfer Group Configuration.lvclass"/>
 			</Item>
-			<Item Name="DSF.Shared.Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/DSF.Shared.Configuration.lvclass"/>
+			<Item Name="Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/Configuration.lvclass"/>
 		</Item>
 		<Item Name="Debug" Type="Folder">
-			<Item Name="DSF.Engine.Debug Flags.FIFO.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/DSF.Engine.Debug Flags.FIFO.lvclass"/>
-			<Item Name="DSF.Engine.Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/DSF.Engine.Debug Flags.lvclass"/>
+			<Item Name="Categories" Type="Folder">
+				<Item Name="FIFO Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/FIFO Flags.lvclass"/>
+			</Item>
+			<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/Debug Flags.lvclass"/>
 		</Item>
 		<Item Name="Execution" Type="Folder">
 			<Item Name="Buffer Converter" Type="Folder">
@@ -60,7 +62,7 @@
 		</Item>
 		<Item Name="Memory" Type="Folder">
 			<Item Name="Cache" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/DSF.Engine.Memory.Cache.lvclass"/>
+				<Item Name="Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/Cache.lvclass"/>
 			</Item>
 			<Item Name="Pointers" Type="Folder">
 				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
