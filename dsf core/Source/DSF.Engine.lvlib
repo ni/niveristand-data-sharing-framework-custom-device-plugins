@@ -65,8 +65,8 @@
 				<Item Name="Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/Cache.lvclass"/>
 			</Item>
 			<Item Name="Pointers" Type="Folder">
-				<Item Name="DSF.Engine.Memory.Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/DSF.Engine.Memory.Buffer.lvclass"/>
-				<Item Name="DSF.Engine.Pointer.DBL.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DSF.Engine.Pointer.DBL.lvclass"/>
+				<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer.lvclass"/>
+				<Item Name="DBL Pointer.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DBL Pointer.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Timing" Type="Folder">
