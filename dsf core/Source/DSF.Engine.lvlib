@@ -55,8 +55,8 @@
 			<Item Name="DSF.Engine.Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/DSF.Engine.Hardware Info.lvclass"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
-			<Item Name="DSF.Engine.Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.lvclass"/>
-			<Item Name="DSF.Engine.Interface.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/DSF.Engine.Interface.Transceiver.lvclass"/>
+			<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/Interface.lvclass"/>
+			<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/Transceiver Interface.lvclass"/>
 		</Item>
 		<Item Name="Memory" Type="Folder">
 			<Item Name="Cache" Type="Folder">
@@ -68,7 +68,7 @@
 			</Item>
 		</Item>
 		<Item Name="Timing" Type="Folder">
-			<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
+			<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
 		</Item>
 		<Item Name="Transceiver" Type="Folder">
 			<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver Thread.lvclass"/>
