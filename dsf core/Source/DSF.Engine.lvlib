@@ -75,8 +75,8 @@
 			<Item Name="DSF.Engine.Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver Thread.lvclass"/>
 			<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
 		</Item>
-		<Item Name="DSF.Engine.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Framework.lvclass"/>
-		<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
+		<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
+		<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 		<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer Group.lvclass"/>
 		<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
 	</Item>
