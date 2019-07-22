@@ -31,8 +31,8 @@
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer Converter.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
-				<Item Name="DSF.Engine.Pool.ID.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.ID.lvclass"/>
-				<Item Name="DSF.Engine.Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/DSF.Engine.Pool.lvclass"/>
+				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
+				<Item Name="Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Pool.lvclass"/>
 			</Item>
 			<Item Name="State" Type="Folder">
 				<Item Name="Framework State.lvclass" Type="LVClass" URL="../Engine/Classes/State/Framework State.lvclass"/>
@@ -40,19 +40,19 @@
 			<Item Name="Status" Type="Folder">
 				<Item Name="Framework" Type="Folder">
 					<Item Name="Performance" Type="Folder">
-						<Item Name="DSF.Engine.Status.Framework.Performance.lvclass" Type="LVClass" URL="../Engine/Classes/Status/DSF.Engine.Status.Framework.Performance.lvclass"/>
+						<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Performance.lvclass"/>
 					</Item>
-					<Item Name="DSF.Engine.Status.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Status/DSF.Engine.Status.Framework.lvclass"/>
+					<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
 				</Item>
-				<Item Name="DSF.Engine.Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/DSF.Engine.Status.lvclass"/>
+				<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 			</Item>
 			<Item Name="Thread Parameters" Type="Folder">
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Hardware Info" Type="Folder">
-			<Item Name="DSF.Engine.Hardware Info.CPU.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/DSF.Engine.Hardware Info.CPU.lvclass"/>
-			<Item Name="DSF.Engine.Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/DSF.Engine.Hardware Info.lvclass"/>
+			<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/CPU Info.lvclass"/>
+			<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info.lvclass"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/Interface.lvclass"/>
