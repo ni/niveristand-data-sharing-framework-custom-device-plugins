@@ -71,9 +71,8 @@
 			<Item Name="DSF.Engine.Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/DSF.Engine.Timing.lvclass"/>
 		</Item>
 		<Item Name="Transceiver" Type="Folder">
-			<Item Name="DSF.Engine.Transceiver Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver Loader.lvclass"/>
-			<Item Name="DSF.Engine.Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver Thread.lvclass"/>
-			<Item Name="DSF.Engine.Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/DSF.Engine.Transceiver.lvclass"/>
+			<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver Thread.lvclass"/>
+			<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
 		</Item>
 		<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 		<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
