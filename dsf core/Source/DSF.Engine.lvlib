@@ -77,13 +77,13 @@
 		</Item>
 		<Item Name="DSF.Engine.Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/DSF.Engine.Framework.lvclass"/>
 		<Item Name="DSF.Engine.Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/DSF.Engine.Plugin.lvclass"/>
-		<Item Name="DSF.Engine.Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer Group.lvclass"/>
-		<Item Name="DSF.Engine.Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/DSF.Engine.Transfer.lvclass"/>
+		<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer Group.lvclass"/>
+		<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
-		<Item Name="DSF.Shared.Constant.vit" Type="VI" URL="../Shared/Constants/DSF.Shared.Constant.vit"/>
-		<Item Name="DSF.Shared.Constants.Library Name.Engine.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.Library Name.Engine.vi"/>
-		<Item Name="DSF.Shared.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Shared.Constants.vi"/>
+		<Item Name="DSF.Constant.vit" Type="VI" URL="../Shared/Constants/DSF.Constant.vit"/>
+		<Item Name="DSF.Constants.Library Name.Engine.vi" Type="VI" URL="../Shared/Constants/DSF.Constants.Library Name.Engine.vi"/>
+		<Item Name="DSF.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Constants.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../Shared/Typedefs/DSF Runtime Channel Block Descriptor.ctl"/>
@@ -95,8 +95,8 @@
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Data Type" Type="Folder">
-			<Item Name="DSF.Shared.Data Type.Sizeof.1D.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Data Type.Sizeof.1D.vi"/>
-			<Item Name="DSF.Shared.Data Type.Sizeof.vi" Type="VI" URL="../Shared/VIs/DSF.Shared.Data Type.Sizeof.vi"/>
+			<Item Name="DSF.Data Type.Sizeof.1D.vi" Type="VI" URL="../Shared/VIs/DSF.Data Type.Sizeof.1D.vi"/>
+			<Item Name="DSF.Data Type.Sizeof.vi" Type="VI" URL="../Shared/VIs/DSF.Data Type.Sizeof.vi"/>
 		</Item>
 		<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
 		<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../Engine/Configuration/Engine Config Cluster to DSF Config File.vi"/>
