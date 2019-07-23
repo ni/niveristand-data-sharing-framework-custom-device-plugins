@@ -74,7 +74,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core Debug</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9DF4E549-885A-426F-818D-BDADFCF381B9}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core/DSF Core.lvlibp</Property>

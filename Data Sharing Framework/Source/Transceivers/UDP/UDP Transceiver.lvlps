@@ -9,3 +9,11 @@ Cache_Path[Path] Line0002 = "83-A8C3-41EF-BED6-BF26F0819570}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/Admin/AppData/Local/Temp/AB_Cache_{7EC6E1"
 Cache_Path[Path] Line0002 = "67-A0A8-4830-963A-FB9F6DB78EE2}.txt"
 
+[AB_Cache_{5A2BDFB4-63B1-472F-BBE0-9DE5C0B9B5F0}]
+Cache_Path[Path] Line0001 = "/C/Users/Admin/AppData/Local/Temp/AB_Cache_{5A2BDF"
+Cache_Path[Path] Line0002 = "B4-63B1-472F-BBE0-9DE5C0B9B5F0}.txt"
+
+[AB_Cache_{2B7DFC0E-81D0-4F4D-91D0-12D7B1BB8354}]
+Cache_Path[Path] Line0001 = "/C/Users/Admin/AppData/Local/Temp/AB_Cache_{2B7DFC"
+Cache_Path[Path] Line0002 = "0E-81D0-4F4D-91D0-12D7B1BB8354}.txt"
+
