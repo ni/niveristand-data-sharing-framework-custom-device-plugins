@@ -280,11 +280,33 @@
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core/DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
+		<Item Name="UDP Transceiver.lvlibp" Type="LVLibp" URL="../../../../../DSF/Components/UDP Transceiver.lvlibp">
+			<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../../../DSF/Components/UDP Transceiver.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Memory Manager.lvlib"/>
+			<Item Name="UDP Configuration.lvclass" Type="LVClass" URL="../../../../../DSF/Components/UDP Transceiver.lvlibp/Configuration/UDP Configuration.lvclass"/>
+			<Item Name="UDP Transceiver.lvclass" Type="LVClass" URL="../../../../../DSF/Components/UDP Transceiver.lvlibp/Runtime/UDP Transceiver.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
 			</Item>
+			<Item Name="Buffer.Get Buffer Size.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer.Get Buffer Size.vi"/>
+			<Item Name="Buffer.Read.1D.U8.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer.Read.1D.U8.vi"/>
+			<Item Name="Buffer.Read.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer.Read.vi"/>
+			<Item Name="Buffer.Write.1D.U8.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer.Write.1D.U8.vi"/>
+			<Item Name="Buffer.Write.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer.Write.vi"/>
+			<Item Name="Configuration.Get Name.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Configuration/Configuration.Get Name.vi"/>
+			<Item Name="Configuration.Get Settings.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Configuration/Configuration.Get Settings.vi"/>
+			<Item Name="DSF Settings Info.ctl" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
+			<Item Name="Transfer Configuration.Required Buffer Size.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transfer/Transfer Configuration.Required Buffer Size.vi"/>
+			<Item Name="Transfer Group Configuration.Get Direction.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transfer Group/Transfer Group Configuration.Get Direction.vi"/>
+			<Item Name="Transfer Group Configuration.Get Transfer Configurations.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transfer Group/Transfer Group Configuration.Get Transfer Configurations.vi"/>
+			<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transfer Group/Transfer Group Configuration.lvclass"/>
+			<Item Name="Transfer Group.Get Transceiver ID.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transfer/Transfer Group.Get Transceiver ID.vi"/>
+			<Item Name="Transfer Group.Get Transfers.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transfer/Transfer Group.Get Transfers.vi"/>
+			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transfer/Transfer Group.lvclass"/>
+			<Item Name="Transfer.Get String Buffer.vi" Type="VI" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transfer/Transfer.Get String Buffer.vi"/>
+			<Item Name="Transfer.lvclass" Type="LVClass" URL="/../Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transfer/Transfer.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
