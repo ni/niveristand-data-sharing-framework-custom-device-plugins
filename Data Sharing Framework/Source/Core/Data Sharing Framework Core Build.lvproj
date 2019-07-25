@@ -28,11 +28,12 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Data Sharing Framework Core" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{42977759-096D-459B-9F98-CFF181B6F899}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7DEC4414-BDE1-4857-9D30-3E64BCAB077F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{88D7AAB4-2FE7-4227-A6CE-B21B0947074F}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5AA149DB-6B1F-4E33-98F3-931B89688611}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core/DSF Core.lvlibp</Property>
@@ -43,7 +44,8 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4294B9C6-2535-4162-9829-C96BD8DCC4E1}</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7774572D-65F1-443F-8936-89A904C5057B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF Core.lvlib</Property>
@@ -64,17 +66,19 @@
 				<Property Name="TgtF_internalName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">Data Sharing Framework Core</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{199ACE5C-BC96-4AE4-A4B2-119C62A4D16A}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5CD91A18-57C5-4C44-8723-650B83BF5C88}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Data Sharing Framework Core Debug" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{57565E93-560B-4FE0-86BB-DCE0AEFB5609}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6CFF5DE2-FC05-4741-B101-5D868895C680}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core Debug</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9DF4E549-885A-426F-818D-BDADFCF381B9}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{FDDD110F-E911-47E7-BACC-9E25B0B94FDA}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core/DSF Core.lvlibp</Property>
@@ -85,7 +89,8 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4294B9C6-2535-4162-9829-C96BD8DCC4E1}</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7774572D-65F1-443F-8936-89A904C5057B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF Core.lvlib</Property>
@@ -107,7 +112,7 @@
 				<Property Name="TgtF_internalName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">Data Sharing Framework Core</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{CA726DBC-5F97-436E-B885-FDB71E7DA033}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{965C8349-4DFB-40E0-A6B5-4C576D35A7C5}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>

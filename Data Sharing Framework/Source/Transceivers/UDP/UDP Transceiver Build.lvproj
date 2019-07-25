@@ -132,6 +132,98 @@
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="UDP Transceiver" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{AB0EA010-2939-41B6-90FE-8C24945E7C97}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">UDP Transceiver</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Transceivers/UDP</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6F74E28E-D8D0-40CE-B630-EA0198F4D848}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">UDP Transceiver.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Transceivers/UDP/UDP Transceiver.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Transceivers/UDP</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C05233D5-0DE7-46D7-B701-A1050E50D816}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UDP Transceiver.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Memory Manager.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_internalName" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{44DAA207-9395-408E-89C5-AC989870DEBF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">UDP Transceiver.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="UDP Transceiver Debug (doesn&apos;t work)" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{854905C3-B53A-4236-8EE4-0E3DA0BD5D5E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">UDP Transceiver Debug (doesn't work)</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Transceivers/UDP</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{CFE4B019-BBCF-4A9B-B616-BC992E622B8A}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">UDP Transceiver.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Transceivers/UDP/UDP Transceiver Debug (doesn't work).lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Transceivers/UDP</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DB107AAD-87B5-4792-BA55-3BC011FFFBCE}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UDP Transceiver.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Memory Manager.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_internalName" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B1140B7C-75CB-4D75-8751-3DE363552E14}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">UDP Transceiver.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

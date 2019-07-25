@@ -18,38 +18,21 @@
 			<Item Name="Create Transfer Configuration.vi" Type="VI" URL="../Configuration/Create Transfer Configuration.vi"/>
 			<Item Name="Create Transfer Group Configuration.vi" Type="VI" URL="../Configuration/Create Transfer Group Configuration.vi"/>
 		</Item>
-		<Item Name="DSF" Type="Folder">
-			<Item Name="Components" Type="Folder">
-				<Item Name="UDP Transceiver.lvlibp" Type="LVLibp" URL="../../../../../DSF/Components/UDP Transceiver.lvlibp">
-					<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../../../DSF/Components/UDP Transceiver.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Memory Manager.lvlib"/>
-					<Item Name="UDP Transceiver.lvclass" Type="LVClass" URL="../../../../../DSF/Components/UDP Transceiver.lvlibp/Runtime/UDP Transceiver.lvclass"/>
-				</Item>
+		<Item Name="UDP Test" Type="Folder">
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="UDP.Rx.Launch.vi" Type="VI" URL="../UDP/UDP.Rx.Launch.vi"/>
+				<Item Name="UDP.Rx.vi" Type="VI" URL="../UDP/UDP.Rx.vi"/>
+			</Item>
+			<Item Name="UDP.Rx.Top.vi" Type="VI" URL="../UDP/UDP.Rx.Top.vi"/>
+		</Item>
+		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
 			</Item>
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp">
-				<Item Name="Private" Type="Folder">
-					<Item Name="Classes" Type="Folder">
-						<Item Name="Hardware Info" Type="Folder">
-							<Item Name="CPU Info.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Hardware/CPU Info.lvclass"/>
-							<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Hardware/Hardware Info.lvclass"/>
-						</Item>
-						<Item Name="Pool" Type="Folder">
-							<Item Name="ID Pool.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/ID Pool.lvclass"/>
-							<Item Name="Pool.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/Pool.lvclass"/>
-						</Item>
-						<Item Name="State" Type="Folder">
-							<Item Name="Framework State.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/State/Framework State.lvclass"/>
-						</Item>
-						<Item Name="Cache.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Cache/Cache.lvclass"/>
-						<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
-						<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Interface/Transceiver Interface.lvclass"/>
-						<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transceiver/Transceiver Thread.lvclass"/>
-					</Item>
-					<Item Name="Constants" Type="Folder">
-						<Item Name="DSF.Constant.vit" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/DSF.Constant.vit"/>
-						<Item Name="DSF.Constants.Library Name.Engine.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/DSF.Constants.Library Name.Engine.vi"/>
-						<Item Name="DSF.Constants.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/DSF.Constants.vi"/>
-					</Item>
-				</Item>
+				<Item Name="Private" Type="Folder"/>
 				<Item Name="Public" Type="Folder">
 					<Item Name="Classes" Type="Folder">
 						<Item Name="Buffer Converter" Type="Folder">
@@ -73,12 +56,25 @@
 							</Item>
 							<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Debug/Debug Flags.lvclass"/>
 						</Item>
+						<Item Name="Hardware Info" Type="Folder">
+							<Item Name="CPU Info.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Hardware/CPU Info.lvclass"/>
+							<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Hardware/Hardware Info.lvclass"/>
+						</Item>
 						<Item Name="Interfaces" Type="Folder">
 							<Item Name="Interface.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Interface/Interface.lvclass"/>
+							<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Interface/Transceiver Interface.lvclass"/>
 						</Item>
 						<Item Name="Memory" Type="Folder">
 							<Item Name="Buffer.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer.lvclass"/>
+							<Item Name="Cache.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Cache/Cache.lvclass"/>
 							<Item Name="DBL Pointer.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Pointer/DBL Pointer.lvclass"/>
+						</Item>
+						<Item Name="Pool" Type="Folder">
+							<Item Name="ID Pool.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/ID Pool.lvclass"/>
+							<Item Name="Pool.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/Pool.lvclass"/>
+						</Item>
+						<Item Name="State" Type="Folder">
+							<Item Name="Framework State.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/State/Framework State.lvclass"/>
 						</Item>
 						<Item Name="Status" Type="Folder">
 							<Item Name="Framework" Type="Folder">
@@ -93,12 +89,19 @@
 							<Item Name="Timing.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Timing/Timing.lvclass"/>
 						</Item>
 						<Item Name="Transceiver" Type="Folder">
+							<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
+							<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transceiver/Transceiver Thread.lvclass"/>
 							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transceiver/Transceiver.lvclass"/>
 						</Item>
 						<Item Name="Framework.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Framework/Framework.lvclass"/>
 						<Item Name="Plugin.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Plugin/Plugin.lvclass"/>
 						<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transfer/Transfer Group.lvclass"/>
 						<Item Name="Transfer.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Transfer/Transfer.lvclass"/>
+					</Item>
+					<Item Name="Constants" Type="Folder">
+						<Item Name="DSF.Constant.vit" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/DSF.Constant.vit"/>
+						<Item Name="DSF.Constants.Library Name.Engine.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/DSF.Constants.Library Name.Engine.vi"/>
+						<Item Name="DSF.Constants.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/DSF.Constants.vi"/>
 					</Item>
 					<Item Name="Controls" Type="Folder">
 						<Item Name="DSF Byte Order.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
@@ -145,20 +148,6 @@
 				<Item Name="Read PNG File.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/1abvi3w/vi.lib/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-			</Item>
-		</Item>
-		<Item Name="UDP Test" Type="Folder">
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="UDP.Rx.Launch.vi" Type="VI" URL="../UDP/UDP.Rx.Launch.vi"/>
-				<Item Name="UDP.Rx.vi" Type="VI" URL="../UDP/UDP.Rx.vi"/>
-			</Item>
-			<Item Name="UDP.Rx.Top.vi" Type="VI" URL="../UDP/UDP.Rx.Top.vi"/>
-		</Item>
-		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

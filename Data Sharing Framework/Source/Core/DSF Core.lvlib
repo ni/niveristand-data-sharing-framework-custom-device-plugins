@@ -9,28 +9,6 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Classes" Type="Folder">
-			<Item Name="Hardware Info" Type="Folder">
-				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/CPU Info.lvclass"/>
-				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info.lvclass"/>
-			</Item>
-			<Item Name="Pool" Type="Folder">
-				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
-				<Item Name="Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Pool.lvclass"/>
-			</Item>
-			<Item Name="State" Type="Folder">
-				<Item Name="Framework State.lvclass" Type="LVClass" URL="../Engine/Classes/State/Framework State.lvclass"/>
-			</Item>
-			<Item Name="Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/Cache.lvclass"/>
-			<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
-			<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/Transceiver Interface.lvclass"/>
-			<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver Thread.lvclass"/>
-		</Item>
-		<Item Name="Constants" Type="Folder">
-			<Item Name="DSF.Constant.vit" Type="VI" URL="../Shared/Constants/DSF.Constant.vit"/>
-			<Item Name="DSF.Constants.Library Name.Engine.vi" Type="VI" URL="../Shared/Constants/DSF.Constants.Library Name.Engine.vi"/>
-			<Item Name="DSF.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Constants.vi"/>
-		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -56,12 +34,25 @@
 				</Item>
 				<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/Debug Flags.lvclass"/>
 			</Item>
+			<Item Name="Hardware Info" Type="Folder">
+				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/CPU Info.lvclass"/>
+				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info.lvclass"/>
+			</Item>
 			<Item Name="Interfaces" Type="Folder">
 				<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/Interface.lvclass"/>
+				<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/Transceiver Interface.lvclass"/>
 			</Item>
 			<Item Name="Memory" Type="Folder">
 				<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer.lvclass"/>
+				<Item Name="Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/Cache.lvclass"/>
 				<Item Name="DBL Pointer.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DBL Pointer.lvclass"/>
+			</Item>
+			<Item Name="Pool" Type="Folder">
+				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
+				<Item Name="Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Pool.lvclass"/>
+			</Item>
+			<Item Name="State" Type="Folder">
+				<Item Name="Framework State.lvclass" Type="LVClass" URL="../Engine/Classes/State/Framework State.lvclass"/>
 			</Item>
 			<Item Name="Status" Type="Folder">
 				<Item Name="Framework" Type="Folder">
@@ -76,12 +67,19 @@
 				<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
 			</Item>
 			<Item Name="Transceiver" Type="Folder">
+				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
+				<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver Thread.lvclass"/>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer Group.lvclass"/>
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
+		</Item>
+		<Item Name="Constants" Type="Folder">
+			<Item Name="DSF.Constant.vit" Type="VI" URL="../Shared/Constants/DSF.Constant.vit"/>
+			<Item Name="DSF.Constants.Library Name.Engine.vi" Type="VI" URL="../Shared/Constants/DSF.Constants.Library Name.Engine.vi"/>
+			<Item Name="DSF.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Constants.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="DSF Byte Order.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
