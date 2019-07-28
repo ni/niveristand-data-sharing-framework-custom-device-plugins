@@ -179,13 +179,13 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 				</Item>
 				<Item Name="Update Transfer.vi" Type="VI" URL="../Update Transfer.vi">
-					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'G!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!P&amp;66%5#"5=G&amp;O=W.F;8:F=CZM&gt;GRJ9B&gt;62&amp;!A6(*B&lt;H.D:7FW:8)O&lt;(:D&lt;'&amp;T=Q!46521)&amp;2S97ZT9W6J&gt;G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-0````]%:'&amp;U91!!.E"Q!"Y!!#)02&amp;.')%.P=G5O&lt;(:M;7*Q%&amp;2S97ZT:G6S,GRW9WRB=X-!!!B5=G&amp;O=W:F=A!!4%"Q!"Y!!#]66521)&amp;2S97ZT9W6J&gt;G6S,GRW&lt;'FC&amp;V6%5#"5=G&amp;O=W.F;8:F=CZM&gt;G.M98.T!"*62&amp;!A6(*B&lt;H.D:7FW:8)A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!%!!!!")!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'G!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!P&amp;66%5#"5=G&amp;O=W.F;8:F=CZM&gt;GRJ9B&gt;62&amp;!A6(*B&lt;H.D:7FW:8)O&lt;(:D&lt;'&amp;T=Q!46521)&amp;2S97ZT9W6J&gt;G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-0````]%:'&amp;U91!!.E"Q!"Y!!#)02&amp;.')%.P=G5O&lt;(:M;7*Q%&amp;2S97ZT:G6S,GRW9WRB=X-!!!B5=G&amp;O=W:F=A!!4%"Q!"Y!!#]66521)&amp;2S97ZT9W6J&gt;G6S,GRW&lt;'FC&amp;V6%5#"5=G&amp;O=W.F;8:F=CZM&gt;G.M98.T!"*62&amp;!A6(*B&lt;H.D:7FW:8)A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!"%A!!!")!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 				</Item>
 			</Item>
 			<Item Name="Transmit" Type="Folder">
