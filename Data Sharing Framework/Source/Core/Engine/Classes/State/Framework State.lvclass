@@ -29,7 +29,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Accessors" Type="Folder">
-		<Item Name="Framework State.Get Active Plugins.vi" Type="VI" URL="../Framework State.Get Active Plugins.vi">
+		<Item Name="Get Active Plugins.vi" Type="VI" URL="../Get Active Plugins.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%B!!!!"A!%!!!!$%!B"U*P&lt;WRF97Y!(%"!!!(`````!!%/17.U;8:F)&amp;"M&gt;7&gt;J&lt;H-!!%:!=!!?!!!I$E242C"$&lt;X*F,GRW&lt;'FC&amp;U:S97VF&gt;W^S;S"4&gt;'&amp;U:3ZM&gt;G.M98.T!!!42H*B&lt;76X&lt;X*L)&amp;.U982F)'^V&gt;!"'1(!!(A!!+!Z%5U9A1W^S:3ZM&gt;GRJ9B&gt;'=G&amp;N:8&gt;P=GMA5X2B&gt;'5O&lt;(:D&lt;'&amp;T=Q!!%E:S97VF&gt;W^S;S"4&gt;'&amp;U:3"J&lt;A!!91$Q!!Q!!!!!!!)!!Q!!!!!!!!!!!!!!!!!!!!1#!!"Y!!!!!!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!"1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -38,7 +38,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 		</Item>
-		<Item Name="Framework State.Set Active Plugins.vi" Type="VI" URL="../Framework State.Set Active Plugins.vi">
+		<Item Name="Set Active Plugins.vi" Type="VI" URL="../Set Active Plugins.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%B!!!!"A!%!!!!2E"Q!"Y!!#A/2&amp;.')%.P=G5O&lt;(:M;7)82H*B&lt;76X&lt;X*L)&amp;.U982F,GRW9WRB=X-!!".'=G&amp;N:8&gt;P=GMA5X2B&gt;'5A&lt;X6U!!R!)1&gt;#&lt;W^M:7&amp;O!"R!1!!"`````Q!#$E&amp;D&gt;'FW:3"1&lt;(6H;7ZT!!"'1(!!(A!!+!Z%5U9A1W^S:3ZM&gt;GRJ9B&gt;'=G&amp;N:8&gt;P=GMA5X2B&gt;'5O&lt;(:D&lt;'&amp;T=Q!!%E:S97VF&gt;W^S;S"4&gt;'&amp;U:3"J&lt;A!!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!$!!1#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>

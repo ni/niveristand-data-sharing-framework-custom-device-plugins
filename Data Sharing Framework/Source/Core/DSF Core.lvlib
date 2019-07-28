@@ -30,17 +30,17 @@
 			</Item>
 			<Item Name="Debug" Type="Folder">
 				<Item Name="Categories" Type="Folder">
-					<Item Name="FIFO Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/FIFO Flags.lvclass"/>
+					<Item Name="FIFO Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/FIFO Flags/FIFO Flags.lvclass"/>
 				</Item>
-				<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/Debug Flags.lvclass"/>
+				<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/Debug Flags/Debug Flags.lvclass"/>
 			</Item>
 			<Item Name="Hardware Info" Type="Folder">
-				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/CPU Info.lvclass"/>
-				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info.lvclass"/>
+				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
+				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
 			</Item>
 			<Item Name="Interfaces" Type="Folder">
-				<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/Interface.lvclass"/>
-				<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interface/Transceiver Interface.lvclass"/>
+				<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Interface/Interface.lvclass"/>
+				<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Transceiver Interface/Transceiver Interface.lvclass"/>
 			</Item>
 			<Item Name="Memory" Type="Folder">
 				<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer.lvclass"/>
@@ -77,9 +77,8 @@
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
 		</Item>
 		<Item Name="Constants" Type="Folder">
-			<Item Name="DSF.Constant.vit" Type="VI" URL="../Shared/Constants/DSF.Constant.vit"/>
-			<Item Name="DSF.Constants.Library Name.Engine.vi" Type="VI" URL="../Shared/Constants/DSF.Constants.Library Name.Engine.vi"/>
-			<Item Name="DSF.Constants.vi" Type="VI" URL="../Shared/Constants/DSF.Constants.vi"/>
+			<Item Name="Constants.vi" Type="VI" URL="../Shared/Constants/Constants.vi"/>
+			<Item Name="Engine Library Name.vi" Type="VI" URL="../Shared/Constants/Engine Library Name.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="DSF Byte Order.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
@@ -105,8 +104,8 @@
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
-			<Item Name="Data Type.Sizeof.1D.vi" Type="VI" URL="../Shared/VIs/Data Type.Sizeof.1D.vi"/>
-			<Item Name="Data Type.Sizeof.vi" Type="VI" URL="../Shared/VIs/Data Type.Sizeof.vi"/>
+			<Item Name="Sizeof 1D.vi" Type="VI" URL="../Shared/VIs/Sizeof 1D.vi"/>
+			<Item Name="Sizeof.vi" Type="VI" URL="../Shared/VIs/Sizeof.vi"/>
 		</Item>
 	</Item>
 </Library>

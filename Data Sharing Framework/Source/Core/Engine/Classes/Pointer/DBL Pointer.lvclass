@@ -32,7 +32,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Accessors" Type="Folder">
-		<Item Name="DBL Pointer.Get Channel Count.vi" Type="VI" URL="../DBL Pointer.Get Channel Count.vi">
+		<Item Name="Get Channel Count.vi" Type="VI" URL="../Get Channel Count.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$[!!!!"1!%!!!!%U!)!!VD;'&amp;O&lt;G6M)'.P&gt;7ZU!$Z!=!!?!!!E$E242C"$&lt;X*F,GRW&lt;'FC%U2#4#"1&lt;WFO&gt;'6S,GRW9WRB=X-!!!Z%1EQA1H6G:G6S)'^V&gt;!!!0%"Q!"Y!!#1/2&amp;.')%.P=G5O&lt;(:M;7)42%*-)&amp;"P;7ZU:8)O&lt;(:D&lt;'&amp;T=Q!!$52#4#"#&gt;7:G:8)A;7Y!91$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -41,7 +41,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 		</Item>
-		<Item Name="DBL Pointer.Set Channel Count.vi" Type="VI" URL="../DBL Pointer.Set Channel Count.vi">
+		<Item Name="Set Channel Count.vi" Type="VI" URL="../Set Channel Count.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$[!!!!"1!%!!!!0E"Q!"Y!!#1/2&amp;.')%.P=G5O&lt;(:M;7)42%*-)&amp;"P;7ZU:8)O&lt;(:D&lt;'&amp;T=Q!!$E2#4#"#&gt;7:G:8)A&lt;X6U!!!41!A!$7.I97ZO:7QA9W^V&lt;H1!0%"Q!"Y!!#1/2&amp;.')%.P=G5O&lt;(:M;7)42%*-)&amp;"P;7ZU:8)O&lt;(:D&lt;'&amp;T=Q!!$52#4#"#&gt;7:G:8)A;7Y!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!#!!-#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -55,7 +55,7 @@
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Public" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-			<Item Name="DBL Pointer.New.vi" Type="VI" URL="../DBL Pointer.New.vi">
+			<Item Name="New DBL Pointer.vi" Type="VI" URL="../New DBL Pointer.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%/!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!E$E242C"$&lt;X*F,GRW&lt;'FC%U2#4#"1&lt;WFO&gt;'6S,GRW9WRB=X-!!!^%1EQA5'^J&lt;H2F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!41!A!$7.I97ZO:7QA9W^V&lt;H1!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!!!!1!)!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -64,7 +64,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 			</Item>
-			<Item Name="DBL Pointer.Read.vi" Type="VI" URL="../DBL Pointer.Read.vi">
+			<Item Name="Read DBL Pointer.vi" Type="VI" URL="../Read DBL Pointer.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'3!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!^!#A!*&gt;G&amp;M&gt;75A&lt;X6U!"B!1!!"`````Q!&amp;#G*V:G:F=C"P&gt;81!!$Z!=!!?!!!E$E242C"$&lt;X*F,GRW&lt;'FC%U2#4#"1&lt;WFO&gt;'6S,GRW9WRB=X-!!!^%1EQA5'^J&lt;H2F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!01!I!#(:B&lt;(6F)'FO!!!71%!!!@````]!#1FC&gt;7:G:8)A;7Y!0E"Q!"Y!!#1/2&amp;.')%.P=G5O&lt;(:M;7)42%*-)&amp;"P;7ZU:8)O&lt;(:D&lt;'&amp;T=Q!!$E2#4#"1&lt;WFO&gt;'6S)'FO!!"B!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!I!#Q-!!(A!!!U)!!!!!!!!$1I!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!)1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -73,7 +73,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">276832272</Property>
 			</Item>
-			<Item Name="DBL Pointer.Write.vi" Type="VI" URL="../DBL Pointer.Write.vi">
+			<Item Name="Write DBL Pointer.vi" Type="VI" URL="../Write DBL Pointer.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'3!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!^!#A!*&gt;G&amp;M&gt;75A&lt;X6U!"B!1!!"`````Q!&amp;#G*V:G:F=C"P&gt;81!!$Z!=!!?!!!E$E242C"$&lt;X*F,GRW&lt;'FC%U2#4#"1&lt;WFO&gt;'6S,GRW9WRB=X-!!!^%1EQA5'^J&lt;H2F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!01!I!#(:B&lt;(6F)'FO!!!71%!!!@````]!#1FC&gt;7:G:8)A;7Y!0E"Q!"Y!!#1/2&amp;.')%.P=G5O&lt;(:M;7)42%*-)&amp;"P;7ZU:8)O&lt;(:D&lt;'&amp;T=Q!!$E2#4#"1&lt;WFO&gt;'6S)'FO!!"B!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!I!#Q-!!(A!!!U)!!!!!!!!$1I!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!)1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

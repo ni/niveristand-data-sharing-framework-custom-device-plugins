@@ -32,7 +32,7 @@
 	</Item>
 	<Item Name="Accessors" Type="Folder">
 		<Item Name="ID" Type="Folder">
-			<Item Name="Thread Parameters.Get ID.vi" Type="VI" URL="../Thread Parameters.Get ID.vi">
+			<Item Name="Get ID.vi" Type="VI" URL="../Get ID.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$U!!!!"1!%!!!!#5!$!!*J:!!!1%"Q!"Y!!#I/2&amp;.')%.P=G5O&lt;(:M;7):6'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-O&lt;(:D&lt;'&amp;T=Q!!#F"M&gt;7&gt;J&lt;C"P&gt;81!!$Z!=!!?!!!K$E242C"$&lt;X*F,GRW&lt;'FC'62I=G6B:#"198*B&lt;76U:8*T,GRW9WRB=X-!!!F1&lt;(6H;7YA;7Y!91$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -41,7 +41,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 			</Item>
-			<Item Name="Thread Parameters.Set ID.vi" Type="VI" URL="../Thread Parameters.Set ID.vi">
+			<Item Name="Set ID.vi" Type="VI" URL="../Set ID.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$U!!!!"1!%!!!!1%"Q!"Y!!#I/2&amp;.')%.P=G5O&lt;(:M;7):6'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-O&lt;(:D&lt;'&amp;T=Q!!#F"M&gt;7&gt;J&lt;C"P&gt;81!!!F!!Q!#;71!!$Z!=!!?!!!K$E242C"$&lt;X*F,GRW&lt;'FC'62I=G6B:#"198*B&lt;76U:8*T,GRW9WRB=X-!!!F1&lt;(6H;7YA;7Y!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!#!!-#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -53,7 +53,7 @@
 			</Item>
 		</Item>
 		<Item Name="Priority" Type="Folder">
-			<Item Name="Thread Parameters.Get Priority.vi" Type="VI" URL="../Thread Parameters.Get Priority.vi">
+			<Item Name="Get Priority.vi" Type="VI" URL="../Get Priority.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%1!!!!"1!%!!!!$U!$!!B1=GFP=GFU?1!!3E"Q!"Y!!#I/2&amp;.')%.P=G5O&lt;(:M;7):6'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-O&lt;(:D&lt;'&amp;T=Q!!&amp;62I=G6B:#"198*B&lt;76U:8*T)'^V&gt;!"+1(!!(A!!+AZ%5U9A1W^S:3ZM&gt;GRJ9BF5;(*F971A5'&amp;S97VF&gt;'6S=SZM&gt;G.M98.T!!!56'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-A;7Y!!'%!]!!-!!!!!!!"!!)!!!!!!!!!!!!!!!!!!!!$!A!!?!!!!!!!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!.!!!!$!!!!!!!!!!!!!!"!!1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -62,7 +62,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 			</Item>
-			<Item Name="Thread Parameters.Set Priority.vi" Type="VI" URL="../Thread Parameters.Set Priority.vi">
+			<Item Name="Set Priority.vi" Type="VI" URL="../Set Priority.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%1!!!!"1!%!!!!3E"Q!"Y!!#I/2&amp;.')%.P=G5O&lt;(:M;7):6'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-O&lt;(:D&lt;'&amp;T=Q!!&amp;62I=G6B:#"198*B&lt;76U:8*T)'^V&gt;!!01!-!#&amp;"S;7^S;82Z!!"+1(!!(A!!+AZ%5U9A1W^S:3ZM&gt;GRJ9BF5;(*F971A5'&amp;S97VF&gt;'6S=SZM&gt;G.M98.T!!!56'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-A;7Y!!'%!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -74,7 +74,7 @@
 			</Item>
 		</Item>
 		<Item Name="Processor" Type="Folder">
-			<Item Name="Thread Parameters.Get Processor.vi" Type="VI" URL="../Thread Parameters.Get Processor.vi">
+			<Item Name="Get Processor.vi" Type="VI" URL="../Get Processor.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%1!!!!"1!%!!!!$U!$!!F1=G^D:8.T&lt;X)!3E"Q!"Y!!#I/2&amp;.')%.P=G5O&lt;(:M;7):6'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-O&lt;(:D&lt;'&amp;T=Q!!&amp;62I=G6B:#"198*B&lt;76U:8*T)'^V&gt;!"+1(!!(A!!+AZ%5U9A1W^S:3ZM&gt;GRJ9BF5;(*F971A5'&amp;S97VF&gt;'6S=SZM&gt;G.M98.T!!!56'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-A;7Y!!'%!]!!-!!!!!!!"!!)!!!!!!!!!!!!!!!!!!!!$!A!!?!!!!!!!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!.!!!!$!!!!!!!!!!!!!!"!!1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -83,7 +83,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 			</Item>
-			<Item Name="Thread Parameters.Set Processor.vi" Type="VI" URL="../Thread Parameters.Set Processor.vi">
+			<Item Name="Set Processor.vi" Type="VI" URL="../Set Processor.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%1!!!!"1!%!!!!3E"Q!"Y!!#I/2&amp;.')%.P=G5O&lt;(:M;7):6'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-O&lt;(:D&lt;'&amp;T=Q!!&amp;62I=G6B:#"198*B&lt;76U:8*T)'^V&gt;!!01!-!#6"S&lt;W.F=X.P=A"+1(!!(A!!+AZ%5U9A1W^S:3ZM&gt;GRJ9BF5;(*F971A5'&amp;S97VF&gt;'6S=SZM&gt;G.M98.T!!!56'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-A;7Y!!'%!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -94,27 +94,9 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 			</Item>
 		</Item>
-		<Item Name="Thread Parameters.Get.vit" Type="VI" URL="../Thread Parameters.Get.vit">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!"!!%!!!!1%"Q!"Y!!#I/2&amp;.')%.P=G5O&lt;(:M;7):6'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-O&lt;(:D&lt;'&amp;T=Q!!#F"M&gt;7&gt;J&lt;C"P&gt;81!!$Z!=!!?!!!K$E242C"$&lt;X*F,GRW&lt;'FC'62I=G6B:#"198*B&lt;76U:8*T,GRW9WRB=X-!!!F1&lt;(6H;7YA;7Y!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!)#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!!Q!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
-		</Item>
-		<Item Name="Thread Parameters.Set.vit" Type="VI" URL="../Thread Parameters.Set.vit">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!"!!%!!!!1%"Q!"Y!!#I/2&amp;.')%.P=G5O&lt;(:M;7):6'BS:7&amp;E)&amp;"B=G&amp;N:82F=H-O&lt;(:D&lt;'&amp;T=Q!!#F"M&gt;7&gt;J&lt;C"P&gt;81!!$Z!=!!?!!!K$E242C"$&lt;X*F,GRW&lt;'FC'62I=G6B:#"198*B&lt;76U:8*T,GRW9WRB=X-!!!F1&lt;(6H;7YA;7Y!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!)#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!!Q!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
-		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
-		<Item Name="Thread Parameters.Create.vi" Type="VI" URL="../Thread Parameters.Create.vi">
+		<Item Name="Create Thread Parameters.vi" Type="VI" URL="../Create Thread Parameters.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%K!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!K$E242C"$&lt;X*F,GRW&lt;'FC'62I=G6B:#"198*B&lt;76U:8*T,GRW9WRB=X-!!"&amp;5;(*F971A5'&amp;S97VF&gt;'6S=Q!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!F!!Q!#;71!!!^!!Q!*=(*P9W6T=W^S!!^!!Q!)=(*J&lt;X*J&gt;(E!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!A!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!%!!!!"!!!!!1!!!!!!%!#A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

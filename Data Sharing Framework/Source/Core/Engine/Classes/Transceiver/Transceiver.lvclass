@@ -30,26 +30,6 @@
 	<Item Name="Transceiver.ctl" Type="Class Private Data" URL="Transceiver.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Accessors" Type="Folder">
-		<Item Name="Transceiver.Get.vit" Type="VI" URL="../Transceiver.Get.vit">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$J!!!!"!!%!!!!0E"Q!"Y!!#1/2&amp;.')%.P=G5O&lt;(:M;7)46(*B&lt;H.D:7FW:8)O&lt;(:D&lt;'&amp;T=Q!!$V2S97ZT9W6J&gt;G6S)'^V&gt;!!_1(!!(A!!*!Z%5U9A1W^S:3ZM&gt;GRJ9B.5=G&amp;O=W.F;8:F=CZM&gt;G.M98.T!!!/6(*B&lt;H.D:7FW:8)A;7Y!!'%!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!#!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!-!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
-		</Item>
-		<Item Name="Transceiver.Set.vit" Type="VI" URL="../Transceiver.Set.vit">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$J!!!!"!!%!!!!0E"Q!"Y!!#1/2&amp;.')%.P=G5O&lt;(:M;7)46(*B&lt;H.D:7FW:8)O&lt;(:D&lt;'&amp;T=Q!!$V2S97ZT9W6J&gt;G6S)'^V&gt;!!_1(!!(A!!*!Z%5U9A1W^S:3ZM&gt;GRJ9B.5=G&amp;O=W.F;8:F=CZM&gt;G.M98.T!!!/6(*B&lt;H.D:7FW:8)A;7Y!!'%!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!#!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!-!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
-		</Item>
-	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Public" Type="Folder">
 			<Item Name="Get Class.vi" Type="VI" URL="../Get Class.vi">

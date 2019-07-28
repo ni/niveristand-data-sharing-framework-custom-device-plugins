@@ -32,7 +32,7 @@
 	</Item>
 	<Item Name="Accessors" Type="Folder">
 		<Item Name="Duration (Rx)" Type="Folder">
-			<Item Name="Framework Performance.Get Rx Duration.vi" Type="VI" URL="../Framework Performance.Get Rx Duration.vi">
+			<Item Name="Get Rx Duration.vi" Type="VI" URL="../Get Rx Duration.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!"Q!,=HAA:(6S982J&lt;WY!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"F'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"B'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -41,7 +41,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">8396816</Property>
 			</Item>
-			<Item Name="Framework Performance.Set Rx Duration.vi" Type="VI" URL="../Framework Performance.Set Rx Duration.vi">
+			<Item Name="Set Rx Duration.vi" Type="VI" URL="../Set Rx Duration.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;*!=!!?!!!O$E242C"$&lt;X*F,GRW&lt;'FC(5:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3ZM&gt;G.M98.T!!!:2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!"Q!,=HAA:(6S982J&lt;WY!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"B'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -52,7 +52,7 @@
 			</Item>
 		</Item>
 		<Item Name="Duration (Tx)" Type="Folder">
-			<Item Name="Framework Performance.Get Tx Duration.vi" Type="VI" URL="../Framework Performance.Get Tx Duration.vi">
+			<Item Name="Get Tx Duration.vi" Type="VI" URL="../Get Tx Duration.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!"Q!,&gt;(AA:(6S982J&lt;WY!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"F'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"B'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -61,7 +61,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">8396816</Property>
 			</Item>
-			<Item Name="Framework Performance.Set Tx Duration.vi" Type="VI" URL="../Framework Performance.Set Tx Duration.vi">
+			<Item Name="Set Tx Duration.vi" Type="VI" URL="../Set Tx Duration.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;*!=!!?!!!O$E242C"$&lt;X*F,GRW&lt;'FC(5:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3ZM&gt;G.M98.T!!!:2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!"Q!,&gt;(AA:(6S982J&lt;WY!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"B'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -72,7 +72,7 @@
 			</Item>
 		</Item>
 		<Item Name="Start Time (Rx)" Type="Folder">
-			<Item Name="Framework Performance.Get Rx Start Time.vi" Type="VI" URL="../Framework Performance.Get Rx Start Time.vi">
+			<Item Name="Get Rx Start Time.vi" Type="VI" URL="../Get Rx Start Time.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%E!!!!"1!%!!!!%U!(!!V3?#"T&gt;'&amp;S&gt;#"U;7VF!&amp;*!=!!?!!!O$E242C"$&lt;X*F,GRW&lt;'FC(5:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3ZM&gt;G.M98.T!!!:2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F)'^V&gt;!"31(!!(A!!,AZ%5U9A1W^S:3ZM&gt;GRJ9BV'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!!'%:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3"J&lt;A!!91$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -81,7 +81,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 			</Item>
-			<Item Name="Framework Performance.Set Rx Start Time.vi" Type="VI" URL="../Framework Performance.Set Rx Start Time.vi">
+			<Item Name="Set Rx Start Time.vi" Type="VI" URL="../Set Rx Start Time.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%E!!!!"1!%!!!!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"F'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A&lt;X6U!".!"Q!.5HAA=X2B=H1A&gt;'FN:1"31(!!(A!!,AZ%5U9A1W^S:3ZM&gt;GRJ9BV'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!!'%:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3"J&lt;A!!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!#!!-#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -92,7 +92,7 @@
 			</Item>
 		</Item>
 		<Item Name="Start Time (Tx)" Type="Folder">
-			<Item Name="Framework Performance.Get Tx Start Time.vi" Type="VI" URL="../Framework Performance.Get Tx Start Time.vi">
+			<Item Name="Get Tx Start Time.vi" Type="VI" URL="../Get Tx Start Time.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%E!!!!"1!%!!!!%U!(!!V5?#"T&gt;'&amp;S&gt;#"U;7VF!&amp;*!=!!?!!!O$E242C"$&lt;X*F,GRW&lt;'FC(5:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3ZM&gt;G.M98.T!!!:2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F)'^V&gt;!"31(!!(A!!,AZ%5U9A1W^S:3ZM&gt;GRJ9BV'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!!'%:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3"J&lt;A!!91$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -101,7 +101,7 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 			</Item>
-			<Item Name="Framework Performance.Set Tx Start Time.vi" Type="VI" URL="../Framework Performance.Set Tx Start Time.vi">
+			<Item Name="Set Tx Start Time.vi" Type="VI" URL="../Set Tx Start Time.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%E!!!!"1!%!!!!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"F'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A&lt;X6U!".!"Q!.6(AA=X2B=H1A&gt;'FN:1"31(!!(A!!,AZ%5U9A1W^S:3ZM&gt;GRJ9BV'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!!'%:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3"J&lt;A!!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!#!!-#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -111,27 +111,9 @@
 				<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 			</Item>
 		</Item>
-		<Item Name="Framework Performance.Get.vit" Type="VI" URL="../Framework Performance.Get.vit">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%2!!!!"!!%!!!!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"F'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A&lt;X6U!&amp;*!=!!?!!!O$E242C"$&lt;X*F,GRW&lt;'FC(5:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3ZM&gt;G.M98.T!!!92H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F)'FO!!"B!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A)!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!$!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
-		</Item>
-		<Item Name="Framework Performance.Set.vit" Type="VI" URL="../Framework Performance.Set.vit">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%2!!!!"!!%!!!!5E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"F'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5A&lt;X6U!&amp;*!=!!?!!!O$E242C"$&lt;X*F,GRW&lt;'FC(5:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3ZM&gt;G.M98.T!!!92H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F)'FO!!"B!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A)!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!$!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
-		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
-		<Item Name="Framework Performance.Create.vi" Type="VI" URL="../Framework Performance.Create.vi">
+		<Item Name="Create Framework Performance.vi" Type="VI" URL="../Create Framework Performance.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%,!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%Z!=!!?!!!O$E242C"$&lt;X*F,GRW&lt;'FC(5:S97VF&gt;W^S;S"1:8*G&lt;X*N97ZD:3ZM&gt;G.M98.T!!!62H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!1$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!!!1!(!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

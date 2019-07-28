@@ -30,7 +30,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Accessors" Type="Folder">
-		<Item Name="Framework Status.Get Performance.vi" Type="VI" URL="../Framework Status.Get Performance.vi">
+		<Item Name="Get Performance.vi" Type="VI" URL="../Get Performance.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!"1!%!!!!4E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"6'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5!3%"Q!"Y!!#E/2&amp;.')%.P=G5O&lt;(:M;7)92H*B&lt;76X&lt;X*L)&amp;.U982V=SZM&gt;G.M98.T!"2'=G&amp;N:8&gt;P=GMA5X2B&gt;(6T)'^V&gt;!!!2E"Q!"Y!!#E/2&amp;.')%.P=G5O&lt;(:M;7)92H*B&lt;76X&lt;X*L)&amp;.U982V=SZM&gt;G.M98.T!".'=G&amp;N:8&gt;P=GMA5X2B&gt;(6T)'FO!'%!]!!-!!!!!!!"!!)!!!!!!!!!!!!!!!!!!!!$!A!!?!!!!!!!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -39,7 +39,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 		</Item>
-		<Item Name="Framework Status.Set Performance.vi" Type="VI" URL="../Framework Status.Set Performance.vi">
+		<Item Name="Set Performance.vi" Type="VI" URL="../Set Performance.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!"1!%!!!!3%"Q!"Y!!#E/2&amp;.')%.P=G5O&lt;(:M;7)92H*B&lt;76X&lt;X*L)&amp;.U982V=SZM&gt;G.M98.T!"2'=G&amp;N:8&gt;P=GMA5X2B&gt;(6T)'^V&gt;!!!4E"Q!"Y!!#Y/2&amp;.')%.P=G5O&lt;(:M;7)&gt;2H*B&lt;76X&lt;X*L)&amp;"F=G:P=GVB&lt;G.F,GRW9WRB=X-!!"6'=G&amp;N:8&gt;P=GMA5'6S:G^S&lt;7&amp;O9W5!2E"Q!"Y!!#E/2&amp;.')%.P=G5O&lt;(:M;7)92H*B&lt;76X&lt;X*L)&amp;.U982V=SZM&gt;G.M98.T!".'=G&amp;N:8&gt;P=GMA5X2B&gt;(6T)'FO!'%!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -50,7 +50,7 @@
 		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
-		<Item Name="Framework Status.Create.vi" Type="VI" URL="../Framework Status.Create.vi">
+		<Item Name="Create Framework Status.vi" Type="VI" URL="../Create Framework Status.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%"!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!J$E242C"$&lt;X*F,GRW&lt;'FC'%:S97VF&gt;W^S;S"4&gt;'&amp;U&gt;8-O&lt;(:D&lt;'&amp;T=Q!12H*B&lt;76X&lt;X*L)&amp;.U982V=Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"!-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!"!!=!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
