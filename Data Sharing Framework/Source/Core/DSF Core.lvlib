@@ -17,13 +17,12 @@
 				<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Component Loader/Component Loader.lvclass"/>
 			</Item>
 			<Item Name="Configuration" Type="Folder">
+				<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
 				<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Configuration API/Configuration Session.lvclass"/>
-				<Item Name="Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Configuration/Configuration.lvclass"/>
-				<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Framework/Framework Configuration.lvclass"/>
-				<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Plugin/Plugin Configuration.lvclass"/>
-				<Item Name="Transceiver Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Transceiver/Transceiver Configuration.lvclass"/>
-				<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer/Transfer Configuration.lvclass"/>
-				<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../Shared/Classes/Transfer Group/Transfer Group Configuration.lvclass"/>
+				<Item Name="Get Engine Offset.vi" Type="VI" URL="../DSF Configuration API/Public/Get Engine Offset.vi"/>
+				<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
+				<Item Name="Transfer Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Channel Count.vi"/>
+				<Item Name="Transfer Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Required Buffer Size.vi"/>
 			</Item>
 			<Item Name="Debug" Type="Folder">
 				<Item Name="Categories" Type="Folder">
