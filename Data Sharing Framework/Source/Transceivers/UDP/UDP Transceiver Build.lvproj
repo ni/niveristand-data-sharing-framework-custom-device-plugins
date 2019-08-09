@@ -16,20 +16,34 @@
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp">
 				<Item Name="Public" Type="Folder">
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Buffer Converter" Type="Folder">
-							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer Converter.lvclass"/>
-						</Item>
 						<Item Name="Component Loader" Type="Folder">
 							<Item Name="Component Loader.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Component Loader/Component Loader.lvclass"/>
 						</Item>
 						<Item Name="Configuration" Type="Folder">
+							<Item Name="Configuration Controls" Type="Folder">
+								<Item Name="DSF Byte Order.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
+								<Item Name="DSF Channel Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Channel Info.ctl"/>
+								<Item Name="DSF Data Type.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Data Type.ctl"/>
+								<Item Name="DSF Direction.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Direction.ctl"/>
+								<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Channel Configuration.ctl"/>
+								<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Framework Configuration.ctl"/>
+								<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Configuration.ctl"/>
+								<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Configuration.ctl"/>
+								<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
+								<Item Name="DSF Group Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Group Info.ctl"/>
+								<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Plugin Info.ctl"/>
+								<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
+								<Item Name="DSF Settings Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
+								<Item Name="DSF Timing Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
+								<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
+								<Item Name="DSF Version Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
+							</Item>
+							<Item Name="Channel Count.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count.vi"/>
 							<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Configuration Session.lvclass"/>
-							<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Configuration/Configuration.lvclass"/>
-							<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Framework/Framework Configuration.lvclass"/>
-							<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Plugin/Plugin Configuration.lvclass"/>
-							<Item Name="Transceiver Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transceiver/Transceiver Configuration.lvclass"/>
-							<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transfer/Transfer Configuration.lvclass"/>
-							<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transfer Group/Transfer Group Configuration.lvclass"/>
+							<Item Name="Get Engine Offset.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Get Engine Offset.vi"/>
+							<Item Name="Required Buffer Size.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size.vi"/>
+							<Item Name="Transfer Channel Count.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Channel Count.vi"/>
+							<Item Name="Transfer Required Buffer Size.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Required Buffer Size.vi"/>
 						</Item>
 						<Item Name="Debug" Type="Folder">
 							<Item Name="Categories" Type="Folder">
@@ -83,29 +97,6 @@
 						<Item Name="Constants.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/Constants.vi"/>
 						<Item Name="Engine Library Name.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/Engine Library Name.vi"/>
 					</Item>
-					<Item Name="Controls" Type="Folder">
-						<Item Name="DSF Byte Order.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
-						<Item Name="DSF Channel Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Channel Info.ctl"/>
-						<Item Name="DSF Data Type.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Data Type.ctl"/>
-						<Item Name="DSF Direction.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Direction.ctl"/>
-						<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Channel Configuration.ctl"/>
-						<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Framework Configuration.ctl"/>
-						<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Configuration.ctl"/>
-						<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Configuration.ctl"/>
-						<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
-						<Item Name="DSF Group Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Group Info.ctl"/>
-						<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Plugin Info.ctl"/>
-						<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Channel Block Descriptor.ctl"/>
-						<Item Name="DSF Runtime Channel Block.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Channel Block.ctl"/>
-						<Item Name="DSF Runtime Channel Descriptor.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Channel Descriptor.ctl"/>
-						<Item Name="DSF Runtime Channel Parameters.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Channel Parameters.ctl"/>
-						<Item Name="DSF Runtime Index.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Index.ctl"/>
-						<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
-						<Item Name="DSF Settings Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
-						<Item Name="DSF Timing Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
-						<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
-						<Item Name="DSF Version Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
-					</Item>
 					<Item Name="VIs" Type="Folder">
 						<Item Name="Sizeof 1D.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof 1D.vi"/>
 						<Item Name="Sizeof.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof.vi"/>
@@ -139,7 +130,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Transceivers/UDP</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6F74E28E-D8D0-40CE-B630-EA0198F4D848}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP Transceiver.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Transceivers/UDP/UDP Transceiver.lvlibp</Property>
@@ -279,20 +270,34 @@
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp">
 				<Item Name="Public" Type="Folder">
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Buffer Converter" Type="Folder">
-							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer Converter.lvclass"/>
-						</Item>
 						<Item Name="Component Loader" Type="Folder">
 							<Item Name="Component Loader.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Component Loader/Component Loader.lvclass"/>
 						</Item>
 						<Item Name="Configuration" Type="Folder">
+							<Item Name="Configuration Controls" Type="Folder">
+								<Item Name="DSF Byte Order.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
+								<Item Name="DSF Channel Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Channel Info.ctl"/>
+								<Item Name="DSF Data Type.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Data Type.ctl"/>
+								<Item Name="DSF Direction.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Direction.ctl"/>
+								<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Channel Configuration.ctl"/>
+								<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Framework Configuration.ctl"/>
+								<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Configuration.ctl"/>
+								<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Configuration.ctl"/>
+								<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
+								<Item Name="DSF Group Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Group Info.ctl"/>
+								<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Plugin Info.ctl"/>
+								<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
+								<Item Name="DSF Settings Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
+								<Item Name="DSF Timing Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
+								<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
+								<Item Name="DSF Version Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
+							</Item>
+							<Item Name="Channel Count.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count.vi"/>
 							<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Configuration Session.lvclass"/>
-							<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Configuration/Configuration.lvclass"/>
-							<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Framework/Framework Configuration.lvclass"/>
-							<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Plugin/Plugin Configuration.lvclass"/>
-							<Item Name="Transceiver Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transceiver/Transceiver Configuration.lvclass"/>
-							<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transfer/Transfer Configuration.lvclass"/>
-							<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Classes/Transfer Group/Transfer Group Configuration.lvclass"/>
+							<Item Name="Get Engine Offset.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Get Engine Offset.vi"/>
+							<Item Name="Required Buffer Size.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size.vi"/>
+							<Item Name="Transfer Channel Count.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Channel Count.vi"/>
+							<Item Name="Transfer Required Buffer Size.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Required Buffer Size.vi"/>
 						</Item>
 						<Item Name="Debug" Type="Folder">
 							<Item Name="Categories" Type="Folder">
@@ -345,29 +350,6 @@
 					<Item Name="Constants" Type="Folder">
 						<Item Name="Constants.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/Constants.vi"/>
 						<Item Name="Engine Library Name.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Constants/Engine Library Name.vi"/>
-					</Item>
-					<Item Name="Controls" Type="Folder">
-						<Item Name="DSF Byte Order.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
-						<Item Name="DSF Channel Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Channel Info.ctl"/>
-						<Item Name="DSF Data Type.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Data Type.ctl"/>
-						<Item Name="DSF Direction.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Direction.ctl"/>
-						<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Channel Configuration.ctl"/>
-						<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Framework Configuration.ctl"/>
-						<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Configuration.ctl"/>
-						<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Configuration.ctl"/>
-						<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
-						<Item Name="DSF Group Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Group Info.ctl"/>
-						<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Plugin Info.ctl"/>
-						<Item Name="DSF Runtime Channel Block Descriptor.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Channel Block Descriptor.ctl"/>
-						<Item Name="DSF Runtime Channel Block.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Channel Block.ctl"/>
-						<Item Name="DSF Runtime Channel Descriptor.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Channel Descriptor.ctl"/>
-						<Item Name="DSF Runtime Channel Parameters.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Channel Parameters.ctl"/>
-						<Item Name="DSF Runtime Index.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Index.ctl"/>
-						<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
-						<Item Name="DSF Settings Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
-						<Item Name="DSF Timing Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
-						<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
-						<Item Name="DSF Version Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
 					</Item>
 					<Item Name="VIs" Type="Folder">
 						<Item Name="Sizeof 1D.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof 1D.vi"/>
