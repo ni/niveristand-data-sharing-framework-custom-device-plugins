@@ -88,6 +88,7 @@
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
 		</Item>
 		<Item Name="Constants" Type="Folder">
+			<Item Name="Base Error Code.vi" Type="VI" URL="../Shared/Constants/Base Error Code.vi"/>
 			<Item Name="Constants.vi" Type="VI" URL="../Shared/Constants/Constants.vi"/>
 			<Item Name="Engine Library Name.vi" Type="VI" URL="../Shared/Constants/Engine Library Name.vi"/>
 		</Item>
