@@ -10,6 +10,9 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Classes" Type="Folder">
+			<Item Name="Buffer Converter" Type="Folder">
+				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
+			</Item>
 			<Item Name="Component Loader" Type="Folder">
 				<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Component Loader/Component Loader.lvclass"/>
 			</Item>
