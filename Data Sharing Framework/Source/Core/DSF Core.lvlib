@@ -54,12 +54,16 @@
 			</Item>
 			<Item Name="Interfaces" Type="Folder">
 				<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Interface/Interface.lvclass"/>
-				<Item Name="Transceiver Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Transceiver Interface/Transceiver Interface.lvclass"/>
+				<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Transceiver Interface/Plugin Interface.lvclass"/>
 			</Item>
 			<Item Name="Memory" Type="Folder">
 				<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer.lvclass"/>
 				<Item Name="Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/Cache.lvclass"/>
 				<Item Name="DBL Pointer.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DBL Pointer.lvclass"/>
+			</Item>
+			<Item Name="Plugin" Type="Folder">
+				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Plugin Thread.lvclass"/>
+				<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
 				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
@@ -77,16 +81,16 @@
 				</Item>
 				<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 			</Item>
+			<Item Name="Thread Parameters" Type="Folder">
+				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
+			</Item>
 			<Item Name="Timing" Type="Folder">
 				<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
 			</Item>
 			<Item Name="Transceiver" Type="Folder">
-				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
-				<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver Thread.lvclass"/>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
-			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer Group/Transfer Group.lvclass"/>
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
 		</Item>
