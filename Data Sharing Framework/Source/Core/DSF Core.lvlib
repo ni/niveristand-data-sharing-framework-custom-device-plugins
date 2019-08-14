@@ -35,12 +35,31 @@
 					<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
 					<Item Name="DSF Version Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
 				</Item>
-				<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
+				<Item Name="Types" Type="Folder">
+					<Item Name="Configuration.lvclass" Type="LVClass" URL="../Engine/Classes/Configuration/Configuration.lvclass"/>
+					<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Engine/Classes/Configuration/Transfer/Transfer Configuration.lvclass"/>
+					<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../Engine/Configuration/Transfer Group/Transfer Group Configuration.lvclass"/>
+				</Item>
+				<Item Name="VIs" Type="Folder">
+					<Item Name="Poly VIs" Type="Folder">
+						<Item Name="Channel Count (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Framework).vi"/>
+						<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Plugin).vi"/>
+						<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Transfer Group).vi"/>
+						<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Transfer).vi"/>
+						<Item Name="Engine Offset (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Framework).vi"/>
+						<Item Name="Engine Offset (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Plugin).vi"/>
+						<Item Name="Engine Offset (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Transfer Group).vi"/>
+						<Item Name="Engine Offset (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Transfer).vi"/>
+						<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Framework).vi"/>
+						<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
+						<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
+						<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer).vi"/>
+					</Item>
+					<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
+					<Item Name="Engine Offset.vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset.vi"/>
+					<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
+				</Item>
 				<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Configuration API/Configuration Session.lvclass"/>
-				<Item Name="Get Engine Offset.vi" Type="VI" URL="../DSF Configuration API/Public/Get Engine Offset.vi"/>
-				<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
-				<Item Name="Transfer Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Channel Count.vi"/>
-				<Item Name="Transfer Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Required Buffer Size.vi"/>
 			</Item>
 			<Item Name="Debug" Type="Folder">
 				<Item Name="Categories" Type="Folder">
@@ -97,6 +116,7 @@
 		<Item Name="Constants" Type="Folder">
 			<Item Name="Base Error Code.vi" Type="VI" URL="../Shared/Constants/Base Error Code.vi"/>
 			<Item Name="Constants.vi" Type="VI" URL="../Shared/Constants/Constants.vi"/>
+			<Item Name="Default Components Directory.vi" Type="VI" URL="../Shared/Constants/Default Components Directory.vi"/>
 			<Item Name="Engine Library Name.vi" Type="VI" URL="../Shared/Constants/Engine Library Name.vi"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
