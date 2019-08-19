@@ -17,7 +17,7 @@
 				<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Component Loader/Component Loader.lvclass"/>
 			</Item>
 			<Item Name="Configuration" Type="Folder">
-				<Item Name="Configuration Controls" Type="Folder">
+				<Item Name="Controls" Type="Folder">
 					<Item Name="DSF Byte Order.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
 					<Item Name="DSF Channel Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Channel Info.ctl"/>
 					<Item Name="DSF Data Type.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Data Type.ctl"/>
@@ -35,11 +35,6 @@
 					<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
 					<Item Name="DSF Version Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
 				</Item>
-				<Item Name="Types" Type="Folder">
-					<Item Name="Configuration.lvclass" Type="LVClass" URL="../Engine/Classes/Configuration/Configuration.lvclass"/>
-					<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Engine/Classes/Configuration/Transfer/Transfer Configuration.lvclass"/>
-					<Item Name="Transfer Group Configuration.lvclass" Type="LVClass" URL="../Engine/Configuration/Transfer Group/Transfer Group Configuration.lvclass"/>
-				</Item>
 				<Item Name="VIs" Type="Folder">
 					<Item Name="Poly VIs" Type="Folder">
 						<Item Name="Channel Count (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Framework).vi"/>
@@ -50,6 +45,10 @@
 						<Item Name="Engine Offset (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Plugin).vi"/>
 						<Item Name="Engine Offset (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Transfer Group).vi"/>
 						<Item Name="Engine Offset (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Transfer).vi"/>
+						<Item Name="Largest Contiguous Channel Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Contiguous Channel Count (Transfer Group).vi"/>
+						<Item Name="Largest Contiguous Channel Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Contiguous Channel Count (Transfer).vi"/>
+						<Item Name="Max Block Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count (Transfer Group).vi"/>
+						<Item Name="Max Block Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count (Transfer).vi"/>
 						<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Framework).vi"/>
 						<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
 						<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
@@ -57,6 +56,8 @@
 					</Item>
 					<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
 					<Item Name="Engine Offset.vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset.vi"/>
+					<Item Name="Largest Contiguous Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Largest Contiguous Channel Count.vi"/>
+					<Item Name="Max Block Count.vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count.vi"/>
 					<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
 				</Item>
 				<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Configuration API/Configuration Session.lvclass"/>
