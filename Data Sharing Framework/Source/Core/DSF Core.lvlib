@@ -73,6 +73,7 @@
 				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
 			</Item>
 			<Item Name="Interfaces" Type="Folder">
+				<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
 				<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Interface/Interface.lvclass"/>
 				<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Transceiver Interface/Plugin Interface.lvclass"/>
 			</Item>
