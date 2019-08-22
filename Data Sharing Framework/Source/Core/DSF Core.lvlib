@@ -111,7 +111,7 @@
 			<Item Name="Transceiver" Type="Folder">
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
-			<Item Name="Dispatcher.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Dispatcher.lvclass"/>
+			<Item Name="Async Dispatcher.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Async Dispatcher.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer Group/Transfer Group.lvclass"/>
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
