@@ -106,13 +106,16 @@
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 			</Item>
 			<Item Name="Timing" Type="Folder">
+				<Item Name="Plugin Timing Group.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Plugin Timing Group.lvclass"/>
 				<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
+				<Item Name="Transfer Group Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Transfer Group Timing.lvclass"/>
 			</Item>
 			<Item Name="Transceiver" Type="Folder">
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
 			<Item Name="Dispatcher.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Dispatcher.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
+			<Item Name="Scheduler.lvclass" Type="LVClass" URL="../Engine/Classes/Scheduler/Scheduler.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer Group/Transfer Group.lvclass"/>
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
 		</Item>
