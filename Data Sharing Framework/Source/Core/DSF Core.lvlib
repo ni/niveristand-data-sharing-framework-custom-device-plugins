@@ -102,11 +102,12 @@
 				</Item>
 				<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 			</Item>
-			<Item Name="Thread Parameters" Type="Folder">
+			<Item Name="Thread" Type="Folder">
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
+				<Item Name="Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Thread.lvclass"/>
 			</Item>
 			<Item Name="Timing" Type="Folder">
-				<Item Name="Plugin Timing Group.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Plugin Timing Group.lvclass"/>
+				<Item Name="Plugin Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Plugin Timing.lvclass"/>
 				<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
 				<Item Name="Transfer Group Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Transfer Group Timing.lvclass"/>
 			</Item>
