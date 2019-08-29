@@ -11,10 +11,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Benchmarks" Type="Folder">
+			<Item Name="Interface" Type="Folder">
+				<Item Name="Interface Benchmark.vi" Type="VI" URL="../Engine/Benchmarks/Interface Benchmark.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Engine/Framework Source Test.vi"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
+		<Item Name="Interface Read N End Time.vi" Type="VI" URL="../Engine/Benchmarks/Interface Read N End Time.vi"/>
+		<Item Name="Interface Write N Start Time.vi" Type="VI" URL="../Engine/Benchmarks/Interface Write N Start Time.vi"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
