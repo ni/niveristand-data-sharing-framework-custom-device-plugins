@@ -1,0 +1,9 @@
+For each Target:
+
+	Build Data Sharing Framework Core PPL
+	Move Output Dir from C:\Builds\Data Sharing Framework\<Target> for RT, or C:\Builds\Data Sharing Framework\<Target>\<Bitness> for Windows. We will use this directory to build additional components against.
+	WINDOWS ONLY:Copy Output Dir to C:\DSF. We will use this to build additional development tooling against.
+
+	For each Transceiver:
+		Build Release Spec
+		Move Output Dir from C:\Builds\Data Sharing Framework\<Target> for RT, or C:\Builds\Data Sharing Framework\<Target>\<Bitness> for Windows. We will use this directory to build additional components against.
