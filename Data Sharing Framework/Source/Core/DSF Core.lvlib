@@ -88,6 +88,7 @@
 			</Item>
 			<Item Name="Pool" Type="Folder">
 				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
+				<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
 				<Item Name="Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Pool.lvclass"/>
 			</Item>
 			<Item Name="State" Type="Folder">
@@ -105,6 +106,7 @@
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Dispatcher.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Dispatcher.lvclass"/>
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
+				<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Thread Pool.lvclass"/>
 				<Item Name="Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Thread.lvclass"/>
 			</Item>
 			<Item Name="Timing" Type="Folder">
