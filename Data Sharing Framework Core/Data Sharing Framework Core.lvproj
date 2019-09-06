@@ -12,9 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Mem Buff" Type="Folder">
-				<Item Name="Mem Buff Read Write.lvclass" Type="LVClass" URL="../Tests/Mem Buff/Mem Buff Read Write/Mem Buff Read Write.lvclass"/>
-			</Item>
+			<Item Name="Mem Buff Tests.lvlib" Type="Library" URL="../Tests/Mem Buff/Mem Buff Tests.lvlib"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
