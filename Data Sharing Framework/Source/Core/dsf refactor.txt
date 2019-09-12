@@ -1,0 +1,60 @@
+1. Buffer
+	- Use byte order property throughout framework (typedef?)
+	- Buffer Descriptor throughtout framework
+		- Buffer Descriptor:
+			- byte order
+			- channel blocks[
+				data type,
+				count]
+				
+				
+	
+1. Buffer Converter
+	- Converter typedefs
+		- inline buffer descriptor
+		- buffer descriptor
+	- Converter methods
+		- data type *assume changes size
+			- src buffer descriptor
+				- type
+				- offset
+			- dst buffer descriptor
+				- type
+				- offset
+			- count (array operation)
+		- endianness
+		- bitpacking
+			- binary widths
+				- 8, 16, 32, 64
+			- variable width
+				- any int size
+			- single bit
+				- src channels (count from buffer descriptor)
+				- evaluation to bool (uses src type)
+				- dst width
+				- dst offset
+			- multi-bit
+		- 
+	- Converter benchmarks
+		- Conversions
+			- data type
+				- DBL to Bool per second
+				- DBL to U8 per second
+				- DBL to I32 per second
+				- DBL to U64 per second
+			- endianness
+				- type conversion with same endianness
+				- type conversion with changing endianness
+			- bitpacking
+				- bit packs per second
+				- 
+		
+
+Type (Data?) Block
+	data type
+	count
+Buffer Block
+	Type (Data?) Block
+	int offset
+
+C API...
