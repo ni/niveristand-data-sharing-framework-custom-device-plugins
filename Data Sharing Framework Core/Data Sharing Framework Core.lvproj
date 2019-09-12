@@ -12,14 +12,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Configuration" Type="Folder">
-				<Item Name="Configuration Tests" Type="Folder">
-					<Item Name="Mock Classes" Type="Folder">
-						<Item Name="Mock Plugin.lvclass" Type="LVClass" URL="../Tests/Configuration/Configuration Tests/Mock Classes/Plugin/Mock Plugin.lvclass"/>
-						<Item Name="Mock Transfer Group.lvclass" Type="LVClass" URL="../Tests/Configuration/Configuration Tests/Mock Classes/Transfer Group/Mock Transfer Group.lvclass"/>
-					</Item>
-					<Item Name="Configuration Tests.lvclass" Type="LVClass" URL="../Tests/Configuration/Configuration Tests/Configuration Tests.lvclass"/>
+			<Item Name="Configuration Tests" Type="Folder">
+				<Item Name="Mock Classes" Type="Folder">
+					<Item Name="Mock Plugin.lvclass" Type="LVClass" URL="../Tests/Configuration/Configuration Tests/Mock Classes/Plugin/Mock Plugin.lvclass"/>
+					<Item Name="Mock Transfer Group.lvclass" Type="LVClass" URL="../Tests/Configuration/Configuration Tests/Mock Classes/Transfer Group/Mock Transfer Group.lvclass"/>
+					<Item Name="Mock Transfer.lvclass" Type="LVClass" URL="../Tests/Configuration/Configuration Tests/Mock Classes/Transfer/Mock Transfer.lvclass"/>
 				</Item>
+				<Item Name="Configuration Tests.lvclass" Type="LVClass" URL="../Tests/Configuration/Configuration Tests/Configuration Tests.lvclass"/>
 			</Item>
 			<Item Name="placeholder.txt" Type="Document" URL="../Tests/placeholder.txt"/>
 		</Item>
