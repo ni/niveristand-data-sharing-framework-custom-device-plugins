@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Mem Buff Tests.lvlib" Type="Library" URL="../Tests/Mem Buff/Mem Buff Tests.lvlib"/>
+			<Item Name="placeholder.txt" Type="Document" URL="../Tests/placeholder.txt"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
