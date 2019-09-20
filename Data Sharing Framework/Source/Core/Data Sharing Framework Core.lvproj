@@ -12,6 +12,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Benchmarks" Type="Folder">
+			<Item Name="Buffer Converter" Type="Folder">
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Benchmark Convert String Type - Create Random Scalar Conversions.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Create Random Scalar Conversions.vi"/>
+					<Item Name="Benchmark Convert String Type - Create Single Type Block Conversions.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Create Single Type Block Conversions.vi"/>
+					<Item Name="Benchmark Convert String Type - Sizeof Strings.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Sizeof Strings.vi"/>
+				</Item>
+				<Item Name="Benchmark Convert String Type - Random Scalars.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Random Scalars.vi"/>
+				<Item Name="Benchmark Convert String Type - Single Type to Single Type.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Single Type to Single Type.vi"/>
+			</Item>
 			<Item Name="Interface" Type="Folder">
 				<Item Name="SubVIs" Type="Folder">
 					<Item Name="Interface Read N End Time.vi" Type="VI" URL="../Engine/Benchmarks/Interface Read N End Time.vi"/>
