@@ -62,6 +62,7 @@
 					<Item Name="Largest Contiguous Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Largest Contiguous Channel Count.vi"/>
 					<Item Name="Max Block Count.vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count.vi"/>
 					<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
+					<Item Name="String Buffer Offset (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/String Buffer Offset (Transfer).vi"/>
 				</Item>
 				<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Configuration API/Configuration Session.lvclass"/>
 			</Item>
@@ -83,9 +84,6 @@
 			<Item Name="Memory" Type="Folder">
 				<Item Name="Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/Cache.lvclass"/>
 				<Item Name="DBL Pointer.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DBL Pointer.lvclass"/>
-			</Item>
-			<Item Name="Plugin" Type="Folder">
-				<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
 				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
@@ -126,6 +124,7 @@
 			</Item>
 			<Item Name="Framework Runtime.lvclass" Type="LVClass" URL="../Engine/Classes/Framework Runtime/Framework Runtime.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
+			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer Group/Transfer Group.lvclass"/>
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
 		</Item>
