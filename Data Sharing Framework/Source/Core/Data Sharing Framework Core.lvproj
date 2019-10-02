@@ -30,6 +30,7 @@
 			</Item>
 		</Item>
 		<Item Name="Test" Type="Folder">
+			<Item Name="Framework Configured Test.vi" Type="VI" URL="../Engine/Framework Configured Test.vi"/>
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Engine/Framework Source Test.vi"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
@@ -44,6 +45,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

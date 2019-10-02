@@ -108,8 +108,8 @@
 				<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
 			</Item>
 			<Item Name="Thread" Type="Folder">
-				<Item Name="Dispatcher.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Dispatcher.lvclass"/>
-				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Plugin Thread.lvclass"/>
+				<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
+				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
 				<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 				<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Thread Pool.lvclass"/>
 				<Item Name="Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Thread.lvclass"/>
