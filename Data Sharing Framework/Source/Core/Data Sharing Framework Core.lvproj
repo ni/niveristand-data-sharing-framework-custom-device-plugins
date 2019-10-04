@@ -42,6 +42,22 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Memory.Constants.Library Name.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Constants/Memory.Constants.Library Name.vi"/>
+				<Item Name="Memory.Constants.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Constants/Memory.Constants.vi"/>
+				<Item Name="Memory.Pointer.Copy All.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Copy All.vi"/>
+				<Item Name="Memory.Pointer.Copy.No Check.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Copy.No Check.vi"/>
+				<Item Name="Memory.Pointer.Copy.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Copy.vi"/>
+				<Item Name="Memory.Pointer.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.lvclass/Memory.Pointer.ctl"/>
+				<Item Name="Memory.Pointer.Errors.Create Error.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Errors.Create Error.vi"/>
+				<Item Name="Memory.Pointer.Errors.Get Info.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Errors.Get Info.vi"/>
+				<Item Name="Memory.Pointer.Errors.Null Pointer.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Errors.Null Pointer.vi"/>
+				<Item Name="Memory.Pointer.Errors.Out of Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Errors.Out of Bounds.vi"/>
+				<Item Name="Memory.Pointer.Errors.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Errors.vi"/>
+				<Item Name="Memory.Pointer.Errors.Write Pointer Size.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Errors.Write Pointer Size.vi"/>
+				<Item Name="Memory.Pointer.Get Address.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Get Address.vi"/>
+				<Item Name="Memory.Pointer.Get Size.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Get Size.vi"/>
+				<Item Name="Memory.Pointer.Parameter Check.Null Pointer.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Parameter Check.Null Pointer.vi"/>
+				<Item Name="Memory.Pointer.Parameter Check.Subset.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Memory Manager/Classes/Pointer/Memory.Pointer.Parameter Check.Subset.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
