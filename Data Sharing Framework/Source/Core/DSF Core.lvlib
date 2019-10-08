@@ -135,6 +135,10 @@
 			<Item Name="Default Components Directory.vi" Type="VI" URL="../Shared/Constants/Default Components Directory.vi"/>
 			<Item Name="Engine Library Name.vi" Type="VI" URL="../Shared/Constants/Engine Library Name.vi"/>
 		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="FIFO Flags.ctl" Type="VI" URL="../Engine/Typedefs/FIFO Flags.ctl"/>
+			<Item Name="Plugin Flags.ctl" Type="VI" URL="../Engine/Typedefs/Plugin Flags.ctl"/>
+		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../Shared/VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../Shared/VIs/Sizeof.vi"/>
