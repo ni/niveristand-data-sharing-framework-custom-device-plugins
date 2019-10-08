@@ -12,8 +12,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
+<<<<<<< HEAD
 			<Item Name="Mem Buff Tests.lvlib" Type="Library" URL="../Tests/Mem Buff/Mem Buff Tests.lvlib"/>
 			<Item Name="placeholder.txt" Type="Document" URL="../Tests/placeholder.txt"/>
+=======
+			<Item Name="DBL Pointer" Type="Folder">
+				<Item Name="DBL Pointer Main" Type="Folder">
+					<Item Name="DBL Pointer Main.lvclass" Type="LVClass" URL="../Tests/DBL Pointer/DBL Pointer Main/DBL Pointer Main.lvclass"/>
+				</Item>
+			</Item>
+>>>>>>> master
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
