@@ -30,7 +30,6 @@
 			</Item>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="Framework Configured Test.vi" Type="VI" URL="../Engine/Framework Configured Test.vi"/>
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Engine/Framework Source Test.vi"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
