@@ -17,6 +17,7 @@
 				<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Component Loader/Component Loader.lvclass"/>
 			</Item>
 			<Item Name="Configuration" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Configuration Controls" Type="Folder">
 					<Item Name="DSF Byte Order.ctl" Type="VI" URL="../Configuration/Public/Controls/DSF Byte Order.ctl"/>
 					<Item Name="DSF Channel Info.ctl" Type="VI" URL="../Configuration/Public/Controls/DSF Channel Info.ctl"/>
@@ -35,8 +36,8 @@
 					<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../Configuration/Public/Controls/DSF Transfer Info.ctl"/>
 					<Item Name="DSF Version Info.ctl" Type="VI" URL="../Configuration/Public/Controls/DSF Version Info.ctl"/>
 				</Item>
-				<Item Name="Channel Count.vi" Type="VI" URL="../Configuration/Public/Channel Count.vi"/>
 				<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Configuration/Configuration Session.lvclass"/>
+				<Item Name="Channel Count.vi" Type="VI" URL="../Configuration/Public/Channel Count.vi"/>
 				<Item Name="Get Engine Offset.vi" Type="VI" URL="../Configuration/Public/Get Engine Offset.vi"/>
 				<Item Name="Required Buffer Size.vi" Type="VI" URL="../Configuration/Public/Required Buffer Size.vi"/>
 				<Item Name="Transfer Channel Count.vi" Type="VI" URL="../Configuration/Public/Transfer Channel Count.vi"/>
