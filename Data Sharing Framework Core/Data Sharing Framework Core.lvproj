@@ -20,7 +20,12 @@
 				</Item>
 				<Item Name="Configuration Tests.lvclass" Type="LVClass" URL="../Tests/Configuration/Configuration Tests/Configuration Tests.lvclass"/>
 			</Item>
-			<Item Name="placeholder.txt" Type="Document" URL="../Tests/placeholder.txt"/>
+			<Item Name="DBL Pointer" Type="Folder">
+				<Item Name="DBL Pointer Tests.lvclass" Type="LVClass" URL="../Tests/DBL Pointer/DBL Pointer Main/DBL Pointer Tests.lvclass"/>
+			</Item>
+			<Item Name="Memory Buffer Tests" Type="Folder">
+				<Item Name="Read Value Tests.lvclass" Type="LVClass" URL="../Tests/Mem Buff/Mem Buff Read Write/Read Value Tests.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
