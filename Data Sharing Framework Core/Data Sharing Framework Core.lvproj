@@ -13,9 +13,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="DBL Pointer" Type="Folder">
-				<Item Name="DBL Pointer Main" Type="Folder">
-					<Item Name="DBL Pointer Main.lvclass" Type="LVClass" URL="../Tests/DBL Pointer/DBL Pointer Main/DBL Pointer Main.lvclass"/>
-				</Item>
+				<Item Name="DBL Pointer Tests.lvclass" Type="LVClass" URL="../Tests/DBL Pointer/DBL Pointer Main/DBL Pointer Tests.lvclass"/>
+			</Item>
+			<Item Name="Memory Buffer Tests" Type="Folder">
+				<Item Name="Read Value Tests.lvclass" Type="LVClass" URL="../Tests/Mem Buff/Mem Buff Read Write/Read Value Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
