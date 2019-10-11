@@ -13,12 +13,6 @@
 			<Item Name="Component Loader" Type="Folder">
 				<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Component Loader/Component Loader.lvclass"/>
 			</Item>
-			<Item Name="Debug" Type="Folder">
-				<Item Name="Categories" Type="Folder">
-					<Item Name="FIFO Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/FIFO Flags/FIFO Flags.lvclass"/>
-				</Item>
-				<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/Debug Flags/Debug Flags.lvclass"/>
-			</Item>
 			<Item Name="Hardware Info" Type="Folder">
 				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
 				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
@@ -28,19 +22,10 @@
 				<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Interface/Interface.lvclass"/>
 				<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Transceiver Interface/Plugin Interface.lvclass"/>
 			</Item>
-			<Item Name="Memory" Type="Folder">
-				<Item Name="Cache.lvclass" Type="LVClass" URL="../Engine/Classes/Cache/Cache.lvclass"/>
-				<Item Name="DBL Pointer.lvclass" Type="LVClass" URL="../Engine/Classes/Pointer/DBL Pointer.lvclass"/>
-			</Item>
 			<Item Name="Pool" Type="Folder">
 				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
 				<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
 				<Item Name="Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Pool.lvclass"/>
-			</Item>
-			<Item Name="Scheduler" Type="Folder">
-				<Item Name="Scheduler Plugin Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Scheduler/Scheduler Plugin Bundle.lvclass"/>
-				<Item Name="Scheduler Transfer Group Bundle.lvclass" Type="LVClass" URL="../Engine/Classes/Scheduler/Scheduler Transfer Group Bundle.lvclass"/>
-				<Item Name="Scheduler.lvclass" Type="LVClass" URL="../Engine/Classes/Scheduler/Scheduler.lvclass"/>
 			</Item>
 			<Item Name="State" Type="Folder">
 				<Item Name="Framework State.lvclass" Type="LVClass" URL="../Engine/Classes/State/Framework State.lvclass"/>
@@ -61,9 +46,7 @@
 				<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Thread Pool.lvclass"/>
 			</Item>
 			<Item Name="Timing" Type="Folder">
-				<Item Name="Plugin Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Plugin Timing.lvclass"/>
 				<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
-				<Item Name="Transfer Group Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Transfer Group Timing.lvclass"/>
 			</Item>
 			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffers.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>

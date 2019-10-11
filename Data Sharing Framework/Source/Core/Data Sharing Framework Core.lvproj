@@ -21,13 +21,6 @@
 				<Item Name="Benchmark Convert String Type - Random Scalars.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Random Scalars.vi"/>
 				<Item Name="Benchmark Convert String Type - Single Type to Single Type.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Single Type to Single Type.vi"/>
 			</Item>
-			<Item Name="Interface" Type="Folder">
-				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Interface Read N End Time.vi" Type="VI" URL="../Engine/Benchmarks/Interface Read N End Time.vi"/>
-					<Item Name="Interface Write N Start Time.vi" Type="VI" URL="../Engine/Benchmarks/Interface Write N Start Time.vi"/>
-				</Item>
-				<Item Name="Interface Benchmark.vi" Type="VI" URL="../Engine/Benchmarks/Interface Benchmark.vi"/>
-			</Item>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Engine/Framework Source Test.vi"/>
