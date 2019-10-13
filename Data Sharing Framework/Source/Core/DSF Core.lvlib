@@ -119,6 +119,7 @@
 			<Item Name="Engine Library Name.vi" Type="VI" URL="../Shared/Constants/Engine Library Name.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Buffer Descriptor.ctl" Type="VI" URL="../Engine/Typedefs/Buffer Descriptor.ctl"/>
 			<Item Name="FIFO Flags.ctl" Type="VI" URL="../Engine/Typedefs/FIFO Flags.ctl"/>
 			<Item Name="Plugin Flags.ctl" Type="VI" URL="../Engine/Typedefs/Plugin Flags.ctl"/>
 		</Item>
