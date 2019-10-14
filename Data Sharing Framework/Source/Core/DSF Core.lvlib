@@ -30,15 +30,6 @@
 			<Item Name="State" Type="Folder">
 				<Item Name="Framework State.lvclass" Type="LVClass" URL="../Engine/Classes/State/Framework State.lvclass"/>
 			</Item>
-			<Item Name="Status" Type="Folder">
-				<Item Name="Framework" Type="Folder">
-					<Item Name="Performance" Type="Folder">
-						<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Performance.lvclass"/>
-					</Item>
-					<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
-				</Item>
-				<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
-			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
 				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
@@ -48,7 +39,6 @@
 			<Item Name="Timing" Type="Folder">
 				<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
 			</Item>
-			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffers.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 		</Item>
 	</Item>
@@ -102,9 +92,19 @@
 				</Item>
 				<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Configuration API/Configuration Session.lvclass"/>
 			</Item>
+			<Item Name="Status" Type="Folder">
+				<Item Name="Framework" Type="Folder">
+					<Item Name="Performance" Type="Folder">
+						<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Performance.lvclass"/>
+					</Item>
+					<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
+				</Item>
+				<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
+			</Item>
 			<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
 			<Item Name="Buffer Descriptor.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer Descriptor/Buffer Descriptor.lvclass"/>
 			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer.lvclass"/>
+			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffers.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 			<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 			<Item Name="Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Thread.lvclass"/>
