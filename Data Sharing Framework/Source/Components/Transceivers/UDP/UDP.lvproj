@@ -33,15 +33,6 @@
 					<Item Name="State" Type="Folder">
 						<Item Name="Framework State.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/State/Framework State.lvclass"/>
 					</Item>
-					<Item Name="Status" Type="Folder">
-						<Item Name="Framework" Type="Folder">
-							<Item Name="Performance" Type="Folder">
-								<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Status/Framework Performance.lvclass"/>
-							</Item>
-							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Status/Framework Status.lvclass"/>
-						</Item>
-						<Item Name="Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Status/Status.lvclass"/>
-					</Item>
 					<Item Name="Thread" Type="Folder">
 						<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
 						<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
@@ -102,6 +93,15 @@
 							<Item Name="String Buffer Offset (Transfer).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/String Buffer Offset (Transfer).vi"/>
 						</Item>
 						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Configuration Session.lvclass"/>
+					</Item>
+					<Item Name="Status" Type="Folder">
+						<Item Name="Framework" Type="Folder">
+							<Item Name="Performance" Type="Folder">
+								<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Status/Framework Performance.lvclass"/>
+							</Item>
+							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Status/Framework Status.lvclass"/>
+						</Item>
+						<Item Name="Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Status/Status.lvclass"/>
 					</Item>
 					<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
 					<Item Name="Buffer Descriptor.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Buffer Descriptor/Buffer Descriptor.lvclass"/>
