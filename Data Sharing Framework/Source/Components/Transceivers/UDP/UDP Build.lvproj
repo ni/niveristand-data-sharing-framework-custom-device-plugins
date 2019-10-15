@@ -435,19 +435,19 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E58A5EEB-4F69-4973-A5FF-111BABE98365}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Transceivers/UDP</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Components</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Pharlap/Transceivers/UDP/UDP.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Pharlap/Components/UDP.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/Pharlap/Transceivers/UDP</Property>
+				<Property Name="Destination[1].path" Type="Path">/Pharlap/Components</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C9F2AA08-3083-47F9-8A94-C6E0F02CD0DA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CA659DDB-69F8-4173-AAB1-6BFB7FFCA2A5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/UDP.lvlib</Property>

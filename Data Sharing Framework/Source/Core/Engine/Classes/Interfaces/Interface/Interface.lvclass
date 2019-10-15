@@ -117,7 +117,7 @@
 		<Item Name="Protected" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 			<Item Name="Constants" Type="Folder">
-				<Item Name="Base Error Offset.vi" Type="VI" URL="../Base Error Offset.vi">
+				<Item Name="Interface Error Offset.vi" Type="VI" URL="../Interface Error Offset.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"X!!!!!Q!%!!!!&amp;U!$!"&amp;C98.F)'6S=G^S)'^G:H.F&gt;!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!)!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
