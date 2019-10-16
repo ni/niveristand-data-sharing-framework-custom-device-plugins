@@ -41,6 +41,9 @@
 			</Item>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 		</Item>
+		<Item Name="VIs" Type="Folder">
+			<Item Name="VI Name.vi" Type="VI" URL="../Engine/VIs/VI Name.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
