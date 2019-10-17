@@ -129,6 +129,7 @@
 					<Item Name="Plugin Flags.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Typedefs/Plugin Flags.ctl"/>
 				</Item>
 				<Item Name="VIs" Type="Folder">
+					<Item Name="Move Window.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread/Move Window.vi"/>
 					<Item Name="Sizeof 1D.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof 1D.vi"/>
 					<Item Name="Sizeof.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof.vi"/>
 				</Item>
@@ -163,7 +164,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6F74E28E-D8D0-40CE-B630-EA0198F4D848}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components/UDP.lvlibp</Property>
@@ -203,7 +204,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CFE4B019-BBCF-4A9B-B616-BC992E622B8A}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components/UDP Debug.lvlibp</Property>
@@ -408,6 +409,7 @@
 						<Item Name="Plugin Flags.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Typedefs/Plugin Flags.ctl"/>
 					</Item>
 					<Item Name="VIs" Type="Folder">
+						<Item Name="Move Window.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread/Move Window.vi"/>
 						<Item Name="Sizeof 1D.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof 1D.vi"/>
 						<Item Name="Sizeof.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof.vi"/>
 					</Item>

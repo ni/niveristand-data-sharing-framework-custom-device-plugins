@@ -44,6 +44,9 @@
 					</Item>
 					<Item Name="Plugin.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Plugin/Plugin.lvclass"/>
 				</Item>
+				<Item Name="VIs" Type="Folder">
+					<Item Name="VI Name.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/VIs/VI Name.vi"/>
+				</Item>
 			</Item>
 			<Item Name="Public" Type="Folder">
 				<Item Name="Classes" Type="Folder">
@@ -126,6 +129,7 @@
 					<Item Name="Plugin Flags.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Typedefs/Plugin Flags.ctl"/>
 				</Item>
 				<Item Name="VIs" Type="Folder">
+					<Item Name="Move Window.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread/Move Window.vi"/>
 					<Item Name="Sizeof 1D.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof 1D.vi"/>
 					<Item Name="Sizeof.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof.vi"/>
 				</Item>

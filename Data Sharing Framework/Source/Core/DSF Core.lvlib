@@ -57,6 +57,7 @@
 					<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Channel Configuration.ctl"/>
 					<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Framework Configuration.ctl"/>
 					<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Plugin Configuration.ctl"/>
+					<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Plugin Thread Configuration.ctl"/>
 					<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Transfer Configuration.ctl"/>
 					<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
 					<Item Name="DSF Group Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Group Info.ctl"/>
@@ -127,6 +128,7 @@
 			<Item Name="Plugin Flags.ctl" Type="VI" URL="../Engine/Typedefs/Plugin Flags.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
+			<Item Name="Move Window.vi" Type="VI" URL="../Engine/Classes/Thread/Move Window.vi"/>
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../Shared/VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../Shared/VIs/Sizeof.vi"/>
 		</Item>
