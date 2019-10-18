@@ -11,19 +11,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Configuration Creation" Type="Folder">
-			<Item Name="Create Channel Configuration.vi" Type="VI" URL="../Configuration/Create Channel Configuration.vi"/>
-			<Item Name="Create Framework Configuration.vi" Type="VI" URL="../Configuration/Create Framework Configuration.vi"/>
-			<Item Name="Create Plugin Configuration.vi" Type="VI" URL="../Configuration/Create Plugin Configuration.vi"/>
-			<Item Name="Create Transfer Configuration.vi" Type="VI" URL="../Configuration/Create Transfer Configuration.vi"/>
-			<Item Name="Create Transfer Group Configuration.vi" Type="VI" URL="../Configuration/Create Transfer Group Configuration.vi"/>
-		</Item>
-		<Item Name="UDP Test" Type="Folder">
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="UDP.Rx.Launch.vi" Type="VI" URL="../UDP/UDP.Rx.Launch.vi"/>
-				<Item Name="UDP.Rx.vi" Type="VI" URL="../UDP/UDP.Rx.vi"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="UDP Test" Type="Folder">
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="UDP.Rx.Launch.vi" Type="VI" URL="../UDP/UDP.Rx.Launch.vi"/>
+					<Item Name="UDP.Rx.vi" Type="VI" URL="../UDP/UDP.Rx.vi"/>
+				</Item>
+				<Item Name="UDP.Rx.Top.vi" Type="VI" URL="../UDP/UDP.Rx.Top.vi"/>
 			</Item>
-			<Item Name="UDP.Rx.Top.vi" Type="VI" URL="../UDP/UDP.Rx.Top.vi"/>
+			<Item Name="User Interface" Type="Folder">
+				<Item Name="Create UI Pointers.vi" Type="VI" URL="../UI/Create UI Pointers.vi"/>
+				<Item Name="Cycle Timing.vi" Type="VI" URL="../UI/Cycle Timing.vi"/>
+				<Item Name="Update UI.vi" Type="VI" URL="../UI/Update UI.vi"/>
+				<Item Name="User Interface Pointers.ctl" Type="VI" URL="../UI/User Interface Pointers.ctl"/>
+			</Item>
+			<Item Name="Framework Main.vi" Type="VI" URL="../Framework Main.vi"/>
 		</Item>
 		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -110,6 +112,7 @@
 								<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Channel Configuration.ctl"/>
 								<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Framework Configuration.ctl"/>
 								<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Configuration.ctl"/>
+								<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Thread Configuration.ctl"/>
 								<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Configuration.ctl"/>
 								<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
 								<Item Name="DSF Group Info.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Group Info.ctl"/>
@@ -180,6 +183,7 @@
 						<Item Name="Plugin Flags.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Typedefs/Plugin Flags.ctl"/>
 					</Item>
 					<Item Name="VIs" Type="Folder">
+						<Item Name="Move Window.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Engine/Classes/Thread/Move Window.vi"/>
 						<Item Name="Sizeof 1D.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof 1D.vi"/>
 						<Item Name="Sizeof.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/Shared/VIs/Sizeof.vi"/>
 					</Item>

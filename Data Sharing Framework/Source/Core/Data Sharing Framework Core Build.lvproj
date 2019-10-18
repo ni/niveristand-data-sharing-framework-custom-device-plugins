@@ -35,7 +35,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5AA149DB-6B1F-4E33-98F3-931B89688611}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core/DSF Core.lvlibp</Property>
@@ -80,7 +80,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FDDD110F-E911-47E7-BACC-9E25B0B94FDA}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Data Sharing Framework Core/DSF Core.lvlibp</Property>
@@ -192,7 +192,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5DED3947-039F-4C84-8DF5-BAEFA79C3D6F}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Data Sharing Framework Core</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Data Sharing Framework Core/DSF Core.lvlibp</Property>
@@ -235,7 +235,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3BEDD58D-34CA-4DC3-8275-96105C4608D4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Data Sharing Framework Core</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Data Sharing Framework Core/DSF Core.lvlibp</Property>
