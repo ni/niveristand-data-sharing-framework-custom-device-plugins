@@ -11,101 +11,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
-		<Item Name="Build Specifications" Type="Build"/>
-	</Item>
-	<Item Name="RT PXI Target" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
-		<Property Name="alias.value" Type="Str">10.1.130.15</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
-		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
-		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
-		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
-		<Property Name="host.TargetCPUID" Type="UInt">3</Property>
-		<Property Name="host.TargetOSID" Type="UInt">15</Property>
-		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
-		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
-		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
-		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Faults" Type="Str"></Property>
-		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
-		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
-		<Property Name="target.IOScan.Period" Type="UInt">10000</Property>
-		<Property Name="target.IOScan.PowerupMode" Type="UInt">0</Property>
-		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
-		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
-		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
-		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
-		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
-		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
-		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
-		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
-		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
-		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
-		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
-		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
-		<Property Name="target.server.vi.access" Type="Str">+*</Property>
-		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
-		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
-
-NI.ServerName default
-DocumentRoot "$LVSERVER_DOCROOT"
-TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
-DirectoryIndex index.htm
-WorkerLimit 10
-InactivityTimeout 60
-
-LoadModulePath "$LVSERVER_MODULEPATHS"
-LoadModule LVAuth lvauthmodule
-LoadModule LVRFP lvrfpmodule
-
-#
-# Pipeline Definition
-#
-
-SetConnector netConnector
-
-AddHandler LVAuth
-AddHandler LVRFP
-
-AddHandler fileHandler ""
-
-AddOutputFilter chunkFilter
-
-
-</Property>
-		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
-		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
-		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
-		<Property Name="target.WebServer.Port" Type="Int">80</Property>
-		<Property Name="target.WebServer.RootPath" Type="Path">/c/ni-rt/system/www</Property>
-		<Property Name="target.WebServer.TcpAccess" Type="Str">c+*</Property>
-		<Property Name="target.WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
-		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
-		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="UDP Test" Type="Folder">
 				<Item Name="SubVIs" Type="Folder">
-					<Item Name="UDP.Rx.Launch.vi" Type="VI" URL="../UDP/UDP.Rx.Launch.vi"/>
-					<Item Name="UDP.Rx.vi" Type="VI" URL="../UDP/UDP.Rx.vi"/>
+					<Item Name="UDP Rx Launch.vi" Type="VI" URL="../SubVIs/UDP/UDP Rx Launch.vi"/>
+					<Item Name="UDP Rx.vi" Type="VI" URL="../SubVIs/UDP/UDP Rx.vi"/>
 				</Item>
-				<Item Name="UDP.Rx.Top.vi" Type="VI" URL="../UDP/UDP.Rx.Top.vi"/>
+				<Item Name="UDP Rx Main.vi" Type="VI" URL="../SubVIs/UDP/UDP Rx Main.vi"/>
 			</Item>
 			<Item Name="User Interface" Type="Folder">
-				<Item Name="Create UI Pointers.vi" Type="VI" URL="../UI/Create UI Pointers.vi"/>
-				<Item Name="Cycle Timing.vi" Type="VI" URL="../UI/Cycle Timing.vi"/>
-				<Item Name="Update UI.vi" Type="VI" URL="../UI/Update UI.vi"/>
-				<Item Name="User Interface Pointers.ctl" Type="VI" URL="../UI/User Interface Pointers.ctl"/>
+				<Item Name="Create UI Pointers.vi" Type="VI" URL="../SubVIs/UI/Create UI Pointers.vi"/>
+				<Item Name="Cycle Timing.vi" Type="VI" URL="../SubVIs/UI/Cycle Timing.vi"/>
+				<Item Name="Update UI.vi" Type="VI" URL="../SubVIs/UI/Update UI.vi"/>
+				<Item Name="User Interface Pointers.ctl" Type="VI" URL="../SubVIs/UI/User Interface Pointers.ctl"/>
 			</Item>
-			<Item Name="Framework Main.vi" Type="VI" URL="../Framework Main.vi"/>
+			<Item Name="Framework Main.vi" Type="VI" URL="../SubVIs/Framework Main.vi"/>
 		</Item>
 		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -288,6 +208,86 @@ AddOutputFilter chunkFilter
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../../../Builds/Data Sharing Framework/Current/Data Sharing Framework Core/DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
+	</Item>
+	<Item Name="RT PXI Target" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
+		<Property Name="alias.value" Type="Str">10.1.130.15</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
+		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
+		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
+		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
+		<Property Name="host.TargetCPUID" Type="UInt">3</Property>
+		<Property Name="host.TargetOSID" Type="UInt">15</Property>
+		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
+		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
+		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
+		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Faults" Type="Str"></Property>
+		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="target.IOScan.Period" Type="UInt">10000</Property>
+		<Property Name="target.IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
+		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
+		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
+		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
+		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
+		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
+		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
+		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
+		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
+		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
+		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
+		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.vi.access" Type="Str">+*</Property>
+		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
+DirectoryIndex index.htm
+WorkerLimit 10
+InactivityTimeout 60
+
+LoadModulePath "$LVSERVER_MODULEPATHS"
+LoadModule LVAuth lvauthmodule
+LoadModule LVRFP lvrfpmodule
+
+#
+# Pipeline Definition
+#
+
+SetConnector netConnector
+
+AddHandler LVAuth
+AddHandler LVRFP
+
+AddHandler fileHandler ""
+
+AddOutputFilter chunkFilter
+
+
+</Property>
+		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
+		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
+		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
+		<Property Name="target.WebServer.Port" Type="Int">80</Property>
+		<Property Name="target.WebServer.RootPath" Type="Path">/c/ni-rt/system/www</Property>
+		<Property Name="target.WebServer.TcpAccess" Type="Str">c+*</Property>
+		<Property Name="target.WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
+		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
+		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
