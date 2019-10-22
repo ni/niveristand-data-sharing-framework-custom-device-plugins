@@ -5,13 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Configuration" Type="Folder">
-				<Item Name="VeriStand DSF.Framework.Configuration.lvclass" Type="LVClass" URL="../VeriStand Framework/Configuration/VeriStand DSF.Framework.Configuration.lvclass"/>
-				<Item Name="VeriStand DSF.Plugin.Configuration.lvclass" Type="LVClass" URL="../VeriStand Framework/Configuration/VeriStand DSF.Plugin.Configuration.lvclass"/>
-				<Item Name="VeriStand DSF.Transfer Group.Configuration.lvclass" Type="LVClass" URL="../VeriStand Framework/Configuration/VeriStand DSF.Transfer Group.Configuration.lvclass"/>
-				<Item Name="VeriStand DSF.Transfer.Configuration.lvclass" Type="LVClass" URL="../VeriStand Framework/Configuration/VeriStand DSF.Transfer.Configuration.lvclass"/>
-			</Item>
-			<Item Name="VeriStand DSF.Framework.lvclass" Type="LVClass" URL="../VeriStand Framework/VeriStand DSF.Framework.lvclass"/>
+			<Item Name="VeriStand Data Sharing Framework.lvclass" Type="LVClass" URL="../VeriStand Framework/VeriStand Data Sharing Framework.lvclass"/>
 		</Item>
 		<Item Name="Init" Type="Folder"/>
 		<Item Name="Run" Type="Folder">
