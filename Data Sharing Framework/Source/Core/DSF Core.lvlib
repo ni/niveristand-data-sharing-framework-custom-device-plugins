@@ -87,6 +87,10 @@
 						<Item Name="Required String Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Required String Buffer Size (Plugin).vi"/>
 						<Item Name="Required String Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Required String Buffer Size (Transfer Group).vi"/>
 						<Item Name="Required String Buffer Size (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Required String Buffer Size (Transfer).vi"/>
+						<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Framework).vi"/>
+						<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Plugin).vi"/>
+						<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer Group).vi"/>
+						<Item Name="Validate Configuration (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer).vi"/>
 					</Item>
 					<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
 					<Item Name="Engine Offset.vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset.vi"/>
