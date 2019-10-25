@@ -122,10 +122,10 @@
 				<Item Name="Largest Contiguous Channel Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Contiguous Channel Count (Transfer).vi"/>
 				<Item Name="Max Block Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count (Transfer Group).vi"/>
 				<Item Name="Max Block Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count (Transfer).vi"/>
-				<Item Name="Required String Buffer Size (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Required String Buffer Size (Framework).vi"/>
-				<Item Name="Required String Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Required String Buffer Size (Plugin).vi"/>
-				<Item Name="Required String Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Required String Buffer Size (Transfer Group).vi"/>
-				<Item Name="Required String Buffer Size (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Required String Buffer Size (Transfer).vi"/>
+				<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Framework).vi"/>
+				<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
+				<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
+				<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer).vi"/>
 				<Item Name="String Buffer Offset (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/String Buffer Offset (Transfer).vi"/>
 				<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Framework).vi"/>
 				<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Plugin).vi"/>
@@ -142,4 +142,5 @@
 			<Item Name="Sizeof.vi" Type="VI" URL="../Shared/VIs/Sizeof.vi"/>
 		</Item>
 	</Item>
+	<Item Name="Check Engine Blocks Order.vi" Type="VI" URL="../DSF Configuration API/Public/Errors/Check Engine Blocks Order.vi"/>
 </Library>
