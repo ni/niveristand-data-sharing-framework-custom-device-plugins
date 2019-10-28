@@ -133,14 +133,14 @@
 				<Item Name="Validate Configuration (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer).vi"/>
 			</Item>
 			<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
+			<Item Name="Check Engine Blocks.vi" Type="VI" URL="../DSF Configuration API/Public/Errors/Check Engine Blocks.vi"/>
 			<Item Name="Engine Offset.vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset.vi"/>
 			<Item Name="Largest Contiguous Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Largest Contiguous Channel Count.vi"/>
 			<Item Name="Max Block Count.vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count.vi"/>
 			<Item Name="Move Window.vi" Type="VI" URL="../Engine/Classes/Thread/Move Window.vi"/>
-			<Item Name="Required String Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required String Buffer Size.vi"/>
+			<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../Shared/VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../Shared/VIs/Sizeof.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Check Engine Blocks Order.vi" Type="VI" URL="../DSF Configuration API/Public/Errors/Check Engine Blocks Order.vi"/>
 </Library>
