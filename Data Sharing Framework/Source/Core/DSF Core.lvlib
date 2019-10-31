@@ -104,19 +104,10 @@
 					<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Plugin).vi"/>
 					<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Transfer Group).vi"/>
 					<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Transfer).vi"/>
-					<Item Name="Engine Offset (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Framework).vi"/>
-					<Item Name="Engine Offset (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Plugin).vi"/>
-					<Item Name="Engine Offset (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Transfer Group).vi"/>
-					<Item Name="Engine Offset (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset (Transfer).vi"/>
-					<Item Name="Largest Contiguous Channel Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Contiguous Channel Count (Transfer Group).vi"/>
-					<Item Name="Largest Contiguous Channel Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Contiguous Channel Count (Transfer).vi"/>
-					<Item Name="Max Block Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count (Transfer Group).vi"/>
-					<Item Name="Max Block Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count (Transfer).vi"/>
 					<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Framework).vi"/>
 					<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
 					<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
 					<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer).vi"/>
-					<Item Name="String Buffer Offset (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/String Buffer Offset (Transfer).vi"/>
 					<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Framework).vi"/>
 					<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Plugin).vi"/>
 					<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer Group).vi"/>
@@ -126,9 +117,6 @@
 				<Item Name="Check Engine Blocks.vi" Type="VI" URL="../DSF Configuration API/Public/Errors/Check Engine Blocks.vi"/>
 				<Item Name="DSF Configuration Cluster to File.vi" Type="VI" URL="../Engine/Configuration/DSF Configuration Cluster to File.vi"/>
 				<Item Name="DSF Configuration File to Cluster.vi" Type="VI" URL="../Engine/Configuration/DSF Configuration File to Cluster.vi"/>
-				<Item Name="Engine Offset.vi" Type="VI" URL="../DSF Configuration API/Public/Engine Offset.vi"/>
-				<Item Name="Largest Contiguous Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Largest Contiguous Channel Count.vi"/>
-				<Item Name="Max Block Count.vi" Type="VI" URL="../DSF Configuration API/Public/Max Block Count.vi"/>
 				<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
 			</Item>
 			<Item Name="Constants" Type="Folder">

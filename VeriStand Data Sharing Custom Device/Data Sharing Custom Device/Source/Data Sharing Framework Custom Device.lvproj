@@ -76,54 +76,6 @@
 			</Item>
 			<Item Name="Public" Type="Folder">
 				<Item Name="Classes" Type="Folder">
-					<Item Name="Configuration" Type="Folder">
-						<Item Name="Controls" Type="Folder">
-							<Item Name="DSF Byte Order.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
-							<Item Name="DSF Channel Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Channel Info.ctl"/>
-							<Item Name="DSF Data Type.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Data Type.ctl"/>
-							<Item Name="DSF Direction.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Direction.ctl"/>
-							<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Channel Configuration.ctl"/>
-							<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Framework Configuration.ctl"/>
-							<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Configuration.ctl"/>
-							<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Thread Configuration.ctl"/>
-							<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Configuration.ctl"/>
-							<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
-							<Item Name="DSF Group Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Group Info.ctl"/>
-							<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Plugin Info.ctl"/>
-							<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
-							<Item Name="DSF Settings Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
-							<Item Name="DSF Timing Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
-							<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
-							<Item Name="DSF Version Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
-						</Item>
-						<Item Name="VIs" Type="Folder">
-							<Item Name="Poly VIs" Type="Folder">
-								<Item Name="Channel Count (Framework).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count (Framework).vi"/>
-								<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count (Plugin).vi"/>
-								<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count (Transfer Group).vi"/>
-								<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count (Transfer).vi"/>
-								<Item Name="Engine Offset (Framework).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Engine Offset (Framework).vi"/>
-								<Item Name="Engine Offset (Plugin).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Engine Offset (Plugin).vi"/>
-								<Item Name="Engine Offset (Transfer Group).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Engine Offset (Transfer Group).vi"/>
-								<Item Name="Engine Offset (Transfer).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Engine Offset (Transfer).vi"/>
-								<Item Name="Largest Contiguous Channel Count (Transfer Group).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Largest Contiguous Channel Count (Transfer Group).vi"/>
-								<Item Name="Largest Contiguous Channel Count (Transfer).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Largest Contiguous Channel Count (Transfer).vi"/>
-								<Item Name="Max Block Count (Transfer Group).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Max Block Count (Transfer Group).vi"/>
-								<Item Name="Max Block Count (Transfer).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Max Block Count (Transfer).vi"/>
-								<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Framework).vi"/>
-								<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
-								<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
-								<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Transfer).vi"/>
-							</Item>
-							<Item Name="Channel Count.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count.vi"/>
-							<Item Name="Engine Offset.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Engine Offset.vi"/>
-							<Item Name="Largest Contiguous Channel Count.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Largest Contiguous Channel Count.vi"/>
-							<Item Name="Max Block Count.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Max Block Count.vi"/>
-							<Item Name="Required Buffer Size.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size.vi"/>
-							<Item Name="String Buffer Offset (Transfer).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/String Buffer Offset (Transfer).vi"/>
-						</Item>
-						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Configuration Session.lvclass"/>
-					</Item>
 					<Item Name="Status" Type="Folder">
 						<Item Name="Framework" Type="Folder">
 							<Item Name="Performance" Type="Folder">
@@ -137,6 +89,7 @@
 					<Item Name="Buffer Descriptor.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Engine/Classes/Buffer Descriptor/Buffer Descriptor.lvclass"/>
 					<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer.lvclass"/>
 					<Item Name="Buffers.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Engine/Classes/Buffer/Buffers.lvclass"/>
+					<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Configuration Session.lvclass"/>
 					<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Engine/Classes/Framework/Framework.lvclass"/>
 					<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 					<Item Name="Thread.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Engine/Classes/Thread/Thread.lvclass"/>
@@ -144,18 +97,63 @@
 					<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Engine/Classes/Transfer Group/Transfer Group.lvclass"/>
 					<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Engine/Classes/Transfer/Transfer.lvclass"/>
 				</Item>
-				<Item Name="Constants" Type="Folder">
-					<Item Name="Base Error Code.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Constants/Base Error Code.vi"/>
-					<Item Name="Constants.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Constants/Constants.vi"/>
-					<Item Name="Default Components Directory.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Constants/Default Components Directory.vi"/>
-					<Item Name="Engine Library Name.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Constants/Engine Library Name.vi"/>
-				</Item>
 				<Item Name="Typedefs" Type="Folder">
-					<Item Name="Buffer Descriptor.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Engine/Typedefs/Buffer Descriptor.ctl"/>
-					<Item Name="FIFO Flags.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Engine/Typedefs/FIFO Flags.ctl"/>
-					<Item Name="Plugin Flags.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Engine/Typedefs/Plugin Flags.ctl"/>
+					<Item Name="Configuration" Type="Folder">
+						<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Channel Configuration.ctl"/>
+						<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Framework Configuration.ctl"/>
+						<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Configuration.ctl"/>
+						<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Plugin Thread Configuration.ctl"/>
+						<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Configuration.ctl"/>
+						<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
+					</Item>
+					<Item Name="Flags" Type="Folder">
+						<Item Name="FIFO Flags.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Engine/Typedefs/FIFO Flags.ctl"/>
+						<Item Name="Plugin Flags.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Engine/Typedefs/Plugin Flags.ctl"/>
+					</Item>
+					<Item Name="DSF Byte Order.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
+					<Item Name="DSF Channel Buffer Descriptor.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Channel Buffer Descriptor.ctl"/>
+					<Item Name="DSF Channel Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Channel Info.ctl"/>
+					<Item Name="DSF Configuration Errors.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Configuration Errors.ctl"/>
+					<Item Name="DSF Data Type.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Data Type.ctl"/>
+					<Item Name="DSF Direction.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Direction.ctl"/>
+					<Item Name="DSF Group Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Group Info.ctl"/>
+					<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Plugin Info.ctl"/>
+					<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
+					<Item Name="DSF Settings Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
+					<Item Name="DSF Timing Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
+					<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
+					<Item Name="DSF Version Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
 				</Item>
 				<Item Name="VIs" Type="Folder">
+					<Item Name="Configuration" Type="Folder">
+						<Item Name="Errors" Type="Folder"/>
+						<Item Name="Poly VIs" Type="Folder">
+							<Item Name="Channel Count (Framework).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count (Framework).vi"/>
+							<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count (Plugin).vi"/>
+							<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count (Transfer Group).vi"/>
+							<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count (Transfer).vi"/>
+							<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Framework).vi"/>
+							<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
+							<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
+							<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Transfer).vi"/>
+							<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Validate Configuration (Framework).vi"/>
+							<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Validate Configuration (Plugin).vi"/>
+							<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Validate Configuration (Transfer Group).vi"/>
+							<Item Name="Validate Configuration (Transfer).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Validate Configuration (Transfer).vi"/>
+						</Item>
+						<Item Name="Channel Count.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count.vi"/>
+						<Item Name="Check Engine Blocks.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Errors/Check Engine Blocks.vi"/>
+						<Item Name="DSF Configuration Cluster to File.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Engine/Configuration/DSF Configuration Cluster to File.vi"/>
+						<Item Name="DSF Configuration File to Cluster.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Engine/Configuration/DSF Configuration File to Cluster.vi"/>
+						<Item Name="Required Buffer Size.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size.vi"/>
+					</Item>
+					<Item Name="Constants" Type="Folder">
+						<Item Name="Base Error Code.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Constants/Base Error Code.vi"/>
+						<Item Name="Constants.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Constants/Constants.vi"/>
+						<Item Name="Default Components Directory.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Constants/Default Components Directory.vi"/>
+						<Item Name="Engine Library Name.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Constants/Engine Library Name.vi"/>
+						<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/Constants/Error Offset (Configuration).vi"/>
+					</Item>
 					<Item Name="Move Window.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Engine/Classes/Thread/Move Window.vi"/>
 					<Item Name="Sizeof 1D.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/VIs/Sizeof 1D.vi"/>
 					<Item Name="Sizeof.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/Shared/VIs/Sizeof.vi"/>
