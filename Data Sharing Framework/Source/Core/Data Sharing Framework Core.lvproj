@@ -24,7 +24,7 @@
 			</Item>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="Framework Source Test.vi" Type="VI" URL="../Engine/Framework Source Test.vi"/>
+			<Item Name="Framework Source Test.vi" Type="VI" URL="../Engine/Test/Framework Source Test.vi"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>

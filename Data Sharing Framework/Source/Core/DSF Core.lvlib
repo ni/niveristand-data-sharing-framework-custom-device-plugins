@@ -113,10 +113,10 @@
 					<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer Group).vi"/>
 					<Item Name="Validate Configuration (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer).vi"/>
 				</Item>
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Check Engine Blocks.vi" Type="VI" URL="../DSF Configuration API/Public/Errors/Check Engine Blocks.vi"/>
+				</Item>
 				<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
-				<Item Name="Check Engine Blocks.vi" Type="VI" URL="../DSF Configuration API/Public/Errors/Check Engine Blocks.vi"/>
-				<Item Name="DSF Configuration Cluster to File.vi" Type="VI" URL="../Engine/Configuration/DSF Configuration Cluster to File.vi"/>
-				<Item Name="DSF Configuration File to Cluster.vi" Type="VI" URL="../Engine/Configuration/DSF Configuration File to Cluster.vi"/>
 				<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
 			</Item>
 			<Item Name="Constants" Type="Folder">
