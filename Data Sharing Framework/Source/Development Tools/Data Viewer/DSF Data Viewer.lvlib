@@ -18,10 +18,13 @@
 		</Item>
 		<Item Name="Add Item to Tree.vi" Type="VI" URL="../Source/Item Tree/Add Item to Tree.vi"/>
 		<Item Name="Add Item with Setting.vi" Type="VI" URL="../Source/Item Tree/Add Item with Setting.vi"/>
+		<Item Name="Add Plugin.vi" Type="VI" URL="../Source/Item Tree/Add Plugin.vi"/>
+		<Item Name="Add Transfer Group.vi" Type="VI" URL="../Source/Item Tree/Add Transfer Group.vi"/>
+		<Item Name="Add Transfer.vi" Type="VI" URL="../Source/Item Tree/Add Transfer.vi"/>
 		<Item Name="Clear Tree.vi" Type="VI" URL="../Source/Item Tree/Clear Tree.vi"/>
+		<Item Name="Create Plugins.vi" Type="VI" URL="../Source/Item Tree/Create Plugins.vi"/>
 		<Item Name="Get Item Display Name.vi" Type="VI" URL="../Source/Item Tree/Get Item Display Name.vi"/>
 		<Item Name="Get Item Type.vi" Type="VI" URL="../Source/Item Tree/Get Item Type.vi"/>
-		<Item Name="Get Plugins from Configuration.vi" Type="VI" URL="../Source/Item Tree/Get Plugins from Configuration.vi"/>
 		<Item Name="Is Item Preloaded" Type="VI" URL="../Source/Item Tree/Is Item Preloaded"/>
 		<Item Name="Load All Subitems.vi" Type="VI" URL="../Source/Item Tree/Load All Subitems.vi"/>
 		<Item Name="Load Subitems.vi" Type="VI" URL="../Source/Item Tree/Load Subitems.vi"/>
@@ -35,7 +38,7 @@
 		<Item Name="Initialize Tree with Plugins.vi" Type="VI" URL="../Source/Main VI/Initialize Tree with Plugins.vi"/>
 		<Item Name="Initialize UI.vi" Type="VI" URL="../Source/Main VI/Initialize UI.vi"/>
 		<Item Name="Load and Open All Items.vi" Type="VI" URL="../Source/Main VI/Load and Open All Items.vi"/>
-		<Item Name="Load DSF Configuration File.vi" Type="VI" URL="../Source/Main VI/Load DSF Configuration File.vi"/>
+		<Item Name="Load Framework.vi" Type="VI" URL="../Source/Main VI/Load Framework.vi"/>
 		<Item Name="No File Loaded Message.vi" Type="VI" URL="../Source/Main VI/No File Loaded Message.vi"/>
 		<Item Name="Prepare for Close.vi" Type="VI" URL="../Source/Main VI/Prepare for Close.vi"/>
 		<Item Name="Prompt User for DSF Config File.vi" Type="VI" URL="../Source/Main VI/Prompt User for DSF Config File.vi"/>
