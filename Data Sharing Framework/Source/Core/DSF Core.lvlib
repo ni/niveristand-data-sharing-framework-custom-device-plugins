@@ -36,9 +36,7 @@
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Manager/Thread Manager.lvclass"/>
 				<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Thread Pool.lvclass"/>
 			</Item>
-			<Item Name="Timing" Type="Folder">
-				<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
-			</Item>
+			<Item Name="Timing" Type="Folder"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="VI Name.vi" Type="VI" URL="../Engine/VIs/VI Name.vi"/>
@@ -65,6 +63,7 @@
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 			<Item Name="Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Thread.lvclass"/>
+			<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
 			<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer Group/Transfer Group.lvclass"/>
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
@@ -104,6 +103,9 @@
 					<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Plugin).vi"/>
 					<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Transfer Group).vi"/>
 					<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Transfer).vi"/>
+					<Item Name="Largest Buffer Size (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size (Framework).vi"/>
+					<Item Name="Largest Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size (Plugin).vi"/>
+					<Item Name="Largest Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size (Transfer Group).vi"/>
 					<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Framework).vi"/>
 					<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
 					<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
@@ -117,6 +119,7 @@
 					<Item Name="Check Engine Blocks.vi" Type="VI" URL="../DSF Configuration API/Public/Errors/Check Engine Blocks.vi"/>
 				</Item>
 				<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
+				<Item Name="Largest Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size.vi"/>
 				<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
 			</Item>
 			<Item Name="Constants" Type="Folder">

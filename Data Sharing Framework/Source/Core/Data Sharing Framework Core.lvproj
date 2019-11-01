@@ -25,6 +25,7 @@
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Engine/Test/Framework Source Test.vi"/>
+			<Item Name="DSF Data Viewer.vi" Type="VI" URL="../../Development Tools/Data Viewer/DSF Data Viewer.vi"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
@@ -90,7 +91,6 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 			</Item>
 			<Item Name="DSF Data Viewer.lvlib" Type="Library" URL="../../Development Tools/Data Viewer/DSF Data Viewer.lvlib"/>
-			<Item Name="DSF Data Viewer.vi" Type="VI" URL="../../Development Tools/Data Viewer/DSF Data Viewer.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
