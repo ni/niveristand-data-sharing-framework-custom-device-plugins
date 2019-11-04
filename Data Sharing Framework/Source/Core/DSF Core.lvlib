@@ -10,37 +10,22 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Component Loader" Type="Folder">
-				<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Component Loader/Component Loader.lvclass"/>
-			</Item>
-			<Item Name="Hardware Info" Type="Folder">
-				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
-				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
-			</Item>
-			<Item Name="Interfaces" Type="Folder">
-				<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
-				<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Interface/Interface.lvclass"/>
-				<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Plugin/Plugin Interface.lvclass"/>
-			</Item>
-			<Item Name="Pool" Type="Folder">
-				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
-				<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
-				<Item Name="Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Pool.lvclass"/>
-			</Item>
-			<Item Name="State" Type="Folder">
-				<Item Name="Framework State.lvclass" Type="LVClass" URL="../Engine/Classes/State/Framework State.lvclass"/>
-			</Item>
-			<Item Name="Thread" Type="Folder">
-				<Item Name="Threads" Type="Folder">
-					<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
-					<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
-				</Item>
-				<Item Name="Thread Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Thread/Thread Interface.lvclass"/>
-				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Manager/Thread Manager.lvclass"/>
-				<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Thread Pool.lvclass"/>
-				<Item Name="Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Thread.lvclass"/>
-			</Item>
-			<Item Name="Timing" Type="Folder"/>
+			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Component Loader/Component Loader.lvclass"/>
+			<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
+			<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
+			<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
+			<Item Name="Framework State.lvclass" Type="LVClass" URL="../Engine/Classes/State/Framework State.lvclass"/>
+			<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
+			<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
+			<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Interface/Interface.lvclass"/>
+			<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
+			<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Plugin/Plugin Interface.lvclass"/>
+			<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
+			<Item Name="Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Pool.lvclass"/>
+			<Item Name="Thread Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Thread/Thread Interface.lvclass"/>
+			<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Manager/Thread Manager.lvclass"/>
+			<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Thread Pool.lvclass"/>
+			<Item Name="Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Thread.lvclass"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="VI Name.vi" Type="VI" URL="../Engine/VIs/VI Name.vi"/>
@@ -49,21 +34,18 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Status" Type="Folder">
-				<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
-				<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Status.lvclass"/>
+			<Item Name="Components" Type="Folder">
+				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
+				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
-			<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
-			<Item Name="Buffer Descriptor.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer Descriptor/Buffer Descriptor.lvclass"/>
 			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer.lvclass"/>
 			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffers.lvclass"/>
 			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Configuration API/Configuration Session.lvclass"/>
+			<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 			<Item Name="Performance.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Performance.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
-			<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 			<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
-			<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer Group/Transfer Group.lvclass"/>
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
 		</Item>

@@ -71,33 +71,22 @@
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp">
 				<Item Name="Private" Type="Folder">
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Component Loader" Type="Folder">
-							<Item Name="Component Loader.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Component Loader/Component Loader.lvclass"/>
-						</Item>
-						<Item Name="Hardware Info" Type="Folder">
-							<Item Name="CPU Info.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
-							<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
-						</Item>
-						<Item Name="Interfaces" Type="Folder">
-							<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
-							<Item Name="Interface.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Interfaces/Interface/Interface.lvclass"/>
-							<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Interfaces/Transceiver Interface/Plugin Interface.lvclass"/>
-						</Item>
-						<Item Name="Pool" Type="Folder">
-							<Item Name="ID Pool.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/ID Pool.lvclass"/>
-							<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
-							<Item Name="Pool.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/Pool.lvclass"/>
-						</Item>
-						<Item Name="State" Type="Folder">
-							<Item Name="Framework State.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/State/Framework State.lvclass"/>
-						</Item>
-						<Item Name="Thread" Type="Folder">
-							<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
-							<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
-							<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Manager/Thread Manager.lvclass"/>
-							<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/Thread Pool.lvclass"/>
-						</Item>
-						<Item Name="Timing" Type="Folder"/>
+						<Item Name="Component Loader.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Component Loader/Component Loader.lvclass"/>
+						<Item Name="CPU Info.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
+						<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
+						<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
+						<Item Name="Framework State.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/State/Framework State.lvclass"/>
+						<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
+						<Item Name="ID Pool.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/ID Pool.lvclass"/>
+						<Item Name="Interface.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Interfaces/Interface/Interface.lvclass"/>
+						<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
+						<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Interfaces/Plugin/Plugin Interface.lvclass"/>
+						<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
+						<Item Name="Pool.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/Pool.lvclass"/>
+						<Item Name="Thread Interface.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Interfaces/Thread/Thread Interface.lvclass"/>
+						<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Manager/Thread Manager.lvclass"/>
+						<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Pool/Thread Pool.lvclass"/>
+						<Item Name="Thread.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread/Thread.lvclass"/>
 					</Item>
 					<Item Name="VIs" Type="Folder">
 						<Item Name="VI Name.vi" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/VIs/VI Name.vi"/>
@@ -105,26 +94,18 @@
 				</Item>
 				<Item Name="Public" Type="Folder">
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Status" Type="Folder">
-							<Item Name="Framework" Type="Folder">
-								<Item Name="Performance" Type="Folder">
-									<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Status/Framework Performance.lvclass"/>
-								</Item>
-								<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Status/Framework Status.lvclass"/>
-							</Item>
-							<Item Name="Status.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Status/Status.lvclass"/>
+						<Item Name="Components" Type="Folder">
+							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
+							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Transceiver/Transceiver.lvclass"/>
 						</Item>
-						<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
-						<Item Name="Buffer Descriptor.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Buffer Descriptor/Buffer Descriptor.lvclass"/>
 						<Item Name="Buffer.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer.lvclass"/>
 						<Item Name="Buffers.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffers.lvclass"/>
 						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Configuration Session.lvclass"/>
+						<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Status/Framework Status.lvclass"/>
 						<Item Name="Framework.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Framework/Framework.lvclass"/>
+						<Item Name="Performance.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Status/Performance.lvclass"/>
 						<Item Name="Plugin.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Plugin/Plugin.lvclass"/>
-						<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread Parameters/Thread Parameters.lvclass"/>
-						<Item Name="Thread.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread/Thread.lvclass"/>
 						<Item Name="Timing.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Timing/Timing.lvclass"/>
-						<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Transceiver/Transceiver.lvclass"/>
 						<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Transfer Group/Transfer Group.lvclass"/>
 						<Item Name="Transfer.lvclass" Type="LVClass" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Transfer/Transfer.lvclass"/>
 					</Item>
@@ -140,6 +121,7 @@
 						<Item Name="Flags" Type="Folder">
 							<Item Name="FIFO Flags.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Typedefs/FIFO Flags.ctl"/>
 							<Item Name="Plugin Flags.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Typedefs/Plugin Flags.ctl"/>
+							<Item Name="Thread Options.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Thread/Thread Options.ctl"/>
 						</Item>
 						<Item Name="DSF Byte Order.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
 						<Item Name="DSF Channel Buffer Descriptor.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Channel Buffer Descriptor.ctl"/>
@@ -151,6 +133,7 @@
 						<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Plugin Info.ctl"/>
 						<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
 						<Item Name="DSF Settings Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
+						<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timeout Behavior.ctl"/>
 						<Item Name="DSF Timing Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
 						<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
 						<Item Name="DSF Version Info.ctl" Type="VI" URL="../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
@@ -223,7 +206,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Tools</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{34402EFF-FAC5-4DD0-995A-AF7339D92565}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Data Viewer.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Tools/NI_AB_PROJECTNAME.lvlibp</Property>

@@ -113,7 +113,7 @@
 				</Item>
 			</Item>
 			<Item Name="Send" Type="Folder">
-				<Item Name="Send Command.vi" Type="VI" URL="../Send Command.vi">
+				<Item Name="Send Dispatcher Command.vi" Type="VI" URL="../Send Dispatcher Command.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+.!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;"!=!!?!!!N$E242C"$&lt;X*F,GRW&lt;'FC(%2J=X"B&gt;'.I:8)A37ZU:8*G97.F,GRW9WRB=X-!'%2J=X"B&gt;'.I:8)A37ZU:8*G97.F)'^V&gt;!!!&gt;1$R!!!!!!!!!!-/2&amp;.')%.P=G5O&lt;(:M;7)=2'FT='&amp;U9WBF=C"*&lt;H2F=G:B9W5O&lt;(:D&lt;'&amp;T=QN$&lt;WVN97ZE,G.U&lt;!!V1"5!"!*3?!*5?"&amp;4:81A37ZM;7ZF)%*V:G:F=AB4;(6U:'^X&lt;A!!"U.P&lt;7VB&lt;G1!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!81!-!%82J&lt;76P&gt;81A;7YA&lt;8-A+$!J!!^!!Q!*5'RV:WFO)%F%!"&gt;!!Q!26(*B&lt;H.G:8)A2X*P&gt;8!A351!$U!)!!F*&gt;'6S982J&lt;WY!:!$RW9H^RQ!!!!-/2&amp;.')%.P=G5O&lt;(:M;7)=2'FT='&amp;U9WBF=C"*&lt;H2F=G:B9W5O&lt;(:D&lt;'&amp;T=R&amp;3?#"198*B&lt;76U:8*T,G.U&lt;!!?1&amp;!!!Q!*!!I!#QV3?#"198*B&lt;76U:8*T!%Z!=!!?!!!N$E242C"$&lt;X*F,GRW&lt;'FC(%2J=X"B&gt;'.I:8)A37ZU:8*G97.F,GRW9WRB=X-!&amp;U2J=X"B&gt;'.I:8)A37ZU:8*G97.F)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"A!(!!A!$!!.!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!"!!!!!+!!!!#A!!!"!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
