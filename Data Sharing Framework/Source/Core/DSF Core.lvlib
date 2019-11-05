@@ -38,10 +38,13 @@
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
+			<Item Name="Status" Type="Folder">
+				<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
+				<Item Name="Transfer Group Status.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer Group Status/Transfer Group Status.lvclass"/>
+			</Item>
 			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer.lvclass"/>
 			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffers.lvclass"/>
 			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Configuration API/Configuration Session.lvclass"/>
-			<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
 			<Item Name="Performance.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Performance.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
@@ -97,6 +100,8 @@
 					<Item Name="Transfer Count (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count (Framework).vi"/>
 					<Item Name="Transfer Count (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count (Plugin).vi"/>
 					<Item Name="Transfer Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count (Transfer Group).vi"/>
+					<Item Name="Transfer Group Count (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Group Count (Framework).vi"/>
+					<Item Name="Transfer Group Count (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Group Count (Plugin).vi"/>
 					<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Framework).vi"/>
 					<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Plugin).vi"/>
 					<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer Group).vi"/>
@@ -109,6 +114,7 @@
 				<Item Name="Largest Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size.vi"/>
 				<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
 				<Item Name="Transfer Count.vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count.vi"/>
+				<Item Name="Transfer Group Count.vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Group Count.vi"/>
 			</Item>
 			<Item Name="Constants" Type="Folder">
 				<Item Name="Base Error Code.vi" Type="VI" URL="../Shared/Constants/Base Error Code.vi"/>

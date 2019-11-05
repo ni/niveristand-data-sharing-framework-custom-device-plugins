@@ -57,10 +57,13 @@
 						<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
 						<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Transceiver/Transceiver.lvclass"/>
 					</Item>
+					<Item Name="Status" Type="Folder">
+						<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Status/Framework Status.lvclass"/>
+						<Item Name="Transfer Group Status.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Transfer Group Status/Transfer Group Status.lvclass"/>
+					</Item>
 					<Item Name="Buffer.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffer.lvclass"/>
 					<Item Name="Buffers.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Buffer/Buffers.lvclass"/>
 					<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Configuration Session.lvclass"/>
-					<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Status/Framework Status.lvclass"/>
 					<Item Name="Framework.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Framework/Framework.lvclass"/>
 					<Item Name="Performance.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Status/Performance.lvclass"/>
 					<Item Name="Plugin.lvclass" Type="LVClass" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Engine/Classes/Plugin/Plugin.lvclass"/>
@@ -94,6 +97,7 @@
 					<Item Name="DSF Settings Info.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
 					<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timeout Behavior.ctl"/>
 					<Item Name="DSF Timing Info.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
+					<Item Name="DSF Transfer Group Status.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Transfer Group Status.ctl"/>
 					<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
 					<Item Name="DSF Version Info.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
 				</Item>
@@ -112,6 +116,11 @@
 							<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
 							<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
 							<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size (Transfer).vi"/>
+							<Item Name="Transfer Count (Framework).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Count (Framework).vi"/>
+							<Item Name="Transfer Count (Plugin).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Count (Plugin).vi"/>
+							<Item Name="Transfer Count (Transfer Group).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Count (Transfer Group).vi"/>
+							<Item Name="Transfer Group Count (Framework).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Group Count (Framework).vi"/>
+							<Item Name="Transfer Group Count (Plugin).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Group Count (Plugin).vi"/>
 							<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Validate Configuration (Framework).vi"/>
 							<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Validate Configuration (Plugin).vi"/>
 							<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Validate Configuration (Transfer Group).vi"/>
@@ -123,6 +132,8 @@
 						<Item Name="Channel Count.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Channel Count.vi"/>
 						<Item Name="Largest Buffer Size.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Largest Buffer Size.vi"/>
 						<Item Name="Required Buffer Size.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Required Buffer Size.vi"/>
+						<Item Name="Transfer Count.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Count.vi"/>
+						<Item Name="Transfer Group Count.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Transfer Group Count.vi"/>
 					</Item>
 					<Item Name="Constants" Type="Folder">
 						<Item Name="Base Error Code.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Shared/Constants/Base Error Code.vi"/>
@@ -204,109 +215,15 @@
 					<Item Name="View Mode.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Main VI/View Mode.ctl"/>
 					<Item Name="Window State.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Main VI/Window State.ctl"/>
 				</Item>
-				<Item Name="Value Tree" Type="Folder">
-					<Item Name="variant to tree resources" Type="Folder">
-						<Item Name="glyphs" Type="Folder">
-							<Item Name="00-Invalid Type.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/00-Invalid Type.png"/>
-							<Item Name="01-Void.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/01-Void.png"/>
-							<Item Name="02-I8.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/02-I8.png"/>
-							<Item Name="03-I16.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/03-I16.png"/>
-							<Item Name="04-I32.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/04-I32.png"/>
-							<Item Name="05-I64.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/05-I64.png"/>
-							<Item Name="06-U8.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/06-U8.png"/>
-							<Item Name="07-U16.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/07-U16.png"/>
-							<Item Name="08-U32.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/08-U32.png"/>
-							<Item Name="09-U64.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/09-U64.png"/>
-							<Item Name="10-Single Float.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/10-Single Float.png"/>
-							<Item Name="11-Double Float.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/11-Double Float.png"/>
-							<Item Name="12-Extended Float.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/12-Extended Float.png"/>
-							<Item Name="13-Single Complex.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/13-Single Complex.png"/>
-							<Item Name="14-Double Complex.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/14-Double Complex.png"/>
-							<Item Name="15-Extended Complex.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/15-Extended Complex.png"/>
-							<Item Name="16-EnumU8.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/16-EnumU8.png"/>
-							<Item Name="17-EnumU16.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/17-EnumU16.png"/>
-							<Item Name="18-EnumU32.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/18-EnumU32.png"/>
-							<Item Name="19-EnumU64.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/19-EnumU64.png"/>
-							<Item Name="20-Single Float With Unit.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/20-Single Float With Unit.png"/>
-							<Item Name="21-Double Float With Unit.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/21-Double Float With Unit.png"/>
-							<Item Name="22-Extended Float With Unit.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/22-Extended Float With Unit.png"/>
-							<Item Name="23-Single Complex with Unit.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/23-Single Complex with Unit.png"/>
-							<Item Name="24-Double Complex with Unit.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/24-Double Complex with Unit.png"/>
-							<Item Name="25-Extended Complex with Unit.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/25-Extended Complex with Unit.png"/>
-							<Item Name="26-Boolean.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/26-Boolean.png"/>
-							<Item Name="27-String.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/27-String.png"/>
-							<Item Name="28-Path.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/28-Path.png"/>
-							<Item Name="29-Picture.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/29-Picture.png"/>
-							<Item Name="30-Tag.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/30-Tag.png"/>
-							<Item Name="31-Array.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/31-Array.png"/>
-							<Item Name="32-Cluster.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/32-Cluster.png"/>
-							<Item Name="33-Variant.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/33-Variant.png"/>
-							<Item Name="34-LV Variant.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/34-LV Variant.png"/>
-							<Item Name="35-Waveform.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/35-Waveform.png"/>
-							<Item Name="36-Timestamp.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/36-Timestamp.png"/>
-							<Item Name="37-Digital Waveform.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/37-Digital Waveform.png"/>
-							<Item Name="38-Digital Data.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/38-Digital Data.png"/>
-							<Item Name="39-ExpressData.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/39-ExpressData.png"/>
-							<Item Name="40-Refnum.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/40-Refnum.png"/>
-							<Item Name="41-External Data.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/41-External Data.png"/>
-							<Item Name="42-VI.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/42-VI.png"/>
-							<Item Name="43-Poly VI.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/43-Poly VI.png"/>
-							<Item Name="44-LabVIEW Class Instance.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/44-LabVIEW Class Instance.png"/>
-							<Item Name="45-Fixed Point.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/45-Fixed Point.png"/>
-							<Item Name="46-variant attributes.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/46-variant attributes.png"/>
-							<Item Name="47-array elements.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/47-array elements.png"/>
-							<Item Name="48-cluster items.png" Type="Document" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/images/48-cluster items.png"/>
-						</Item>
-						<Item Name="type subvis" Type="Folder">
-							<Item Name="Array Elements section.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/Array Elements section.vi"/>
-							<Item Name="Array info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/Array info.vi"/>
-							<Item Name="Boolean info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/Boolean info.vi"/>
-							<Item Name="CDB info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/CDB info.vi"/>
-							<Item Name="Cluster Item section.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/Cluster Item section.vi"/>
-							<Item Name="CSG info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/CSG info.vi"/>
-							<Item Name="CXT info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/CXT info.vi"/>
-							<Item Name="DBL info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/DBL info.vi"/>
-							<Item Name="Enum info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/Enum info.vi"/>
-							<Item Name="EXT info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/EXT info.vi"/>
-							<Item Name="FXP info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/FXP info.vi"/>
-							<Item Name="get unit string.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/get unit string.vi"/>
-							<Item Name="I8 info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/I8 info.vi"/>
-							<Item Name="I16 info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/I16 info.vi"/>
-							<Item Name="I32.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/I32.vi"/>
-							<Item Name="I64 info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/I64 info.vi"/>
-							<Item Name="LVClass info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/LVClass info.vi"/>
-							<Item Name="Path info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/Path info.vi"/>
-							<Item Name="Ref info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/Ref info.vi"/>
-							<Item Name="SGL info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/SGL info.vi"/>
-							<Item Name="String info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/String info.vi"/>
-							<Item Name="Timestamp info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/Timestamp info.vi"/>
-							<Item Name="U8 info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/U8 info.vi"/>
-							<Item Name="U16 info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/U16 info.vi"/>
-							<Item Name="U32 info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/U32 info.vi"/>
-							<Item Name="U64 info.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/U64 info.vi"/>
-							<Item Name="Variant Cluster to Array.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/type subvis/Variant Cluster to Array.vi"/>
-						</Item>
-						<Item Name="add attributes.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/add attributes.vi"/>
-						<Item Name="add values.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/add values.vi"/>
-						<Item Name="view variant in tree helper.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/view variant in tree helper.vi"/>
-					</Item>
-					<Item Name="View Variant in Tree.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Value Tree/variant to tree resources/View Variant in Tree.vi"/>
-				</Item>
 			</Item>
-			<Item Name="Application Directory.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Application Directory.vi"/>
-			<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 			<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
-			<Item Name="Check Path.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Check Path.vi"/>
 			<Item Name="Check Special Tags.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
-			<Item Name="Create Mask By Alpha.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Create Mask By Alpha.vi"/>
+			<Item Name="Data Viewer.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Data Viewer.vi"/>
 			<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 			<Item Name="DialogType.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 			<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
-			<Item Name="Directory of Top Level VI.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-			<Item Name="DSF Data Viewer.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/DSF Data Viewer.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Error Code Database.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
 			<Item Name="ErrWarn.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
 			<Item Name="eventvkey.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
@@ -314,27 +231,16 @@
 			<Item Name="Format Message String.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
 			<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			<Item Name="General Error Handler.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
-			<Item Name="Get LV Class Name.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
 			<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
 			<Item Name="Get Text Rect.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
 			<Item Name="GetHelpDir.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
 			<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-			<Item Name="imagedata.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/picture/picture.llb/imagedata.ctl"/>
-			<Item Name="Launch Async Viewer.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Launch Async Viewer.vi"/>
-			<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+			<Item Name="Launch Async Data Viewer.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/Source/Launch Async Data Viewer.vi"/>
 			<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 			<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-			<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
-			<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
-			<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/numeric/LVNumericRepresentation.ctl"/>
 			<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 			<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Memory Manager.lvlib"/>
-			<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
-			<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
 			<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
-			<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Qualified Name Array To Single String.vi"/>
-			<Item Name="Read PNG File.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/picture/png.llb/Read PNG File.vi"/>
-			<Item Name="Recursive File List.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
 			<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
 			<Item Name="Set Bold Text.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
 			<Item Name="Set Busy.vi" Type="VI" URL="../../../../../Builds/Data Sharing Framework/Windows/32/Tools/DSF Data Viewer.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Busy.vi"/>
