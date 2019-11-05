@@ -30,7 +30,7 @@
 				<Item Name="Mock Classes" Type="Folder">
 					<Item Name="Mock Framework.lvclass" Type="LVClass" URL="../Tests/Framework/Mock Framework Class/Mock Framework.lvclass"/>
 				</Item>
-				<Item Name="Framework Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Tests/Framework Tests.lvclass"/>
+				<Item Name="Framework Property Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Property Tests/Framework Property Tests.lvclass"/>
 			</Item>
 			<Item Name="Memory Buffer Tests" Type="Folder">
 				<Item Name="Read Value Tests.lvclass" Type="LVClass" URL="../Tests/Mem Buff/Mem Buff Read Write/Read Value Tests.lvclass"/>
