@@ -75,6 +75,7 @@
 			<Item Name="DSF Settings Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
 			<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Timeout Behavior.ctl"/>
 			<Item Name="DSF Timing Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
+			<Item Name="DSF Transfer Group Status.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Transfer Group Status.ctl"/>
 			<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
 		</Item>
@@ -93,6 +94,9 @@
 					<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
 					<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
 					<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer).vi"/>
+					<Item Name="Transfer Count (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count (Framework).vi"/>
+					<Item Name="Transfer Count (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count (Plugin).vi"/>
+					<Item Name="Transfer Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count (Transfer Group).vi"/>
 					<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Framework).vi"/>
 					<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Plugin).vi"/>
 					<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer Group).vi"/>
@@ -104,6 +108,7 @@
 				<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
 				<Item Name="Largest Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size.vi"/>
 				<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
+				<Item Name="Transfer Count.vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count.vi"/>
 			</Item>
 			<Item Name="Constants" Type="Folder">
 				<Item Name="Base Error Code.vi" Type="VI" URL="../Shared/Constants/Base Error Code.vi"/>
