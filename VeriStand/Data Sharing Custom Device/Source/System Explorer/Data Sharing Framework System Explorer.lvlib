@@ -20,7 +20,6 @@
 	<Item Name="Create Transfer Channels.vi" Type="VI" URL="../Apply DSF Configuration to VS/Create Transfer Channels.vi"/>
 	<Item Name="Delete All Children.vi" Type="VI" URL="../Delete All Children.vi"/>
 	<Item Name="file path property name.vi" Type="VI" URL="../GUIDs/file path property name.vi"/>
-	<Item Name="generate test config.vi" Type="VI" URL="../generate test config.vi"/>
 	<Item Name="get dsf config file path.vi" Type="VI" URL="../get dsf config file path.vi"/>
 	<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
 	<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
