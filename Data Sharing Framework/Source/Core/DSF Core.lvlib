@@ -122,7 +122,6 @@
 				<Item Name="Engine Library Name.vi" Type="VI" URL="../VIs/Constants/Engine Library Name.vi"/>
 				<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../VIs/Constants/Error Offset (Configuration).vi"/>
 			</Item>
-			<Item Name="Move Window.vi" Type="VI" URL="../Classes/Thread/Move Window.vi"/>
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../VIs/Sizeof.vi"/>
 		</Item>
