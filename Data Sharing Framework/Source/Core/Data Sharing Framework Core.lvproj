@@ -14,16 +14,16 @@
 		<Item Name="Benchmarks" Type="Folder">
 			<Item Name="Buffer Converter" Type="Folder">
 				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Benchmark Convert String Type - Create Random Scalar Conversions.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Create Random Scalar Conversions.vi"/>
-					<Item Name="Benchmark Convert String Type - Create Single Type Block Conversions.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Create Single Type Block Conversions.vi"/>
-					<Item Name="Benchmark Convert String Type - Sizeof Strings.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Sizeof Strings.vi"/>
+					<Item Name="Benchmark Convert String Type - Create Random Scalar Conversions.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Create Random Scalar Conversions.vi"/>
+					<Item Name="Benchmark Convert String Type - Create Single Type Block Conversions.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Create Single Type Block Conversions.vi"/>
+					<Item Name="Benchmark Convert String Type - Sizeof Strings.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Sizeof Strings.vi"/>
 				</Item>
-				<Item Name="Benchmark Convert String Type - Random Scalars.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Random Scalars.vi"/>
-				<Item Name="Benchmark Convert String Type - Single Type to Single Type.vi" Type="VI" URL="../Engine/Benchmarks/Benchmark Convert String Type - Single Type to Single Type.vi"/>
+				<Item Name="Benchmark Convert String Type - Random Scalars.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Random Scalars.vi"/>
+				<Item Name="Benchmark Convert String Type - Single Type to Single Type.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Single Type to Single Type.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="Framework Source Test.vi" Type="VI" URL="../Engine/Test/Framework Source Test.vi"/>
+			<Item Name="Framework Source Test.vi" Type="VI" URL="../Framework Source Test.vi"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>

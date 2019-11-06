@@ -10,122 +10,121 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Engine/Classes/Component Loader/Component Loader.lvclass"/>
-			<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
-			<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
-			<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
-			<Item Name="Framework State.lvclass" Type="LVClass" URL="../Engine/Classes/State/Framework State.lvclass"/>
-			<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Engine/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
-			<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/ID Pool.lvclass"/>
-			<Item Name="Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Interface/Interface.lvclass"/>
-			<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
-			<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Plugin/Plugin Interface.lvclass"/>
-			<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
-			<Item Name="Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Pool.lvclass"/>
-			<Item Name="Thread Interface.lvclass" Type="LVClass" URL="../Engine/Classes/Interfaces/Thread/Thread Interface.lvclass"/>
-			<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Manager/Thread Manager.lvclass"/>
-			<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../Engine/Classes/Thread Pool/Thread Pool.lvclass"/>
-			<Item Name="Thread.lvclass" Type="LVClass" URL="../Engine/Classes/Thread/Thread.lvclass"/>
+			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
+			<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
+			<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
+			<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Classes/Dispatcher/Dispatcher Thread.lvclass"/>
+			<Item Name="Framework State.lvclass" Type="LVClass" URL="../Classes/State/Framework State.lvclass"/>
+			<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
+			<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/ID Pool.lvclass"/>
+			<Item Name="Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Interface/Interface.lvclass"/>
+			<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
+			<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Plugin/Plugin Interface.lvclass"/>
+			<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Plugin Thread.lvclass"/>
+			<Item Name="Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/Pool.lvclass"/>
+			<Item Name="Thread Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Thread/Thread Interface.lvclass"/>
+			<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
+			<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/Thread Pool.lvclass"/>
+			<Item Name="Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Thread.lvclass"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
-			<Item Name="VI Name.vi" Type="VI" URL="../Engine/VIs/VI Name.vi"/>
+			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Components" Type="Folder">
-				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer Converter/Buffer Converter.lvclass"/>
-				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/Classes/Transceiver/Transceiver.lvclass"/>
+				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Classes/Buffer Converter/Buffer Converter.lvclass"/>
+				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
 			<Item Name="Status" Type="Folder">
-				<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Status.lvclass"/>
-				<Item Name="Transfer Group Status.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer Group Status/Transfer Group Status.lvclass"/>
+				<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Classes/Status/Framework Status.lvclass"/>
+				<Item Name="Transfer Group Status.lvclass" Type="LVClass" URL="../Classes/Transfer Group Status/Transfer Group Status.lvclass"/>
 			</Item>
-			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffer.lvclass"/>
-			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Engine/Classes/Buffer/Buffers.lvclass"/>
-			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Configuration API/Configuration Session.lvclass"/>
-			<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/Classes/Framework/Framework.lvclass"/>
-			<Item Name="Performance.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Performance.lvclass"/>
-			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/Classes/Plugin/Plugin.lvclass"/>
-			<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/Classes/Timing/Timing.lvclass"/>
-			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer Group/Transfer Group.lvclass"/>
-			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/Classes/Transfer/Transfer.lvclass"/>
+			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Classes/Buffer/Buffer.lvclass"/>
+			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Classes/Buffers/Buffers.lvclass"/>
+			<Item Name="Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Configuration.lvclass"/>
+			<Item Name="Framework.lvclass" Type="LVClass" URL="../Classes/Framework/Framework.lvclass"/>
+			<Item Name="Performance.lvclass" Type="LVClass" URL="../Classes/Status/Performance.lvclass"/>
+			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
+			<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
+			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Classes/Transfer Group/Transfer Group.lvclass"/>
+			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Classes/Transfer/Transfer.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Configuration" Type="Folder">
-				<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Channel Configuration.ctl"/>
-				<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Framework Configuration.ctl"/>
-				<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Plugin Configuration.ctl"/>
-				<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Plugin Thread Configuration.ctl"/>
-				<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Transfer Configuration.ctl"/>
-				<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Engine Transfer Group Configuration.ctl"/>
+				<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Channel Configuration.ctl"/>
+				<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Framework Configuration.ctl"/>
+				<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Plugin Configuration.ctl"/>
+				<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Plugin Thread Configuration.ctl"/>
+				<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Transfer Configuration.ctl"/>
+				<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Transfer Group Configuration.ctl"/>
 			</Item>
-			<Item Name="Flags" Type="Folder">
-				<Item Name="FIFO Flags.ctl" Type="VI" URL="../Engine/Typedefs/FIFO Flags.ctl"/>
-				<Item Name="Plugin Flags.ctl" Type="VI" URL="../Engine/Typedefs/Plugin Flags.ctl"/>
-				<Item Name="Thread Options.ctl" Type="VI" URL="../Engine/Classes/Thread/Thread Options.ctl"/>
+			<Item Name="Options" Type="Folder">
+				<Item Name="DSF FIFO Options.ctl" Type="VI" URL="../Typedefs/DSF FIFO Options.ctl"/>
+				<Item Name="DSF Plugin Options.ctl" Type="VI" URL="../Typedefs/DSF Plugin Options.ctl"/>
+				<Item Name="DSF Thread Options.ctl" Type="VI" URL="../Classes/Thread/DSF Thread Options.ctl"/>
 			</Item>
-			<Item Name="DSF Byte Order.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Byte Order.ctl"/>
-			<Item Name="DSF Channel Buffer Descriptor.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Channel Buffer Descriptor.ctl"/>
-			<Item Name="DSF Channel Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Channel Info.ctl"/>
-			<Item Name="DSF Configuration Errors.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Configuration Errors.ctl"/>
-			<Item Name="DSF Data Type.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Data Type.ctl"/>
-			<Item Name="DSF Direction.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Direction.ctl"/>
-			<Item Name="DSF Group Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Group Info.ctl"/>
-			<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Plugin Info.ctl"/>
-			<Item Name="DSF Runtime Type Buffers.ctl" Type="VI" URL="../Shared/Typedefs/DSF Runtime Type Buffers.ctl"/>
-			<Item Name="DSF Settings Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Settings Info.ctl"/>
-			<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Timeout Behavior.ctl"/>
-			<Item Name="DSF Timing Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Timing Info.ctl"/>
-			<Item Name="DSF Transfer Group Status.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Transfer Group Status.ctl"/>
-			<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Transfer Info.ctl"/>
-			<Item Name="DSF Version Info.ctl" Type="VI" URL="../DSF Configuration API/Public/Controls/DSF Version Info.ctl"/>
+			<Item Name="DSF Byte Order.ctl" Type="VI" URL="../Typedefs/DSF Byte Order.ctl"/>
+			<Item Name="DSF Channel Buffer Descriptor.ctl" Type="VI" URL="../Typedefs/DSF Channel Buffer Descriptor.ctl"/>
+			<Item Name="DSF Channel Info.ctl" Type="VI" URL="../Typedefs/DSF Channel Info.ctl"/>
+			<Item Name="DSF Configuration Errors.ctl" Type="VI" URL="../Typedefs/DSF Configuration Errors.ctl"/>
+			<Item Name="DSF Data Type.ctl" Type="VI" URL="../Typedefs/DSF Data Type.ctl"/>
+			<Item Name="DSF Direction.ctl" Type="VI" URL="../Typedefs/DSF Direction.ctl"/>
+			<Item Name="DSF Group Info.ctl" Type="VI" URL="../Typedefs/DSF Group Info.ctl"/>
+			<Item Name="DSF Performance Options.ctl" Type="VI" URL="../Typedefs/DSF Performance Options.ctl"/>
+			<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../Typedefs/DSF Plugin Info.ctl"/>
+			<Item Name="DSF Settings Info.ctl" Type="VI" URL="../Typedefs/DSF Settings Info.ctl"/>
+			<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../Typedefs/DSF Timeout Behavior.ctl"/>
+			<Item Name="DSF Timing Info.ctl" Type="VI" URL="../Typedefs/DSF Timing Info.ctl"/>
+			<Item Name="DSF Transfer Group Status.ctl" Type="VI" URL="../Typedefs/DSF Transfer Group Status.ctl"/>
+			<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../Typedefs/DSF Transfer Info.ctl"/>
+			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Typedefs/DSF Version Info.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Configuration" Type="Folder">
-				<Item Name="Errors" Type="Folder"/>
 				<Item Name="Poly VIs" Type="Folder">
-					<Item Name="Channel Count (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Framework).vi"/>
-					<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Plugin).vi"/>
-					<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Transfer Group).vi"/>
-					<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count (Transfer).vi"/>
-					<Item Name="Largest Buffer Size (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size (Framework).vi"/>
-					<Item Name="Largest Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size (Plugin).vi"/>
-					<Item Name="Largest Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size (Transfer Group).vi"/>
-					<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Framework).vi"/>
-					<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Plugin).vi"/>
-					<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer Group).vi"/>
-					<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size (Transfer).vi"/>
-					<Item Name="Transfer Count (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count (Framework).vi"/>
-					<Item Name="Transfer Count (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count (Plugin).vi"/>
-					<Item Name="Transfer Count (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count (Transfer Group).vi"/>
-					<Item Name="Transfer Group Count (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Group Count (Framework).vi"/>
-					<Item Name="Transfer Group Count (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Group Count (Plugin).vi"/>
-					<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Framework).vi"/>
-					<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Plugin).vi"/>
-					<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer Group).vi"/>
-					<Item Name="Validate Configuration (Transfer).vi" Type="VI" URL="../DSF Configuration API/Public/Validate Configuration (Transfer).vi"/>
+					<Item Name="Channel Count (Framework).vi" Type="VI" URL="../Classes/Configuration/Channel Count (Framework).vi"/>
+					<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../Classes/Configuration/Channel Count (Plugin).vi"/>
+					<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../Classes/Configuration/Channel Count (Transfer Group).vi"/>
+					<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../Classes/Configuration/Channel Count (Transfer).vi"/>
+					<Item Name="Largest Buffer Size (Framework).vi" Type="VI" URL="../Classes/Configuration/Largest Buffer Size (Framework).vi"/>
+					<Item Name="Largest Buffer Size (Plugin).vi" Type="VI" URL="../Classes/Configuration/Largest Buffer Size (Plugin).vi"/>
+					<Item Name="Largest Buffer Size (Transfer Group).vi" Type="VI" URL="../Classes/Configuration/Largest Buffer Size (Transfer Group).vi"/>
+					<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../Classes/Configuration/Required Buffer Size (Framework).vi"/>
+					<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../Classes/Configuration/Required Buffer Size (Plugin).vi"/>
+					<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../Classes/Configuration/Required Buffer Size (Transfer Group).vi"/>
+					<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../Classes/Configuration/Required Buffer Size (Transfer).vi"/>
+					<Item Name="Transfer Count (Framework).vi" Type="VI" URL="../Classes/Configuration/Transfer Count (Framework).vi"/>
+					<Item Name="Transfer Count (Plugin).vi" Type="VI" URL="../Classes/Configuration/Transfer Count (Plugin).vi"/>
+					<Item Name="Transfer Count (Transfer Group).vi" Type="VI" URL="../Classes/Configuration/Transfer Count (Transfer Group).vi"/>
+					<Item Name="Transfer Group Count (Framework).vi" Type="VI" URL="../Classes/Configuration/Transfer Group Count (Framework).vi"/>
+					<Item Name="Transfer Group Count (Plugin).vi" Type="VI" URL="../Classes/Configuration/Transfer Group Count (Plugin).vi"/>
+					<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../Classes/Configuration/Validate Configuration (Framework).vi"/>
+					<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../Classes/Configuration/Validate Configuration (Plugin).vi"/>
+					<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../Classes/Configuration/Validate Configuration (Transfer Group).vi"/>
+					<Item Name="Validate Configuration (Transfer).vi" Type="VI" URL="../Classes/Configuration/Validate Configuration (Transfer).vi"/>
 				</Item>
 				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Check Engine Blocks.vi" Type="VI" URL="../DSF Configuration API/Public/Errors/Check Engine Blocks.vi"/>
+					<Item Name="Check Engine Blocks.vi" Type="VI" URL="../Classes/Configuration/Check Engine Blocks.vi"/>
 				</Item>
-				<Item Name="Channel Count.vi" Type="VI" URL="../DSF Configuration API/Public/Channel Count.vi"/>
-				<Item Name="Largest Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Largest Buffer Size.vi"/>
-				<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Configuration API/Public/Required Buffer Size.vi"/>
-				<Item Name="Transfer Count.vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Count.vi"/>
-				<Item Name="Transfer Group Count.vi" Type="VI" URL="../DSF Configuration API/Public/Transfer Group Count.vi"/>
+				<Item Name="Channel Count.vi" Type="VI" URL="../Classes/Configuration/Channel Count.vi"/>
+				<Item Name="Largest Buffer Size.vi" Type="VI" URL="../Classes/Configuration/Largest Buffer Size.vi"/>
+				<Item Name="Required Buffer Size.vi" Type="VI" URL="../Classes/Configuration/Required Buffer Size.vi"/>
+				<Item Name="Transfer Count.vi" Type="VI" URL="../Classes/Configuration/Transfer Count.vi"/>
+				<Item Name="Transfer Group Count.vi" Type="VI" URL="../Classes/Configuration/Transfer Group Count.vi"/>
 			</Item>
 			<Item Name="Constants" Type="Folder">
-				<Item Name="Base Error Code.vi" Type="VI" URL="../Shared/Constants/Base Error Code.vi"/>
-				<Item Name="Constants.vi" Type="VI" URL="../Shared/Constants/Constants.vi"/>
-				<Item Name="Default Components Directory.vi" Type="VI" URL="../Shared/Constants/Default Components Directory.vi"/>
-				<Item Name="Engine Library Name.vi" Type="VI" URL="../Shared/Constants/Engine Library Name.vi"/>
-				<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../Shared/Constants/Error Offset (Configuration).vi"/>
+				<Item Name="Base Error Code.vi" Type="VI" URL="../VIs/Constants/Base Error Code.vi"/>
+				<Item Name="Constants.vi" Type="VI" URL="../VIs/Constants/Constants.vi"/>
+				<Item Name="Default Components Directory.vi" Type="VI" URL="../VIs/Constants/Default Components Directory.vi"/>
+				<Item Name="Engine Library Name.vi" Type="VI" URL="../VIs/Constants/Engine Library Name.vi"/>
+				<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../VIs/Constants/Error Offset (Configuration).vi"/>
 			</Item>
-			<Item Name="Move Window.vi" Type="VI" URL="../Engine/Classes/Thread/Move Window.vi"/>
-			<Item Name="Sizeof 1D.vi" Type="VI" URL="../Shared/VIs/Sizeof 1D.vi"/>
-			<Item Name="Sizeof.vi" Type="VI" URL="../Shared/VIs/Sizeof.vi"/>
+			<Item Name="Move Window.vi" Type="VI" URL="../Classes/Thread/Move Window.vi"/>
+			<Item Name="Sizeof 1D.vi" Type="VI" URL="../VIs/Sizeof 1D.vi"/>
+			<Item Name="Sizeof.vi" Type="VI" URL="../VIs/Sizeof.vi"/>
 		</Item>
 	</Item>
 </Library>
