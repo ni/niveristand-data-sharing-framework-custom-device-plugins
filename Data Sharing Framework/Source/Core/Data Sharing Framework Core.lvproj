@@ -27,6 +27,7 @@
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
+		<Item Name="Performance.lvclass" Type="LVClass" URL="../Classes/Status/Performance.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>

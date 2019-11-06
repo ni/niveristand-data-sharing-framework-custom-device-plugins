@@ -46,7 +46,6 @@
 			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Classes/Buffers/Buffers.lvclass"/>
 			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Classes/Configuration/Configuration Session.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Classes/Framework/Framework.lvclass"/>
-			<Item Name="Performance.lvclass" Type="LVClass" URL="../Classes/Status/Performance.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Classes/Transfer Group/Transfer Group.lvclass"/>
@@ -73,7 +72,6 @@
 			<Item Name="DSF Data Type.ctl" Type="VI" URL="../Typedefs/DSF Data Type.ctl"/>
 			<Item Name="DSF Direction.ctl" Type="VI" URL="../Typedefs/DSF Direction.ctl"/>
 			<Item Name="DSF Group Info.ctl" Type="VI" URL="../Typedefs/DSF Group Info.ctl"/>
-			<Item Name="DSF Performance Options.ctl" Type="VI" URL="../Typedefs/DSF Performance Options.ctl"/>
 			<Item Name="DSF Plugin Info.ctl" Type="VI" URL="../Typedefs/DSF Plugin Info.ctl"/>
 			<Item Name="DSF Settings Info.ctl" Type="VI" URL="../Typedefs/DSF Settings Info.ctl"/>
 			<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../Typedefs/DSF Timeout Behavior.ctl"/>
