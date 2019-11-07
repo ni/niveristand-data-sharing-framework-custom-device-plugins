@@ -36,6 +36,7 @@
 						<Item Name="Data Viewer" Type="Folder">
 							<Item Name="Private" Type="Folder">
 								<Item Name="Buffer Reader" Type="Folder">
+									<Item Name="Average Cycle Bandwidth.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Buffer Reader/Average Cycle Bandwidth.vi"/>
 									<Item Name="Buffer Data.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Buffer Reader/Buffer Data.ctl"/>
 								</Item>
 								<Item Name="Item Tree" Type="Folder">
@@ -60,6 +61,7 @@
 									<Item Name="Create New Tree Item.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Create New Tree Item.vi"/>
 									<Item Name="Create Plugin Groups.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Create Plugin Groups.vi"/>
 									<Item Name="Create Plugins.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Create Plugins.vi"/>
+									<Item Name="Get Buffer Data from Variant.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Buffer Data from Variant.vi"/>
 									<Item Name="Get Item Display Name.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Item Display Name.vi"/>
 									<Item Name="Get Item Type.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Item Type.vi"/>
 									<Item Name="Is Item Preloaded" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Is Item Preloaded"/>
@@ -246,7 +248,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6F74E28E-D8D0-40CE-B630-EA0198F4D848}</Property>
-				<Property Name="Bld_version.build" Type="Int">58</Property>
+				<Property Name="Bld_version.build" Type="Int">62</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components/UDP.lvlibp</Property>
@@ -396,6 +398,7 @@
 						<Item Name="Data Viewer" Type="Folder">
 							<Item Name="Private" Type="Folder">
 								<Item Name="Buffer Reader" Type="Folder">
+									<Item Name="Average Cycle Bandwidth.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Buffer Reader/Average Cycle Bandwidth.vi"/>
 									<Item Name="Buffer Data.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Buffer Reader/Buffer Data.ctl"/>
 								</Item>
 								<Item Name="Item Tree" Type="Folder">
@@ -420,6 +423,7 @@
 									<Item Name="Create New Tree Item.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Create New Tree Item.vi"/>
 									<Item Name="Create Plugin Groups.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Create Plugin Groups.vi"/>
 									<Item Name="Create Plugins.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Create Plugins.vi"/>
+									<Item Name="Get Buffer Data from Variant.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Buffer Data from Variant.vi"/>
 									<Item Name="Get Item Display Name.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Item Display Name.vi"/>
 									<Item Name="Get Item Type.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Item Type.vi"/>
 									<Item Name="Is Item Preloaded" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Is Item Preloaded"/>

@@ -31,6 +31,7 @@
 			<Item Name="Data Viewer" Type="Folder">
 				<Item Name="Private" Type="Folder">
 					<Item Name="Buffer Reader" Type="Folder">
+						<Item Name="Average Cycle Bandwidth.vi" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Average Cycle Bandwidth.vi"/>
 						<Item Name="Buffer Data.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Buffer Data.ctl"/>
 					</Item>
 					<Item Name="Item Tree" Type="Folder">
@@ -55,6 +56,7 @@
 						<Item Name="Create New Tree Item.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Create New Tree Item.vi"/>
 						<Item Name="Create Plugin Groups.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Create Plugin Groups.vi"/>
 						<Item Name="Create Plugins.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Create Plugins.vi"/>
+						<Item Name="Get Buffer Data from Variant.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Buffer Data from Variant.vi"/>
 						<Item Name="Get Item Display Name.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Item Display Name.vi"/>
 						<Item Name="Get Item Type.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Item Type.vi"/>
 						<Item Name="Is Item Preloaded" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Is Item Preloaded"/>
