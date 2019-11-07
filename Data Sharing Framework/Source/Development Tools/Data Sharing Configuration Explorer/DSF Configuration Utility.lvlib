@@ -131,4 +131,5 @@
 		</Item>
 		<Item Name="View Variant in Tree.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/View Variant in Tree.vi"/>
 	</Item>
+	<Item Name="Data Sharing Framework Configuration Explorer.vi" Type="VI" URL="../Source/Data Sharing Framework Configuration Explorer.vi"/>
 </Library>

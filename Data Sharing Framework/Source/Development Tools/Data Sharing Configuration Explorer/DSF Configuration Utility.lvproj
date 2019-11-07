@@ -17,28 +17,58 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
 				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp">
 				<Item Name="Private" Type="Folder">
@@ -77,19 +107,22 @@
 				</Item>
 				<Item Name="Public" Type="Folder">
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
+						<Item Name="Components" Type="Folder">
+							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
+							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
+						</Item>
+						<Item Name="Status" Type="Folder">
+							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Status/Framework Status.lvclass"/>
+							<Item Name="Transfer Group Status.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Transfer Group Status/Transfer Group Status.lvclass"/>
+						</Item>
 						<Item Name="Buffer.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Buffer/Buffer.lvclass"/>
 						<Item Name="Buffers.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Buffer/Buffers.lvclass"/>
 						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Configuration Session.lvclass"/>
-						<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Status/Framework Performance.lvclass"/>
-						<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Status/Framework Status.lvclass"/>
 						<Item Name="Framework.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Framework/Framework.lvclass"/>
 						<Item Name="Performance.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Performance/Performance.lvclass"/>
 						<Item Name="Plugin.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Plugin/Plugin.lvclass"/>
-						<Item Name="Status.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Status/Status.lvclass"/>
 						<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 						<Item Name="Timing.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Timing/Timing.lvclass"/>
-						<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
 						<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Transfer Group/Transfer Group.lvclass"/>
 						<Item Name="Transfer.lvclass" Type="LVClass" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Transfer/Transfer.lvclass"/>
 					</Item>
@@ -104,6 +137,7 @@
 						</Item>
 						<Item Name="Options" Type="Folder">
 							<Item Name="DSF FIFO Options.ctl" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Typedefs/DSF FIFO Options.ctl"/>
+							<Item Name="DSF Performance Options.ctl" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Performance/DSF Performance Options.ctl"/>
 							<Item Name="DSF Plugin Options.ctl" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Typedefs/DSF Plugin Options.ctl"/>
 							<Item Name="DSF Thread Options.ctl" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Thread/DSF Thread Options.ctl"/>
 						</Item>
@@ -124,16 +158,23 @@
 					</Item>
 					<Item Name="VIs" Type="Folder">
 						<Item Name="Configuration" Type="Folder">
-							<Item Name="Errors" Type="Folder"/>
 							<Item Name="Poly VIs" Type="Folder">
 								<Item Name="Channel Count (Framework).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Channel Count (Framework).vi"/>
 								<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Channel Count (Plugin).vi"/>
 								<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer Group).vi"/>
 								<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer).vi"/>
+								<Item Name="Largest Buffer Size (Framework).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Framework).vi"/>
+								<Item Name="Largest Buffer Size (Plugin).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Plugin).vi"/>
+								<Item Name="Largest Buffer Size (Transfer Group).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Transfer Group).vi"/>
 								<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Framework).vi"/>
 								<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Plugin).vi"/>
 								<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Transfer Group).vi"/>
 								<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Transfer).vi"/>
+								<Item Name="Transfer Count (Framework).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Transfer Count (Framework).vi"/>
+								<Item Name="Transfer Count (Plugin).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Transfer Count (Plugin).vi"/>
+								<Item Name="Transfer Count (Transfer Group).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Transfer Count (Transfer Group).vi"/>
+								<Item Name="Transfer Group Count (Framework).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Transfer Group Count (Framework).vi"/>
+								<Item Name="Transfer Group Count (Plugin).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Transfer Group Count (Plugin).vi"/>
 								<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Framework).vi"/>
 								<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Plugin).vi"/>
 								<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Transfer Group).vi"/>
@@ -143,7 +184,10 @@
 							<Item Name="Check Engine Blocks.vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Check Engine Blocks.vi"/>
 							<Item Name="DSF Configuration Cluster to File.vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/DSF Configuration Cluster to File.vi"/>
 							<Item Name="DSF Configuration File to Cluster.vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/DSF Configuration File to Cluster.vi"/>
+							<Item Name="Largest Buffer Size.vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size.vi"/>
 							<Item Name="Required Buffer Size.vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size.vi"/>
+							<Item Name="Transfer Count.vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Transfer Count.vi"/>
+							<Item Name="Transfer Group Count.vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/Classes/Configuration/Transfer Group Count.vi"/>
 						</Item>
 						<Item Name="Constants" Type="Folder">
 							<Item Name="Base Error Code.vi" Type="VI" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/VIs/Constants/Base Error Code.vi"/>
@@ -176,47 +220,6 @@
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../../../VeriStand/Data Sharing Custom Device/Source/Engine/DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="DSF Configuration Explorer" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{A46A2D24-674E-4C5C-B412-A6CE7C0F5699}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DSF Configuration Explorer</Property>
-				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Tools</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{E12A02A5-E184-4AC3-9721-0D4D3ACCDE48}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DSF Configuration Explorer.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Tools/DSF Configuration Explorer.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Tools</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BFC13A3D-3611-436E-947C-8BD330E3F568}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF Configuration Utility.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DSF Configuration Explorer</Property>
-				<Property Name="TgtF_internalName" Type="Str">DSF Configuration Explorer</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">DSF Configuration Explorer</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{1E1DB360-FD4E-4397-949E-B5739A790C97}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DSF Configuration Explorer.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

@@ -49,19 +49,22 @@
 				</Item>
 				<Item Name="Public" Type="Folder">
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
+						<Item Name="Components" Type="Folder">
+							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
+							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
+						</Item>
+						<Item Name="Status" Type="Folder">
+							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Framework Status.lvclass"/>
+							<Item Name="Transfer Group Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transfer Group Status/Transfer Group Status.lvclass"/>
+						</Item>
 						<Item Name="Buffer.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Buffer/Buffer.lvclass"/>
 						<Item Name="Buffers.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Buffer/Buffers.lvclass"/>
 						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Configuration Session.lvclass"/>
-						<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Framework Performance.lvclass"/>
-						<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Framework Status.lvclass"/>
 						<Item Name="Framework.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Framework/Framework.lvclass"/>
 						<Item Name="Performance.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Performance/Performance.lvclass"/>
 						<Item Name="Plugin.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Plugin/Plugin.lvclass"/>
-						<Item Name="Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Status.lvclass"/>
 						<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 						<Item Name="Timing.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Timing/Timing.lvclass"/>
-						<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
 						<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transfer Group/Transfer Group.lvclass"/>
 						<Item Name="Transfer.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transfer/Transfer.lvclass"/>
 					</Item>
@@ -76,6 +79,7 @@
 						</Item>
 						<Item Name="Options" Type="Folder">
 							<Item Name="DSF FIFO Options.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Typedefs/DSF FIFO Options.ctl"/>
+							<Item Name="DSF Performance Options.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Performance/DSF Performance Options.ctl"/>
 							<Item Name="DSF Plugin Options.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Typedefs/DSF Plugin Options.ctl"/>
 							<Item Name="DSF Thread Options.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Thread/DSF Thread Options.ctl"/>
 						</Item>
@@ -96,16 +100,23 @@
 					</Item>
 					<Item Name="VIs" Type="Folder">
 						<Item Name="Configuration" Type="Folder">
-							<Item Name="Errors" Type="Folder"/>
 							<Item Name="Poly VIs" Type="Folder">
 								<Item Name="Channel Count (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Channel Count (Framework).vi"/>
 								<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Channel Count (Plugin).vi"/>
 								<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer Group).vi"/>
 								<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer).vi"/>
+								<Item Name="Largest Buffer Size (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Framework).vi"/>
+								<Item Name="Largest Buffer Size (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Plugin).vi"/>
+								<Item Name="Largest Buffer Size (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Transfer Group).vi"/>
 								<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Framework).vi"/>
 								<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Plugin).vi"/>
 								<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Transfer Group).vi"/>
 								<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Transfer).vi"/>
+								<Item Name="Transfer Count (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Count (Framework).vi"/>
+								<Item Name="Transfer Count (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Count (Plugin).vi"/>
+								<Item Name="Transfer Count (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Count (Transfer Group).vi"/>
+								<Item Name="Transfer Group Count (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Group Count (Framework).vi"/>
+								<Item Name="Transfer Group Count (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Group Count (Plugin).vi"/>
 								<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Framework).vi"/>
 								<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Plugin).vi"/>
 								<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Transfer Group).vi"/>
@@ -115,7 +126,10 @@
 							<Item Name="Check Engine Blocks.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Check Engine Blocks.vi"/>
 							<Item Name="DSF Configuration Cluster to File.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/DSF Configuration Cluster to File.vi"/>
 							<Item Name="DSF Configuration File to Cluster.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/DSF Configuration File to Cluster.vi"/>
+							<Item Name="Largest Buffer Size.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size.vi"/>
 							<Item Name="Required Buffer Size.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size.vi"/>
+							<Item Name="Transfer Count.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Count.vi"/>
+							<Item Name="Transfer Group Count.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Group Count.vi"/>
 						</Item>
 						<Item Name="Constants" Type="Folder">
 							<Item Name="Base Error Code.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Constants/Base Error Code.vi"/>
@@ -157,7 +171,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6F74E28E-D8D0-40CE-B630-EA0198F4D848}</Property>
-				<Property Name="Bld_version.build" Type="Int">60</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components/UDP.lvlibp</Property>
@@ -320,19 +334,22 @@
 				</Item>
 				<Item Name="Public" Type="Folder">
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
+						<Item Name="Components" Type="Folder">
+							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
+							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
+						</Item>
+						<Item Name="Status" Type="Folder">
+							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Framework Status.lvclass"/>
+							<Item Name="Transfer Group Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transfer Group Status/Transfer Group Status.lvclass"/>
+						</Item>
 						<Item Name="Buffer.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Buffer/Buffer.lvclass"/>
 						<Item Name="Buffers.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Buffer/Buffers.lvclass"/>
 						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Configuration Session.lvclass"/>
-						<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Framework Performance.lvclass"/>
-						<Item Name="Framework Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Framework Status.lvclass"/>
 						<Item Name="Framework.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Framework/Framework.lvclass"/>
 						<Item Name="Performance.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Performance/Performance.lvclass"/>
 						<Item Name="Plugin.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Plugin/Plugin.lvclass"/>
-						<Item Name="Status.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Status.lvclass"/>
 						<Item Name="Thread Parameters.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Thread Parameters/Thread Parameters.lvclass"/>
 						<Item Name="Timing.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Timing/Timing.lvclass"/>
-						<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
 						<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transfer Group/Transfer Group.lvclass"/>
 						<Item Name="Transfer.lvclass" Type="LVClass" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transfer/Transfer.lvclass"/>
 					</Item>
@@ -347,6 +364,7 @@
 						</Item>
 						<Item Name="Options" Type="Folder">
 							<Item Name="DSF FIFO Options.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Typedefs/DSF FIFO Options.ctl"/>
+							<Item Name="DSF Performance Options.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Performance/DSF Performance Options.ctl"/>
 							<Item Name="DSF Plugin Options.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Typedefs/DSF Plugin Options.ctl"/>
 							<Item Name="DSF Thread Options.ctl" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Thread/DSF Thread Options.ctl"/>
 						</Item>
@@ -367,16 +385,23 @@
 					</Item>
 					<Item Name="VIs" Type="Folder">
 						<Item Name="Configuration" Type="Folder">
-							<Item Name="Errors" Type="Folder"/>
 							<Item Name="Poly VIs" Type="Folder">
 								<Item Name="Channel Count (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Channel Count (Framework).vi"/>
 								<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Channel Count (Plugin).vi"/>
 								<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer Group).vi"/>
 								<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer).vi"/>
+								<Item Name="Largest Buffer Size (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Framework).vi"/>
+								<Item Name="Largest Buffer Size (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Plugin).vi"/>
+								<Item Name="Largest Buffer Size (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Transfer Group).vi"/>
 								<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Framework).vi"/>
 								<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Plugin).vi"/>
 								<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Transfer Group).vi"/>
 								<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Transfer).vi"/>
+								<Item Name="Transfer Count (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Count (Framework).vi"/>
+								<Item Name="Transfer Count (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Count (Plugin).vi"/>
+								<Item Name="Transfer Count (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Count (Transfer Group).vi"/>
+								<Item Name="Transfer Group Count (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Group Count (Framework).vi"/>
+								<Item Name="Transfer Group Count (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Group Count (Plugin).vi"/>
 								<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Framework).vi"/>
 								<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Plugin).vi"/>
 								<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Transfer Group).vi"/>
@@ -386,7 +411,10 @@
 							<Item Name="Check Engine Blocks.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Check Engine Blocks.vi"/>
 							<Item Name="DSF Configuration Cluster to File.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/DSF Configuration Cluster to File.vi"/>
 							<Item Name="DSF Configuration File to Cluster.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/DSF Configuration File to Cluster.vi"/>
+							<Item Name="Largest Buffer Size.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size.vi"/>
 							<Item Name="Required Buffer Size.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Required Buffer Size.vi"/>
+							<Item Name="Transfer Count.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Count.vi"/>
+							<Item Name="Transfer Group Count.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Configuration/Transfer Group Count.vi"/>
 						</Item>
 						<Item Name="Constants" Type="Folder">
 							<Item Name="Base Error Code.vi" Type="VI" URL="../../../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Constants/Base Error Code.vi"/>
