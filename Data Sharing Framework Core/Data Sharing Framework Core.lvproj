@@ -27,9 +27,6 @@
 				<Item Name="Debug Tests.lvclass" Type="LVClass" URL="../Tests/Debug/Debug Tests/Debug Tests.lvclass"/>
 			</Item>
 			<Item Name="Framework Tests" Type="Folder">
-				<Item Name="Mock Classes" Type="Folder">
-					<Item Name="Mock Framework.lvclass" Type="LVClass" URL="../Tests/Framework/Mock Framework Class/Mock Framework.lvclass"/>
-				</Item>
 				<Item Name="Framework Property Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Property Tests/Framework Property Tests.lvclass"/>
 			</Item>
 			<Item Name="Memory Buffer Tests" Type="Folder">
