@@ -80,6 +80,7 @@
 						<Item Name="Window State.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
 					</Item>
 				</Item>
+				<Item Name="Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer.vi"/>
 			</Item>
 			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
 		</Item>
@@ -182,8 +183,9 @@
 				<Item Name="Engine Library Name.vi" Type="VI" URL="../VIs/Constants/Engine Library Name.vi"/>
 				<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../VIs/Constants/Error Offset (Configuration).vi"/>
 			</Item>
-			<Item Name="Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer.vi"/>
-			<Item Name="Launch Async Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Launch Async Data Viewer.vi"/>
+			<Item Name="Data Viewer" Type="Folder">
+				<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Launch Data Viewer.vi"/>
+			</Item>
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../VIs/Sizeof.vi"/>
 		</Item>
