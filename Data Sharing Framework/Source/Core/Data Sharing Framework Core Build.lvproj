@@ -111,7 +111,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Core</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FDDD110F-E911-47E7-BACC-9E25B0B94FDA}</Property>
-				<Property Name="Bld_version.build" Type="Int">58</Property>
+				<Property Name="Bld_version.build" Type="Int">60</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Core/DSF Core.lvlibp</Property>

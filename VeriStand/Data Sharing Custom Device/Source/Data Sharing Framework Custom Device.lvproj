@@ -123,6 +123,7 @@
 						<Item Name="Data Viewer" Type="Folder">
 							<Item Name="Private" Type="Folder">
 								<Item Name="Buffer Reader" Type="Folder">
+									<Item Name="Average Cycle Bandwidth.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Buffer Reader/Average Cycle Bandwidth.vi"/>
 									<Item Name="Buffer Data.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Buffer Reader/Buffer Data.ctl"/>
 								</Item>
 								<Item Name="Item Tree" Type="Folder">
@@ -147,6 +148,7 @@
 									<Item Name="Create New Tree Item.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Create New Tree Item.vi"/>
 									<Item Name="Create Plugin Groups.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Create Plugin Groups.vi"/>
 									<Item Name="Create Plugins.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Create Plugins.vi"/>
+									<Item Name="Get Buffer Data from Variant.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Buffer Data from Variant.vi"/>
 									<Item Name="Get Item Display Name.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Item Display Name.vi"/>
 									<Item Name="Get Item Type.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Item Type.vi"/>
 									<Item Name="Is Item Preloaded" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Is Item Preloaded"/>
@@ -170,6 +172,7 @@
 									<Item Name="Window State.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
 								</Item>
 							</Item>
+							<Item Name="Data Viewer.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Data Viewer.vi"/>
 						</Item>
 						<Item Name="VI Name.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/VI Name.vi"/>
 					</Item>
@@ -180,17 +183,22 @@
 							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
 							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
 						</Item>
-						<Item Name="Status" Type="Folder">
-							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Status/Framework Status.lvclass"/>
-							<Item Name="Transfer Group Status.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Transfer Group Status/Transfer Group Status.lvclass"/>
+						<Item Name="Encapsulation" Type="Folder">
+							<Item Name="Buffers.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Buffers/Buffers.lvclass"/>
+							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Framework Status/Framework Status.lvclass"/>
 						</Item>
-						<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Buffer/Buffer.lvclass"/>
-						<Item Name="Buffers.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Buffers/Buffers.lvclass"/>
+						<Item Name="Measurement" Type="Folder">
+							<Item Name="Performance.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Performance/Performance.lvclass"/>
+							<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Timing/Timing.lvclass"/>
+						</Item>
+						<Item Name="Pointers" Type="Folder">
+							<Item Name="Buffer.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Buffer/Buffer.lvclass"/>
+							<Item Name="Status.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Transfer Group Status/Status.lvclass"/>
+							<Item Name="Timing Status.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Timing Status/Timing Status.lvclass"/>
+						</Item>
 						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Configuration/Configuration Session.lvclass"/>
 						<Item Name="Framework.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Framework/Framework.lvclass"/>
-						<Item Name="Performance.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Status/Performance.lvclass"/>
 						<Item Name="Plugin.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Plugin/Plugin.lvclass"/>
-						<Item Name="Timing.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Timing/Timing.lvclass"/>
 						<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Transfer Group/Transfer Group.lvclass"/>
 						<Item Name="Transfer.lvclass" Type="LVClass" URL="../Engine/DSF Core.lvlibp/Classes/Transfer/Transfer.lvclass"/>
 					</Item>
@@ -202,6 +210,9 @@
 							<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF Engine Plugin Thread Configuration.ctl"/>
 							<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF Engine Transfer Configuration.ctl"/>
 							<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF Engine Transfer Group Configuration.ctl"/>
+						</Item>
+						<Item Name="Framework" Type="Folder">
+							<Item Name="Status" Type="Folder"/>
 						</Item>
 						<Item Name="Options" Type="Folder">
 							<Item Name="DSF FIFO Options.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF FIFO Options.ctl"/>
@@ -220,7 +231,6 @@
 						<Item Name="DSF Settings Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF Settings Info.ctl"/>
 						<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF Timeout Behavior.ctl"/>
 						<Item Name="DSF Timing Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF Timing Info.ctl"/>
-						<Item Name="DSF Transfer Group Status.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF Transfer Group Status.ctl"/>
 						<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF Transfer Info.ctl"/>
 						<Item Name="DSF Version Info.ctl" Type="VI" URL="../Engine/DSF Core.lvlibp/Typedefs/DSF Version Info.ctl"/>
 					</Item>
@@ -264,8 +274,9 @@
 							<Item Name="Engine Library Name.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Constants/Engine Library Name.vi"/>
 							<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Constants/Error Offset (Configuration).vi"/>
 						</Item>
-						<Item Name="Data Viewer.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Data Viewer.vi"/>
-						<Item Name="Launch Async Data Viewer.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Launch Async Data Viewer.vi"/>
+						<Item Name="Data Viewer" Type="Folder">
+							<Item Name="Launch Data Viewer.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Data Viewer/Source/Launch Data Viewer.vi"/>
+						</Item>
 						<Item Name="Sizeof 1D.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Sizeof 1D.vi"/>
 						<Item Name="Sizeof.vi" Type="VI" URL="../Engine/DSF Core.lvlibp/VIs/Sizeof.vi"/>
 					</Item>
