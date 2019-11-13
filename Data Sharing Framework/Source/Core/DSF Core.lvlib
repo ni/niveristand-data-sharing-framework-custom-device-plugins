@@ -186,6 +186,7 @@
 			<Item Name="Data Viewer" Type="Folder">
 				<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Launch Data Viewer.vi"/>
 			</Item>
+			<Item Name="Create Default Framework.vi" Type="VI" URL="../Classes/Framework/Create Default Framework.vi"/>
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../VIs/Sizeof.vi"/>
 		</Item>

@@ -11,17 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Benchmarks" Type="Folder">
-			<Item Name="Buffer Converter" Type="Folder">
-				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Benchmark Convert String Type - Create Random Scalar Conversions.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Create Random Scalar Conversions.vi"/>
-					<Item Name="Benchmark Convert String Type - Create Single Type Block Conversions.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Create Single Type Block Conversions.vi"/>
-					<Item Name="Benchmark Convert String Type - Sizeof Strings.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Sizeof Strings.vi"/>
-				</Item>
-				<Item Name="Benchmark Convert String Type - Random Scalars.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Random Scalars.vi"/>
-				<Item Name="Benchmark Convert String Type - Single Type to Single Type.vi" Type="VI" URL="../Benchmarks/Benchmark Convert String Type - Single Type to Single Type.vi"/>
-			</Item>
-		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Framework Source Test.vi"/>
 		</Item>
@@ -73,8 +62,6 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Read Item.vi" Type="VI" URL="/../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Read Item.vi"/>
-			<Item Name="Read Plugin.vi" Type="VI" URL="/../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/DSF Configuration API/Public/Read Item/Read Plugin.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
