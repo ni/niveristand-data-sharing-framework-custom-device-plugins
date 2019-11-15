@@ -21,6 +21,7 @@
 		<Item Name="Clear Tree.vi" Type="VI" URL="../Source/Item Tree/Clear Tree.vi"/>
 		<Item Name="Get Item Display Name.vi" Type="VI" URL="../Source/Item Tree/Get Item Display Name.vi"/>
 		<Item Name="Get Item Type.vi" Type="VI" URL="../Source/Item Tree/Get Item Type.vi"/>
+		<Item Name="Get Parent.vi" Type="VI" URL="../Source/Item Tree/Get Parent.vi"/>
 		<Item Name="Get Plugins from Configuration.vi" Type="VI" URL="../Source/Item Tree/Get Plugins from Configuration.vi"/>
 		<Item Name="Is Item Preloaded" Type="VI" URL="../Source/Item Tree/Is Item Preloaded"/>
 		<Item Name="Load All Subitems.vi" Type="VI" URL="../Source/Item Tree/Load All Subitems.vi"/>
