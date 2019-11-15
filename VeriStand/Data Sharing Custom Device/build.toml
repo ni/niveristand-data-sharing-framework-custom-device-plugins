@@ -1,0 +1,24 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = 'C:\MyCustomDevice'
+
+[projects.dsf_cd]
+path = 'Source\Data Sharing Framework Custom Device.lvproj'
+
+[[build.steps]]
+name = 'Build Configuration Library'
+type = 'lvBuildSpec'
+project = '{dsf_cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+
+[[build.steps]]
+name = 'Build Engine Library'
+type = 'lvBuildSpecAllTargets'
+project = '{dsf_cd}'
+build_spec = 'Engine Release'
+
+[package]
+type = 'nipkg'
+payload_dir = 'Built'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
