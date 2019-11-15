@@ -32,7 +32,6 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="Data Sharing Framework Configuration Explorer.vi" Type="VI" URL="../../../../Data Sharing Framework/Source/Development Tools/Data Sharing Configuration Explorer/Source/Data Sharing Framework Configuration Explorer.vi"/>
 		</Item>
-		<Item Name="Create DSF UDP Loopback Configuration Files.vi" Type="VI" URL="../System Explorer/Create DSF UDP Loopback Configuration Files.vi"/>
 		<Item Name="Custom Device Data Sharing Framework.xml" Type="Document" URL="../Custom Device Data Sharing Framework.xml"/>
 		<Item Name="DSF Engine.lvlib" Type="Library" URL="../Engine/DSF Engine.lvlib"/>
 		<Item Name="DSF Shared.lvlib" Type="Library" URL="../Shared/DSF Shared.lvlib"/>
