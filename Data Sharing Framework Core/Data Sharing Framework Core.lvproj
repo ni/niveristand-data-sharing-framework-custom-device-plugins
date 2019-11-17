@@ -28,6 +28,7 @@
 			</Item>
 			<Item Name="Framework Tests" Type="Folder">
 				<Item Name="Framework Property Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Property Tests/Framework Property Tests.lvclass"/>
+				<Item Name="Framework Status Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Status Tests/Framework Status Tests/Framework Status Tests.lvclass"/>
 			</Item>
 			<Item Name="Memory Buffer Tests" Type="Folder">
 				<Item Name="Read Value Tests.lvclass" Type="LVClass" URL="../Tests/Mem Buff/Mem Buff Read Write/Read Value Tests.lvclass"/>
