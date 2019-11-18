@@ -109,13 +109,13 @@
 				<Item Name="Enum info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/Enum info.vi"/>
 				<Item Name="EXT info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/EXT info.vi"/>
 				<Item Name="FXP info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/FXP info.vi"/>
+				<Item Name="Get Path info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/Get Path info.vi"/>
 				<Item Name="get unit string.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/get unit string.vi"/>
 				<Item Name="I8 info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/I8 info.vi"/>
 				<Item Name="I16 info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/I16 info.vi"/>
 				<Item Name="I32.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/I32.vi"/>
 				<Item Name="I64 info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/I64 info.vi"/>
 				<Item Name="LVClass info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/LVClass info.vi"/>
-				<Item Name="Path info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/Path info.vi"/>
 				<Item Name="Ref info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/Ref info.vi"/>
 				<Item Name="SGL info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/SGL info.vi"/>
 				<Item Name="String info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/String info.vi"/>
