@@ -22,6 +22,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
+			<Item Name="Data Sharing Framework Configuration Explorer.vi" Type="VI" URL="../../../../Data Sharing Framework/Source/Development Tools/Data Sharing Configuration Explorer/Source/Data Sharing Framework Configuration Explorer.vi"/>
 			<Item Name="DSF Configuration Utility.lvlib" Type="Library" URL="../../../../Data Sharing Framework/Source/Development Tools/Data Sharing Configuration Explorer/DSF Configuration Utility.lvlib"/>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
@@ -30,7 +31,6 @@
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
-			<Item Name="Data Sharing Framework Configuration Explorer.vi" Type="VI" URL="../../../../Data Sharing Framework/Source/Development Tools/Data Sharing Configuration Explorer/Source/Data Sharing Framework Configuration Explorer.vi"/>
 		</Item>
 		<Item Name="Custom Device Data Sharing Framework.xml" Type="Document" URL="../Custom Device Data Sharing Framework.xml"/>
 		<Item Name="DSF Engine.lvlib" Type="Library" URL="../Engine/DSF Engine.lvlib"/>
