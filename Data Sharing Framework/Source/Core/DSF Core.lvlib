@@ -32,6 +32,7 @@
 				<Item Name="Buffer Reader" Type="Folder">
 					<Item Name="Average Cycle Bandwidth.vi" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Average Cycle Bandwidth.vi"/>
 					<Item Name="Buffer Data.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Buffer Data.ctl"/>
+					<Item Name="Buffer View.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Buffer View.ctl"/>
 					<Item Name="Read Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Read Buffer.vi"/>
 				</Item>
 				<Item Name="Item Tree" Type="Folder">
@@ -49,7 +50,6 @@
 					<Item Name="Add Item with Setting.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Item with Setting.vi"/>
 					<Item Name="Add Plugin with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Plugin with Children.vi"/>
 					<Item Name="Add Plugin.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Plugin.vi"/>
-					<Item Name="Add Transfer Group with Children v2.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer Group with Children v2.vi"/>
 					<Item Name="Add Transfer Group with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer Group with Children.vi"/>
 					<Item Name="Add Transfer Group.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer Group.vi"/>
 					<Item Name="Add Transfer with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer with Children.vi"/>
