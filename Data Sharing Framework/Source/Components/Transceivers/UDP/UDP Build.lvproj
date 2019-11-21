@@ -224,7 +224,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6F74E28E-D8D0-40CE-B630-EA0198F4D848}</Property>
-				<Property Name="Bld_version.build" Type="Int">76</Property>
+				<Property Name="Bld_version.build" Type="Int">77</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Components/UDP.lvlibp</Property>
@@ -522,7 +522,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E58A5EEB-4F69-4973-A5FF-111BABE98365}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Components</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/Components/UDP.lvlibp</Property>
