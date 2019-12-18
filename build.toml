@@ -1,5 +1,5 @@
 [archive]
-build_output_dir = 'Source\Built'
+build_output_dir = 'C:\Builds\Data Sharing Framework\Windows\32\Data Sharing Framework Core'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework'
 
 [projects.core]
