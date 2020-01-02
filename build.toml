@@ -12,9 +12,23 @@ project = '{core}'
 target = 'My Computer'
 build_spec = 'Data Sharing Framework Core'
 
+[[build.steps]]
+name = 'Data Sharing Framework Core - Pharlap'
+type = 'lvBuildSpec'
+project = '{core}'
+target = 'RT PXI Target'
+build_spec = 'Data Sharing Framework Core'
+
 [[package]]
 type = 'nipkg'
 payload_dir = 'Source\Built\DSF Core'
 install_destination = 'documents\National Instruments\Data Sharing Framework\Core'
 control_file = 'control_dsf_core_windows'
+package_output_dir = 'Source\Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Source\Built\DSF Core'
+install_destination = 'documents\National Instruments\Data Sharing Framework\Core'
+control_file = 'control_dsf_core_pharlap'
 package_output_dir = 'Source\Built'
