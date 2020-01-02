@@ -1,4 +1,4 @@
-Package: ni-data-sharing-framework-core-support
+Package: ni-data-sharing-framework-core-support-windows
 Version: {nipkg_version}
 Architecture: windows_all
 Maintainer: National Instruments <support@ni.com>
@@ -11,4 +11,4 @@ XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
-XB-DisplayName: NI Data Sharing Framework Core
+XB-DisplayName: NI Data Sharing Framework Core for Windows
