@@ -21,14 +21,14 @@ build_spec = 'Data Sharing Framework Core'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'Source\Built\DSF Core'
+payload_dir = 'C:\Builds\Data Sharing Framework\Windows\32'
 install_destination = 'documents\National Instruments\Data Sharing Framework\Core'
 control_file = 'control_dsf_core_windows'
 package_output_dir = 'Source\Built'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'Source\Built\DSF Core'
+payload_dir = 'C:\Builds\Data Sharing Framework\Pharlap'
 install_destination = 'documents\National Instruments\Data Sharing Framework\Core'
 control_file = 'control_dsf_core_pharlap'
 package_output_dir = 'Source\Built'

@@ -1,4 +1,4 @@
-Package: ni-data-sharing-framework-core-support-pharlap
+Package: ni-data-sharing-framework-core-support-{veristand_version}-pharlap
 Version: {nipkg_version}
 Architecture: pharlap
 Maintainer: National Instruments <support@ni.com>
@@ -11,4 +11,4 @@ XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
-XB-DisplayName: NI Data Sharing Framework Core for Pharlap
+XB-DisplayName: NI Data Sharing Framework Core for Pharlap {veristand_version}
