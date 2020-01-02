@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_all
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description: Provides support for the NI Data Sharing Framework for Windows Applications.
+Description: Provides support for the NI Data Sharing Framework for Windows applications.
 XB-Eula: eula-ni-standard
 Priority: standard
 Homepage: http://www.ni.com
