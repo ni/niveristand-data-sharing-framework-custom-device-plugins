@@ -21,6 +21,7 @@
 		<Item Name="Clear Tree.vi" Type="VI" URL="../Source/Item Tree/Clear Tree.vi"/>
 		<Item Name="Get Item Display Name.vi" Type="VI" URL="../Source/Item Tree/Get Item Display Name.vi"/>
 		<Item Name="Get Item Type.vi" Type="VI" URL="../Source/Item Tree/Get Item Type.vi"/>
+		<Item Name="Get Parent.vi" Type="VI" URL="../Source/Item Tree/Get Parent.vi"/>
 		<Item Name="Get Plugins from Configuration.vi" Type="VI" URL="../Source/Item Tree/Get Plugins from Configuration.vi"/>
 		<Item Name="Is Item Preloaded" Type="VI" URL="../Source/Item Tree/Is Item Preloaded"/>
 		<Item Name="Load All Subitems.vi" Type="VI" URL="../Source/Item Tree/Load All Subitems.vi"/>
@@ -108,13 +109,13 @@
 				<Item Name="Enum info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/Enum info.vi"/>
 				<Item Name="EXT info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/EXT info.vi"/>
 				<Item Name="FXP info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/FXP info.vi"/>
+				<Item Name="Get Path info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/Get Path info.vi"/>
 				<Item Name="get unit string.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/get unit string.vi"/>
 				<Item Name="I8 info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/I8 info.vi"/>
 				<Item Name="I16 info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/I16 info.vi"/>
 				<Item Name="I32.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/I32.vi"/>
 				<Item Name="I64 info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/I64 info.vi"/>
 				<Item Name="LVClass info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/LVClass info.vi"/>
-				<Item Name="Path info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/Path info.vi"/>
 				<Item Name="Ref info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/Ref info.vi"/>
 				<Item Name="SGL info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/SGL info.vi"/>
 				<Item Name="String info.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/type subvis/String info.vi"/>
@@ -131,5 +132,4 @@
 		</Item>
 		<Item Name="View Variant in Tree.vi" Type="VI" URL="../Source/Value Tree/variant to tree resources/View Variant in Tree.vi"/>
 	</Item>
-	<Item Name="Data Sharing Framework Configuration Explorer.vi" Type="VI" URL="../Source/Data Sharing Framework Configuration Explorer.vi"/>
 </Library>
