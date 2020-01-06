@@ -1,3 +1,0 @@
-[submodule "LVMM"]
-	path = LVMM
-	url = https://github.com/ni/labview-memory-management-tools
