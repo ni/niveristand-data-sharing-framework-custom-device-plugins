@@ -15,7 +15,8 @@
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Framework Source Test.vi"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
-		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
+		<Item Name="Memory Manager.lvlib" Type="Library" URL="../../LabVIEW-Memory/Source/Memory Manager.lvlib"/>
+		<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../LabVIEW-Memory/Source/Static Error Handling.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
