@@ -1,9 +1,9 @@
-Package: ni-data-sharing-framework-core-support-windows
+Package: ni-data-sharing-framework-core-support-{veristand_version}-windows
 Version: {nipkg_version}
 Architecture: windows_all
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description: Provides support for the NI Data Sharing Framework for Windows Applications.
+Description: Provides support for the NI Data Sharing Framework for Windows applications.
 XB-Eula: eula-ni-standard
 Priority: standard
 Homepage: http://www.ni.com
@@ -11,4 +11,4 @@ XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
-XB-DisplayName: NI Data Sharing Framework Core for Windows
+XB-DisplayName: NI Data Sharing Framework Core for Windows {veristand_version}
