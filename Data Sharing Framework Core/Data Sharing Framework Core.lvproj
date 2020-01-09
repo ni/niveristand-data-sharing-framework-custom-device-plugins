@@ -44,10 +44,8 @@
 					<Item Name="Framework Property Tests" Type="Folder">
 						<Item Name="Framework Property Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Property Tests/Framework Property Tests.lvclass"/>
 					</Item>
-					<Item Name="Framework Status Tests" Type="Folder">
-						<Item Name="Framework Status Tests" Type="Folder">
-							<Item Name="Framework Status Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Status Tests/Framework Status Tests/Framework Status Tests.lvclass"/>
-						</Item>
+					<Item Name="Classes" Type="Folder">
+						<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Status Tests/Framework Status Tests/Performance Tests.lvclass"/>
 					</Item>
 				</Item>
 				<Item Name="Mem Buff" Type="Folder">
@@ -395,15 +393,12 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Create Cache.vi" Type="VI" URL="../Engine/Classes/Cache/Create Cache.vi"/>
-			<Item Name="Create Framework Performance.vi" Type="VI" URL="../Engine/Classes/Status/Create Framework Performance.vi"/>
 			<Item Name="Debug Flags.ctl" Type="VI" URL="../Engine/Classes/Debug/Debug Flags/Debug Flags.lvclass/Debug Flags.ctl"/>
 			<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/Debug Flags/Debug Flags.lvclass"/>
 			<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
 			<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../Engine/Configuration/Engine Config Cluster to DSF Config File.vi"/>
 			<Item Name="FIFO Flags.ctl" Type="VI" URL="../Engine/Classes/Debug/FIFO Flags/FIFO Flags.lvclass/FIFO Flags.ctl"/>
 			<Item Name="FIFO Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/FIFO Flags/FIFO Flags.lvclass"/>
-			<Item Name="Framework Performance.ctl" Type="VI" URL="../Engine/Classes/Status/Framework Performance.lvclass/Framework Performance.ctl"/>
-			<Item Name="Framework Performance.lvclass" Type="LVClass" URL="../Engine/Classes/Status/Framework Performance.lvclass"/>
 			<Item Name="Get All Transfer Groups.vi" Type="VI" URL="../Engine/Classes/Framework/Get All Transfer Groups.vi"/>
 			<Item Name="Get All Transfers.vi" Type="VI" URL="../Engine/Classes/Framework/Get All Transfers.vi"/>
 			<Item Name="Get Cache.vi" Type="VI" URL="../Engine/Classes/Framework/Get Cache.vi"/>
@@ -413,15 +408,10 @@
 			<Item Name="Get Hardware Info.vi" Type="VI" URL="../Engine/Classes/Framework/Get Hardware Info.vi"/>
 			<Item Name="Get Infinite Timeouts.vi" Type="VI" URL="../Engine/Classes/Debug/FIFO Flags/Get Infinite Timeouts.vi"/>
 			<Item Name="Get Inline Buffer.vi" Type="VI" URL="../Engine/Classes/Transfer/Get Inline Buffer.vi"/>
-			<Item Name="Get Performance.vi" Type="VI" URL="../Engine/Classes/Status/Get Performance.vi"/>
 			<Item Name="Get Plugins.vi" Type="VI" URL="../Engine/Classes/Framework/Get Plugins.vi"/>
-			<Item Name="Get Rx Duration.vi" Type="VI" URL="../Engine/Classes/Status/Get Rx Duration.vi"/>
-			<Item Name="Get Rx Start Time.vi" Type="VI" URL="../Engine/Classes/Status/Get Rx Start Time.vi"/>
 			<Item Name="Get Transceivers.vi" Type="VI" URL="../Engine/Classes/Framework/Get Transceivers.vi"/>
 			<Item Name="Get Transfers Groups.vi" Type="VI" URL="../Engine/Classes/Cache/Get Transfers Groups.vi"/>
 			<Item Name="Get Transfers.vi" Type="VI" URL="../Engine/Classes/Cache/Get Transfers.vi"/>
-			<Item Name="Get Tx Duration.vi" Type="VI" URL="../Engine/Classes/Status/Get Tx Duration.vi"/>
-			<Item Name="Get Tx Start Time.vi" Type="VI" URL="../Engine/Classes/Status/Get Tx Start Time.vi"/>
 			<Item Name="Initialize Engine Pointer.vi" Type="VI" URL="../Engine/Classes/Framework/Initialize Engine Pointer.vi"/>
 			<Item Name="Largest Channel Array.vi" Type="VI" URL="../Engine/Classes/Transfer/Largest Channel Array.vi"/>
 			<Item Name="Largest Channel Array.vi" Type="VI" URL="../Engine/Classes/Transfer Group/Largest Channel Array.vi"/>
@@ -444,13 +434,8 @@
 			<Item Name="Set Infinite Timeouts.vi" Type="VI" URL="../Engine/Classes/Debug/FIFO Flags/Set Infinite Timeouts.vi"/>
 			<Item Name="Set Inline Buffer.vi" Type="VI" URL="../Engine/Classes/Transfer/Set Inline Buffer.vi"/>
 			<Item Name="Set Intermediate Buffer.vi" Type="VI" URL="../Engine/Classes/Transfer/Set Intermediate Buffer.vi"/>
-			<Item Name="Set Performance.vi" Type="VI" URL="../Engine/Classes/Status/Set Performance.vi"/>
 			<Item Name="Set Plugins.vi" Type="VI" URL="../Engine/Classes/Framework/Set Plugins.vi"/>
-			<Item Name="Set Rx Duration.vi" Type="VI" URL="../Engine/Classes/Status/Set Rx Duration.vi"/>
-			<Item Name="Set Rx Start Time.vi" Type="VI" URL="../Engine/Classes/Status/Set Rx Start Time.vi"/>
 			<Item Name="Set Transceivers.vi" Type="VI" URL="../Engine/Classes/Framework/Set Transceivers.vi"/>
-			<Item Name="Set Tx Duration.vi" Type="VI" URL="../Engine/Classes/Status/Set Tx Duration.vi"/>
-			<Item Name="Set Tx Start Time.vi" Type="VI" URL="../Engine/Classes/Status/Set Tx Start Time.vi"/>
 			<Item Name="Total Channel Count.vi" Type="VI" URL="../Engine/Classes/Transfer/Total Channel Count.vi"/>
 			<Item Name="Write DBL Pointer.vi" Type="VI" URL="../Engine/Classes/Pointer/Write DBL Pointer.vi"/>
 		</Item>
