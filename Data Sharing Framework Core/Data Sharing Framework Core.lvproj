@@ -2,7 +2,6 @@
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -31,20 +30,23 @@
 					</Item>
 				</Item>
 				<Item Name="Framework" Type="Folder">
+					<Item Name="Classes" Type="Folder">
+						<Item Name="Buffer Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Classes/Buffer Tests/Buffer Tests.lvclass"/>
+						<Item Name="Buffers Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Classes/Buffers Tests/Buffers Tests.lvclass"/>
+						<Item Name="Framework Status Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Classes/Framework Status Tests/Framework Status Tests.lvclass"/>
+						<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Classes/Performance Tests/Performance Tests.lvclass"/>
+						<Item Name="Status Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Classes/Status Tests/Status Tests.lvclass"/>
+					</Item>
 					<Item Name="Framework Property Tests" Type="Folder">
 						<Item Name="Framework Property Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Property Tests/Framework Property Tests.lvclass"/>
-					</Item>
-					<Item Name="Classes" Type="Folder">
-						<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Status Tests/Framework Status Tests/Performance Tests.lvclass"/>
-						<Item Name="Buffer Tests.lvclass" Type="LVClass" URL="../Tests/Mem Buff/Mem Buff Read Write/Buffer Tests.lvclass"/>
 					</Item>
 				</Item>
 			</Item>
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Framework Source Test.vi"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
-		<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../LabVIEW-Memory/Source/Static Error Handling.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="../../LabVIEW-Memory/Source/Memory Manager.lvlib"/>
+		<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../LabVIEW-Memory/Source/Static Error Handling.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
