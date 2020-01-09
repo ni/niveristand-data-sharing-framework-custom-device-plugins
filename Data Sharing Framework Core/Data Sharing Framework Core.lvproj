@@ -30,27 +30,13 @@
 						<Item Name="Configuration Tests.lvclass" Type="LVClass" URL="../Tests/Configuration/Configuration Tests/Configuration Tests.lvclass"/>
 					</Item>
 				</Item>
-				<Item Name="DBL Pointer" Type="Folder">
-					<Item Name="DBL Pointer Main" Type="Folder">
-						<Item Name="DBL Pointer Tests.lvclass" Type="LVClass" URL="../Tests/DBL Pointer/DBL Pointer Main/DBL Pointer Tests.lvclass"/>
-					</Item>
-				</Item>
-				<Item Name="Debug" Type="Folder">
-					<Item Name="Debug Tests" Type="Folder">
-						<Item Name="Debug Tests.lvclass" Type="LVClass" URL="../Tests/Debug/Debug Tests/Debug Tests.lvclass"/>
-					</Item>
-				</Item>
 				<Item Name="Framework" Type="Folder">
 					<Item Name="Framework Property Tests" Type="Folder">
 						<Item Name="Framework Property Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Property Tests/Framework Property Tests.lvclass"/>
 					</Item>
 					<Item Name="Classes" Type="Folder">
 						<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Status Tests/Framework Status Tests/Performance Tests.lvclass"/>
-					</Item>
-				</Item>
-				<Item Name="Mem Buff" Type="Folder">
-					<Item Name="Mem Buff Read Write" Type="Folder">
-						<Item Name="Read Value Tests.lvclass" Type="LVClass" URL="../Tests/Mem Buff/Mem Buff Read Write/Read Value Tests.lvclass"/>
+						<Item Name="Buffer Tests.lvclass" Type="LVClass" URL="../Tests/Mem Buff/Mem Buff Read Write/Buffer Tests.lvclass"/>
 					</Item>
 				</Item>
 			</Item>
@@ -393,20 +379,16 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Create Cache.vi" Type="VI" URL="../Engine/Classes/Cache/Create Cache.vi"/>
-			<Item Name="Debug Flags.ctl" Type="VI" URL="../Engine/Classes/Debug/Debug Flags/Debug Flags.lvclass/Debug Flags.ctl"/>
 			<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/Debug Flags/Debug Flags.lvclass"/>
 			<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
 			<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../Engine/Configuration/Engine Config Cluster to DSF Config File.vi"/>
-			<Item Name="FIFO Flags.ctl" Type="VI" URL="../Engine/Classes/Debug/FIFO Flags/FIFO Flags.lvclass/FIFO Flags.ctl"/>
 			<Item Name="FIFO Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/FIFO Flags/FIFO Flags.lvclass"/>
 			<Item Name="Get All Transfer Groups.vi" Type="VI" URL="../Engine/Classes/Framework/Get All Transfer Groups.vi"/>
 			<Item Name="Get All Transfers.vi" Type="VI" URL="../Engine/Classes/Framework/Get All Transfers.vi"/>
 			<Item Name="Get Cache.vi" Type="VI" URL="../Engine/Classes/Framework/Get Cache.vi"/>
 			<Item Name="Get Debug Flags.vi" Type="VI" URL="../Engine/Classes/Framework/Get Debug Flags.vi"/>
 			<Item Name="Get Engine Pointer.vi" Type="VI" URL="../Engine/Classes/Framework/Get Engine Pointer.vi"/>
-			<Item Name="Get FIFO Flags.vi" Type="VI" URL="../Engine/Classes/Debug/Debug Flags/Get FIFO Flags.vi"/>
 			<Item Name="Get Hardware Info.vi" Type="VI" URL="../Engine/Classes/Framework/Get Hardware Info.vi"/>
-			<Item Name="Get Infinite Timeouts.vi" Type="VI" URL="../Engine/Classes/Debug/FIFO Flags/Get Infinite Timeouts.vi"/>
 			<Item Name="Get Inline Buffer.vi" Type="VI" URL="../Engine/Classes/Transfer/Get Inline Buffer.vi"/>
 			<Item Name="Get Plugins.vi" Type="VI" URL="../Engine/Classes/Framework/Get Plugins.vi"/>
 			<Item Name="Get Transceivers.vi" Type="VI" URL="../Engine/Classes/Framework/Get Transceivers.vi"/>
@@ -431,7 +413,6 @@
 			<Item Name="Set Engine Pointer.vi" Type="VI" URL="../Engine/Classes/Framework/Set Engine Pointer.vi"/>
 			<Item Name="Set FIFO Flags.vi" Type="VI" URL="../Engine/Classes/Debug/Debug Flags/Set FIFO Flags.vi"/>
 			<Item Name="Set Hardware Info.vi" Type="VI" URL="../Engine/Classes/Framework/Set Hardware Info.vi"/>
-			<Item Name="Set Infinite Timeouts.vi" Type="VI" URL="../Engine/Classes/Debug/FIFO Flags/Set Infinite Timeouts.vi"/>
 			<Item Name="Set Inline Buffer.vi" Type="VI" URL="../Engine/Classes/Transfer/Set Inline Buffer.vi"/>
 			<Item Name="Set Intermediate Buffer.vi" Type="VI" URL="../Engine/Classes/Transfer/Set Intermediate Buffer.vi"/>
 			<Item Name="Set Plugins.vi" Type="VI" URL="../Engine/Classes/Framework/Set Plugins.vi"/>
