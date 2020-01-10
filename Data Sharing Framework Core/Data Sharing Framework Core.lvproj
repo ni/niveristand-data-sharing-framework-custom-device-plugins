@@ -37,9 +37,6 @@
 						<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Classes/Performance Tests/Performance Tests.lvclass"/>
 						<Item Name="Status Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Classes/Status Tests/Status Tests.lvclass"/>
 					</Item>
-					<Item Name="Framework Property Tests" Type="Folder">
-						<Item Name="Framework Property Tests.lvclass" Type="LVClass" URL="../Tests/Framework/Framework Property Tests/Framework Property Tests.lvclass"/>
-					</Item>
 				</Item>
 			</Item>
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Framework Source Test.vi"/>
@@ -49,7 +46,6 @@
 		<Item Name="Static Error Handling.lvlib" Type="Library" URL="../../LabVIEW-Memory/Source/Static Error Handling.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Error Cluster__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Error Cluster__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
@@ -380,23 +376,9 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Create Cache.vi" Type="VI" URL="../Engine/Classes/Cache/Create Cache.vi"/>
-			<Item Name="Debug Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/Debug Flags/Debug Flags.lvclass"/>
 			<Item Name="DSF Config File to Engine Config Cluster.vi" Type="VI" URL="../Engine/Configuration/DSF Config File to Engine Config Cluster.vi"/>
 			<Item Name="Engine Config Cluster to DSF Config File.vi" Type="VI" URL="../Engine/Configuration/Engine Config Cluster to DSF Config File.vi"/>
-			<Item Name="FIFO Flags.lvclass" Type="LVClass" URL="../Engine/Classes/Debug/FIFO Flags/FIFO Flags.lvclass"/>
-			<Item Name="Get All Transfer Groups.vi" Type="VI" URL="../Engine/Classes/Framework/Get All Transfer Groups.vi"/>
-			<Item Name="Get All Transfers.vi" Type="VI" URL="../Engine/Classes/Framework/Get All Transfers.vi"/>
-			<Item Name="Get Cache.vi" Type="VI" URL="../Engine/Classes/Framework/Get Cache.vi"/>
-			<Item Name="Get Debug Flags.vi" Type="VI" URL="../Engine/Classes/Framework/Get Debug Flags.vi"/>
-			<Item Name="Get Engine Pointer.vi" Type="VI" URL="../Engine/Classes/Framework/Get Engine Pointer.vi"/>
-			<Item Name="Get Hardware Info.vi" Type="VI" URL="../Engine/Classes/Framework/Get Hardware Info.vi"/>
 			<Item Name="Get Inline Buffer.vi" Type="VI" URL="../Engine/Classes/Transfer/Get Inline Buffer.vi"/>
-			<Item Name="Get Plugins.vi" Type="VI" URL="../Engine/Classes/Framework/Get Plugins.vi"/>
-			<Item Name="Get Transceivers.vi" Type="VI" URL="../Engine/Classes/Framework/Get Transceivers.vi"/>
-			<Item Name="Get Transfers Groups.vi" Type="VI" URL="../Engine/Classes/Cache/Get Transfers Groups.vi"/>
-			<Item Name="Get Transfers.vi" Type="VI" URL="../Engine/Classes/Cache/Get Transfers.vi"/>
-			<Item Name="Initialize Engine Pointer.vi" Type="VI" URL="../Engine/Classes/Framework/Initialize Engine Pointer.vi"/>
 			<Item Name="Largest Channel Array.vi" Type="VI" URL="../Engine/Classes/Transfer/Largest Channel Array.vi"/>
 			<Item Name="Largest Channel Array.vi" Type="VI" URL="../Engine/Classes/Transfer Group/Largest Channel Array.vi"/>
 			<Item Name="Max Block Count.vi" Type="VI" URL="../Engine/Classes/Transfer/Max Block Count.vi"/>
@@ -407,18 +389,9 @@
 			<Item Name="Read DBL Pointer.vi" Type="VI" URL="../Engine/Classes/Pointer/Read DBL Pointer.vi"/>
 			<Item Name="Required Buffer Size.vi" Type="VI" URL="../Engine/Classes/Transfer/Required Buffer Size.vi"/>
 			<Item Name="Required Buffer Size.vi" Type="VI" URL="../Engine/Classes/Transfer Group/Required Buffer Size.vi"/>
-			<Item Name="Set All Transfer Groups.vi" Type="VI" URL="../Engine/Classes/Framework/Set All Transfer Groups.vi"/>
-			<Item Name="Set All Transfers.vi" Type="VI" URL="../Engine/Classes/Framework/Set All Transfers.vi"/>
-			<Item Name="Set Cache.vi" Type="VI" URL="../Engine/Classes/Framework/Set Cache.vi"/>
 			<Item Name="Set Channel Blocks.vi" Type="VI" URL="../Engine/Classes/Transfer/Set Channel Blocks.vi"/>
-			<Item Name="Set Debug Flags.vi" Type="VI" URL="../Engine/Classes/Framework/Set Debug Flags.vi"/>
-			<Item Name="Set Engine Pointer.vi" Type="VI" URL="../Engine/Classes/Framework/Set Engine Pointer.vi"/>
-			<Item Name="Set FIFO Flags.vi" Type="VI" URL="../Engine/Classes/Debug/Debug Flags/Set FIFO Flags.vi"/>
-			<Item Name="Set Hardware Info.vi" Type="VI" URL="../Engine/Classes/Framework/Set Hardware Info.vi"/>
 			<Item Name="Set Inline Buffer.vi" Type="VI" URL="../Engine/Classes/Transfer/Set Inline Buffer.vi"/>
 			<Item Name="Set Intermediate Buffer.vi" Type="VI" URL="../Engine/Classes/Transfer/Set Intermediate Buffer.vi"/>
-			<Item Name="Set Plugins.vi" Type="VI" URL="../Engine/Classes/Framework/Set Plugins.vi"/>
-			<Item Name="Set Transceivers.vi" Type="VI" URL="../Engine/Classes/Framework/Set Transceivers.vi"/>
 			<Item Name="Total Channel Count.vi" Type="VI" URL="../Engine/Classes/Transfer/Total Channel Count.vi"/>
 			<Item Name="Write DBL Pointer.vi" Type="VI" URL="../Engine/Classes/Pointer/Write DBL Pointer.vi"/>
 		</Item>
