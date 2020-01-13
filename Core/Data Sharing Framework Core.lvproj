@@ -11,16 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Submodules" Type="Folder">
-			<Item Name="Memory Manager" Type="Folder">
-				<Item Name="Tests" Type="Folder">
-					<Item Name="Memory Manager Tests.lvlib" Type="Library" URL="../../LabVIEW-Memory/Tests/Pointer Tests/Memory Manager Tests.lvlib"/>
-					<Item Name="Static Errors Tests.lvlib" Type="Library" URL="../../LabVIEW-Memory/Tests/Deterministic Error Tests/Static Errors Tests.lvlib"/>
-				</Item>
-				<Item Name="Memory Manager.lvlib" Type="Library" URL="../../LabVIEW-Memory/Source/Memory Manager.lvlib"/>
-				<Item Name="Static Errors.lvlib" Type="Library" URL="../../LabVIEW-Memory/Source/Static Errors.lvlib"/>
-			</Item>
-		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="VI Tester" Type="Folder">
 				<Item Name="Classes" Type="Folder">
@@ -38,6 +28,8 @@
 			<Item Name="Framework Source Test.vi" Type="VI" URL="../Framework Source Test.vi"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
+		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
+		<Item Name="Static Errors.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Static Errors.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
