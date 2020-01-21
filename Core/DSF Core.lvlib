@@ -24,8 +24,6 @@
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Classes/Dispatcher/Dispatcher Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
-				<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/Thread Pool.lvclass"/>
-				<Item Name="Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Thread.lvclass"/>
 			</Item>
 			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
 			<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
@@ -111,6 +109,7 @@
 			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Plugin Thread.lvclass"/>
+				<Item Name="Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Thread.lvclass"/>
 				<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Transceiver/Transceiver Thread.lvclass"/>
 			</Item>
 			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Classes/Configuration/Configuration Session.lvclass"/>
