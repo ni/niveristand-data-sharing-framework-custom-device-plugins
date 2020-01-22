@@ -10,6 +10,10 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
+			<Item Name="Hardware Info" Type="Folder">
+				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
+				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
+			</Item>
 			<Item Name="Interface" Type="Folder">
 				<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
 				<Item Name="Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Interface/Interface.lvclass"/>
@@ -21,14 +25,14 @@
 				<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
 				<Item Name="Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/Pool.lvclass"/>
 			</Item>
+			<Item Name="State" Type="Folder">
+				<Item Name="State.lvclass" Type="LVClass" URL="../Classes/State/State.lvclass"/>
+			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Classes/Dispatcher/Dispatcher Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
 			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
-			<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
-			<Item Name="Framework State.lvclass" Type="LVClass" URL="../Classes/State/Framework State.lvclass"/>
-			<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Data Viewer" Type="Folder">
