@@ -29,6 +29,7 @@
 				<Item Name="State.lvclass" Type="LVClass" URL="../Classes/State/State.lvclass"/>
 			</Item>
 			<Item Name="Thread" Type="Folder">
+				<Item Name="Data Server Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Data Server/Data Server Thread.lvclass"/>
 				<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Classes/Dispatcher/Dispatcher Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
