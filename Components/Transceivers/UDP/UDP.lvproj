@@ -37,6 +37,7 @@
 							<Item Name="State.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/State/State.lvclass"/>
 						</Item>
 						<Item Name="Thread" Type="Folder">
+							<Item Name="Data Server Thread.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Thread/Data Server/Data Server Thread.lvclass"/>
 							<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
 							<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Thread Manager/Thread Manager.lvclass"/>
 						</Item>
