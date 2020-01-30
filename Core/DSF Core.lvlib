@@ -15,25 +15,26 @@
 				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
 			</Item>
 			<Item Name="Interface" Type="Folder">
-				<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
-				<Item Name="Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Interface/Interface.lvclass"/>
-				<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Plugin/Plugin Interface.lvclass"/>
-				<Item Name="Thread Interface.lvclass" Type="LVClass" URL="../Classes/Interfaces/Thread/Thread Interface.lvclass"/>
+				<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Dispatcher/Dispatcher Interface.lvclass"/>
+				<Item Name="Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Interface.lvclass"/>
+				<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Plugin/Plugin Interface.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
-				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/ID Pool.lvclass"/>
-				<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
-				<Item Name="Pool.lvclass" Type="LVClass" URL="../Classes/Thread Pool/Pool.lvclass"/>
+				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Classes/Pool/ID/ID Pool.lvclass"/>
+				<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Classes/Pool/Plugin Interface/Plugin Interface Pool.lvclass"/>
+				<Item Name="Pool.lvclass" Type="LVClass" URL="../Classes/Pool/Pool.lvclass"/>
 			</Item>
 			<Item Name="State" Type="Folder">
 				<Item Name="State.lvclass" Type="LVClass" URL="../Classes/State/State.lvclass"/>
 			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Data Server Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Data Server/Data Server Thread.lvclass"/>
-				<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Classes/Dispatcher/Dispatcher Thread.lvclass"/>
+				<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Dispatcher/Dispatcher Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
 			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
+			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
+			<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Data Viewer" Type="Folder">
@@ -102,24 +103,22 @@
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
 			<Item Name="Framework" Type="Folder">
-				<Item Name="Buffers.lvclass" Type="LVClass" URL="../Classes/Buffers/Buffers.lvclass"/>
+				<Item Name="Pointers" Type="Folder">
+					<Item Name="Status.lvclass" Type="LVClass" URL="../Classes/Status/Status.lvclass"/>
+					<Item Name="Timing Status.lvclass" Type="LVClass" URL="../Classes/Timing Status/Timing Status.lvclass"/>
+				</Item>
 				<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Classes/Framework Status/Framework Status.lvclass"/>
 				<Item Name="Performance.lvclass" Type="LVClass" URL="../Classes/Performance/Performance.lvclass"/>
-				<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
-			</Item>
-			<Item Name="Pointers" Type="Folder">
-				<Item Name="Buffer.lvclass" Type="LVClass" URL="../Classes/Buffer/Buffer.lvclass"/>
-				<Item Name="Status.lvclass" Type="LVClass" URL="../Classes/Transfer Group Status/Status.lvclass"/>
-				<Item Name="Timing Status.lvclass" Type="LVClass" URL="../Classes/Timing Status/Timing Status.lvclass"/>
 			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Plugin Thread.lvclass"/>
 				<Item Name="Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Thread.lvclass"/>
 				<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Transceiver/Transceiver Thread.lvclass"/>
 			</Item>
+			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Classes/Buffer/Buffer.lvclass"/>
+			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Classes/Buffers/Buffers.lvclass"/>
 			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Classes/Configuration/Configuration Session.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Classes/Framework/Framework.lvclass"/>
-			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Classes/Transfer Group/Transfer Group.lvclass"/>
 			<Item Name="Transfer.lvclass" Type="LVClass" URL="../Classes/Transfer/Transfer.lvclass"/>
 		</Item>
@@ -157,7 +156,7 @@
 		</Item>
 		<Item Name="VIs" Type="Folder">
 			<Item Name="Configuration" Type="Folder">
-				<Item Name="Poly VIs" Type="Folder">
+				<Item Name="Polymorphics" Type="Folder">
 					<Item Name="Channel Count (Framework).vi" Type="VI" URL="../Classes/Configuration/Channel Count (Framework).vi"/>
 					<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../Classes/Configuration/Channel Count (Plugin).vi"/>
 					<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../Classes/Configuration/Channel Count (Transfer Group).vi"/>
@@ -195,9 +194,7 @@
 				<Item Name="Engine Library Name.vi" Type="VI" URL="../VIs/Constants/Engine Library Name.vi"/>
 				<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../VIs/Constants/Error Offset (Configuration).vi"/>
 			</Item>
-			<Item Name="Data Viewer" Type="Folder">
-				<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Launch Data Viewer.vi"/>
-			</Item>
+			<Item Name="Data Viewer" Type="Folder"/>
 			<Item Name="Create Default Framework.vi" Type="VI" URL="../Classes/Framework/Create Default Framework.vi"/>
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../VIs/Sizeof.vi"/>
