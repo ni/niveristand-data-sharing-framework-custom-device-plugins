@@ -22,8 +22,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
-			<Item Name="Data Sharing Framework Configuration Explorer.vi" Type="VI" URL="../../../../Data Sharing Framework/Source/Development Tools/Data Sharing Configuration Explorer/Source/Data Sharing Framework Configuration Explorer.vi"/>
-			<Item Name="DSF Configuration Utility.lvlib" Type="Library" URL="../../../../Data Sharing Framework/Source/Development Tools/Data Sharing Configuration Explorer/DSF Configuration Utility.lvlib"/>
+			<Item Name="Data Sharing Framework Configuration Explorer.vi" Type="VI" URL="../../../../Development Tools/Data Sharing Configuration Explorer/Source/Data Sharing Framework Configuration Explorer.vi"/>
+			<Item Name="DSF Configuration Utility.lvlib" Type="Library" URL="../../../../Development Tools/Data Sharing Configuration Explorer/DSF Configuration Utility.lvlib"/>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
@@ -102,22 +102,31 @@
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../DSF Core.lvlibp">
 				<Item Name="Private" Type="Folder">
 					<Item Name="Classes" Type="Folder">
+						<Item Name="Hardware Info" Type="Folder">
+							<Item Name="CPU Info.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
+							<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
+						</Item>
+						<Item Name="Interface" Type="Folder">
+							<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interface/Dispatcher/Dispatcher Interface.lvclass"/>
+							<Item Name="Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interface/Interface.lvclass"/>
+							<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interface/Plugin/Plugin Interface.lvclass"/>
+						</Item>
+						<Item Name="Pool" Type="Folder">
+							<Item Name="ID Pool.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Pool/ID/ID Pool.lvclass"/>
+							<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Pool/Plugin Interface/Plugin Interface Pool.lvclass"/>
+							<Item Name="Pool.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Pool/Pool.lvclass"/>
+						</Item>
+						<Item Name="State" Type="Folder">
+							<Item Name="State.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/State/State.lvclass"/>
+						</Item>
+						<Item Name="Thread" Type="Folder">
+							<Item Name="Data Server Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Data Server/Data Server Thread.lvclass"/>
+							<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Dispatcher/Dispatcher Thread.lvclass"/>
+							<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread Manager/Thread Manager.lvclass"/>
+						</Item>
 						<Item Name="Component Loader.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component Loader/Component Loader.lvclass"/>
-						<Item Name="CPU Info.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
-						<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interfaces/Dispatcher/Dispatcher Interface.lvclass"/>
-						<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Dispatcher/Dispatcher Thread.lvclass"/>
-						<Item Name="Framework State.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/State/Framework State.lvclass"/>
-						<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
-						<Item Name="ID Pool.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread Pool/ID Pool.lvclass"/>
-						<Item Name="Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interfaces/Interface/Interface.lvclass"/>
-						<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread Pool/Plugin Interface Pool.lvclass"/>
-						<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interfaces/Plugin/Plugin Interface.lvclass"/>
-						<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
-						<Item Name="Pool.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread Pool/Pool.lvclass"/>
-						<Item Name="Thread Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interfaces/Thread/Thread Interface.lvclass"/>
-						<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread Manager/Thread Manager.lvclass"/>
-						<Item Name="Thread Pool.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread Pool/Thread Pool.lvclass"/>
-						<Item Name="Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Thread.lvclass"/>
+						<Item Name="Plugin.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Plugin/Plugin.lvclass"/>
+						<Item Name="Timing.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Timing/Timing.lvclass"/>
 					</Item>
 					<Item Name="VIs" Type="Folder">
 						<Item Name="Data Viewer" Type="Folder">
@@ -184,22 +193,23 @@
 							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
 							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
 						</Item>
-						<Item Name="Encapsulation" Type="Folder">
-							<Item Name="Buffers.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffers/Buffers.lvclass"/>
+						<Item Name="Framework" Type="Folder">
+							<Item Name="Pointers" Type="Folder">
+								<Item Name="Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Status/Status.lvclass"/>
+								<Item Name="Timing Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Timing Status/Timing Status.lvclass"/>
+							</Item>
 							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Framework Status/Framework Status.lvclass"/>
-						</Item>
-						<Item Name="Measurement" Type="Folder">
 							<Item Name="Performance.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Performance/Performance.lvclass"/>
-							<Item Name="Timing.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Timing/Timing.lvclass"/>
 						</Item>
-						<Item Name="Pointers" Type="Folder">
-							<Item Name="Buffer.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffer/Buffer.lvclass"/>
-							<Item Name="Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Transfer Group Status/Status.lvclass"/>
-							<Item Name="Timing Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Timing Status/Timing Status.lvclass"/>
+						<Item Name="Thread" Type="Folder">
+							<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
+							<Item Name="Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Thread.lvclass"/>
+							<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Plugin/Transceiver/Transceiver Thread.lvclass"/>
 						</Item>
+						<Item Name="Buffer.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffer/Buffer.lvclass"/>
+						<Item Name="Buffers.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffers/Buffers.lvclass"/>
 						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Configuration Session.lvclass"/>
 						<Item Name="Framework.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Framework/Framework.lvclass"/>
-						<Item Name="Plugin.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Plugin/Plugin.lvclass"/>
 						<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Transfer Group/Transfer Group.lvclass"/>
 						<Item Name="Transfer.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Transfer/Transfer.lvclass"/>
 					</Item>
@@ -237,7 +247,7 @@
 					</Item>
 					<Item Name="VIs" Type="Folder">
 						<Item Name="Configuration" Type="Folder">
-							<Item Name="Poly VIs" Type="Folder">
+							<Item Name="Polymorphics" Type="Folder">
 								<Item Name="Channel Count (Framework).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count (Framework).vi"/>
 								<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count (Plugin).vi"/>
 								<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer Group).vi"/>
@@ -275,9 +285,7 @@
 							<Item Name="Engine Library Name.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Constants/Engine Library Name.vi"/>
 							<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Constants/Error Offset (Configuration).vi"/>
 						</Item>
-						<Item Name="Data Viewer" Type="Folder">
-							<Item Name="Launch Data Viewer.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Data Viewer/Source/Launch Data Viewer.vi"/>
-						</Item>
+						<Item Name="Data Viewer" Type="Folder"/>
 						<Item Name="Create Default Framework.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Framework/Create Default Framework.vi"/>
 						<Item Name="Sizeof 1D.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Sizeof 1D.vi"/>
 						<Item Name="Sizeof.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Sizeof.vi"/>
@@ -328,6 +336,7 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Static Errors.lvlib" Type="Library" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Static Errors.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>

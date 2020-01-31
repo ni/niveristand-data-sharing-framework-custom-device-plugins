@@ -15,9 +15,9 @@
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
+		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
 		<Item Name="Get Component Dependencies.vi" Type="VI" URL="../Get Component Dependencies.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
-		<Item Name="Load Available Components.vi" Type="VI" URL="../Load Available Components.vi"/>
 	</Item>
 	<Item Name="ActionVIOnSave.vi" Type="VI" URL="../ActionVIOnSave.vi"/>
 	<Item Name="Add Component Dependencies.vi" Type="VI" URL="../Add Component Dependencies.vi"/>
