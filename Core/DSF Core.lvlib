@@ -17,6 +17,7 @@
 			<Item Name="Interface" Type="Folder">
 				<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Dispatcher/Dispatcher Interface.lvclass"/>
 				<Item Name="Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Interface.lvclass"/>
+				<Item Name="Logging Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Logging/Logging Interface.lvclass"/>
 				<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Plugin/Plugin Interface.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
@@ -30,6 +31,7 @@
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Data Server Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Data Server/Data Server Thread.lvclass"/>
 				<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Dispatcher/Dispatcher Thread.lvclass"/>
+				<Item Name="Logging Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Logging/Logging Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
 			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
