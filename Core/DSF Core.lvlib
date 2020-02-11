@@ -20,6 +20,9 @@
 				<Item Name="Logging Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Logging/Logging Interface.lvclass"/>
 				<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Plugin/Plugin Interface.lvclass"/>
 			</Item>
+			<Item Name="Pointers" Type="Folder">
+				<Item Name="Error Pointer.lvclass" Type="LVClass" URL="../Classes/Pointers/Error/Error Pointer.lvclass"/>
+			</Item>
 			<Item Name="Pool" Type="Folder">
 				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Classes/Pool/ID/ID Pool.lvclass"/>
 				<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Classes/Pool/Plugin Interface/Plugin Interface Pool.lvclass"/>
