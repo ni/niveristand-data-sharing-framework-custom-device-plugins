@@ -13,20 +13,18 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Build" Type="Folder">
 			<Item Name="Build Automation.lvlib" Type="Library" URL="../../Development Tools/Build Automation/Build Automation.lvlib"/>
-			<Item Name="Post-Build Action.vi" Type="VI" URL="../Build/Post-Build Action.vi"/>
-			<Item Name="Pre-Build Action Debug.vi" Type="VI" URL="../Build/Pre-Build Action Debug.vi"/>
-			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Build/Pre-Build Action.vi"/>
+			<Item Name="Post-Build Action (Pharlap x86).vi" Type="VI" URL="../Build/Post-Build Action (Pharlap x86).vi"/>
+			<Item Name="Pre-Build Action (Pharlap x86).vi" Type="VI" URL="../Build/Pre-Build Action (Pharlap x86).vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Edit LVProj.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/EditLVProj/Edit LVProj.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="PharLap ETS PXI" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">PharLap ETS PXI</Property>
+	<Item Name="Pharlap x86" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">Pharlap x86</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -130,9 +128,9 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{35140F68-DD34-49C3-9420-0F84A4808CC0}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Pharlap</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action.vi</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Pharlap/x86</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action (Pharlap x86).vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action (Pharlap x86).vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{19113C8B-C1E1-4762-83FF-D3AEEA454CA5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Core</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -145,10 +143,10 @@
 				<Property Name="Destination[1].path" Type="Path">/Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2BC332F9-A2D6-4FCB-B3E1-69DBC5744A05}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{930ECBF8-0D27-4B76-9CFE-BEC8A5E0F181}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/PharLap ETS PXI/DSF Core.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Pharlap x86/DSF Core.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -156,12 +154,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/PharLap ETS PXI/Memory Manager.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/Pharlap x86/Memory Manager.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/PharLap ETS PXI/Static Errors.lvlib</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/Pharlap x86/Static Errors.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
