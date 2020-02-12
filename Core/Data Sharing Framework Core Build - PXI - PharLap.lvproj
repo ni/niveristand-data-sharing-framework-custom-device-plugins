@@ -13,18 +13,14 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Build" Type="Folder">
 			<Item Name="Build Automation.lvlib" Type="Library" URL="../../Development Tools/Build Automation/Build Automation.lvlib"/>
-			<Item Name="DSF Configure for Build.vi" Type="VI" URL="../Build/DSF Configure for Build.vi"/>
-			<Item Name="DSF Configure for Development.vi" Type="VI" URL="../Build/DSF Configure for Development.vi"/>
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Build/Post-Build Action.vi"/>
 			<Item Name="Pre-Build Action Debug.vi" Type="VI" URL="../Build/Pre-Build Action Debug.vi"/>
 			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Build/Pre-Build Action.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Edit LVProj.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/EditLVProj/Edit LVProj.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

@@ -12,21 +12,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
-			<Item Name="VI Tester" Type="Folder">
-				<Item Name="Classes" Type="Folder">
-					<Item Name="Configuration Tests" Type="Folder">
-						<Item Name="Configuration Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Configuration Tests/Configuration Tests.lvclass"/>
-						<Item Name="test.dsf" Type="Document" URL="../Tests/Classes/Configuration Tests/Test File/test.dsf"/>
-					</Item>
-					<Item Name="Buffer Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Buffer Tests/Buffer Tests.lvclass"/>
-					<Item Name="Buffers Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Buffers Tests/Buffers Tests.lvclass"/>
-					<Item Name="Framework Status Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Framework Status Tests/Framework Status Tests.lvclass"/>
-					<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Performance Tests/Performance Tests.lvclass"/>
-					<Item Name="Status Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Status Tests/Status Tests.lvclass"/>
-					<Item Name="Transfer Group Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Transfer Group Tests/Transfer Group Tests.lvclass"/>
-				</Item>
-			</Item>
-			<Item Name="Framework Source Test.vi" Type="VI" URL="../Framework Source Test.vi"/>
+			<Property Name="NI.SortType" Type="Int">1</Property>
+			<Item Name="Buffer Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Buffer Tests/Buffer Tests.lvclass"/>
+			<Item Name="Buffers Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Buffers Tests/Buffers Tests.lvclass"/>
+			<Item Name="Configuration Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Configuration Tests/Configuration Tests.lvclass"/>
+			<Item Name="Framework Status Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Framework Status Tests/Framework Status Tests.lvclass"/>
+			<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Performance Tests/Performance Tests.lvclass"/>
+			<Item Name="Status Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Status Tests/Status Tests.lvclass"/>
+			<Item Name="test.dsf" Type="Document" URL="../Tests/Classes/Configuration Tests/Test File/test.dsf"/>
+			<Item Name="Transfer Group Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Transfer Group Tests/Transfer Group Tests.lvclass"/>
 		</Item>
 		<Item Name="DSF Core.lvlib" Type="Library" URL="../DSF Core.lvlib"/>
 		<Item Name="Memory Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Memory Manager.lvlib"/>
