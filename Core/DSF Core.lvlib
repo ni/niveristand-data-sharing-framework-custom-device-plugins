@@ -204,5 +204,6 @@
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../VIs/Sizeof.vi"/>
 		</Item>
+		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
 	</Item>
 </Library>

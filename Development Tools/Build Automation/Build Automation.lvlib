@@ -19,12 +19,15 @@
 		<Item Name="New Progress Window.vi" Type="VI" URL="../New Progress Window.vi"/>
 		<Item Name="Progress Window Cancel.vi" Type="VI" URL="../Progress Window Cancel.vi"/>
 		<Item Name="Progress Window.vi" Type="VI" URL="../Progress Window.vi"/>
+		<Item Name="Set Progress Window Iteration.vi" Type="VI" URL="../Set Progress Window Iteration.vi"/>
 		<Item Name="Set Progress Window Message.vi" Type="VI" URL="../Set Progress Window Message.vi"/>
 		<Item Name="Set Progress Window Progress.vi" Type="VI" URL="../Set Progress Window Progress.vi"/>
 		<Item Name="Stop Progress Window.vi" Type="VI" URL="../Stop Progress Window.vi"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
 		<Item Name="Save VI.vi" Type="VI" URL="../Save VI.vi"/>
+		<Item Name="VI Broken.vi" Type="VI" URL="../VI Broken.vi"/>
+		<Item Name="VI Is Malleable.vi" Type="VI" URL="../VI Is Malleable.vi"/>
 		<Item Name="VI Set Automatic Error Handling.vi" Type="VI" URL="../VI Set Automatic Error Handling.vi"/>
 		<Item Name="VI Set Debugging.vi" Type="VI" URL="../VI Set Debugging.vi"/>
 		<Item Name="VI Set Inline.vi" Type="VI" URL="../VI Set Inline.vi"/>
