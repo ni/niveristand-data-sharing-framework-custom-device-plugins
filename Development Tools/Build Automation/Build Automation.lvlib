@@ -11,6 +11,8 @@
 		<Item Name="Configure VI Blacklist.vi" Type="VI" URL="../Configure VI Blacklist.vi"/>
 	</Item>
 	<Item Name="Library" Type="Folder">
+		<Item Name="Configure Library for Build.vi" Type="VI" URL="../Configure Library for Build.vi"/>
+		<Item Name="Configure Library for Development.vi" Type="VI" URL="../Configure Library for Development.vi"/>
 		<Item Name="Find Project Library.vi" Type="VI" URL="../Find Project Library.vi"/>
 		<Item Name="Get All Library VIs.vi" Type="VI" URL="../Get All Library VIs.vi"/>
 	</Item>

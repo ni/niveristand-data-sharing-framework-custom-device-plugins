@@ -11,7 +11,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Build" Type="Folder">
+			<Item Name="Build Automation.lvlib" Type="Library" URL="../../Development Tools/Build Automation/Build Automation.lvlib"/>
+			<Item Name="DSF Configure for Build.vi" Type="VI" URL="../Build/DSF Configure for Build.vi"/>
+			<Item Name="DSF Configure for Development.vi" Type="VI" URL="../Build/DSF Configure for Development.vi"/>
+			<Item Name="Post-Build Action.vi" Type="VI" URL="../Build/Post-Build Action.vi"/>
+			<Item Name="Pre-Build Action Debug.vi" Type="VI" URL="../Build/Pre-Build Action Debug.vi"/>
+			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Build/Pre-Build Action.vi"/>
+		</Item>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="PharLap ETS PXI" Type="RT PXI Chassis">
@@ -89,6 +104,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -119,6 +135,8 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{35140F68-DD34-49C3-9420-0F84A4808CC0}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Pharlap</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{19113C8B-C1E1-4762-83FF-D3AEEA454CA5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Core</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -131,7 +149,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{18F0AF1D-1A3C-419F-AAFE-631D00F928EA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2BC332F9-A2D6-4FCB-B3E1-69DBC5744A05}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/PharLap ETS PXI/DSF Core.lvlib</Property>

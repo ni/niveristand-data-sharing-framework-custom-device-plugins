@@ -13,8 +13,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Build" Type="Folder">
 			<Item Name="Build Automation.lvlib" Type="Library" URL="../../Development Tools/Build Automation/Build Automation.lvlib"/>
-			<Item Name="DSF Post-Build.vi" Type="VI" URL="../Build/DSF Post-Build.vi"/>
-			<Item Name="DSF Pre-Build.vi" Type="VI" URL="../Build/DSF Pre-Build.vi"/>
+			<Item Name="Post-Build Action.vi" Type="VI" URL="../Build/Post-Build Action.vi"/>
+			<Item Name="Pre-Build Action Debug.vi" Type="VI" URL="../Build/Pre-Build Action Debug.vi"/>
+			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Build/Pre-Build Action.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="VI Tester" Type="Folder">
@@ -376,6 +377,8 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{7DB90008-CD65-4A30-84EC-B7A2E16E7CDF}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Core</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{52C1F69C-ADB0-4277-9DD9-A89D4CAD4397}</Property>
 				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -389,7 +392,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{90E00D69-7A3A-4E2A-A71B-35BCC0464155}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{47DFA6EA-E846-4FFA-B449-B0283E0F6113}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF Core.lvlib</Property>
@@ -424,6 +427,8 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{C4B99A5D-54AA-4102-85D2-AEE3BE460BE7}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core Debug</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Core</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action Debug.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AA04E1C2-4927-40AC-9C09-F248370706BB}</Property>
 				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -437,7 +442,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{99A9BCE4-876F-4248-944E-8E0D329B9E93}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{97E96E98-24D9-4E5E-B269-69BAE4470378}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF Core.lvlib</Property>
