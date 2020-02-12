@@ -11,14 +11,13 @@
 		<Item Name="Configure VI Blacklist.vi" Type="VI" URL="../Configure VI Blacklist.vi"/>
 	</Item>
 	<Item Name="Library" Type="Folder">
-		<Item Name="Configure Library for Build.vi" Type="VI" URL="../Configure Library for Build.vi"/>
-		<Item Name="Configure Library for Development.vi" Type="VI" URL="../Configure Library for Development.vi"/>
 		<Item Name="Find Project Library.vi" Type="VI" URL="../Find Project Library.vi"/>
 		<Item Name="Get All Library VIs.vi" Type="VI" URL="../Get All Library VIs.vi"/>
 	</Item>
 	<Item Name="Progress Window" Type="Folder">
 		<Item Name="Close Progress Window.vi" Type="VI" URL="../Close Progress Window.vi"/>
 		<Item Name="New Progress Window.vi" Type="VI" URL="../New Progress Window.vi"/>
+		<Item Name="Progress Window Cancel.vi" Type="VI" URL="../Progress Window Cancel.vi"/>
 		<Item Name="Progress Window.vi" Type="VI" URL="../Progress Window.vi"/>
 		<Item Name="Set Progress Window Message.vi" Type="VI" URL="../Set Progress Window Message.vi"/>
 		<Item Name="Set Progress Window Progress.vi" Type="VI" URL="../Set Progress Window Progress.vi"/>
@@ -26,8 +25,11 @@
 	</Item>
 	<Item Name="VI" Type="Folder">
 		<Item Name="Save VI.vi" Type="VI" URL="../Save VI.vi"/>
+		<Item Name="VI Set Automatic Error Handling.vi" Type="VI" URL="../VI Set Automatic Error Handling.vi"/>
 		<Item Name="VI Set Debugging.vi" Type="VI" URL="../VI Set Debugging.vi"/>
 		<Item Name="VI Set Inline.vi" Type="VI" URL="../VI Set Inline.vi"/>
 		<Item Name="VI Set Reentrancy.vi" Type="VI" URL="../VI Set Reentrancy.vi"/>
 	</Item>
+	<Item Name="Configure Library for Build.vi" Type="VI" URL="../Configure Library for Build.vi"/>
+	<Item Name="Configure Library for Development.vi" Type="VI" URL="../Configure Library for Development.vi"/>
 </Library>
