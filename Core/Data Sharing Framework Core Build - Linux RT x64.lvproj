@@ -11,11 +11,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Build" Type="Folder">
+			<Item Name="Build Automation.lvlib" Type="Library" URL="../../Development Tools/Build Automation/Build Automation.lvlib"/>
+			<Item Name="Post-Build Action (Linux RT x64).vi" Type="VI" URL="../Build/Post-Build Action (Linux RT x64).vi"/>
+			<Item Name="Post-Build Action.vi" Type="VI" URL="../Build/Post-Build Action.vi"/>
+			<Item Name="Pre-Build Action (Linux RT x64).vi" Type="VI" URL="../Build/Pre-Build Action (Linux RT x64).vi"/>
+			<Item Name="Pre-Build Action Debug.vi" Type="VI" URL="../Build/Pre-Build Action Debug.vi"/>
+			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Build/Pre-Build Action.vi"/>
+		</Item>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="Linux RT PXI" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">Linux RT PXI</Property>
+	<Item Name="Linux RT x64" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">Linux RT x64</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -89,6 +101,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -119,23 +132,25 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{CAD7EED1-3E27-4FC2-B442-CF3FA9138752}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Linux</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action (Linux RT x64).vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action (Linux RT x64).vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{13251DFD-43C2-48DA-8242-4DB20E09B5F3}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/64/Core</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/x64/Core</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/64/Core/DSF Core.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/x64/Core/DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/64/Core</Property>
+				<Property Name="Destination[1].path" Type="Path">/x64/Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FE19FBFA-B85D-4A61-88F5-745FF73FEF06}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C6C21980-06DA-4085-9E19-F818E545FBC9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux RT PXI/DSF Core.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux RT x64/DSF Core.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -143,12 +158,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/Linux RT PXI/Memory Manager.lvlib</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/Linux RT x64/Memory Manager.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/Linux RT PXI/Static Errors.lvlib</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/Linux RT x64/Static Errors.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
