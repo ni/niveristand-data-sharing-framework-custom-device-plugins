@@ -33,7 +33,7 @@
 		<Item Name="Create Plugin Interface Pool.vi" Type="VI" URL="../Create Plugin Interface Pool.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'F!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;"!=!!?!!!O$E242C"$&lt;X*F,GRW&lt;'FC(6"M&gt;7&gt;J&lt;C"*&lt;H2F=G:B9W5A5'^P&lt;#ZM&gt;G.M98.T!!!75'RV:WFO)&amp;2I=G6B:#"1&lt;W^M)'^V&gt;!!!&amp;E!B%5FO:GFO;82F)&amp;2J&lt;76P&gt;82T!%9!]1!!!!!!!!!#$E242C"$&lt;X*F,GRW&lt;'FC&amp;%242C"'35:0)%^Q&gt;'FP&lt;H-O9X2M!"J!5!!"!!9-2EF'4S"0=(2J&lt;WZT!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#&amp;!"Q!;;7ZU:8*G97.F)':J:G]A:'6Q&gt;'BT)#AR-#E!!"N!"Q!5&lt;H6N9G6S)'^G)'FO&gt;'6S:G&amp;D:8-!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"Q!)!!1!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!A!!!!+!!!!!!!!!!A!!!!3!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>

@@ -58,7 +58,7 @@
 				<Item Name="Create FIFO.vi" Type="VI" URL="../Create FIFO.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!?!!!&gt;$E242C"$&lt;X*F,GRW&lt;'FC$&amp;"P&lt;WQO&lt;(:D&lt;'&amp;T=Q!)5'^P&lt;#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'5!(!"*O&gt;7VC:8)A&lt;W9A:7RF&lt;76O&gt;(-!!#Z!=!!?!!!&gt;$E242C"$&lt;X*F,GRW&lt;'FC$&amp;"P&lt;WQO&lt;(:D&lt;'&amp;T=Q!(5'^P&lt;#"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-					<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
+					<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
@@ -67,7 +67,7 @@
 				<Item Name="Destroy FIFO.vi" Type="VI" URL="../Destroy FIFO.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%I!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!?!!!&gt;$E242C"$&lt;X*F,GRW&lt;'FC$&amp;"P&lt;WQO&lt;(:D&lt;'&amp;T=Q!)5'^P&lt;#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!,E"Q!"Y!!"U/2&amp;.')%.P=G5O&lt;(:M;7)-5'^P&lt;#ZM&gt;G.M98.T!!&gt;1&lt;W^M)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-					<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
+					<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
@@ -98,7 +98,7 @@
 			<Item Name="Create Pool.vi" Type="VI" URL="../Create Pool.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&lt;!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!&gt;$E242C"$&lt;X*F,GRW&lt;'FC$&amp;"P&lt;WQO&lt;(:D&lt;'&amp;T=Q!%5'^P&lt;!!!&amp;E!B%5FO:GFO;82F)&amp;2J&lt;76P&gt;82T!%9!]1!!!!!!!!!#$E242C"$&lt;X*F,GRW&lt;'FC&amp;%242C"'35:0)%^Q&gt;'FP&lt;H-O9X2M!"J!5!!"!!9-2EF'4S"0=(2J&lt;WZT!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"F!"Q!3&lt;H6N9G6S)'^G)'6M:7VF&lt;H2T!!!Q1(!!(A!!(1Z%5U9A1W^S:3ZM&gt;GRJ9AR1&lt;W^M,GRW9WRB=X-!#6"P&lt;WQA&gt;(FQ:1"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!=!#!!%!!E!#A)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!)!!!!#A!!!!!!!!!1!!!!#A!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
