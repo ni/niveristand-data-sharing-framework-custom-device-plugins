@@ -205,5 +205,7 @@
 			<Item Name="Sizeof.vi" Type="VI" URL="../VIs/Sizeof.vi"/>
 		</Item>
 		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
+		<Item Name="Run Framework Configuration.vi" Type="VI" URL="../VIs/Run Framework Configuration.vi"/>
+		<Item Name="Run Framework.vi" Type="VI" URL="../VIs/Run Framework.vi"/>
 	</Item>
 </Library>
