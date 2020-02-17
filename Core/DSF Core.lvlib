@@ -99,6 +99,7 @@
 			</Item>
 			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
 		</Item>
+		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -157,6 +158,7 @@
 			<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../Typedefs/DSF Timeout Behavior.ctl"/>
 			<Item Name="DSF Timing Info.ctl" Type="VI" URL="../Typedefs/DSF Timing Info.ctl"/>
 			<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../Typedefs/DSF Transfer Info.ctl"/>
+			<Item Name="DSF UI Pointers.ctl" Type="VI" URL="../Typedefs/DSF UI Pointers.ctl"/>
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Typedefs/DSF Version Info.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
@@ -204,7 +206,6 @@
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../VIs/Sizeof.vi"/>
 		</Item>
-		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
 		<Item Name="Run Framework Configuration.vi" Type="VI" URL="../VIs/Run Framework Configuration.vi"/>
 		<Item Name="Run Framework.vi" Type="VI" URL="../VIs/Run Framework.vi"/>
 	</Item>

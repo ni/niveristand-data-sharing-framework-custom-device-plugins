@@ -74,7 +74,6 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{7DB90008-CD65-4A30-84EC-B7A2E16E7CDF}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Core</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{52C1F69C-ADB0-4277-9DD9-A89D4CAD4397}</Property>
 				<Property Name="Bld_version.build" Type="Int">4</Property>
@@ -89,7 +88,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{59D47CCF-BEFA-4D46-9216-398FB05E279F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{41235D52-BFF1-4491-8816-D16C615B5CC6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF Core.lvlib</Property>
@@ -124,7 +123,6 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{C4B99A5D-54AA-4102-85D2-AEE3BE460BE7}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core Debug</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/32/Core</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action Debug.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AA04E1C2-4927-40AC-9C09-F248370706BB}</Property>
 				<Property Name="Bld_version.build" Type="Int">2</Property>
@@ -139,7 +137,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{59D47CCF-BEFA-4D46-9216-398FB05E279F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{41235D52-BFF1-4491-8816-D16C615B5CC6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DSF Core.lvlib</Property>

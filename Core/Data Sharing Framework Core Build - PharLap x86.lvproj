@@ -129,7 +129,6 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{35140F68-DD34-49C3-9420-0F84A4808CC0}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Pharlap/x86</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action (Pharlap x86).vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action (Pharlap x86).vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{19113C8B-C1E1-4762-83FF-D3AEEA454CA5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Core</Property>
@@ -143,7 +142,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{930ECBF8-0D27-4B76-9CFE-BEC8A5E0F181}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{726C6300-1F08-4BF6-9959-1BE0C85644E4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Pharlap x86/DSF Core.lvlib</Property>
