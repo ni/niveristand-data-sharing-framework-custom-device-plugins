@@ -12,8 +12,10 @@
 	</Item>
 	<Item Name="Library" Type="Folder">
 		<Item Name="Find Project Library.vi" Type="VI" URL="../Find Project Library.vi"/>
-		<Item Name="Get All Library VIs.vi" Type="VI" URL="../Get All Library VIs.vi"/>
+		<Item Name="Get Class VIs.vi" Type="VI" URL="../Get Class VIs.vi"/>
+		<Item Name="Get Library Classes.vi" Type="VI" URL="../Get Library Classes.vi"/>
 		<Item Name="Get Library from This Project.vi" Type="VI" URL="../Get Library from This Project.vi"/>
+		<Item Name="Get Library VIs.vi" Type="VI" URL="../Get Library VIs.vi"/>
 	</Item>
 	<Item Name="Progress Window" Type="Folder">
 		<Item Name="Close Progress Window.vi" Type="VI" URL="../Close Progress Window.vi"/>
@@ -25,6 +27,9 @@
 		<Item Name="Set Progress Window Progress.vi" Type="VI" URL="../Set Progress Window Progress.vi"/>
 		<Item Name="Stop Progress Window.vi" Type="VI" URL="../Stop Progress Window.vi"/>
 	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Class VI Options.ctl" Type="VI" URL="../Class VI Options.ctl"/>
+	</Item>
 	<Item Name="VI" Type="Folder">
 		<Item Name="Save VI.vi" Type="VI" URL="../Save VI.vi"/>
 		<Item Name="VI Broken.vi" Type="VI" URL="../VI Broken.vi"/>
@@ -34,6 +39,7 @@
 		<Item Name="VI Set Inline.vi" Type="VI" URL="../VI Set Inline.vi"/>
 		<Item Name="VI Set Reentrancy.vi" Type="VI" URL="../VI Set Reentrancy.vi"/>
 	</Item>
+	<Item Name="Configure Library Classes in Memory for Development.vi" Type="VI" URL="../Configure Library Classes in Memory for Development.vi"/>
 	<Item Name="Configure Library in Memory for Build.vi" Type="VI" URL="../Configure Library in Memory for Build.vi"/>
 	<Item Name="Configure Library in Memory for Development.vi" Type="VI" URL="../Configure Library in Memory for Development.vi"/>
 	<Item Name="Configure Library on Disk for Build.vi" Type="VI" URL="../Configure Library on Disk for Build.vi"/>
