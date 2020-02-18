@@ -99,7 +99,6 @@
 			</Item>
 			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
 		</Item>
-		<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -206,7 +205,5 @@
 			<Item Name="Sizeof 1D.vi" Type="VI" URL="../VIs/Sizeof 1D.vi"/>
 			<Item Name="Sizeof.vi" Type="VI" URL="../VIs/Sizeof.vi"/>
 		</Item>
-		<Item Name="Run Framework Configuration.vi" Type="VI" URL="../VIs/Run Framework Configuration.vi"/>
-		<Item Name="Run Framework.vi" Type="VI" URL="../VIs/Run Framework.vi"/>
 	</Item>
 </Library>

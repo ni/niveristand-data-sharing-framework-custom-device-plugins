@@ -39,6 +39,7 @@
 		<Item Name="VI Set Inline.vi" Type="VI" URL="../VI Set Inline.vi"/>
 		<Item Name="VI Set Reentrancy.vi" Type="VI" URL="../VI Set Reentrancy.vi"/>
 	</Item>
+	<Item Name="Configure Library Classes in Memory for Build.vi" Type="VI" URL="../Configure Library Classes in Memory for Build.vi"/>
 	<Item Name="Configure Library Classes in Memory for Development.vi" Type="VI" URL="../Configure Library Classes in Memory for Development.vi"/>
 	<Item Name="Configure Library in Memory for Build.vi" Type="VI" URL="../Configure Library in Memory for Build.vi"/>
 	<Item Name="Configure Library in Memory for Development.vi" Type="VI" URL="../Configure Library in Memory for Development.vi"/>
