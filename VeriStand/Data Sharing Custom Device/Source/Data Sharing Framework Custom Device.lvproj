@@ -102,6 +102,13 @@
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../DSF Core.lvlibp">
 				<Item Name="Private" Type="Folder">
 					<Item Name="Classes" Type="Folder">
+						<Item Name="Framework" Type="Folder">
+							<Item Name="Pointers" Type="Folder">
+								<Item Name="Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Status/Status.lvclass"/>
+								<Item Name="Timing Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Timing Status/Timing Status.lvclass"/>
+							</Item>
+							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Framework Status/Framework Status.lvclass"/>
+						</Item>
 						<Item Name="Hardware Info" Type="Folder">
 							<Item Name="CPU Info.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
 							<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
@@ -109,7 +116,11 @@
 						<Item Name="Interface" Type="Folder">
 							<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interface/Dispatcher/Dispatcher Interface.lvclass"/>
 							<Item Name="Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interface/Interface.lvclass"/>
+							<Item Name="Logging Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interface/Logging/Logging Interface.lvclass"/>
 							<Item Name="Plugin Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Interface/Plugin/Plugin Interface.lvclass"/>
+						</Item>
+						<Item Name="Pointers" Type="Folder">
+							<Item Name="Error Pointer.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Pointers/Error/Error Pointer.lvclass"/>
 						</Item>
 						<Item Name="Pool" Type="Folder">
 							<Item Name="ID Pool.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Pool/ID/ID Pool.lvclass"/>
@@ -122,6 +133,7 @@
 						<Item Name="Thread" Type="Folder">
 							<Item Name="Data Server Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Data Server/Data Server Thread.lvclass"/>
 							<Item Name="Dispatcher Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Dispatcher/Dispatcher Thread.lvclass"/>
+							<Item Name="Logging Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Logging/Logging Thread.lvclass"/>
 							<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread Manager/Thread Manager.lvclass"/>
 						</Item>
 						<Item Name="Component Loader.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component Loader/Component Loader.lvclass"/>
@@ -193,14 +205,6 @@
 							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
 							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
 						</Item>
-						<Item Name="Framework" Type="Folder">
-							<Item Name="Pointers" Type="Folder">
-								<Item Name="Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Status/Status.lvclass"/>
-								<Item Name="Timing Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Timing Status/Timing Status.lvclass"/>
-							</Item>
-							<Item Name="Framework Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Framework Status/Framework Status.lvclass"/>
-							<Item Name="Performance.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Performance/Performance.lvclass"/>
-						</Item>
 						<Item Name="Thread" Type="Folder">
 							<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Plugin/Plugin Thread.lvclass"/>
 							<Item Name="Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Thread.lvclass"/>
@@ -210,6 +214,7 @@
 						<Item Name="Buffers.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffers/Buffers.lvclass"/>
 						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Configuration Session.lvclass"/>
 						<Item Name="Framework.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Framework/Framework.lvclass"/>
+						<Item Name="Performance.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Performance/Performance.lvclass"/>
 						<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Transfer Group/Transfer Group.lvclass"/>
 						<Item Name="Transfer.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Transfer/Transfer.lvclass"/>
 					</Item>
@@ -221,14 +226,6 @@
 							<Item Name="DSF Engine Plugin Thread Configuration.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Engine Plugin Thread Configuration.ctl"/>
 							<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Engine Transfer Configuration.ctl"/>
 							<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Engine Transfer Group Configuration.ctl"/>
-						</Item>
-						<Item Name="Framework" Type="Folder">
-							<Item Name="Status" Type="Folder"/>
-						</Item>
-						<Item Name="Options" Type="Folder">
-							<Item Name="DSF FIFO Options.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF FIFO Options.ctl"/>
-							<Item Name="DSF Plugin Options.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Plugin Options.ctl"/>
-							<Item Name="DSF Thread Options.ctl" Type="VI" URL="../DSF Core.lvlibp/Classes/Thread/DSF Thread Options.ctl"/>
 						</Item>
 						<Item Name="DSF Byte Order.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Byte Order.ctl"/>
 						<Item Name="DSF Channel Buffer Descriptor.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Channel Buffer Descriptor.ctl"/>
@@ -243,52 +240,8 @@
 						<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Timeout Behavior.ctl"/>
 						<Item Name="DSF Timing Info.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Timing Info.ctl"/>
 						<Item Name="DSF Transfer Info.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Transfer Info.ctl"/>
+						<Item Name="DSF UI Pointers.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF UI Pointers.ctl"/>
 						<Item Name="DSF Version Info.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Version Info.ctl"/>
-					</Item>
-					<Item Name="VIs" Type="Folder">
-						<Item Name="Configuration" Type="Folder">
-							<Item Name="Polymorphics" Type="Folder">
-								<Item Name="Channel Count (Framework).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count (Framework).vi"/>
-								<Item Name="Channel Count (Plugin).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count (Plugin).vi"/>
-								<Item Name="Channel Count (Transfer Group).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer Group).vi"/>
-								<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer).vi"/>
-								<Item Name="Largest Buffer Size (Framework).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Framework).vi"/>
-								<Item Name="Largest Buffer Size (Plugin).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Plugin).vi"/>
-								<Item Name="Largest Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size (Transfer Group).vi"/>
-								<Item Name="Required Buffer Size (Framework).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Framework).vi"/>
-								<Item Name="Required Buffer Size (Plugin).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Plugin).vi"/>
-								<Item Name="Required Buffer Size (Transfer Group).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Transfer Group).vi"/>
-								<Item Name="Required Buffer Size (Transfer).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Required Buffer Size (Transfer).vi"/>
-								<Item Name="Transfer Count (Framework).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Transfer Count (Framework).vi"/>
-								<Item Name="Transfer Count (Plugin).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Transfer Count (Plugin).vi"/>
-								<Item Name="Transfer Count (Transfer Group).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Transfer Count (Transfer Group).vi"/>
-								<Item Name="Transfer Group Count (Framework).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Transfer Group Count (Framework).vi"/>
-								<Item Name="Transfer Group Count (Plugin).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Transfer Group Count (Plugin).vi"/>
-								<Item Name="Validate Configuration (Framework).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Framework).vi"/>
-								<Item Name="Validate Configuration (Plugin).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Plugin).vi"/>
-								<Item Name="Validate Configuration (Transfer Group).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Transfer Group).vi"/>
-								<Item Name="Validate Configuration (Transfer).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Validate Configuration (Transfer).vi"/>
-							</Item>
-							<Item Name="SubVIs" Type="Folder">
-								<Item Name="Check Engine Blocks.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Check Engine Blocks.vi"/>
-							</Item>
-							<Item Name="Channel Count.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count.vi"/>
-							<Item Name="Largest Buffer Size.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Largest Buffer Size.vi"/>
-							<Item Name="Required Buffer Size.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Required Buffer Size.vi"/>
-							<Item Name="Transfer Count.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Transfer Count.vi"/>
-							<Item Name="Transfer Group Count.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Transfer Group Count.vi"/>
-						</Item>
-						<Item Name="Constants" Type="Folder">
-							<Item Name="Base Error Code.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Constants/Base Error Code.vi"/>
-							<Item Name="Constants.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Constants/Constants.vi"/>
-							<Item Name="Default Components Directory.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Constants/Default Components Directory.vi"/>
-							<Item Name="Engine Library Name.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Constants/Engine Library Name.vi"/>
-							<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Constants/Error Offset (Configuration).vi"/>
-						</Item>
-						<Item Name="Data Viewer" Type="Folder"/>
-						<Item Name="Create Default Framework.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Framework/Create Default Framework.vi"/>
-						<Item Name="Sizeof 1D.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Sizeof 1D.vi"/>
-						<Item Name="Sizeof.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Sizeof.vi"/>
 					</Item>
 				</Item>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
@@ -316,6 +269,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
@@ -345,6 +299,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
+			<Item Name="DSF Thread Options.ctl" Type="VI" URL="../DSF Core.lvlibp/Classes/Thread/DSF Thread Options.ctl"/>
 			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
