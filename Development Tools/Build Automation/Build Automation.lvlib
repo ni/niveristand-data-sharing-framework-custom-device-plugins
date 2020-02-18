@@ -10,9 +10,13 @@
 	<Item Name="Blacklist" Type="Folder">
 		<Item Name="Configure VI Blacklist.vi" Type="VI" URL="../Configure VI Blacklist.vi"/>
 	</Item>
+	<Item Name="Class" Type="Folder">
+		<Item Name="Get Class VIs.vi" Type="VI" URL="../Get Class VIs.vi"/>
+		<Item Name="Set Class VIs as Inline.vi" Type="VI" URL="../Set Class VIs as Inline.vi"/>
+		<Item Name="Set Class VIs Properties.vi" Type="VI" URL="../Set Class VIs Properties.vi"/>
+	</Item>
 	<Item Name="Library" Type="Folder">
 		<Item Name="Find Project Library.vi" Type="VI" URL="../Find Project Library.vi"/>
-		<Item Name="Get Class VIs.vi" Type="VI" URL="../Get Class VIs.vi"/>
 		<Item Name="Get Library Classes.vi" Type="VI" URL="../Get Library Classes.vi"/>
 		<Item Name="Get Library from This Project.vi" Type="VI" URL="../Get Library from This Project.vi"/>
 		<Item Name="Get Library VIs.vi" Type="VI" URL="../Get Library VIs.vi"/>
@@ -29,6 +33,7 @@
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Class VI Options.ctl" Type="VI" URL="../Class VI Options.ctl"/>
+		<Item Name="VI Options.ctl" Type="VI" URL="../VI Options.ctl"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
 		<Item Name="Save VI.vi" Type="VI" URL="../Save VI.vi"/>
