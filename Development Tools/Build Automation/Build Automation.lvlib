@@ -11,12 +11,14 @@
 		<Item Name="Configure VI Blacklist.vi" Type="VI" URL="../Configure VI Blacklist.vi"/>
 	</Item>
 	<Item Name="Class" Type="Folder">
+		<Item Name="De-Inline Class VIs.vi" Type="VI" URL="../De-Inline Class VIs.vi"/>
 		<Item Name="Get Class VIs.vi" Type="VI" URL="../Get Class VIs.vi"/>
 		<Item Name="Inline Class VIs.vi" Type="VI" URL="../Inline Class VIs.vi"/>
 		<Item Name="Set Class VIs Properties.vi" Type="VI" URL="../Set Class VIs Properties.vi"/>
 	</Item>
 	<Item Name="Library" Type="Folder">
 		<Item Name="Find Project Library.vi" Type="VI" URL="../Find Project Library.vi"/>
+		<Item Name="Get Library Classes from This Project.vi" Type="VI" URL="../Get Library Classes from This Project.vi"/>
 		<Item Name="Get Library Classes.vi" Type="VI" URL="../Get Library Classes.vi"/>
 		<Item Name="Get Library from This Project.vi" Type="VI" URL="../Get Library from This Project.vi"/>
 		<Item Name="Get Library VIs.vi" Type="VI" URL="../Get Library VIs.vi"/>
@@ -50,5 +52,4 @@
 	<Item Name="Configure Library in Memory for Development.vi" Type="VI" URL="../Configure Library in Memory for Development.vi"/>
 	<Item Name="Configure Library on Disk for Build.vi" Type="VI" URL="../Configure Library on Disk for Build.vi"/>
 	<Item Name="Configure Library on Disk for Development.vi" Type="VI" URL="../Configure Library on Disk for Development.vi"/>
-	<Item Name="De-Inline Class VIs.vi" Type="VI" URL="../De-Inline Class VIs.vi"/>
 </Library>
