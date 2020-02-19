@@ -2,33 +2,39 @@
 build_output_dir = 'C:\Builds\Data Sharing Framework'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework'
 
-[projects.core]
-path = 'Core\Data Sharing Framework Core Build.lvproj'
+[projects.windows]
+path = 'Core\Data Sharing Framework Core Build - Windows.lvproj'
+
+[projects.pharlap]
+path = 'Core\Data Sharing Framework Core Build - PharLap x86.lvproj'
+
+[projects.linux_x64]
+path = 'Core\Data Sharing Framework Core Build - Linux RT x64.lvproj'
 
 [[build.steps]]
 name = 'Data Sharing Framework Core - Windows'
 type = 'lvBuildSpec'
-project = '{core}'
+project = '{windows}'
 target = 'My Computer'
 build_spec = 'Data Sharing Framework Core'
 
 [[build.steps]]
-name = 'Data Sharing Framework Core - Pharlap'
+name = 'Data Sharing Framework Core - Pharlap x86'
 type = 'lvBuildSpec'
-project = '{core}'
-target = 'RT PXI Target'
+project = '{pharlap}'
+target = 'Pharlap x86'
+build_spec = 'Data Sharing Framework Core'
+
+[[build.steps]]
+name = 'Data Sharing Framework Core - Linux RT x64'
+type = 'lvBuildSpec'
+project = '{linux_x64}'
+target = 'Linux RT x64'
 build_spec = 'Data Sharing Framework Core'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'C:\Builds\Data Sharing Framework\Windows\32'
-install_destination = 'documents\National Instruments\Data Sharing Framework\Core'
-control_file = 'control_dsf_core_windows'
-package_output_dir = 'Source\Built'
-
-[[package]]
-type = 'nipkg'
-payload_dir = 'C:\Builds\Data Sharing Framework\Pharlap'
+payload_dir = 'C:\Builds\Data Sharing Framework'
 install_destination = 'ProgramFiles_32\National Instruments\RT Images'
-control_file = 'control_dsf_core_pharlap'
+control_file = 'control_dsf_core_windows'
 package_output_dir = 'Source\Built'
