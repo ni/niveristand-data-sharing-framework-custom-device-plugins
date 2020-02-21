@@ -22,6 +22,7 @@
 				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
 			</Item>
 			<Item Name="Interface" Type="Folder">
+				<Item Name="Data Server Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Data Server/Data Server Interface.lvclass"/>
 				<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Dispatcher/Dispatcher Interface.lvclass"/>
 				<Item Name="Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Interface.lvclass"/>
 				<Item Name="Logging Interface.lvclass" Type="LVClass" URL="../Classes/Interface/Logging/Logging Interface.lvclass"/>
