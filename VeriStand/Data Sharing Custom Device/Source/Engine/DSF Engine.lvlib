@@ -9,7 +9,6 @@
 </Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Error Display.vi" Type="VI" URL="../Error Display.vi"/>
-		<Item Name="Log DSF Error.vi" Type="VI" URL="../Log DSF Error.vi"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 	<Item Name="VeriStand DSF.lvclass" Type="LVClass" URL="../VeriStand DSF/VeriStand DSF.lvclass"/>
