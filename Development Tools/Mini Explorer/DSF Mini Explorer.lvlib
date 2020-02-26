@@ -31,7 +31,6 @@
 	</Item>
 	<Item Name="Main VI" Type="Folder">
 		<Item Name="Application Data.ctl" Type="VI" URL="../Source/Main VI/Application Data.ctl"/>
-		<Item Name="Create Menus.vi" Type="VI" URL="../Source/Main VI/Create Menus.vi"/>
 		<Item Name="Display Tree Item.vi" Type="VI" URL="../Source/Main VI/Display Tree Item.vi"/>
 		<Item Name="Initialize Tree with Plugins.vi" Type="VI" URL="../Source/Main VI/Initialize Tree with Plugins.vi"/>
 		<Item Name="Initialize UI.vi" Type="VI" URL="../Source/Main VI/Initialize UI.vi"/>
