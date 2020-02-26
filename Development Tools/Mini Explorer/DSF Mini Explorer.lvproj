@@ -13,7 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DSF Mini Explorer.lvlib" Type="Library" URL="../DSF Mini Explorer.lvlib"/>
-		<Item Name="DSF Mini Explorer.vi" Type="VI" URL="../Source/DSF Mini Explorer.vi"/>
+		<Item Name="Sub-Panel Test.vi" Type="VI" URL="../Source/Sub-Panel Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>

@@ -81,6 +81,21 @@
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\ActionVIOnSave.vi</Path>
       </ActionVIOnSave>
     </Page>
+	<Page>
+      <Name>
+        <eng>Plugin</eng>
+        <loc>Plugin</loc>
+      </Name>
+      <GUID>e36400aa-5528-4ac8-8885-6b99ede07395</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\chassis.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Plugin Page.vi</Path>
+      </Item2Launch>
+    </Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>
