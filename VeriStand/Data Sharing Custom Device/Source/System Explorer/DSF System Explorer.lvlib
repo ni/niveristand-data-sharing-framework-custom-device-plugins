@@ -8,15 +8,20 @@
 
 </Property>
 	<Item Name="Dynamically Called" Type="Folder">
-		<Item Name="GUIDs" Type="Folder">
-			<Item Name="Main Page GUID.vi" Type="VI" URL="../GUIDs/Main Page GUID.vi"/>
-			<Item Name="Plugin Page GUID.vi" Type="VI" URL="../GUIDs/Plugin Page GUID.vi"/>
-		</Item>
+		<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
+		<Item Name="ActionVIOnSave.vi" Type="VI" URL="../ActionVIOnSave.vi"/>
+		<Item Name="Group Page.vi" Type="VI" URL="../Group Page.vi"/>
 		<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		<Item Name="Plugin Page.vi" Type="VI" URL="../Plugin Page.vi"/>
+		<Item Name="Transfer Page.vi" Type="VI" URL="../Transfer Page.vi"/>
 	</Item>
-	<Item Name="ActionVIOnSave.vi" Type="VI" URL="../ActionVIOnSave.vi"/>
+	<Item Name="GUIDs" Type="Folder">
+		<Item Name="Group Page GUID.vi" Type="VI" URL="../GUIDs/Group Page GUID.vi"/>
+		<Item Name="Main Page GUID.vi" Type="VI" URL="../GUIDs/Main Page GUID.vi"/>
+		<Item Name="Plugin Page GUID.vi" Type="VI" URL="../GUIDs/Plugin Page GUID.vi"/>
+		<Item Name="Transfer Page GUID.vi" Type="VI" URL="../GUIDs/Transfer Page GUID.vi"/>
+	</Item>
 	<Item Name="Add Component Dependencies.vi" Type="VI" URL="../Add Component Dependencies.vi"/>
 	<Item Name="Add Config File Dependency.vi" Type="VI" URL="../Add Config File Dependency.vi"/>
 	<Item Name="Add Core Dependencies.vi" Type="VI" URL="../Add Core Dependencies.vi"/>

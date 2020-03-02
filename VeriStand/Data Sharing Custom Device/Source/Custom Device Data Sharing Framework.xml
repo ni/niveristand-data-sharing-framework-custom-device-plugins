@@ -81,7 +81,7 @@
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\ActionVIOnSave.vi</Path>
       </ActionVIOnSave>
     </Page>
-	<Page>
+    <Page>
       <Name>
         <eng>Plugin</eng>
         <loc>Plugin</loc>
@@ -89,11 +89,41 @@
       <GUID>e36400aa-5528-4ac8-8885-6b99ede07395</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\chassis.png</Path>
+			<Path>System Explorer\Glyphs\pxi chassis small.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Plugin Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Group</eng>
+        <loc>Group</loc>
+      </Name>
+      <GUID>473b4065-4cef-436d-b68a-ef19370f2b9b</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\RM Folder.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Group Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Transfer</eng>
+        <loc>Transfer</loc>
+      </Name>
+      <GUID>bcb89113-3f5b-435a-8111-e471fb52bdd7</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\queue.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Transfer Page.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
