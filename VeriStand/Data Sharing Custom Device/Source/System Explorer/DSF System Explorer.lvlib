@@ -19,9 +19,12 @@
 			<Item Name="Transfer Page.vi" Type="VI" URL="../Transfer Page.vi"/>
 		</Item>
 		<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
+		<Item Name="Simple Explorer.vi" Type="VI" URL="../Simple Explorer.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Explorer" Type="Folder"/>
+		<Item Name="Explorer" Type="Folder">
+			<Item Name="Initialize Simple Explorer.vi" Type="VI" URL="../Initialize Simple Explorer.vi"/>
+		</Item>
 		<Item Name="Shared Data" Type="Folder">
 			<Item Name="DVR" Type="Folder">
 				<Item Name="Create Shared Data DVR.vi" Type="VI" URL="../Create Shared Data DVR.vi"/>

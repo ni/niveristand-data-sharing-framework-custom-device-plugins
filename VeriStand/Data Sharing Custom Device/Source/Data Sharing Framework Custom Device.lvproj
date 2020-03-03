@@ -24,7 +24,6 @@
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="DSF Configuration Explorer.vi" Type="VI" URL="../../../../Development Tools/Data Sharing Configuration Explorer/Source/DSF Configuration Explorer.vi"/>
 			<Item Name="DSF Configuration Utility.lvlib" Type="Library" URL="../../../../Development Tools/Data Sharing Configuration Explorer/DSF Configuration Utility.lvlib"/>
-			<Item Name="DSF Simple Explorer.lvlib" Type="Library" URL="../../../../Development Tools/Mini Explorer/DSF Simple Explorer.lvlib"/>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
@@ -356,7 +355,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Data Sharing Framework/DSF Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{573D1802-2986-4AAC-A512-D577096439B0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6616785B-E12F-4939-AFC5-CDA448B5174C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Data Sharing Framework.xml</Property>

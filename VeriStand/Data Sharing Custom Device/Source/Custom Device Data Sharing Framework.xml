@@ -79,7 +79,7 @@
 	  <ActionVIOnLoad>
 		<Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\ActionVIOnLoad.vi</Path>
-	   </ActionVIOnLoad>
+	  </ActionVIOnLoad>
 	  <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\ActionVIOnSave.vi</Path>
