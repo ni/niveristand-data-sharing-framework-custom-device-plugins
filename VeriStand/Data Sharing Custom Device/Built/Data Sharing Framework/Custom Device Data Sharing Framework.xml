@@ -74,8 +74,12 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Main Page.vi</Path>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Framework Page.vi</Path>
       </Item2Launch>
+	  <ActionVIOnLoad>
+		<Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\ActionVIOnLoad.vi</Path>
+	   </ActionVIOnLoad>
 	  <ActionVIOnSave>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\ActionVIOnSave.vi</Path>
