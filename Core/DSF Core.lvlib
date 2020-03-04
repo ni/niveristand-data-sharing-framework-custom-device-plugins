@@ -11,10 +11,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Framework" Type="Folder">
-				<Item Name="Pointers" Type="Folder">
-					<Item Name="Status.lvclass" Type="LVClass" URL="../Classes/Status/Status.lvclass"/>
-					<Item Name="Timing Status.lvclass" Type="LVClass" URL="../Classes/Timing Status/Timing Status.lvclass"/>
-				</Item>
 				<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Classes/Framework Status/Framework Status.lvclass"/>
 			</Item>
 			<Item Name="Hardware Info" Type="Folder">
@@ -30,6 +26,8 @@
 			</Item>
 			<Item Name="Pointers" Type="Folder">
 				<Item Name="Error Pointer.lvclass" Type="LVClass" URL="../Classes/Pointers/Error/Error Pointer.lvclass"/>
+				<Item Name="Status Pointer.lvclass" Type="LVClass" URL="../Classes/Status/Status Pointer.lvclass"/>
+				<Item Name="Timing Status Pointer.lvclass" Type="LVClass" URL="../Classes/Timing Status/Timing Status Pointer.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
 				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Classes/Pool/ID/ID Pool.lvclass"/>

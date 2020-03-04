@@ -132,6 +132,21 @@
     </Page>
     <Page>
       <Name>
+        <eng>Data Channel</eng>
+        <loc>Data Channel</loc>
+      </Name>
+      <GUID>6256d297-6817-4828-920b-1215e79da74f</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Data Channel Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
         <eng>Status</eng>
         <loc>Status</loc>
       </Name>
