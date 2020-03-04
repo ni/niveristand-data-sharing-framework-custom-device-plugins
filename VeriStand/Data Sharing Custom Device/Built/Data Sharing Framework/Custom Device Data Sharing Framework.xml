@@ -108,7 +108,7 @@
       <GUID>473b4065-4cef-436d-b68a-ef19370f2b9b</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\timing.png</Path>
+			<Path>System Explorer\Glyphs\databases.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -158,6 +158,21 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Status Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Performance</eng>
+        <loc>Performance</loc>
+      </Name>
+      <GUID>fc8a3050-8455-4f24-acdb-50198eb01274</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\timing.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Page.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>

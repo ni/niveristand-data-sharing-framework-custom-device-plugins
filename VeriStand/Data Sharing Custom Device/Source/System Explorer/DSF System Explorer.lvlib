@@ -16,6 +16,7 @@
 			<Item Name="Data Channel Page.vi" Type="VI" URL="../Data Channel Page.vi"/>
 			<Item Name="Framework Page.vi" Type="VI" URL="../Framework Page.vi"/>
 			<Item Name="Group Page.vi" Type="VI" URL="../Group Page.vi"/>
+			<Item Name="Performance Page.vi" Type="VI" URL="../Performance Page.vi"/>
 			<Item Name="Plugin Page.vi" Type="VI" URL="../Plugin Page.vi"/>
 			<Item Name="Status Page.vi" Type="VI" URL="../Status Page.vi"/>
 			<Item Name="Transfer Page.vi" Type="VI" URL="../Transfer Page.vi"/>
@@ -29,6 +30,10 @@
 			<Item Name="Add Channel to All Plugins.vi" Type="VI" URL="../Add Channel to All Plugins.vi"/>
 			<Item Name="Add Channel to All Transfers.vi" Type="VI" URL="../Add Channel to All Transfers.vi"/>
 			<Item Name="Add Data Channels.vi" Type="VI" URL="../Add Data Channels.vi"/>
+			<Item Name="Add Performance Channel to All Groups.vi" Type="VI" URL="../Add Performance Channel to All Groups.vi"/>
+			<Item Name="Add Performance Channel to All Plugins.vi" Type="VI" URL="../Add Performance Channel to All Plugins.vi"/>
+			<Item Name="Add Performance Channels.vi" Type="VI" URL="../Add Performance Channels.vi"/>
+			<Item Name="Add Performance Section.vi" Type="VI" URL="../Add Performance Section.vi"/>
 			<Item Name="Add Status Channel to All Groups.vi" Type="VI" URL="../Add Status Channel to All Groups.vi"/>
 			<Item Name="Add Status Channel to All Plugins.vi" Type="VI" URL="../Add Status Channel to All Plugins.vi"/>
 			<Item Name="Add Status Channel to All Transfers.vi" Type="VI" URL="../Add Status Channel to All Transfers.vi"/>

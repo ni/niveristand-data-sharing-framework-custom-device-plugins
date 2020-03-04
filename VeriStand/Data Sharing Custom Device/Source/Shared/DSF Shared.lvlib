@@ -12,16 +12,21 @@
 			<Item Name="Data Channel Page GUID.vi" Type="VI" URL="../Data Channel Page GUID.vi"/>
 			<Item Name="Group Page GUID.vi" Type="VI" URL="../Group Page GUID.vi"/>
 			<Item Name="Main Page GUID.vi" Type="VI" URL="../Main Page GUID.vi"/>
+			<Item Name="Performance Page GUID.vi" Type="VI" URL="../Performance Page GUID.vi"/>
 			<Item Name="Plugin Page GUID.vi" Type="VI" URL="../Plugin Page GUID.vi"/>
 			<Item Name="Status Page GUID.vi" Type="VI" URL="../Status Page GUID.vi"/>
 			<Item Name="Transfer Page GUID.vi" Type="VI" URL="../Transfer Page GUID.vi"/>
 		</Item>
+		<Item Name="Property Names" Type="Folder"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
 	<Item Name="Get" Type="Folder">
 		<Item Name="Get Framework Plugins.vi" Type="VI" URL="../../System Explorer/Get Framework Plugins.vi"/>
 		<Item Name="Get Group Transfers.vi" Type="VI" URL="../../System Explorer/Get Group Transfers.vi"/>
+		<Item Name="Get Performance Channels.vi" Type="VI" URL="../../System Explorer/Get Performance Channels.vi"/>
 		<Item Name="Get Plugin Groups.vi" Type="VI" URL="../../System Explorer/Get Plugin Groups.vi"/>
+		<Item Name="Get Status Channels.vi" Type="VI" URL="../../System Explorer/Get Status Channels.vi"/>
+		<Item Name="Get Transfer Data Channels.vi" Type="VI" URL="../../System Explorer/Get Transfer Data Channels.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Get DSF Options.vi" Type="VI" URL="../Get DSF Options.vi"/>
@@ -34,5 +39,4 @@
 	<Item Name="dsf shared data dvr property name.vi" Type="VI" URL="../../System Explorer/dsf shared data dvr property name.vi"/>
 	<Item Name="Get Components Target Directory.vi" Type="VI" URL="../Get Components Target Directory.vi"/>
 	<Item Name="Get Configuration File Target Path.vi" Type="VI" URL="../Get Configuration File Target Path.vi"/>
-	<Item Name="Get Transfer Data Channels.vi" Type="VI" URL="../../System Explorer/Get Transfer Data Channels.vi"/>
 </Library>
