@@ -12,6 +12,7 @@
 			<Item Name="Group Page GUID.vi" Type="VI" URL="../Group Page GUID.vi"/>
 			<Item Name="Main Page GUID.vi" Type="VI" URL="../Main Page GUID.vi"/>
 			<Item Name="Plugin Page GUID.vi" Type="VI" URL="../Plugin Page GUID.vi"/>
+			<Item Name="Status Page GUID.vi" Type="VI" URL="../Status Page GUID.vi"/>
 			<Item Name="Transfer Page GUID.vi" Type="VI" URL="../Transfer Page GUID.vi"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>

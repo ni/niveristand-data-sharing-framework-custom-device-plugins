@@ -108,7 +108,7 @@
       <GUID>473b4065-4cef-436d-b68a-ef19370f2b9b</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\RM Folder.png</Path>
+			<Path>System Explorer\Glyphs\timing.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -128,6 +128,21 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Transfer Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Status</eng>
+        <loc>Status</loc>
+      </Name>
+      <GUID>565c4ee4-8051-44d7-8930-f003aae83434</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\system variable.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Status Page.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>

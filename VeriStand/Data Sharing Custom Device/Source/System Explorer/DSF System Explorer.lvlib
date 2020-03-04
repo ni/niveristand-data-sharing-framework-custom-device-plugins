@@ -16,14 +16,34 @@
 			<Item Name="Framework Page.vi" Type="VI" URL="../Framework Page.vi"/>
 			<Item Name="Group Page.vi" Type="VI" URL="../Group Page.vi"/>
 			<Item Name="Plugin Page.vi" Type="VI" URL="../Plugin Page.vi"/>
+			<Item Name="Status Page.vi" Type="VI" URL="../Status Page.vi"/>
 			<Item Name="Transfer Page.vi" Type="VI" URL="../Transfer Page.vi"/>
 		</Item>
 		<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		<Item Name="Simple Explorer.vi" Type="VI" URL="../Simple Explorer.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Add Channels/Sections" Type="Folder">
+			<Item Name="Add Channel to All Groups.vi" Type="VI" URL="../Add Channel to All Groups.vi"/>
+			<Item Name="Add Channel to All Plugins.vi" Type="VI" URL="../Add Channel to All Plugins.vi"/>
+			<Item Name="Add Channel to All Transfers.vi" Type="VI" URL="../Add Channel to All Transfers.vi"/>
+			<Item Name="Add Data Channels.vi" Type="VI" URL="../Add Data Channels.vi"/>
+			<Item Name="Add Status Channel to All Groups.vi" Type="VI" URL="../Add Status Channel to All Groups.vi"/>
+			<Item Name="Add Status Channel to All Plugins.vi" Type="VI" URL="../Add Status Channel to All Plugins.vi"/>
+			<Item Name="Add Status Channels.vi" Type="VI" URL="../Add Status Channels.vi"/>
+			<Item Name="Add Status Section.vi" Type="VI" URL="../Add Status Section.vi"/>
+		</Item>
 		<Item Name="Explorer" Type="Folder">
 			<Item Name="Initialize Simple Explorer.vi" Type="VI" URL="../Initialize Simple Explorer.vi"/>
+		</Item>
+		<Item Name="Properties" Type="Folder">
+			<Item Name="Get Configuration ID.vi" Type="VI" URL="../Get Configuration ID.vi"/>
+			<Item Name="get dsf config file path.vi" Type="VI" URL="../get dsf config file path.vi"/>
+			<Item Name="get dsf config session.vi" Type="VI" URL="../get dsf config session.vi"/>
+			<Item Name="get shared data ref.vi" Type="VI" URL="../get shared data ref.vi"/>
+			<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
+			<Item Name="set dsf config session.vi" Type="VI" URL="../set dsf config session.vi"/>
+			<Item Name="set shared data ref.vi" Type="VI" URL="../set shared data ref.vi"/>
 		</Item>
 		<Item Name="Shared Data" Type="Folder">
 			<Item Name="DVR" Type="Folder">
@@ -48,18 +68,13 @@
 		<Item Name="distribute shared data.vi" Type="VI" URL="../distribute shared data.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
 		<Item Name="Get Component Dependencies.vi" Type="VI" URL="../Get Component Dependencies.vi"/>
-		<Item Name="get dsf config file path.vi" Type="VI" URL="../get dsf config file path.vi"/>
-		<Item Name="get dsf config session.vi" Type="VI" URL="../get dsf config session.vi"/>
-		<Item Name="get shared data ref.vi" Type="VI" URL="../get shared data ref.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
 		<Item Name="Load Simple Explorer.vi" Type="VI" URL="../Load Simple Explorer.vi"/>
 		<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
-		<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
-		<Item Name="set dsf config session.vi" Type="VI" URL="../set dsf config session.vi"/>
-		<Item Name="set shared data ref.vi" Type="VI" URL="../set shared data ref.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="shared data ref.ctl" Type="VI" URL="../shared data ref.ctl"/>
 		<Item Name="shared data.ctl" Type="VI" URL="../shared data.ctl"/>
 	</Item>
+	<Item Name="Add Status Channel to All Transfers.vi" Type="VI" URL="../Add Status Channel to All Transfers.vi"/>
 </Library>
