@@ -32,6 +32,7 @@
 			<Item Name="Add Data Channels.vi" Type="VI" URL="../Add Data Channels.vi"/>
 			<Item Name="Add Performance Channel to All Groups.vi" Type="VI" URL="../Add Performance Channel to All Groups.vi"/>
 			<Item Name="Add Performance Channel to All Plugins.vi" Type="VI" URL="../Add Performance Channel to All Plugins.vi"/>
+			<Item Name="Add Performance Channel.vi" Type="VI" URL="../Add Performance Channel.vi"/>
 			<Item Name="Add Performance Channels.vi" Type="VI" URL="../Add Performance Channels.vi"/>
 			<Item Name="Add Performance Section.vi" Type="VI" URL="../Add Performance Section.vi"/>
 			<Item Name="Add Status Channel to All Groups.vi" Type="VI" URL="../Add Status Channel to All Groups.vi"/>
