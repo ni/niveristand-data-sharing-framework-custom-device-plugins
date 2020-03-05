@@ -14,11 +14,12 @@
 		</Item>
 		<Item Name="Pages" Type="Folder">
 			<Item Name="Data Channel Page.vi" Type="VI" URL="../Data Channel Page.vi"/>
+			<Item Name="Data Section Page.vi" Type="VI" URL="../Data Section Page.vi"/>
 			<Item Name="Framework Page.vi" Type="VI" URL="../Framework Page.vi"/>
 			<Item Name="Group Page.vi" Type="VI" URL="../Group Page.vi"/>
-			<Item Name="Performance Page.vi" Type="VI" URL="../Performance Page.vi"/>
+			<Item Name="Performance Section Page.vi" Type="VI" URL="../Performance Section Page.vi"/>
 			<Item Name="Plugin Page.vi" Type="VI" URL="../Plugin Page.vi"/>
-			<Item Name="Status Page.vi" Type="VI" URL="../Status Page.vi"/>
+			<Item Name="Status Section Page.vi" Type="VI" URL="../Status Section Page.vi"/>
 			<Item Name="Transfer Page.vi" Type="VI" URL="../Transfer Page.vi"/>
 		</Item>
 		<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
@@ -30,11 +31,14 @@
 			<Item Name="Add Channel to All Plugins.vi" Type="VI" URL="../Add Channel to All Plugins.vi"/>
 			<Item Name="Add Channel to All Transfers.vi" Type="VI" URL="../Add Channel to All Transfers.vi"/>
 			<Item Name="Add Data Channels.vi" Type="VI" URL="../Add Data Channels.vi"/>
+			<Item Name="Add Data Section.vi" Type="VI" URL="../Add Data Section.vi"/>
 			<Item Name="Add Performance Channel to All Groups.vi" Type="VI" URL="../Add Performance Channel to All Groups.vi"/>
 			<Item Name="Add Performance Channel to All Plugins.vi" Type="VI" URL="../Add Performance Channel to All Plugins.vi"/>
 			<Item Name="Add Performance Channel.vi" Type="VI" URL="../Add Performance Channel.vi"/>
 			<Item Name="Add Performance Channels.vi" Type="VI" URL="../Add Performance Channels.vi"/>
 			<Item Name="Add Performance Section.vi" Type="VI" URL="../Add Performance Section.vi"/>
+			<Item Name="Add Plugin Group Sections.vi" Type="VI" URL="../Add Plugin Group Sections.vi"/>
+			<Item Name="Add Plugin Group Transfer Sections.vi" Type="VI" URL="../Add Plugin Group Transfer Sections.vi"/>
 			<Item Name="Add Status Channel to All Groups.vi" Type="VI" URL="../Add Status Channel to All Groups.vi"/>
 			<Item Name="Add Status Channel to All Plugins.vi" Type="VI" URL="../Add Status Channel to All Plugins.vi"/>
 			<Item Name="Add Status Channel to All Transfers.vi" Type="VI" URL="../Add Status Channel to All Transfers.vi"/>
@@ -69,9 +73,9 @@
 		<Item Name="Add Core Dependencies.vi" Type="VI" URL="../Add Core Dependencies.vi"/>
 		<Item Name="Apply DSF Configuration to Node.vi" Type="VI" URL="../Apply DSF Configuration to Node.vi"/>
 		<Item Name="Apply DSF Configuration.vi" Type="VI" URL="../Apply DSF Configuration.vi"/>
-		<Item Name="Create Group Transfers.vi" Type="VI" URL="../Create Group Transfers.vi"/>
-		<Item Name="Create Plugin Groups.vi" Type="VI" URL="../Create Plugin Groups.vi"/>
+		<Item Name="Create Group Sections.vi" Type="VI" URL="../Create Group Sections.vi"/>
 		<Item Name="Create Transfer Channels.vi" Type="VI" URL="../Create Transfer Channels.vi"/>
+		<Item Name="Create Transfer Sections.vi" Type="VI" URL="../Create Transfer Sections.vi"/>
 		<Item Name="Delete All Children.vi" Type="VI" URL="../Delete All Children.vi"/>
 		<Item Name="distribute shared data.vi" Type="VI" URL="../distribute shared data.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
@@ -84,4 +88,5 @@
 		<Item Name="shared data ref.ctl" Type="VI" URL="../shared data ref.ctl"/>
 		<Item Name="shared data.ctl" Type="VI" URL="../shared data.ctl"/>
 	</Item>
+	<Item Name="Create Group Section Only.vi" Type="VI" URL="../Create Group Section Only.vi"/>
 </Library>

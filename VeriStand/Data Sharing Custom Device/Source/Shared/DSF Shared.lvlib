@@ -10,6 +10,7 @@
 	<Item Name="Constants" Type="Folder">
 		<Item Name="GUIDs" Type="Folder">
 			<Item Name="Data Channel Page GUID.vi" Type="VI" URL="../Data Channel Page GUID.vi"/>
+			<Item Name="Data Section Page GUID.vi" Type="VI" URL="../Data Section Page GUID.vi"/>
 			<Item Name="Group Page GUID.vi" Type="VI" URL="../Group Page GUID.vi"/>
 			<Item Name="Main Page GUID.vi" Type="VI" URL="../Main Page GUID.vi"/>
 			<Item Name="Performance Page GUID.vi" Type="VI" URL="../Performance Page GUID.vi"/>
@@ -21,6 +22,7 @@
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
 	<Item Name="Get" Type="Folder">
+		<Item Name="Get Data Section.vi" Type="VI" URL="../../System Explorer/Get Data Section.vi"/>
 		<Item Name="Get Framework Plugins.vi" Type="VI" URL="../../System Explorer/Get Framework Plugins.vi"/>
 		<Item Name="Get Group Transfers.vi" Type="VI" URL="../../System Explorer/Get Group Transfers.vi"/>
 		<Item Name="Get Performance Channels.vi" Type="VI" URL="../../System Explorer/Get Performance Channels.vi"/>

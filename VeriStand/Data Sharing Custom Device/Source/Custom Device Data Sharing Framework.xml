@@ -153,11 +153,11 @@
       <GUID>565c4ee4-8051-44d7-8930-f003aae83434</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\system variable.png</Path>
+			<Path>System Explorer\Glyphs\sim signals.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Status Page.vi</Path>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Status Section Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -172,7 +172,22 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Page.vi</Path>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Section Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Data Section</eng>
+        <loc>Data Section</loc>
+      </Name>
+      <GUID>bcfbab85-abaa-4292-95db-a76142f82350</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET RawDataFrame.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Data Section Page.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
