@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -14,10 +14,7 @@
 		<Item Name="Build" Type="Folder">
 			<Item Name="Build Automation.lvlib" Type="Library" URL="../../Development Tools/Build Automation/Build Automation.lvlib"/>
 			<Item Name="Post-Build Action (Linux RT x64).vi" Type="VI" URL="../Build/Post-Build Action (Linux RT x64).vi"/>
-			<Item Name="Post-Build Action.vi" Type="VI" URL="../Build/Post-Build Action.vi"/>
 			<Item Name="Pre-Build Action (Linux RT x64).vi" Type="VI" URL="../Build/Pre-Build Action (Linux RT x64).vi"/>
-			<Item Name="Pre-Build Action Debug.vi" Type="VI" URL="../Build/Pre-Build Action Debug.vi"/>
-			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Build/Pre-Build Action.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -26,15 +23,17 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="Linux RT x64" Type="RT PXI Chassis">
+	<Item Name="Linux RT x64" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">Linux RT x64</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
+		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,x64;DeviceCode,774D;TARGET_TYPE,RT;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">774D</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
 		<Property Name="host.TargetOSID" Type="UInt">19</Property>
+		<Property Name="host.TargetUIEnabled" Type="Bool">false</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -128,16 +127,14 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Data Sharing Framework Core" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{CAD7EED1-3E27-4FC2-B442-CF3FA9138752}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1B4D8E5C-AA8F-402F-AE2B-46ECAECF87ED}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Linux</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action (Linux RT x64).vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action (Linux RT x64).vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{13251DFD-43C2-48DA-8242-4DB20E09B5F3}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{559B0C74-4592-419C-B7EF-D9723B7D9E8B}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/x64/Core</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/x64/Core/DSF Core.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -147,7 +144,7 @@
 				<Property Name="Destination[1].path" Type="Path">/x64/Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C6C21980-06DA-4085-9E19-F818E545FBC9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8A8195B2-211A-47D7-902B-6B2D32EF4616}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux RT x64/DSF Core.lvlib</Property>
@@ -173,7 +170,7 @@
 				<Property Name="TgtF_internalName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">Data Sharing Framework Core</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{488CBEF9-1C05-4E99-9B3F-5A34AF6A0BBC}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A20DF046-4754-4716-8A14-FA8E8C0140F3}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DSF Core.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
