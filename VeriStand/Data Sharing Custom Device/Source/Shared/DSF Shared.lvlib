@@ -13,32 +13,35 @@
 			<Item Name="Data Section Page GUID.vi" Type="VI" URL="../Data Section Page GUID.vi"/>
 			<Item Name="Group Page GUID.vi" Type="VI" URL="../Group Page GUID.vi"/>
 			<Item Name="Main Page GUID.vi" Type="VI" URL="../Main Page GUID.vi"/>
+			<Item Name="Performance Channel GUID.vi" Type="VI" URL="../Performance Channel GUID.vi"/>
 			<Item Name="Performance Page GUID.vi" Type="VI" URL="../Performance Page GUID.vi"/>
 			<Item Name="Plugin Page GUID.vi" Type="VI" URL="../Plugin Page GUID.vi"/>
+			<Item Name="Status Channel GUID.vi" Type="VI" URL="../Status Channel GUID.vi"/>
 			<Item Name="Status Page GUID.vi" Type="VI" URL="../Status Page GUID.vi"/>
 			<Item Name="Transfer Page GUID.vi" Type="VI" URL="../Transfer Page GUID.vi"/>
 		</Item>
-		<Item Name="Property Names" Type="Folder"/>
+		<Item Name="Property Names" Type="Folder">
+			<Item Name="dsf components directory property name.vi" Type="VI" URL="../../System Explorer/dsf components directory property name.vi"/>
+			<Item Name="dsf config file property name.vi" Type="VI" URL="../../System Explorer/dsf config file property name.vi"/>
+			<Item Name="dsf config file target name.vi" Type="VI" URL="../../System Explorer/dsf config file target name.vi"/>
+			<Item Name="dsf config session property name.vi" Type="VI" URL="../../System Explorer/dsf config session property name.vi"/>
+			<Item Name="dsf shared data dvr property name.vi" Type="VI" URL="../../System Explorer/dsf shared data dvr property name.vi"/>
+		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
 	<Item Name="Get" Type="Folder">
+		<Item Name="Get Data Channels.vi" Type="VI" URL="../../System Explorer/Get Data Channels.vi"/>
 		<Item Name="Get Data Section.vi" Type="VI" URL="../../System Explorer/Get Data Section.vi"/>
-		<Item Name="Get Framework Plugins.vi" Type="VI" URL="../../System Explorer/Get Framework Plugins.vi"/>
-		<Item Name="Get Group Transfers.vi" Type="VI" URL="../../System Explorer/Get Group Transfers.vi"/>
-		<Item Name="Get Performance Channels.vi" Type="VI" URL="../../System Explorer/Get Performance Channels.vi"/>
-		<Item Name="Get Plugin Groups.vi" Type="VI" URL="../../System Explorer/Get Plugin Groups.vi"/>
-		<Item Name="Get Status Channels.vi" Type="VI" URL="../../System Explorer/Get Status Channels.vi"/>
-		<Item Name="Get Transfer Data Channels.vi" Type="VI" URL="../../System Explorer/Get Transfer Data Channels.vi"/>
+		<Item Name="Get Groups.vi" Type="VI" URL="../../System Explorer/Get Groups.vi"/>
+		<Item Name="Get Performance Section.vi" Type="VI" URL="../../System Explorer/Get Performance Section.vi"/>
+		<Item Name="Get Plugins.vi" Type="VI" URL="../../System Explorer/Get Plugins.vi"/>
+		<Item Name="Get Status Section.vi" Type="VI" URL="../../System Explorer/Get Status Section.vi"/>
+		<Item Name="Get Transfers.vi" Type="VI" URL="../../System Explorer/Get Transfers.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
+		<Item Name="Get Components Target Directory.vi" Type="VI" URL="../Get Components Target Directory.vi"/>
+		<Item Name="Get Configuration File Target Path.vi" Type="VI" URL="../Get Configuration File Target Path.vi"/>
 		<Item Name="Get DSF Options.vi" Type="VI" URL="../Get DSF Options.vi"/>
 		<Item Name="Set DSF Options.vi" Type="VI" URL="../Set DSF Options.vi"/>
 	</Item>
-	<Item Name="dsf components directory property name.vi" Type="VI" URL="../../System Explorer/dsf components directory property name.vi"/>
-	<Item Name="dsf config file property name.vi" Type="VI" URL="../../System Explorer/dsf config file property name.vi"/>
-	<Item Name="dsf config file target name.vi" Type="VI" URL="../../System Explorer/dsf config file target name.vi"/>
-	<Item Name="dsf config session property name.vi" Type="VI" URL="../../System Explorer/dsf config session property name.vi"/>
-	<Item Name="dsf shared data dvr property name.vi" Type="VI" URL="../../System Explorer/dsf shared data dvr property name.vi"/>
-	<Item Name="Get Components Target Directory.vi" Type="VI" URL="../Get Components Target Directory.vi"/>
-	<Item Name="Get Configuration File Target Path.vi" Type="VI" URL="../Get Configuration File Target Path.vi"/>
 </Library>

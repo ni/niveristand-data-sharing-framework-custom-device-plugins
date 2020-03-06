@@ -17,8 +17,10 @@
 			<Item Name="Data Section Page.vi" Type="VI" URL="../Data Section Page.vi"/>
 			<Item Name="Framework Page.vi" Type="VI" URL="../Framework Page.vi"/>
 			<Item Name="Group Page.vi" Type="VI" URL="../Group Page.vi"/>
-			<Item Name="Performance Section Page.vi" Type="VI" URL="../Performance Section Page.vi"/>
+			<Item Name="Performance Channel Page.vi" Type="VI" URL="../Performance Channel Page.vi"/>
+			<Item Name="Performance Page.vi" Type="VI" URL="../Performance Page.vi"/>
 			<Item Name="Plugin Page.vi" Type="VI" URL="../Plugin Page.vi"/>
+			<Item Name="Status Channel Page.vi" Type="VI" URL="../Status Channel Page.vi"/>
 			<Item Name="Status Section Page.vi" Type="VI" URL="../Status Section Page.vi"/>
 			<Item Name="Transfer Page.vi" Type="VI" URL="../Transfer Page.vi"/>
 		</Item>
@@ -27,32 +29,38 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Channels/Sections" Type="Folder">
-			<Item Name="Add Channel to All Groups.vi" Type="VI" URL="../Add Channel to All Groups.vi"/>
-			<Item Name="Add Channel to All Plugins.vi" Type="VI" URL="../Add Channel to All Plugins.vi"/>
-			<Item Name="Add Channel to All Transfers.vi" Type="VI" URL="../Add Channel to All Transfers.vi"/>
-			<Item Name="Add Data Channels.vi" Type="VI" URL="../Add Data Channels.vi"/>
-			<Item Name="Add Data Section.vi" Type="VI" URL="../Add Data Section.vi"/>
-			<Item Name="Add Performance Channel to All Groups.vi" Type="VI" URL="../Add Performance Channel to All Groups.vi"/>
-			<Item Name="Add Performance Channel to All Plugins.vi" Type="VI" URL="../Add Performance Channel to All Plugins.vi"/>
-			<Item Name="Add Performance Channel.vi" Type="VI" URL="../Add Performance Channel.vi"/>
-			<Item Name="Add Performance Channels.vi" Type="VI" URL="../Add Performance Channels.vi"/>
-			<Item Name="Add Performance Section.vi" Type="VI" URL="../Add Performance Section.vi"/>
-			<Item Name="Add Plugin Group Sections.vi" Type="VI" URL="../Add Plugin Group Sections.vi"/>
-			<Item Name="Add Plugin Group Transfer Sections.vi" Type="VI" URL="../Add Plugin Group Transfer Sections.vi"/>
-			<Item Name="Add Status Channel to All Groups.vi" Type="VI" URL="../Add Status Channel to All Groups.vi"/>
-			<Item Name="Add Status Channel to All Plugins.vi" Type="VI" URL="../Add Status Channel to All Plugins.vi"/>
-			<Item Name="Add Status Channel to All Transfers.vi" Type="VI" URL="../Add Status Channel to All Transfers.vi"/>
-			<Item Name="Add Status Channels.vi" Type="VI" URL="../Add Status Channels.vi"/>
-			<Item Name="Add Status Section.vi" Type="VI" URL="../Add Status Section.vi"/>
+			<Item Name="Channels" Type="Folder">
+				<Item Name="Add Channel to All Groups.vi" Type="VI" URL="../Add Channel to All Groups.vi"/>
+				<Item Name="Add Channel to All Plugins.vi" Type="VI" URL="../Add Channel to All Plugins.vi"/>
+				<Item Name="Add Channel to All Transfers.vi" Type="VI" URL="../Add Channel to All Transfers.vi"/>
+				<Item Name="Add Channel.vi" Type="VI" URL="../Add Channel.vi"/>
+				<Item Name="Add Data Channels.vi" Type="VI" URL="../Add Data Channels.vi"/>
+				<Item Name="Add Performance Channels.vi" Type="VI" URL="../Add Performance Channels.vi"/>
+				<Item Name="Add Status Channels.vi" Type="VI" URL="../Add Status Channels.vi"/>
+			</Item>
+			<Item Name="Sections" Type="Folder">
+				<Item Name="Add Data Section.vi" Type="VI" URL="../Add Data Section.vi"/>
+				<Item Name="Add Performance Section.vi" Type="VI" URL="../Add Performance Section.vi"/>
+				<Item Name="Add Plugin Group Transfer Sections.vi" Type="VI" URL="../Add Plugin Group Transfer Sections.vi"/>
+				<Item Name="Add Plugin Performance Sections.vi" Type="VI" URL="../Add Plugin Performance Sections.vi"/>
+				<Item Name="Add Plugin Status Sections.vi" Type="VI" URL="../Add Plugin Status Sections.vi"/>
+				<Item Name="Add Section.vi" Type="VI" URL="../Add Section.vi"/>
+				<Item Name="Add Status Section.vi" Type="VI" URL="../Add Status Section.vi"/>
+				<Item Name="Create Group Sections.vi" Type="VI" URL="../Create Group Sections.vi"/>
+				<Item Name="Create Plugin Section.vi" Type="VI" URL="../Create Plugin Section.vi"/>
+				<Item Name="Create Transfer Channels.vi" Type="VI" URL="../Create Transfer Channels.vi"/>
+				<Item Name="Create Transfer Sections.vi" Type="VI" URL="../Create Transfer Sections.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Explorer" Type="Folder">
 			<Item Name="Initialize Simple Explorer.vi" Type="VI" URL="../Initialize Simple Explorer.vi"/>
 		</Item>
 		<Item Name="Properties" Type="Folder">
 			<Item Name="Get Configuration ID.vi" Type="VI" URL="../Get Configuration ID.vi"/>
+			<Item Name="Get Configuration Session.vi" Type="VI" URL="../Get Configuration Session.vi"/>
 			<Item Name="get dsf config file path.vi" Type="VI" URL="../get dsf config file path.vi"/>
-			<Item Name="get dsf config session.vi" Type="VI" URL="../get dsf config session.vi"/>
 			<Item Name="get shared data ref.vi" Type="VI" URL="../get shared data ref.vi"/>
+			<Item Name="Set Configuration ID.vi" Type="VI" URL="../Set Configuration ID.vi"/>
 			<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
 			<Item Name="set dsf config session.vi" Type="VI" URL="../set dsf config session.vi"/>
 			<Item Name="set shared data ref.vi" Type="VI" URL="../set shared data ref.vi"/>
@@ -73,20 +81,17 @@
 		<Item Name="Add Core Dependencies.vi" Type="VI" URL="../Add Core Dependencies.vi"/>
 		<Item Name="Apply DSF Configuration to Node.vi" Type="VI" URL="../Apply DSF Configuration to Node.vi"/>
 		<Item Name="Apply DSF Configuration.vi" Type="VI" URL="../Apply DSF Configuration.vi"/>
-		<Item Name="Create Group Sections.vi" Type="VI" URL="../Create Group Sections.vi"/>
-		<Item Name="Create Transfer Channels.vi" Type="VI" URL="../Create Transfer Channels.vi"/>
-		<Item Name="Create Transfer Sections.vi" Type="VI" URL="../Create Transfer Sections.vi"/>
 		<Item Name="Delete All Children.vi" Type="VI" URL="../Delete All Children.vi"/>
 		<Item Name="distribute shared data.vi" Type="VI" URL="../distribute shared data.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
 		<Item Name="Get Component Dependencies.vi" Type="VI" URL="../Get Component Dependencies.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
 		<Item Name="Load Simple Explorer.vi" Type="VI" URL="../Load Simple Explorer.vi"/>
+		<Item Name="Power of 10.vi" Type="VI" URL="../Power of 10.vi"/>
 		<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="shared data ref.ctl" Type="VI" URL="../shared data ref.ctl"/>
 		<Item Name="shared data.ctl" Type="VI" URL="../shared data.ctl"/>
 	</Item>
-	<Item Name="Create Group Section Only.vi" Type="VI" URL="../Create Group Section Only.vi"/>
 </Library>

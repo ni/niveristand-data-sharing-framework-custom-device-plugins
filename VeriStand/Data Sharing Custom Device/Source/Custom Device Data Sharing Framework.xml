@@ -153,11 +153,41 @@
       <GUID>565c4ee4-8051-44d7-8930-f003aae83434</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\sim signals.png</Path>
+			<Path>System Explorer\Glyphs\system variable.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Status Section Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Status Channel</eng>
+        <loc>Status Channel</loc>
+      </Name>
+      <GUID>5f2c7c82-531a-4580-8cae-6bebe0aabebf</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\system variable.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Status Channel Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Performance Channel</eng>
+        <loc>Performance Channel</loc>
+      </Name>
+      <GUID>1d041229-9bda-4145-b34c-c52a5f3f4f16</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Channel Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -172,7 +202,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Section Page.vi</Path>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>

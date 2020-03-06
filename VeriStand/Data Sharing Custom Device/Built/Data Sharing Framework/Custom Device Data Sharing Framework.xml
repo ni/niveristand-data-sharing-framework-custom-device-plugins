@@ -157,7 +157,37 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Status Page.vi</Path>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Status Section Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Status Channel</eng>
+        <loc>Status Channel</loc>
+      </Name>
+      <GUID>5f2c7c82-531a-4580-8cae-6bebe0aabebf</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\system variable.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Status Channel Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Performance Channel</eng>
+        <loc>Performance Channel</loc>
+      </Name>
+      <GUID>1d041229-9bda-4145-b34c-c52a5f3f4f16</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Channel Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -173,6 +203,21 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Data Section</eng>
+        <loc>Data Section</loc>
+      </Name>
+      <GUID>bcfbab85-abaa-4292-95db-a76142f82350</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET RawDataFrame.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Data Section Page.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
