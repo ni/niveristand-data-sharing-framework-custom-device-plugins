@@ -30,13 +30,18 @@
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
 	<Item Name="Get" Type="Folder">
-		<Item Name="Get Data Channels.vi" Type="VI" URL="../../System Explorer/Get Data Channels.vi"/>
-		<Item Name="Get Data Section.vi" Type="VI" URL="../../System Explorer/Get Data Section.vi"/>
-		<Item Name="Get Groups.vi" Type="VI" URL="../../System Explorer/Get Groups.vi"/>
-		<Item Name="Get Performance Section.vi" Type="VI" URL="../../System Explorer/Get Performance Section.vi"/>
-		<Item Name="Get Plugins.vi" Type="VI" URL="../../System Explorer/Get Plugins.vi"/>
-		<Item Name="Get Status Section.vi" Type="VI" URL="../../System Explorer/Get Status Section.vi"/>
-		<Item Name="Get Transfers.vi" Type="VI" URL="../../System Explorer/Get Transfers.vi"/>
+		<Item Name="Get All Status Channels from Section.vi" Type="VI" URL="../Get All Status Channels from Section.vi"/>
+		<Item Name="Get All Status Channels.vi" Type="VI" URL="../Get All Status Channels.vi"/>
+		<Item Name="Get Data Channels.vi" Type="VI" URL="../Get Data Channels.vi"/>
+		<Item Name="Get Data Section.vi" Type="VI" URL="../Get Data Section.vi"/>
+		<Item Name="Get Groups.vi" Type="VI" URL="../Get Groups.vi"/>
+		<Item Name="Get Performance Channels.vi" Type="VI" URL="../Get Performance Channels.vi"/>
+		<Item Name="Get Performance Section.vi" Type="VI" URL="../Get Performance Section.vi"/>
+		<Item Name="Get Plugins.vi" Type="VI" URL="../Get Plugins.vi"/>
+		<Item Name="Get Section Channels.vi" Type="VI" URL="../Get Section Channels.vi"/>
+		<Item Name="Get Status Channels.vi" Type="VI" URL="../Get Status Channels.vi"/>
+		<Item Name="Get Status Section.vi" Type="VI" URL="../Get Status Section.vi"/>
+		<Item Name="Get Transfers.vi" Type="VI" URL="../Get Transfers.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Get Components Target Directory.vi" Type="VI" URL="../Get Components Target Directory.vi"/>
@@ -44,4 +49,7 @@
 		<Item Name="Get DSF Options.vi" Type="VI" URL="../Get DSF Options.vi"/>
 		<Item Name="Set DSF Options.vi" Type="VI" URL="../Set DSF Options.vi"/>
 	</Item>
+	<Item Name="Get All Performance Channels from Section.vi" Type="VI" URL="../Get All Performance Channels from Section.vi"/>
+	<Item Name="Get All Performance Channels.vi" Type="VI" URL="../Get All Performance Channels.vi"/>
+	<Item Name="Get Section.vi" Type="VI" URL="../Get Section.vi"/>
 </Library>
