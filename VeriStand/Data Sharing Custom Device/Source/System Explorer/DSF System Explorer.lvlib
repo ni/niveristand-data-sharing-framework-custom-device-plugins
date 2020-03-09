@@ -85,6 +85,7 @@
 		<Item Name="distribute shared data.vi" Type="VI" URL="../distribute shared data.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
 		<Item Name="Get Component Dependencies.vi" Type="VI" URL="../Get Component Dependencies.vi"/>
+		<Item Name="Get Target Name.vi" Type="VI" URL="../Get Target Name.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
 		<Item Name="Load Simple Explorer.vi" Type="VI" URL="../Load Simple Explorer.vi"/>
 		<Item Name="Power of 10.vi" Type="VI" URL="../Power of 10.vi"/>
