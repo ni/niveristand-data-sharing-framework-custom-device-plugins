@@ -10,9 +10,6 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Framework" Type="Folder">
-				<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Classes/Framework Status/Framework Status.lvclass"/>
-			</Item>
 			<Item Name="Hardware Info" Type="Folder">
 				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
 				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
@@ -26,6 +23,7 @@
 			</Item>
 			<Item Name="Pointers" Type="Folder">
 				<Item Name="Error Pointer.lvclass" Type="LVClass" URL="../Classes/Pointers/Error/Error Pointer.lvclass"/>
+				<Item Name="Status Pointer.lvclass" Type="LVClass" URL="../Classes/Status/Status Pointer.lvclass"/>
 				<Item Name="Timing Status Pointer.lvclass" Type="LVClass" URL="../Classes/Timing Status/Timing Status Pointer.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
@@ -112,9 +110,6 @@
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Classes/Buffer Converter/Buffer Converter.lvclass"/>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
-			<Item Name="Pointers" Type="Folder">
-				<Item Name="Status Pointer.lvclass" Type="LVClass" URL="../Classes/Status/Status Pointer.lvclass"/>
-			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Plugin Thread.lvclass"/>
 				<Item Name="Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Thread.lvclass"/>
@@ -123,6 +118,7 @@
 			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Classes/Buffer/Buffer.lvclass"/>
 			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Classes/Buffers/Buffers.lvclass"/>
 			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Classes/Configuration/Configuration Session.lvclass"/>
+			<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Classes/Framework Status/Framework Status.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Classes/Framework/Framework.lvclass"/>
 			<Item Name="Performance.lvclass" Type="LVClass" URL="../Classes/Performance/Performance.lvclass"/>
 			<Item Name="Transfer Group.lvclass" Type="LVClass" URL="../Classes/Transfer Group/Transfer Group.lvclass"/>
