@@ -26,7 +26,6 @@
 			</Item>
 			<Item Name="Pointers" Type="Folder">
 				<Item Name="Error Pointer.lvclass" Type="LVClass" URL="../Classes/Pointers/Error/Error Pointer.lvclass"/>
-				<Item Name="Status Pointer.lvclass" Type="LVClass" URL="../Classes/Status/Status Pointer.lvclass"/>
 				<Item Name="Timing Status Pointer.lvclass" Type="LVClass" URL="../Classes/Timing Status/Timing Status Pointer.lvclass"/>
 			</Item>
 			<Item Name="Pool" Type="Folder">
@@ -112,6 +111,9 @@
 			<Item Name="Components" Type="Folder">
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Classes/Buffer Converter/Buffer Converter.lvclass"/>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Classes/Transceiver/Transceiver.lvclass"/>
+			</Item>
+			<Item Name="Pointers" Type="Folder">
+				<Item Name="Status Pointer.lvclass" Type="LVClass" URL="../Classes/Status/Status Pointer.lvclass"/>
 			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Plugin Thread.lvclass"/>
