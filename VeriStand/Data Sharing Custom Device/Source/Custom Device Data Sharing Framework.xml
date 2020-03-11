@@ -138,7 +138,7 @@
       <GUID>6256d297-6817-4828-920b-1215e79da74f</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\channel.png</Path>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -168,7 +168,7 @@
       <GUID>5f2c7c82-531a-4580-8cae-6bebe0aabebf</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\system variable.png</Path>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>

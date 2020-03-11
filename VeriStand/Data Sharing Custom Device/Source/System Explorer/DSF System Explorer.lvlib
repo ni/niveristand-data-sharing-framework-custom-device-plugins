@@ -63,7 +63,9 @@
 			<Item Name="Set Configuration ID.vi" Type="VI" URL="../Set Configuration ID.vi"/>
 			<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
 			<Item Name="set dsf config session.vi" Type="VI" URL="../set dsf config session.vi"/>
+			<Item Name="Set Launch Data Viewer Property.vi" Type="VI" URL="../../Shared/Set Launch Data Viewer Property.vi"/>
 			<Item Name="set shared data ref.vi" Type="VI" URL="../set shared data ref.vi"/>
+			<Item Name="Set Show Error Dialog Property.vi" Type="VI" URL="../../Shared/Set Show Error Dialog Property.vi"/>
 		</Item>
 		<Item Name="Shared Data" Type="Folder">
 			<Item Name="DVR" Type="Folder">

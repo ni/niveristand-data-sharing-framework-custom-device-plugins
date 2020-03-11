@@ -25,7 +25,9 @@
 			<Item Name="dsf config file property name.vi" Type="VI" URL="../../System Explorer/dsf config file property name.vi"/>
 			<Item Name="dsf config file target name.vi" Type="VI" URL="../../System Explorer/dsf config file target name.vi"/>
 			<Item Name="dsf config session property name.vi" Type="VI" URL="../../System Explorer/dsf config session property name.vi"/>
+			<Item Name="dsf launch viewer property name.vi" Type="VI" URL="../../System Explorer/dsf launch viewer property name.vi"/>
 			<Item Name="dsf shared data dvr property name.vi" Type="VI" URL="../../System Explorer/dsf shared data dvr property name.vi"/>
+			<Item Name="dsf show error dialog property name.vi" Type="VI" URL="../../System Explorer/dsf show error dialog property name.vi"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
@@ -51,6 +53,8 @@
 		<Item Name="Get Components Target Directory.vi" Type="VI" URL="../Get Components Target Directory.vi"/>
 		<Item Name="Get Configuration File Target Path.vi" Type="VI" URL="../Get Configuration File Target Path.vi"/>
 		<Item Name="Get DSF Options.vi" Type="VI" URL="../Get DSF Options.vi"/>
+		<Item Name="Get Launch Data Viewer Property.vi" Type="VI" URL="../Get Launch Data Viewer Property.vi"/>
+		<Item Name="Get Show Error Dialog Property.vi" Type="VI" URL="../Get Show Error Dialog Property.vi"/>
 		<Item Name="Set DSF Options.vi" Type="VI" URL="../Set DSF Options.vi"/>
 	</Item>
 </Library>
