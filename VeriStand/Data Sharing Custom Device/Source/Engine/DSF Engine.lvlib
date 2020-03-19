@@ -11,6 +11,9 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Error Display.vi" Type="VI" URL="../Error Display.vi"/>
 	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="State Data.ctl" Type="VI" URL="../State Data.ctl"/>
+	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 	<Item Name="VeriStand DSF.lvclass" Type="LVClass" URL="../VeriStand DSF/VeriStand DSF.lvclass"/>
 </Library>
