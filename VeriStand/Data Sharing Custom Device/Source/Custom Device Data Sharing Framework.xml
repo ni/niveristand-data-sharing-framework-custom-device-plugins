@@ -192,8 +192,8 @@
     </Page>
     <Page>
       <Name>
-        <eng>Performance</eng>
-        <loc>Performance</loc>
+        <eng>Monitoring</eng>
+        <loc>Monitoring</loc>
       </Name>
       <GUID>fc8a3050-8455-4f24-acdb-50198eb01274</GUID>
       <Glyph>
@@ -202,7 +202,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Page.vi</Path>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Monitoring Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>

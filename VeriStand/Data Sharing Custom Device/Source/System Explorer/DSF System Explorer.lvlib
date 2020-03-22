@@ -17,8 +17,8 @@
 			<Item Name="Data Section Page.vi" Type="VI" URL="../Data Section Page.vi"/>
 			<Item Name="Framework Page.vi" Type="VI" URL="../Framework Page.vi"/>
 			<Item Name="Group Page.vi" Type="VI" URL="../Group Page.vi"/>
+			<Item Name="Monitoring Page.vi" Type="VI" URL="../Monitoring Page.vi"/>
 			<Item Name="Performance Channel Page.vi" Type="VI" URL="../Performance Channel Page.vi"/>
-			<Item Name="Performance Page.vi" Type="VI" URL="../Performance Page.vi"/>
 			<Item Name="Plugin Page.vi" Type="VI" URL="../Plugin Page.vi"/>
 			<Item Name="Status Channel Page.vi" Type="VI" URL="../Status Channel Page.vi"/>
 			<Item Name="Status Section Page.vi" Type="VI" URL="../Status Section Page.vi"/>
@@ -35,12 +35,12 @@
 				<Item Name="Add Channel to All Transfers.vi" Type="VI" URL="../Add Channel to All Transfers.vi"/>
 				<Item Name="Add Channel.vi" Type="VI" URL="../Add Channel.vi"/>
 				<Item Name="Add Data Channels.vi" Type="VI" URL="../Add Data Channels.vi"/>
-				<Item Name="Add Performance Channels.vi" Type="VI" URL="../Add Performance Channels.vi"/>
+				<Item Name="Add Monitoring Channels.vi" Type="VI" URL="../Add Monitoring Channels.vi"/>
 				<Item Name="Add Status Channels.vi" Type="VI" URL="../Add Status Channels.vi"/>
 			</Item>
 			<Item Name="Sections" Type="Folder">
 				<Item Name="Add Data Section.vi" Type="VI" URL="../Add Data Section.vi"/>
-				<Item Name="Add Performance Section.vi" Type="VI" URL="../Add Performance Section.vi"/>
+				<Item Name="Add Monitoring Section.vi" Type="VI" URL="../Add Monitoring Section.vi"/>
 				<Item Name="Add Plugin Group Transfer Sections.vi" Type="VI" URL="../Add Plugin Group Transfer Sections.vi"/>
 				<Item Name="Add Plugin Performance Sections.vi" Type="VI" URL="../Add Plugin Performance Sections.vi"/>
 				<Item Name="Add Plugin Status Sections.vi" Type="VI" URL="../Add Plugin Status Sections.vi"/>
