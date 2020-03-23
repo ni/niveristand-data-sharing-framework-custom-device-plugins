@@ -55,6 +55,11 @@
 		<Item Name="Explorer" Type="Folder">
 			<Item Name="Initialize Simple Explorer.vi" Type="VI" URL="../Initialize Simple Explorer.vi"/>
 		</Item>
+		<Item Name="Progress Window" Type="Folder">
+			<Item Name="New Progress Window.vi" Type="VI" URL="../New Progress Window.vi"/>
+			<Item Name="Progress Window.vi" Type="VI" URL="../Progress Window.vi"/>
+			<Item Name="Update Progress Window.vi" Type="VI" URL="../Update Progress Window.vi"/>
+		</Item>
 		<Item Name="Properties" Type="Folder">
 			<Item Name="Get Configuration ID.vi" Type="VI" URL="../Get Configuration ID.vi"/>
 			<Item Name="Get Configuration Session.vi" Type="VI" URL="../Get Configuration Session.vi"/>
@@ -94,6 +99,7 @@
 		<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="progress window data.ctl" Type="VI" URL="../progress window data.ctl"/>
 		<Item Name="shared data ref.ctl" Type="VI" URL="../shared data ref.ctl"/>
 		<Item Name="shared data.ctl" Type="VI" URL="../shared data.ctl"/>
 	</Item>
