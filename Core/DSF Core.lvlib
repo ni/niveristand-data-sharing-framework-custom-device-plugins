@@ -40,6 +40,7 @@
 				<Item Name="Logging Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Logging/Logging Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
+			<Item Name="Buffers Map.lvclass" Type="LVClass" URL="../Classes/Buffer Map/Buffers Map.lvclass"/>
 			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
@@ -149,6 +150,5 @@
 			<Item Name="DSF UI Pointers.ctl" Type="VI" URL="../Typedefs/DSF UI Pointers.ctl"/>
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Typedefs/DSF Version Info.ctl"/>
 		</Item>
-		<Item Name="VIs" Type="Folder"/>
 	</Item>
 </Library>
