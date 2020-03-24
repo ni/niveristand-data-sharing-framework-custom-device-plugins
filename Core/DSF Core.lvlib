@@ -149,6 +149,5 @@
 			<Item Name="DSF UI Pointers.ctl" Type="VI" URL="../Typedefs/DSF UI Pointers.ctl"/>
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Typedefs/DSF Version Info.ctl"/>
 		</Item>
-		<Item Name="VIs" Type="Folder"/>
 	</Item>
 </Library>
