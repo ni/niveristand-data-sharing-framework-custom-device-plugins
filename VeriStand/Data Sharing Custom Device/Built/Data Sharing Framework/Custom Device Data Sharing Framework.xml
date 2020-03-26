@@ -138,7 +138,7 @@
       <GUID>6256d297-6817-4828-920b-1215e79da74f</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\channel.png</Path>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -168,7 +168,7 @@
       <GUID>5f2c7c82-531a-4580-8cae-6bebe0aabebf</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\system variable.png</Path>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -192,8 +192,8 @@
     </Page>
     <Page>
       <Name>
-        <eng>Performance</eng>
-        <loc>Performance</loc>
+        <eng>Monitoring</eng>
+        <loc>Monitoring</loc>
       </Name>
       <GUID>fc8a3050-8455-4f24-acdb-50198eb01274</GUID>
       <Glyph>
@@ -202,7 +202,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Performance Page.vi</Path>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Monitoring Page.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
