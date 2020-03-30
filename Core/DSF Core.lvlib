@@ -134,6 +134,8 @@
 				<Item Name="DSF Engine Transfer Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Transfer Configuration.ctl"/>
 				<Item Name="DSF Engine Transfer Group Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Transfer Group Configuration.ctl"/>
 			</Item>
+			<Item Name="DSF Buffer Subset Descriptor.ctl" Type="VI" URL="../Classes/Thread/Data Server/DSF Buffer Subset Descriptor.ctl"/>
+			<Item Name="DSF Buffer Type.ctl" Type="VI" URL="../Typedefs/DSF Buffer Type.ctl"/>
 			<Item Name="DSF Byte Order.ctl" Type="VI" URL="../Typedefs/DSF Byte Order.ctl"/>
 			<Item Name="DSF Channel Buffer Descriptor.ctl" Type="VI" URL="../Typedefs/DSF Channel Buffer Descriptor.ctl"/>
 			<Item Name="DSF Channel Info.ctl" Type="VI" URL="../Typedefs/DSF Channel Info.ctl"/>
@@ -151,6 +153,11 @@
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Typedefs/DSF Version Info.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
+			<Item Name="Viewer API" Type="Folder">
+				<Item Name="Connect to Data Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Connect to Data Server.vi"/>
+				<Item Name="Read Buffer Data from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Read Buffer Data from Server.vi"/>
+				<Item Name="Request Buffer from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Request Buffer from Server.vi"/>
+			</Item>
 			<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration/Edit Configuration File.vi"/>
 		</Item>
 	</Item>
