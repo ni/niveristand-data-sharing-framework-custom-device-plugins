@@ -40,7 +40,6 @@
 				<Item Name="Logging Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Logging/Logging Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
-			<Item Name="Buffers Map.lvclass" Type="LVClass" URL="../Classes/Buffer Map/Buffers Map.lvclass"/>
 			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
@@ -158,7 +157,9 @@
 				<Item Name="Read Buffer Data from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Read Buffer Data from Server.vi"/>
 				<Item Name="Request Buffer from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Request Buffer from Server.vi"/>
 			</Item>
+			<Item Name="Data Viewer 2.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer 2.vi"/>
 			<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration/Edit Configuration File.vi"/>
+			<Item Name="Temp Viewer.vi" Type="VI" URL="../VIs/Temp Viewer.vi"/>
 		</Item>
 	</Item>
 </Library>

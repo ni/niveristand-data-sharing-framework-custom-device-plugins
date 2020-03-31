@@ -19,6 +19,7 @@
 			<Item Name="Configuration Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Configuration Tests/Configuration Tests.lvclass"/>
 			<Item Name="Framework Status Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Framework Status Tests/Framework Status Tests.lvclass"/>
 			<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
+			<Item Name="Framework Test2.vi" Type="VI" URL="../Framework Test2.vi"/>
 			<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Performance Tests/Performance Tests.lvclass"/>
 			<Item Name="Status Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Status Tests/Status Tests.lvclass"/>
 			<Item Name="test.dsf" Type="Document" URL="../Tests/Classes/Configuration Tests/Test File/test.dsf"/>
