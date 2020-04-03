@@ -62,7 +62,6 @@
 					</Item>
 					<Item Name="Add Buffer Channels.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Buffer Channels.vi"/>
 					<Item Name="Add Buffer Data to Variant.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Buffer Data to Variant.vi"/>
-					<Item Name="Add Buffers with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Buffers with Children.vi"/>
 					<Item Name="Add Item to Tree.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Item to Tree.vi"/>
 					<Item Name="Add Item with Setting.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Item with Setting.vi"/>
 					<Item Name="Add Plugin with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Plugin with Children.vi"/>
@@ -70,6 +69,7 @@
 					<Item Name="Add Transfer Group with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer Group with Children.vi"/>
 					<Item Name="Add Transfer Group.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer Group.vi"/>
 					<Item Name="Add Transfer with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfer with Children.vi"/>
+					<Item Name="Add Transfers Buffers with Children.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Transfers Buffers with Children.vi"/>
 					<Item Name="Clear Tree.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Clear Tree.vi"/>
 					<Item Name="Create Framework.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Create Framework.vi"/>
 					<Item Name="Create New Tree Item.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Create New Tree Item.vi"/>
@@ -94,8 +94,11 @@
 					<Item Name="Load Framework.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Load Framework.vi"/>
 					<Item Name="No File Loaded Message.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/No File Loaded Message.vi"/>
 					<Item Name="Prepare for Close.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Prepare for Close.vi"/>
+					<Item Name="Queue Data.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Queue Data.ctl"/>
+					<Item Name="Request Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Request Buffer.vi"/>
 					<Item Name="Set UI Busy State.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Set UI Busy State.vi"/>
 					<Item Name="View Mode.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/View Mode.ctl"/>
+					<Item Name="Viewer Connect to Server.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Viewer Connect to Server.vi"/>
 					<Item Name="Window State.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
 				</Item>
 				<Item Name="Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer.vi"/>
@@ -157,8 +160,8 @@
 				<Item Name="Read Buffer Data from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Read Buffer Data from Server.vi"/>
 				<Item Name="Request Buffer from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Request Buffer from Server.vi"/>
 			</Item>
-			<Item Name="Data Viewer 2.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer 2.vi"/>
 			<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration/Edit Configuration File.vi"/>
+			<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Launch Data Viewer.vi"/>
 			<Item Name="Temp Viewer.vi" Type="VI" URL="../VIs/Temp Viewer.vi"/>
 		</Item>
 	</Item>
