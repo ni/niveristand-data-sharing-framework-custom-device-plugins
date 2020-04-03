@@ -101,7 +101,6 @@
 					<Item Name="Viewer Connect to Server.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Viewer Connect to Server.vi"/>
 					<Item Name="Window State.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
 				</Item>
-				<Item Name="Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer.vi"/>
 			</Item>
 			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
 		</Item>
@@ -160,6 +159,7 @@
 				<Item Name="Read Buffer Data from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Read Buffer Data from Server.vi"/>
 				<Item Name="Request Buffer from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Request Buffer from Server.vi"/>
 			</Item>
+			<Item Name="Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer.vi"/>
 			<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration/Edit Configuration File.vi"/>
 			<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Launch Data Viewer.vi"/>
 			<Item Name="Temp Viewer.vi" Type="VI" URL="../VIs/Temp Viewer.vi"/>
