@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Dynamically Called" Type="Folder">
 		<Item Name="Actions" Type="Folder">
+			<Item Name="ActionVIOnDownload.vi" Type="VI" URL="../ActionVIOnDownload.vi"/>
 			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
 			<Item Name="ActionVIOnSave.vi" Type="VI" URL="../ActionVIOnSave.vi"/>
 		</Item>
