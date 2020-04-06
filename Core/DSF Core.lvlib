@@ -88,15 +88,24 @@
 					<Item Name="Application Data.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Application Data.ctl"/>
 					<Item Name="Create Menus.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Create Menus.vi"/>
 					<Item Name="Display Tree Item.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Display Tree Item.vi"/>
+					<Item Name="Highlight Text.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Highlight Text.vi"/>
+					<Item Name="Initialize Strings.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Initialize Strings.vi"/>
 					<Item Name="Initialize Tree.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Initialize Tree.vi"/>
 					<Item Name="Initialize UI.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Initialize UI.vi"/>
+					<Item Name="Initialize Values Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Initialize Values Buffer.vi"/>
 					<Item Name="Load and Open All Items.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Load and Open All Items.vi"/>
 					<Item Name="Load Framework.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Load Framework.vi"/>
 					<Item Name="No File Loaded Message.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/No File Loaded Message.vi"/>
 					<Item Name="Prepare for Close.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Prepare for Close.vi"/>
 					<Item Name="Queue Data.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Queue Data.ctl"/>
 					<Item Name="Request Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Request Buffer.vi"/>
+					<Item Name="Reset Values String Position.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Reset Values String Position.vi"/>
+					<Item Name="Send Buffer Data to Reader.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Send Buffer Data to Reader.vi"/>
 					<Item Name="Set UI Busy State.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Set UI Busy State.vi"/>
+					<Item Name="Update Values Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Update Values Buffer.vi"/>
+					<Item Name="Values Channels.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Values Channels.ctl"/>
+					<Item Name="Values String Changed.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Values String Changed.vi"/>
+					<Item Name="Values String Mouse Down.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Values String Mouse Down.vi"/>
 					<Item Name="View Mode.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/View Mode.ctl"/>
 					<Item Name="Viewer Connect to Server.vi" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Viewer Connect to Server.vi"/>
 					<Item Name="Window State.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
