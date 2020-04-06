@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Dynamically Called" Type="Folder">
 		<Item Name="Actions" Type="Folder">
+			<Item Name="ActionVIOnDownload.vi" Type="VI" URL="../ActionVIOnDownload.vi"/>
 			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
 			<Item Name="ActionVIOnSave.vi" Type="VI" URL="../ActionVIOnSave.vi"/>
 		</Item>
@@ -68,7 +69,6 @@
 			<Item Name="Set Configuration ID.vi" Type="VI" URL="../Set Configuration ID.vi"/>
 			<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
 			<Item Name="set dsf config session.vi" Type="VI" URL="../set dsf config session.vi"/>
-			<Item Name="Set Launch Data Viewer Property.vi" Type="VI" URL="../../Shared/Set Launch Data Viewer Property.vi"/>
 			<Item Name="set shared data ref.vi" Type="VI" URL="../set shared data ref.vi"/>
 			<Item Name="Set Show Error Dialog Property.vi" Type="VI" URL="../../Shared/Set Show Error Dialog Property.vi"/>
 		</Item>
@@ -92,6 +92,7 @@
 		<Item Name="distribute shared data.vi" Type="VI" URL="../distribute shared data.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
 		<Item Name="Get Component Dependencies.vi" Type="VI" URL="../Get Component Dependencies.vi"/>
+		<Item Name="Get Target IP Address.vi" Type="VI" URL="../Get Target IP Address.vi"/>
 		<Item Name="Get Target Name.vi" Type="VI" URL="../Get Target Name.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
 		<Item Name="Load Simple Explorer.vi" Type="VI" URL="../Load Simple Explorer.vi"/>
