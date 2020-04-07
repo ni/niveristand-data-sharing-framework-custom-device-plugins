@@ -65,38 +65,25 @@
 			<Item Name="Get Configuration ID.vi" Type="VI" URL="../Get Configuration ID.vi"/>
 			<Item Name="Get Configuration Session.vi" Type="VI" URL="../Get Configuration Session.vi"/>
 			<Item Name="get dsf config file path.vi" Type="VI" URL="../get dsf config file path.vi"/>
-			<Item Name="get shared data ref.vi" Type="VI" URL="../get shared data ref.vi"/>
 			<Item Name="Set Configuration ID.vi" Type="VI" URL="../Set Configuration ID.vi"/>
 			<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
 			<Item Name="set dsf config session.vi" Type="VI" URL="../set dsf config session.vi"/>
-			<Item Name="set shared data ref.vi" Type="VI" URL="../set shared data ref.vi"/>
 			<Item Name="Set Show Error Dialog Property.vi" Type="VI" URL="../../Shared/Set Show Error Dialog Property.vi"/>
-		</Item>
-		<Item Name="Shared Data" Type="Folder">
-			<Item Name="DVR" Type="Folder">
-				<Item Name="Create Shared Data DVR.vi" Type="VI" URL="../Create Shared Data DVR.vi"/>
-				<Item Name="Destroy Shared Data DVR.vi" Type="VI" URL="../Destroy Shared Data DVR.vi"/>
-				<Item Name="Read Shared Data DVR.vi" Type="VI" URL="../Read Shared Data DVR.vi"/>
-				<Item Name="Write Shared Data DVR.vi" Type="VI" URL="../Write Shared Data DVR.vi"/>
-			</Item>
-			<Item Name="create shared data.vi" Type="VI" URL="../create shared data.vi"/>
-			<Item Name="read shared data.vi" Type="VI" URL="../read shared data.vi"/>
-			<Item Name="write shared data.vi" Type="VI" URL="../write shared data.vi"/>
 		</Item>
 		<Item Name="Add Component Dependencies.vi" Type="VI" URL="../Add Component Dependencies.vi"/>
 		<Item Name="Add Config File Dependency.vi" Type="VI" URL="../Add Config File Dependency.vi"/>
 		<Item Name="Add Core Dependencies.vi" Type="VI" URL="../Add Core Dependencies.vi"/>
 		<Item Name="Apply DSF Configuration to Node.vi" Type="VI" URL="../Apply DSF Configuration to Node.vi"/>
 		<Item Name="Apply DSF Configuration.vi" Type="VI" URL="../Apply DSF Configuration.vi"/>
+		<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../Base 10 Digit Count.vi"/>
 		<Item Name="Delete All Children.vi" Type="VI" URL="../Delete All Children.vi"/>
-		<Item Name="distribute shared data.vi" Type="VI" URL="../distribute shared data.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
 		<Item Name="Get Component Dependencies.vi" Type="VI" URL="../Get Component Dependencies.vi"/>
+		<Item Name="Get Framework Node.vi" Type="VI" URL="../Get Framework Node.vi"/>
 		<Item Name="Get Target IP Address.vi" Type="VI" URL="../Get Target IP Address.vi"/>
 		<Item Name="Get Target Name.vi" Type="VI" URL="../Get Target Name.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
 		<Item Name="Load Simple Explorer.vi" Type="VI" URL="../Load Simple Explorer.vi"/>
-		<Item Name="Power of 10.vi" Type="VI" URL="../Power of 10.vi"/>
 		<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
