@@ -111,6 +111,7 @@
 					<Item Name="Window State.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
 				</Item>
 			</Item>
+			<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../VIs/Base 10 Digit Count.vi"/>
 			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
 		</Item>
 	</Item>
@@ -171,8 +172,6 @@
 			<Item Name="Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer.vi"/>
 			<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration/Edit Configuration File.vi"/>
 			<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Launch Data Viewer.vi"/>
-			<Item Name="Temp Viewer.vi" Type="VI" URL="../VIs/Temp Viewer.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../VIs/Base 10 Digit Count.vi"/>
 </Library>
