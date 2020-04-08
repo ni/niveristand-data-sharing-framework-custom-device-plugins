@@ -121,10 +121,6 @@
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Classes/Buffer Converter/Buffer Converter.lvclass"/>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
-			<Item Name="Configuration" Type="Folder">
-				<Item Name="Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Temp/Configuration.lvclass"/>
-				<Item Name="JSON Builder.lvclass" Type="LVClass" URL="../Classes/JSON Builder/JSON Builder.lvclass"/>
-			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Plugin Thread.lvclass"/>
 				<Item Name="Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Thread.lvclass"/>
