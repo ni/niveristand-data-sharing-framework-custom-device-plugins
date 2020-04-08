@@ -26,7 +26,6 @@
 			<Item Name="Transfer Page.vi" Type="VI" URL="../Transfer Page.vi"/>
 		</Item>
 		<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
-		<Item Name="Simple Explorer.vi" Type="VI" URL="../Simple Explorer.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Channels/Sections" Type="Folder">
@@ -37,14 +36,12 @@
 				<Item Name="Add Channel.vi" Type="VI" URL="../Add Channel.vi"/>
 				<Item Name="Add Data Channels.vi" Type="VI" URL="../Add Data Channels.vi"/>
 				<Item Name="Add Monitoring Channels.vi" Type="VI" URL="../Add Monitoring Channels.vi"/>
-				<Item Name="Add Status Channels.vi" Type="VI" URL="../Add Status Channels.vi"/>
 			</Item>
 			<Item Name="Sections" Type="Folder">
 				<Item Name="Add Data Section.vi" Type="VI" URL="../Add Data Section.vi"/>
 				<Item Name="Add Monitoring Section.vi" Type="VI" URL="../Add Monitoring Section.vi"/>
 				<Item Name="Add Plugin Group Transfer Sections.vi" Type="VI" URL="../Add Plugin Group Transfer Sections.vi"/>
 				<Item Name="Add Plugin Performance Sections.vi" Type="VI" URL="../Add Plugin Performance Sections.vi"/>
-				<Item Name="Add Plugin Status Sections.vi" Type="VI" URL="../Add Plugin Status Sections.vi"/>
 				<Item Name="Add Section.vi" Type="VI" URL="../Add Section.vi"/>
 				<Item Name="Add Status Section.vi" Type="VI" URL="../Add Status Section.vi"/>
 				<Item Name="Create Group Sections.vi" Type="VI" URL="../Create Group Sections.vi"/>
@@ -52,9 +49,6 @@
 				<Item Name="Create Transfer Channels.vi" Type="VI" URL="../Create Transfer Channels.vi"/>
 				<Item Name="Create Transfer Sections.vi" Type="VI" URL="../Create Transfer Sections.vi"/>
 			</Item>
-		</Item>
-		<Item Name="Explorer" Type="Folder">
-			<Item Name="Initialize Simple Explorer.vi" Type="VI" URL="../Initialize Simple Explorer.vi"/>
 		</Item>
 		<Item Name="Progress Window" Type="Folder">
 			<Item Name="New Progress Window.vi" Type="VI" URL="../New Progress Window.vi"/>
@@ -83,7 +77,6 @@
 		<Item Name="Get Target IP Address.vi" Type="VI" URL="../Get Target IP Address.vi"/>
 		<Item Name="Get Target Name.vi" Type="VI" URL="../Get Target Name.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
-		<Item Name="Load Simple Explorer.vi" Type="VI" URL="../Load Simple Explorer.vi"/>
 		<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
