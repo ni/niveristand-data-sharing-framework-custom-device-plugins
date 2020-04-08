@@ -174,4 +174,5 @@
 			<Item Name="Temp Viewer.vi" Type="VI" URL="../VIs/Temp Viewer.vi"/>
 		</Item>
 	</Item>
+	<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../VIs/Base 10 Digit Count.vi"/>
 </Library>

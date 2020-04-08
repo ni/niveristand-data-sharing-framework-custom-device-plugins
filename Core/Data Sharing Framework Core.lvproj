@@ -21,7 +21,6 @@
 			<Item Name="Framework Test.vi" Type="VI" URL="../Framework Test.vi"/>
 			<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Performance Tests/Performance Tests.lvclass"/>
 			<Item Name="Status Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Status Tests/Status Tests.lvclass"/>
-			<Item Name="String Event Test.vi" Type="VI" URL="../../VeriStand/Data Sharing Custom Device/Source/System Explorer/String Event Test.vi"/>
 			<Item Name="test.dsf" Type="Document" URL="../Tests/Classes/Configuration Tests/Test File/test.dsf"/>
 			<Item Name="Transfer Group Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Transfer Group Tests/Transfer Group Tests.lvclass"/>
 		</Item>
