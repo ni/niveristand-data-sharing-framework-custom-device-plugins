@@ -1,1 +1,174 @@
-{"dsfversion":{"major":1,"minor":0,"fix":0,"build":"alpha"},"version":{"major":1,"minor":0,"fix":0,"build":""},"plugins":[{"id":"UDP","values":{"components":["UDP"],"timing":{"priority":100,"decimation":1,"offset":0},"group ids":["UDP$Group0#00000000"],"settings id":"","threads":[{"buffer converter settings":[],"transceiver settings":[{"key":"Local Port","value":"50000"}],"custom settings":[],"processor":-2,"priority offset":0},{"buffer converter settings":[],"transceiver settings":[{"key":"Local Port","value":"50001"}],"custom settings":[],"processor":-2,"priority offset":0},{"buffer converter settings":[],"transceiver settings":[{"key":"Local Port","value":"50002"}],"custom settings":[],"processor":-2,"priority offset":0},{"buffer converter settings":[],"transceiver settings":[{"key":"Local Port","value":"50003"}],"custom settings":[],"processor":-2,"priority offset":0}]}}],"groups":[{"id":"UDP$Group0#00000000","values":{"direction":0,"timing":{"priority":100,"decimation":1,"offset":0},"transfer ids":["UDP$Group0#00000000$Transfer0#00000000"],"settings id":"","thread":0,"timeout behavior":0}}],"transfers":[{"id":"UDP$Group0#00000000$Transfer0#00000000","values":{"byte order":0,"channel ids":["UDP$Group0#00000000$Transfer0#00000000$Temp#00000000","UDP$Group0#00000000$Transfer0#00000000$RPM#00000001","UDP$Group0#00000000$Transfer0#00000000$LED#00000002","UDP$Group0#00000000$Transfer0#00000000$Count#00000003"],"settings id":"setting0"}}],"channels":[{"id":"UDP$Group0#00000000$Transfer0#00000000$Count#00000003","values":{"string buffer offset":792,"string data type":10,"engine data type":2,"settings id":"","units":"V"}},{"id":"UDP$Group0#00000000$Transfer0#00000000$LED#00000002","values":{"string buffer offset":12,"string data type":0,"engine data type":2,"settings id":"","units":"V"}},{"id":"UDP$Group0#00000000$Transfer0#00000000$RPM#00000001","values":{"string buffer offset":4,"string data type":2,"engine data type":2,"settings id":"","units":"V"}},{"id":"UDP$Group0#00000000$Transfer0#00000000$Temp#00000000","values":{"string buffer offset":0,"string data type":1,"engine data type":2,"settings id":"","units":"V"}}],"settings":[{"id":"setting0","values":[{"key":"Destination Port","value":"60000"},{"key":"Destination Address","value":"localhost"}]}]}
+{
+	"dsfversion": {
+		"major": 1,
+		"minor": 0,
+		"fix": 0,
+		"build": "alpha"
+	},
+	"version": {asdasd
+		"major": 1,
+		"minor": 0,
+		"fix": 0,
+		"build": ""
+	},
+	"plugins": [
+		{
+			"id": "UDP",
+			"values": {
+				"components": [
+					"UDP"
+				],
+				"timing": {
+					"priority": 100,
+					"decimation": 1,
+					"offset": 0
+				},
+				"group ids": [
+					"UDP$Group0#00000000"
+				],
+				"settings id": "",
+				"threads": [
+					{
+						"buffer converter settings": [],
+						"transceiver settings": [
+							{
+								"key": "Local Port",
+								"value": "50000"
+							}
+						],
+						"custom settings": [],
+						"processor": -2,
+						"priority offset": 0
+					},
+					{
+						"buffer converter settings": [],
+						"transceiver settings": [
+							{
+								"key": "Local Port",
+								"value": "50001"
+							}
+						],
+						"custom settings": [],
+						"processor": -2,
+						"priority offset": 0
+					},
+					{
+						"buffer converter settings": [],
+						"transceiver settings": [
+							{
+								"key": "Local Port",
+								"value": "50002"
+							}
+						],
+						"custom settings": [],
+						"processor": -2,
+						"priority offset": 0
+					},
+					{
+						"buffer converter settings": [],
+						"transceiver settings": [
+							{
+								"key": "Local Port",
+								"value": "50003"
+							}
+						],
+						"custom settings": [],
+						"processor": -2,
+						"priority offset": 0
+					}
+				]
+			}
+		}
+	],
+	"groups": [
+		{
+			"id": "UDP$Group0#00000000",
+			"values": {
+				"direction": 0,
+				"timing": {
+					"priority": 100,
+					"decimation": 1,
+					"offset": 0
+				},
+				"transfer ids": [
+					"UDP$Group0#00000000$Transfer0#00000000"
+				],
+				"settings id": "",
+				"thread": 0,
+				"timeout behavior": 0
+			}
+		}
+	],
+	"transfers": [
+		{
+			"id": "UDP$Group0#00000000$Transfer0#00000000",
+			"values": {
+				"byte order": 0,
+				"channel ids": [
+					"UDP$Group0#00000000$Transfer0#00000000$Temp#00000000",
+					"UDP$Group0#00000000$Transfer0#00000000$RPM#00000001",
+					"UDP$Group0#00000000$Transfer0#00000000$LED#00000002",
+					"UDP$Group0#00000000$Transfer0#00000000$Count#00000003"
+				],
+				"settings id": "setting0"
+			}
+		}
+	],
+	"channels": [
+		{
+			"id": "UDP$Group0#00000000$Transfer0#00000000$Count#00000003",
+			"values": {
+				"string buffer offset": 792,
+				"string data type": 10,
+				"engine data type": 2,
+				"settings id": "",
+				"units": "V"
+			}
+		},
+		{
+			"id": "UDP$Group0#00000000$Transfer0#00000000$LED#00000002",
+			"values": {
+				"string buffer offset": 12,
+				"string data type": 0,
+				"engine data type": 2,
+				"settings id": "",
+				"units": "V"
+			}
+		},
+		{
+			"id": "UDP$Group0#00000000$Transfer0#00000000$RPM#00000001",
+			"values": {
+				"string buffer offset": 4,
+				"string data type": 2,
+				"engine data type": 2,
+				"settings id": "",
+				"units": "V"
+			}
+		},
+		{
+			"id": "UDP$Group0#00000000$Transfer0#00000000$Temp#00000000",
+			"values": {
+				"string buffer offset": 0,
+				"string data type": 1,
+				"engine data type": 2,
+				"settings id": "",
+				"units": "V"
+			}
+		}
+	],
+	"settings": [
+		{
+			"id": "setting0",
+			"values": [
+				{
+					"key": "Destination Port",
+					"value": "60000"
+				},
+				{
+					"key": "Destination Address",
+					"value": "localhost"
+				}
+			]
+		}
+	]
+}
