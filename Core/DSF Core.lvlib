@@ -176,7 +176,7 @@
 				<Item Name="Read Buffer Data from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Read Buffer Data from Server.vi"/>
 				<Item Name="Request Buffer from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Request Buffer from Server.vi"/>
 			</Item>
-			<Item Name="DSF Version.vi" Type="VI" URL="../DSF Version.vi"/>
+			<Item Name="DSF Version.vi" Type="VI" URL="../VIs/DSF Version.vi"/>
 		</Item>
 	</Item>
 </Library>
