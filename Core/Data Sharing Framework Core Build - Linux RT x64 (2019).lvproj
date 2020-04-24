@@ -105,7 +105,10 @@
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -132,7 +135,6 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{CAD7EED1-3E27-4FC2-B442-CF3FA9138752}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Data Sharing Framework Core</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Linux</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action (Linux RT x64).vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Build/Pre-Build Action (Linux RT x64).vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{13251DFD-43C2-48DA-8242-4DB20E09B5F3}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/x64/Core</Property>
@@ -147,7 +149,7 @@
 				<Property Name="Destination[1].path" Type="Path">/x64/Core</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C6C21980-06DA-4085-9E19-F818E545FBC9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2784B1D7-956F-40B7-AA9B-30D1AA32DA48}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux RT x64/DSF Core.lvlib</Property>
