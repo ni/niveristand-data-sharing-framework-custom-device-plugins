@@ -9,11 +9,7 @@
 </Property>
 	<Item Name="Item Tree" Type="Folder">
 		<Item Name="ID to Tree Items" Type="Folder">
-			<Item Name="Channel ID to Tree Items.vi" Type="VI" URL="../Source/Item Tree/ID to Tree Items/Channel ID to Tree Items.vi"/>
 			<Item Name="Create New Tree Item.vi" Type="VI" URL="../Source/Item Tree/Create New Tree Item.vi"/>
-			<Item Name="Group ID to Tree Items.vi" Type="VI" URL="../Source/Item Tree/ID to Tree Items/Group ID to Tree Items.vi"/>
-			<Item Name="Plugin ID to Tree Items.vi" Type="VI" URL="../Source/Item Tree/ID to Tree Items/Plugin ID to Tree Items.vi"/>
-			<Item Name="Transfer ID to Tree Items.vi" Type="VI" URL="../Source/Item Tree/ID to Tree Items/Transfer ID to Tree Items.vi"/>
 			<Item Name="Tree Item Type.ctl" Type="VI" URL="../Source/Item Tree/ID to Tree Items/Tree Item Type.ctl"/>
 		</Item>
 		<Item Name="Add Item to Tree.vi" Type="VI" URL="../Source/Item Tree/Add Item to Tree.vi"/>
@@ -24,8 +20,10 @@
 		<Item Name="Get Parent.vi" Type="VI" URL="../Source/Item Tree/Get Parent.vi"/>
 		<Item Name="Get Plugins from Configuration.vi" Type="VI" URL="../Source/Item Tree/Get Plugins from Configuration.vi"/>
 		<Item Name="Is Item Preloaded" Type="VI" URL="../Source/Item Tree/Is Item Preloaded"/>
+		<Item Name="Item with Settings to Tree Items.vi" Type="VI" URL="../Source/Item Tree/ID to Tree Items/Item with Settings to Tree Items.vi"/>
 		<Item Name="Load All Subitems.vi" Type="VI" URL="../Source/Item Tree/Load All Subitems.vi"/>
 		<Item Name="Load Subitems.vi" Type="VI" URL="../Source/Item Tree/Load Subitems.vi"/>
+		<Item Name="Plugin to Tree Items.vi" Type="VI" URL="../Source/Item Tree/ID to Tree Items/Plugin to Tree Items.vi"/>
 		<Item Name="Select First Item.vi" Type="VI" URL="../Source/Item Tree/Select First Item.vi"/>
 		<Item Name="Tree Item.ctl" Type="VI" URL="../Source/Item Tree/Tree Item.ctl"/>
 	</Item>
