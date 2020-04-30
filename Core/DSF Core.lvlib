@@ -26,11 +26,6 @@
 				<Item Name="Status Pointer.lvclass" Type="LVClass" URL="../Classes/Status/Status Pointer.lvclass"/>
 				<Item Name="Timing Status Pointer.lvclass" Type="LVClass" URL="../Classes/Timing Status/Timing Status Pointer.lvclass"/>
 			</Item>
-			<Item Name="Pool" Type="Folder">
-				<Item Name="ID Pool.lvclass" Type="LVClass" URL="../Classes/Pool/ID/ID Pool.lvclass"/>
-				<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../Classes/Pool/Plugin Interface/Plugin Interface Pool.lvclass"/>
-				<Item Name="Pool.lvclass" Type="LVClass" URL="../Classes/Pool/Pool.lvclass"/>
-			</Item>
 			<Item Name="State" Type="Folder">
 				<Item Name="State.lvclass" Type="LVClass" URL="../Classes/State/State.lvclass"/>
 			</Item>
