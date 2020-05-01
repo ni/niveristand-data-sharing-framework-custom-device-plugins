@@ -12,6 +12,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="PXImc.lvlib" Type="Library" URL="../Source/PXImc.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="nipximc.lvlib" Type="Library" URL="/&lt;vilib&gt;/pximc/nipximc.lvlib"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp">
 				<Item Name="Private" Type="Folder">
 					<Item Name="Classes" Type="Folder">
@@ -30,11 +37,6 @@
 							<Item Name="Error Pointer.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Pointers/Error/Error Pointer.lvclass"/>
 							<Item Name="Status Pointer.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Status Pointer.lvclass"/>
 							<Item Name="Timing Status Pointer.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Timing Status/Timing Status Pointer.lvclass"/>
-						</Item>
-						<Item Name="Pool" Type="Folder">
-							<Item Name="ID Pool.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Pool/ID/ID Pool.lvclass"/>
-							<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Pool/Plugin Interface/Plugin Interface Pool.lvclass"/>
-							<Item Name="Pool.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Pool/Pool.lvclass"/>
 						</Item>
 						<Item Name="State" Type="Folder">
 							<Item Name="State.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/State/State.lvclass"/>
@@ -245,6 +247,9 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+			</Item>
+			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
