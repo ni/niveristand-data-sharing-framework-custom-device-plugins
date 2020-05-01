@@ -107,6 +107,7 @@
 				</Item>
 			</Item>
 			<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../VIs/Base 10 Digit Count.vi"/>
+			<Item Name="Native Components.vi" Type="VI" URL="../Classes/Framework/Native Components.vi"/>
 			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
 		</Item>
 	</Item>
