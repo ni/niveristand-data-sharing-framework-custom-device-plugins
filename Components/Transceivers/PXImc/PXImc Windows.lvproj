@@ -16,6 +16,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="nipximc.lvlib" Type="Library" URL="/&lt;vilib&gt;/pximc/nipximc.lvlib"/>
+				<Item Name="Static Errors.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Static Errors.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -119,6 +120,7 @@
 							</Item>
 						</Item>
 						<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Base 10 Digit Count.vi"/>
+						<Item Name="Native Components.vi" Type="VI" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Framework/Native Components.vi"/>
 						<Item Name="VI Name.vi" Type="VI" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/VI Name.vi"/>
 					</Item>
 				</Item>
