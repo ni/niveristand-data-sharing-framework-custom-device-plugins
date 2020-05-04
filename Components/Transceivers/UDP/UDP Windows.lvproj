@@ -35,11 +35,6 @@
 							<Item Name="Status Pointer.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Status/Status Pointer.lvclass"/>
 							<Item Name="Timing Status Pointer.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Timing Status/Timing Status Pointer.lvclass"/>
 						</Item>
-						<Item Name="Pool" Type="Folder">
-							<Item Name="ID Pool.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Pool/ID/ID Pool.lvclass"/>
-							<Item Name="Plugin Interface Pool.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Pool/Plugin Interface/Plugin Interface Pool.lvclass"/>
-							<Item Name="Pool.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Pool/Pool.lvclass"/>
-						</Item>
 						<Item Name="State" Type="Folder">
 							<Item Name="State.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/State/State.lvclass"/>
 						</Item>
@@ -121,12 +116,18 @@
 							</Item>
 						</Item>
 						<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/Base 10 Digit Count.vi"/>
+						<Item Name="Native Components.vi" Type="VI" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Framework/Native Components.vi"/>
 						<Item Name="VI Name.vi" Type="VI" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/VIs/VI Name.vi"/>
 					</Item>
 				</Item>
 				<Item Name="Public" Type="Folder">
 					<Item Name="Classes" Type="Folder">
 						<Item Name="Components" Type="Folder">
+							<Item Name="Impementations" Type="Folder">
+								<Item Name="Buffer Converters" Type="Folder">
+									<Item Name="DSF Type Converter.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Components/Buffer Converters/DSF Type Converter/DSF Type Converter.lvclass"/>
+								</Item>
+							</Item>
 							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
 							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
 						</Item>
