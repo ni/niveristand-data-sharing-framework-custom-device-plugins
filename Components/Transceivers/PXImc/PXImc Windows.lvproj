@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -28,7 +30,6 @@
 							<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
 						</Item>
 						<Item Name="Interface" Type="Folder">
-							<Item Name="Data Server Interface.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Interface/Data Server/Data Server Interface.lvclass"/>
 							<Item Name="Dispatcher Interface.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Interface/Dispatcher/Dispatcher Interface.lvclass"/>
 							<Item Name="Interface.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Interface/Interface.lvclass"/>
 							<Item Name="Logging Interface.lvclass" Type="LVClass" URL="../../../../../../Builds/Data Sharing Framework/Current/Core/DSF Core.lvlibp/Classes/Interface/Logging/Logging Interface.lvclass"/>
