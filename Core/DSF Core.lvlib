@@ -10,14 +10,6 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Components" Type="Folder">
-				<Item Name="Implementations" Type="Folder">
-					<Item Name="Buffer Converters" Type="Folder"/>
-					<Item Name="Transceivers" Type="Folder">
-						<Item Name="DSF PXImc Transceiver.lvclass" Type="LVClass" URL="../Components/Transceivers/PXImc/DSF PXImc Transceiver.lvclass"/>
-					</Item>
-				</Item>
-			</Item>
 			<Item Name="Hardware Info" Type="Folder">
 				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
 				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
