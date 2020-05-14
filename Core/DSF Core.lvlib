@@ -114,13 +114,11 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Components" Type="Folder">
-				<Item Name="Impementations" Type="Folder">
-					<Item Name="Buffer Converters" Type="Folder">
-						<Item Name="DSF Buffer Converter.lvclass" Type="LVClass" URL="../Components/Buffer Converters/DSF Type Converter/DSF Buffer Converter.lvclass"/>
-					</Item>
-					<Item Name="Transceivers" Type="Folder">
-						<Item Name="DSF UDP Transceiver.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/DSF UDP Transceiver.lvclass"/>
-					</Item>
+				<Item Name="Buffer Converters" Type="Folder">
+					<Item Name="DSF Buffer Converter.lvclass" Type="LVClass" URL="../Components/Buffer Converters/DSF Type Converter/DSF Buffer Converter.lvclass"/>
+				</Item>
+				<Item Name="Transceivers" Type="Folder">
+					<Item Name="DSF UDP Transceiver.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/DSF UDP Transceiver.lvclass"/>
 				</Item>
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Classes/Buffer Converter/Buffer Converter.lvclass"/>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Classes/Transceiver/Transceiver.lvclass"/>
