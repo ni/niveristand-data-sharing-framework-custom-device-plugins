@@ -35,6 +35,7 @@
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
 			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
+			<Item Name="Component.lvclass" Type="LVClass" URL="../Classes/Component/Component.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
 		</Item>
@@ -106,7 +107,7 @@
 				</Item>
 			</Item>
 			<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../VIs/Base 10 Digit Count.vi"/>
-			<Item Name="Native Components.vi" Type="VI" URL="../Classes/Framework/Native Components.vi"/>
+			<Item Name="Internal Components.vi" Type="VI" URL="../Classes/Framework/Internal Components.vi"/>
 			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
 		</Item>
 	</Item>
