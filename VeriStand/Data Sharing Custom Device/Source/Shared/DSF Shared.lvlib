@@ -52,10 +52,15 @@
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Get Components Target Directory.vi" Type="VI" URL="../Get Components Target Directory.vi"/>
 		<Item Name="Get Configuration File Target Path.vi" Type="VI" URL="../Get Configuration File Target Path.vi"/>
+		<Item Name="Get Debug.vi" Type="VI" URL="../Get Debug.vi"/>
 		<Item Name="Get DSF Options.vi" Type="VI" URL="../Get DSF Options.vi"/>
 		<Item Name="Get Launch Viewer Property.vi" Type="VI" URL="../Get Launch Viewer Property.vi"/>
+		<Item Name="Get MD5.vi" Type="VI" URL="../Get MD5.vi"/>
 		<Item Name="Get Show Error Dialog Property.vi" Type="VI" URL="../Get Show Error Dialog Property.vi"/>
+		<Item Name="Set Debug.vi" Type="VI" URL="../Set Debug.vi"/>
 		<Item Name="Set DSF Options.vi" Type="VI" URL="../Set DSF Options.vi"/>
 		<Item Name="Set Launch Viewer Property.vi" Type="VI" URL="../Set Launch Viewer Property.vi"/>
+		<Item Name="Set MD5.vi" Type="VI" URL="../Set MD5.vi"/>
 	</Item>
+	<Item Name="Calculate MD5 for Configuration File.vi" Type="VI" URL="../../System Explorer/Calculate MD5 for Configuration File.vi"/>
 </Library>

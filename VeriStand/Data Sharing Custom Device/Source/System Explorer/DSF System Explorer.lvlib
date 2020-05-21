@@ -78,6 +78,7 @@
 		<Item Name="Get Target Name.vi" Type="VI" URL="../Get Target Name.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
 		<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
+		<Item Name="Version Cluster to String.vi" Type="VI" URL="../Version Cluster to String.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="progress window data.ctl" Type="VI" URL="../progress window data.ctl"/>
