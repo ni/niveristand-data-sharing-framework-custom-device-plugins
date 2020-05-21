@@ -9,7 +9,9 @@
 </Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Check Configuration MD5.vi" Type="VI" URL="../Check Configuration MD5.vi"/>
 		<Item Name="Error Display.vi" Type="VI" URL="../Error Display.vi"/>
+		<Item Name="Log DSF Paths.vi" Type="VI" URL="../Log DSF Paths.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="State Data.ctl" Type="VI" URL="../State Data.ctl"/>
