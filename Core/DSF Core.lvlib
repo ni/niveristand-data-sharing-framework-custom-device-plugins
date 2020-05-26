@@ -38,6 +38,11 @@
 				<Item Name="Logging Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Logging/Logging Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
+			<Item Name="User Interface" Type="Folder">
+				<Item Name="Component User Interface.lvclass" Type="LVClass" URL="../Classes/Component User Interface/Component User Interface.lvclass"/>
+				<Item Name="User Interface Events.lvclass" Type="LVClass" URL="../Classes/User Interface Events/User Interface Events.lvclass"/>
+				<Item Name="User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/User Interface.lvclass"/>
+			</Item>
 			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
 			<Item Name="Component.lvclass" Type="LVClass" URL="../Classes/Component/Component.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
@@ -110,6 +115,9 @@
 					<Item Name="Window State.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
 				</Item>
 			</Item>
+			<Item Name="UI" Type="Folder">
+				<Item Name="User Interface.vi" Type="VI" URL="../Tests/User Interface.vi"/>
+			</Item>
 			<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../VIs/Base 10 Digit Count.vi"/>
 			<Item Name="Internal Components.vi" Type="VI" URL="../Classes/Framework/Internal Components.vi"/>
 			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
@@ -124,10 +132,15 @@
 				</Item>
 				<Item Name="Transceivers" Type="Folder">
 					<Item Name="UDP" Type="Folder">
-						<Item Name="Configuration" Type="Folder">
+						<Item Name="Configurations" Type="Folder">
 							<Item Name="DSF UDP Thread Settings.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/Configuration/DSF UDP Thread Settings.lvclass"/>
 						</Item>
+						<Item Name="UI" Type="Folder">
+							<Item Name="UDP Thread Settings UI.vi" Type="VI" URL="../Components/Transceivers/UDP/UI/UDP Thread Settings UI.vi"/>
+						</Item>
 						<Item Name="DSF UDP Transceiver.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/DSF UDP Transceiver.lvclass"/>
+						<Item Name="UDP Configuration.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/Configuration/UDP Configuration.lvclass"/>
+						<Item Name="UDP UI.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/UI/UDP UI.lvclass"/>
 					</Item>
 				</Item>
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Classes/Buffer Converter/Buffer Converter.lvclass"/>
@@ -137,10 +150,6 @@
 				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Plugin Thread.lvclass"/>
 				<Item Name="Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Thread.lvclass"/>
 				<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Transceiver/Transceiver Thread.lvclass"/>
-			</Item>
-			<Item Name="User Interface" Type="Folder">
-				<Item Name="Component UI.lvclass" Type="LVClass" URL="../Classes/Component User Interface/Component UI.lvclass"/>
-				<Item Name="User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/User Interface.lvclass"/>
 			</Item>
 			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Classes/Buffer/Buffer.lvclass"/>
 			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Classes/Buffers/Buffers.lvclass"/>
