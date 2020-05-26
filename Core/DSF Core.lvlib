@@ -10,6 +10,10 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
+			<Item Name="Configuration" Type="Folder">
+				<Item Name="Component Configuration.lvclass" Type="LVClass" URL="../Classes/Component Configuration/Component Configuration.lvclass"/>
+				<Item Name="Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Configuration.lvclass"/>
+			</Item>
 			<Item Name="Hardware Info" Type="Folder">
 				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
 				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
@@ -119,7 +123,12 @@
 					<Item Name="DSF Buffer Converter.lvclass" Type="LVClass" URL="../Components/Buffer Converters/DSF Type Converter/DSF Buffer Converter.lvclass"/>
 				</Item>
 				<Item Name="Transceivers" Type="Folder">
-					<Item Name="DSF UDP Transceiver.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/DSF UDP Transceiver.lvclass"/>
+					<Item Name="UDP" Type="Folder">
+						<Item Name="Configuration" Type="Folder">
+							<Item Name="DSF UDP Thread Settings.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/Configuration/DSF UDP Thread Settings.lvclass"/>
+						</Item>
+						<Item Name="DSF UDP Transceiver.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/DSF UDP Transceiver.lvclass"/>
+					</Item>
 				</Item>
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Classes/Buffer Converter/Buffer Converter.lvclass"/>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Classes/Transceiver/Transceiver.lvclass"/>
@@ -129,9 +138,13 @@
 				<Item Name="Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Thread.lvclass"/>
 				<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Transceiver/Transceiver Thread.lvclass"/>
 			</Item>
+			<Item Name="User Interface" Type="Folder">
+				<Item Name="Component UI.lvclass" Type="LVClass" URL="../Classes/Component User Interface/Component UI.lvclass"/>
+				<Item Name="User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/User Interface.lvclass"/>
+			</Item>
 			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Classes/Buffer/Buffer.lvclass"/>
 			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Classes/Buffers/Buffers.lvclass"/>
-			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Classes/Configuration/Configuration Session.lvclass"/>
+			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Classes/Configuration Session/Configuration Session.lvclass"/>
 			<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Classes/Framework Status/Framework Status.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Classes/Framework/Framework.lvclass"/>
 			<Item Name="Performance.lvclass" Type="LVClass" URL="../Classes/Performance/Performance.lvclass"/>
@@ -171,7 +184,7 @@
 					<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Launch Data Viewer.vi"/>
 				</Item>
 				<Item Name="Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer.vi"/>
-				<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration/Edit Configuration File.vi"/>
+				<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration Session/Edit Configuration File.vi"/>
 			</Item>
 			<Item Name="Viewer API" Type="Folder">
 				<Item Name="Connect to Data Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Connect to Data Server.vi"/>
