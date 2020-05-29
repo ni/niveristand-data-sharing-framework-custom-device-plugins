@@ -196,6 +196,7 @@
 			<Item Name="DSF Byte Order.ctl" Type="VI" URL="../Typedefs/DSF Byte Order.ctl"/>
 			<Item Name="DSF Channel Buffer Descriptor.ctl" Type="VI" URL="../Typedefs/DSF Channel Buffer Descriptor.ctl"/>
 			<Item Name="DSF Channel Info.ctl" Type="VI" URL="../Typedefs/DSF Channel Info.ctl"/>
+			<Item Name="DSF Component Configuration.ctl" Type="VI" URL="../Typedefs/DSF Component Configuration.ctl"/>
 			<Item Name="DSF Configuration Errors.ctl" Type="VI" URL="../Typedefs/DSF Configuration Errors.ctl"/>
 			<Item Name="DSF Data Type.ctl" Type="VI" URL="../Typedefs/DSF Data Type.ctl"/>
 			<Item Name="DSF Direction.ctl" Type="VI" URL="../Typedefs/DSF Direction.ctl"/>
