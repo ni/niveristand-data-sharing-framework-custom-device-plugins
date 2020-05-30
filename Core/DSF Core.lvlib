@@ -31,6 +31,10 @@
 				<Item Name="User Interface" Type="Folder">
 					<Item Name="Core" Type="Folder">
 						<Item Name="Core Channel User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Channel/Core Channel User Interface.lvclass"/>
+						<Item Name="Core Group User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Group/Core Group User Interface.lvclass"/>
+						<Item Name="Core Plugin User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Plugin/Core Plugin User Interface.lvclass"/>
+						<Item Name="Core Thread User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Thread/Core Thread User Interface.lvclass"/>
+						<Item Name="Core Transfer User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Transfer/Core Transfer User Interface.lvclass"/>
 					</Item>
 					<Item Name="Component User Interface.lvclass" Type="LVClass" URL="../Classes/Component User Interface/Component User Interface.lvclass"/>
 					<Item Name="Core Configuration UI.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Core Configuration UI.lvclass"/>
