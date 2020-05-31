@@ -12,17 +12,18 @@
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Configuration" Type="Folder">
 				<Item Name="Base" Type="Folder">
-					<Item Name="Channel Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Channel/Channel Configuration.lvclass"/>
-					<Item Name="Group Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Group/Group Configuration.lvclass"/>
-					<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Plugin/Plugin Configuration.lvclass"/>
-					<Item Name="Thread Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Thread/Thread Configuration.lvclass"/>
-					<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Transfer/Transfer Configuration.lvclass"/>
+					<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Framework/Framework Configuration.lvclass"/>
+					<Item Name="Group Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Group/Group Configuration.lvclass"/>
+					<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Plugin/Plugin Configuration.lvclass"/>
+					<Item Name="Thread Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Thread/Thread Configuration.lvclass"/>
+					<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Transfer/Transfer Configuration.lvclass"/>
 				</Item>
 				<Item Name="Component" Type="Folder">
 					<Item Name="Component Configuration.lvclass" Type="LVClass" URL="../Classes/Component Configuration/Component Configuration.lvclass"/>
 				</Item>
 				<Item Name="Core" Type="Folder">
 					<Item Name="Core Channels Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Channel/Core Channels Configuration.lvclass"/>
+					<Item Name="Core Framework Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Framework/Core Framework Configuration.lvclass"/>
 					<Item Name="Core Groups Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Group/Core Groups Configuration.lvclass"/>
 					<Item Name="Core Plugins Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Plugin/Core Plugins Configuration.lvclass"/>
 					<Item Name="Core Threads Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Thread/Core Threads Configuration.lvclass"/>
@@ -228,6 +229,7 @@
 				<Item Name="Request Buffer from Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Request Buffer from Server.vi"/>
 			</Item>
 			<Item Name="DSF Version.vi" Type="VI" URL="../VIs/DSF Version.vi"/>
+			<Item Name="Find Component Configuration.vi" Type="VI" URL="../VIs/Find Component Configuration.vi"/>
 		</Item>
 	</Item>
 </Library>
