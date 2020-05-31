@@ -189,6 +189,13 @@
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Configuration" Type="Folder">
+				<Item Name="Core" Type="Folder">
+					<Item Name="DSF Core Channel Configuration.ctl" Type="VI" URL="../Typedefs/DSF Core Channel Configuration.ctl"/>
+					<Item Name="DSF Core Group Configuration.ctl" Type="VI" URL="../Typedefs/DSF Core Group Configuration.ctl"/>
+					<Item Name="DSF Core Plugin Configuration.ctl" Type="VI" URL="../Typedefs/DSF Core Plugin Configuration.ctl"/>
+					<Item Name="DSF Core Thread Configuration.ctl" Type="VI" URL="../Typedefs/DSF Core Thread Configuration.ctl"/>
+					<Item Name="DSF Core Transfer Configuration.ctl" Type="VI" URL="../Typedefs/DSF Core Transfer Configuration.ctl"/>
+				</Item>
 				<Item Name="DSF Engine Channel Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Channel Configuration.ctl"/>
 				<Item Name="DSF Engine Framework Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Framework Configuration.ctl"/>
 				<Item Name="DSF Engine Plugin Configuration.ctl" Type="VI" URL="../Typedefs/DSF Engine Plugin Configuration.ctl"/>
