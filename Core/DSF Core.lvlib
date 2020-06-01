@@ -11,13 +11,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="Configuration" Type="Folder">
-				<Item Name="Base" Type="Folder">
-					<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Framework/Framework Configuration.lvclass"/>
-					<Item Name="Group Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Group/Group Configuration.lvclass"/>
-					<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Plugin/Plugin Configuration.lvclass"/>
-					<Item Name="Thread Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Thread/Thread Configuration.lvclass"/>
-					<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Transfer/Transfer Configuration.lvclass"/>
-				</Item>
 				<Item Name="Component" Type="Folder">
 					<Item Name="Component Configuration.lvclass" Type="LVClass" URL="../Classes/Component Configuration/Component Configuration.lvclass"/>
 				</Item>
@@ -44,6 +37,7 @@
 				</Item>
 				<Item Name="Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Configuration.lvclass"/>
 				<Item Name="Core Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Core Configuration.lvclass"/>
+				<Item Name="Runtime Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Runtime/Runtime Configuration.lvclass"/>
 			</Item>
 			<Item Name="Hardware Info" Type="Folder">
 				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
@@ -172,6 +166,13 @@
 				</Item>
 				<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../Classes/Buffer Converter/Buffer Converter.lvclass"/>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Classes/Transceiver/Transceiver.lvclass"/>
+			</Item>
+			<Item Name="Configuration" Type="Folder">
+				<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Framework/Framework Configuration.lvclass"/>
+				<Item Name="Group Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Group/Group Configuration.lvclass"/>
+				<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Plugin/Plugin Configuration.lvclass"/>
+				<Item Name="Thread Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Thread/Thread Configuration.lvclass"/>
+				<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Transfer/Transfer Configuration.lvclass"/>
 			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Plugin Thread.lvclass"/>
