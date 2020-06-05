@@ -23,6 +23,7 @@
 			<Item Name="Plugin Page.vi" Type="VI" URL="../Plugin Page.vi"/>
 			<Item Name="Status Channel Page.vi" Type="VI" URL="../Status Channel Page.vi"/>
 			<Item Name="Status Section Page.vi" Type="VI" URL="../Status Section Page.vi"/>
+			<Item Name="Thread Page.vi" Type="VI" URL="../Thread Page.vi"/>
 			<Item Name="Transfer Page.vi" Type="VI" URL="../Transfer Page.vi"/>
 		</Item>
 		<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>

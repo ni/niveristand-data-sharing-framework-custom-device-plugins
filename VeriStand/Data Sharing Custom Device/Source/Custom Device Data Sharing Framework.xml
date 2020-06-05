@@ -106,6 +106,21 @@
     </Page>
     <Page>
       <Name>
+        <eng>Thread</eng>
+        <loc>Thread</loc>
+      </Name>
+      <GUID>41c5f14b-093c-4be0-bff4-80a9437906d9</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\pxi chassis small.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Data Sharing Framework\DSF Configuration.llb\Thread Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
         <eng>Group</eng>
         <loc>Group</loc>
       </Name>
