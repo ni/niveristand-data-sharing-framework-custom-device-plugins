@@ -10,22 +10,6 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Component" Type="Folder">
-				<Item Name="Core" Type="Folder">
-					<Item Name="Core Configurations.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Core Configurations.lvclass"/>
-					<Item Name="Core User Interfaces.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Core User Interfaces.lvclass"/>
-				</Item>
-			</Item>
-			<Item Name="Configuration" Type="Folder">
-				<Item Name="Core" Type="Folder">
-					<Item Name="Core Channel Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Channel/Core Channel Configuration.lvclass"/>
-					<Item Name="Core Framework Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Framework/Core Framework Configuration.lvclass"/>
-					<Item Name="Core Group Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Group/Core Group Configuration.lvclass"/>
-					<Item Name="Core Plugin Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Plugin/Core Plugin Configuration.lvclass"/>
-					<Item Name="Core Thread Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Thread/Core Thread Configuration.lvclass"/>
-					<Item Name="Core Transfer Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Transfer/Core Transfer Configuration.lvclass"/>
-				</Item>
-			</Item>
 			<Item Name="Hardware Info" Type="Folder">
 				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
 				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
@@ -50,7 +34,6 @@
 				<Item Name="Logging Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Logging/Logging Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
-			<Item Name="User Interface" Type="Folder"/>
 			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
@@ -122,9 +105,6 @@
 					<Item Name="Window State.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
 				</Item>
 			</Item>
-			<Item Name="Test" Type="Folder">
-				<Item Name="Component UI Test.vi" Type="VI" URL="../Tests/Component UI Test.vi"/>
-			</Item>
 			<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../VIs/Base 10 Digit Count.vi"/>
 			<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration Session/Edit Configuration File.vi"/>
 			<Item Name="Internal Components.vi" Type="VI" URL="../Classes/Framework/Internal Components.vi"/>
@@ -147,6 +127,17 @@
 				<Item Name="Component.lvclass" Type="LVClass" URL="../Classes/Component/Component.lvclass"/>
 			</Item>
 			<Item Name="Configuration" Type="Folder">
+				<Item Name="Core" Type="Folder">
+					<Item Name="Types" Type="Folder">
+						<Item Name="Core Channel Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Channel/Core Channel Configuration.lvclass"/>
+						<Item Name="Core Framework Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Framework/Core Framework Configuration.lvclass"/>
+						<Item Name="Core Group Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Group/Core Group Configuration.lvclass"/>
+						<Item Name="Core Plugin Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Plugin/Core Plugin Configuration.lvclass"/>
+						<Item Name="Core Thread Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Thread/Core Thread Configuration.lvclass"/>
+						<Item Name="Core Transfer Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Transfer/Core Transfer Configuration.lvclass"/>
+					</Item>
+					<Item Name="Core Configurations.lvclass" Type="LVClass" URL="../Classes/Configuration/Core/Core Configurations.lvclass"/>
+				</Item>
 				<Item Name="Runtime" Type="Folder">
 					<Item Name="Types" Type="Folder">
 						<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Framework/Framework Configuration.lvclass"/>
@@ -184,14 +175,18 @@
 			</Item>
 			<Item Name="User Interface" Type="Folder">
 				<Item Name="Core" Type="Folder">
-					<Item Name="Core Channel User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Channel/Core Channel User Interface.lvclass"/>
-					<Item Name="Core Group User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Group/Core Group User Interface.lvclass"/>
-					<Item Name="Core Plugin User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Plugin/Core Plugin User Interface.lvclass"/>
-					<Item Name="Core Thread User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Thread/Core Thread User Interface.lvclass"/>
-					<Item Name="Core Transfer User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Transfer/Core Transfer User Interface.lvclass"/>
+					<Item Name="Types" Type="Folder">
+						<Item Name="Core Channel User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Channel/Core Channel User Interface.lvclass"/>
+						<Item Name="Core Group User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Group/Core Group User Interface.lvclass"/>
+						<Item Name="Core Plugin User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Plugin/Core Plugin User Interface.lvclass"/>
+						<Item Name="Core Thread User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Thread/Core Thread User Interface.lvclass"/>
+						<Item Name="Core Transfer User Interface.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Transfer/Core Transfer User Interface.lvclass"/>
+					</Item>
+					<Item Name="Core User Interfaces.lvclass" Type="LVClass" URL="../Classes/User Interface/Core/Core User Interfaces.lvclass"/>
 				</Item>
 				<Item Name="Editors" Type="Folder">
 					<Item Name="Component Settings Editor.lvclass" Type="LVClass" URL="../Classes/User Interface/Plugin/Component Settings Editor.lvclass"/>
+					<Item Name="Settings Editor.lvclass" Type="LVClass" URL="../Classes/User Interface/Settings Editor/Settings Editor.lvclass"/>
 				</Item>
 				<Item Name="User Interface Events.lvclass" Type="LVClass" URL="../Classes/User Interface Events/User Interface Events.lvclass"/>
 				<Item Name="User Interface Handler.lvclass" Type="LVClass" URL="../Classes/User Interface Handler/User Interface Handler.lvclass"/>
@@ -243,6 +238,9 @@
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Typedefs/DSF Version Info.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
+			<Item Name="Test" Type="Folder">
+				<Item Name="Component UI Test.vi" Type="VI" URL="../Tests/Component UI Test.vi"/>
+			</Item>
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="Async" Type="Folder">
 					<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Launch Data Viewer.vi"/>
