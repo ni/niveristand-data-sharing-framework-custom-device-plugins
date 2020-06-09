@@ -52,18 +52,30 @@
 				<Item Name="Create Transfer Sections.vi" Type="VI" URL="../Create Transfer Sections.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Configuration DVR" Type="Folder">
+			<Item Name="Create Configuration Data.vi" Type="VI" URL="../Create Configuration Data.vi"/>
+			<Item Name="Get Configuration Data.vi" Type="VI" URL="../Get Configuration Data.vi"/>
+			<Item Name="Set Configuration Data.vi" Type="VI" URL="../Set Configuration Data.vi"/>
+		</Item>
 		<Item Name="Progress Window" Type="Folder">
 			<Item Name="New Progress Window.vi" Type="VI" URL="../New Progress Window.vi"/>
 			<Item Name="Progress Window.vi" Type="VI" URL="../Progress Window.vi"/>
 			<Item Name="Update Progress Window.vi" Type="VI" URL="../Update Progress Window.vi"/>
 		</Item>
 		<Item Name="Properties" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Settings ID" Type="Folder">
+				<Item Name="Get Settings ID (Plugin).vi" Type="VI" URL="../Get Settings ID (Plugin).vi"/>
+				<Item Name="Get Settings ID (Thread).vi" Type="VI" URL="../Get Settings ID (Thread).vi"/>
+				<Item Name="Get Settings ID (Channel).vi" Type="VI" URL="../Get Settings ID (Channel).vi"/>
+				<Item Name="Get Settings ID (Transfer).vi" Type="VI" URL="../Get Settings ID (Transfer).vi"/>
+				<Item Name="Get Settings ID (Group).vi" Type="VI" URL="../Get Settings ID (Group).vi"/>
+			</Item>
 			<Item Name="Get Configuration ID.vi" Type="VI" URL="../Get Configuration ID.vi"/>
-			<Item Name="Get Configuration Session.vi" Type="VI" URL="../Get Configuration Session.vi"/>
 			<Item Name="get dsf config file path.vi" Type="VI" URL="../get dsf config file path.vi"/>
+			<Item Name="Get Settings ID.vi" Type="VI" URL="../Get Settings ID.vi"/>
 			<Item Name="Set Configuration ID.vi" Type="VI" URL="../Set Configuration ID.vi"/>
 			<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
-			<Item Name="set dsf config session.vi" Type="VI" URL="../set dsf config session.vi"/>
 			<Item Name="Set Show Error Dialog Property.vi" Type="VI" URL="../../Shared/Set Show Error Dialog Property.vi"/>
 		</Item>
 		<Item Name="Add Component Dependencies.vi" Type="VI" URL="../Add Component Dependencies.vi"/>

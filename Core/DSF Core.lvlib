@@ -106,7 +106,6 @@
 				</Item>
 			</Item>
 			<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../VIs/Base 10 Digit Count.vi"/>
-			<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration Session/Edit Configuration File.vi"/>
 			<Item Name="Internal Components.vi" Type="VI" URL="../Classes/Framework/Internal Components.vi"/>
 			<Item Name="Verison Cluster to String.vi" Type="VI" URL="../VIs/Verison Cluster to String.vi"/>
 			<Item Name="VI Name.vi" Type="VI" URL="../VIs/VI Name.vi"/>
@@ -156,21 +155,6 @@
 				<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Transceiver/Transceiver Thread.lvclass"/>
 			</Item>
 			<Item Name="Transceivers" Type="Folder">
-				<Item Name="UDP" Type="Folder">
-					<Item Name="Configurations" Type="Folder">
-						<Item Name="UDP Thread Configuration.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/Configuration/UDP Thread Configuration.lvclass"/>
-						<Item Name="UDP Transfer Rx Configuration.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/Configuration/Rx Transfer/UDP Transfer Rx Configuration.lvclass"/>
-						<Item Name="UDP Transfer Tx Configuration.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/Configuration/Tx Transfer/UDP Transfer Tx Configuration.lvclass"/>
-					</Item>
-					<Item Name="User Interfaces" Type="Folder">
-						<Item Name="UDP Thread User Interface.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/UI/Thread/UDP Thread User Interface.lvclass"/>
-						<Item Name="UDP Transfer Rx User Interface.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/UI/Transfer Rx/UDP Transfer Rx User Interface.lvclass"/>
-						<Item Name="UDP Transfer Tx User Interface.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/UI/Transfer Tx/UDP Transfer Tx User Interface.lvclass"/>
-					</Item>
-					<Item Name="UDP Configurations.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/Configuration/UDP Configurations.lvclass"/>
-					<Item Name="UDP Transceiver.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/UDP Transceiver.lvclass"/>
-					<Item Name="UDP User Interfaces.lvclass" Type="LVClass" URL="../Components/Transceivers/UDP/UI/UDP User Interfaces.lvclass"/>
-				</Item>
 				<Item Name="Transceiver.lvclass" Type="LVClass" URL="../Classes/Transceiver/Transceiver.lvclass"/>
 			</Item>
 			<Item Name="User Interface" Type="Folder">
@@ -238,14 +222,12 @@
 			<Item Name="DSF Version Info.ctl" Type="VI" URL="../Typedefs/DSF Version Info.ctl"/>
 		</Item>
 		<Item Name="VIs" Type="Folder">
-			<Item Name="Test" Type="Folder">
-				<Item Name="Component UI Test.vi" Type="VI" URL="../Tests/Component UI Test.vi"/>
-			</Item>
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="Async" Type="Folder">
 					<Item Name="Launch Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Launch Data Viewer.vi"/>
 				</Item>
 				<Item Name="Data Viewer.vi" Type="VI" URL="../VIs/Data Viewer/Data Viewer.vi"/>
+				<Item Name="Edit Configuration File.vi" Type="VI" URL="../Classes/Configuration Session/Edit Configuration File.vi"/>
 			</Item>
 			<Item Name="Viewer API" Type="Folder">
 				<Item Name="Connect to Data Server.vi" Type="VI" URL="../Classes/Thread/Data Server/Connect to Data Server.vi"/>
