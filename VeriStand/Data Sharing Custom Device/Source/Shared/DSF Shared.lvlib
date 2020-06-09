@@ -48,6 +48,7 @@
 		<Item Name="Get Section.vi" Type="VI" URL="../Get Section.vi"/>
 		<Item Name="Get Status Channels.vi" Type="VI" URL="../Get Status Channels.vi"/>
 		<Item Name="Get Status Section.vi" Type="VI" URL="../Get Status Section.vi"/>
+		<Item Name="Get Threads.vi" Type="VI" URL="../Get Threads.vi"/>
 		<Item Name="Get Transfers.vi" Type="VI" URL="../Get Transfers.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">

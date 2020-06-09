@@ -47,6 +47,7 @@
 				<Item Name="Add Status Section.vi" Type="VI" URL="../Add Status Section.vi"/>
 				<Item Name="Create Group Sections.vi" Type="VI" URL="../Create Group Sections.vi"/>
 				<Item Name="Create Plugin Section.vi" Type="VI" URL="../Create Plugin Section.vi"/>
+				<Item Name="Create Thread Section.vi" Type="VI" URL="../Create Thread Section.vi"/>
 				<Item Name="Create Transfer Channels.vi" Type="VI" URL="../Create Transfer Channels.vi"/>
 				<Item Name="Create Transfer Sections.vi" Type="VI" URL="../Create Transfer Sections.vi"/>
 			</Item>

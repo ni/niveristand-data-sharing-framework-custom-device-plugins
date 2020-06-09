@@ -21,10 +21,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Libraries" Type="Folder">
-			<Item Name="DSF Configuration Explorer.vi" Type="VI" URL="../../../../Development Tools/Configuration Explorer/Source/DSF Configuration Explorer.vi"/>
-			<Item Name="DSF Configuration Utility.lvlib" Type="Library" URL="../../../../Development Tools/Configuration Explorer/DSF Configuration Utility.lvlib"/>
-		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
@@ -34,21 +30,16 @@
 		<Item Name="DSF System Explorer.lvlib" Type="Library" URL="../System Explorer/DSF System Explorer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -58,37 +49,26 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
-				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
 				<Item Name="MD5Checksum File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
@@ -97,33 +77,12 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Channel Count (Framework).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count (Framework).vi"/>
-			<Item Name="Channel Count (Transfer).vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count (Transfer).vi"/>
-			<Item Name="Channel Count.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Channel Count.vi"/>
-			<Item Name="Close Session.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Close Session.vi"/>
 			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Configuration Session.lvclass"/>
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../DSF Core.lvlibp">
 				<Item Name="Private" Type="Folder">
 					<Item Name="Classes" Type="Folder">
-						<Item Name="Component" Type="Folder">
-							<Item Name="Core" Type="Folder">
-								<Item Name="Core Configurations.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Core Configurations.lvclass"/>
-								<Item Name="Core User Interfaces.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Core User Interfaces.lvclass"/>
-							</Item>
-						</Item>
-						<Item Name="Configuration" Type="Folder">
-							<Item Name="Core" Type="Folder">
-								<Item Name="Core Channel Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Channel/Core Channel Configuration.lvclass"/>
-								<Item Name="Core Framework Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Framework/Core Framework Configuration.lvclass"/>
-								<Item Name="Core Group Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Group/Core Group Configuration.lvclass"/>
-								<Item Name="Core Plugin Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Plugin/Core Plugin Configuration.lvclass"/>
-								<Item Name="Core Thread Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Thread/Core Thread Configuration.lvclass"/>
-								<Item Name="Core Transfer Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Transfer/Core Transfer Configuration.lvclass"/>
-							</Item>
-						</Item>
 						<Item Name="Hardware Info" Type="Folder">
 							<Item Name="CPU Info.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Hardware/CPU Info/CPU Info.lvclass"/>
 							<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
@@ -148,7 +107,6 @@
 							<Item Name="Logging Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Logging/Logging Thread.lvclass"/>
 							<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread Manager/Thread Manager.lvclass"/>
 						</Item>
-						<Item Name="User Interface" Type="Folder"/>
 						<Item Name="Component Loader.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component Loader/Component Loader.lvclass"/>
 						<Item Name="Plugin.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Plugin/Plugin.lvclass"/>
 						<Item Name="Timing.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Timing/Timing.lvclass"/>
@@ -220,9 +178,6 @@
 								<Item Name="Window State.ctl" Type="VI" URL="../DSF Core.lvlibp/VIs/Data Viewer/Source/Main VI/Window State.ctl"/>
 							</Item>
 						</Item>
-						<Item Name="Test" Type="Folder">
-							<Item Name="Component UI Test.vi" Type="VI" URL="../DSF Core.lvlibp/Tests/Component UI Test.vi"/>
-						</Item>
 						<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Base 10 Digit Count.vi"/>
 						<Item Name="Edit Configuration File.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration Session/Edit Configuration File.vi"/>
 						<Item Name="Internal Components.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Framework/Internal Components.vi"/>
@@ -244,6 +199,17 @@
 							<Item Name="Component.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component/Component.lvclass"/>
 						</Item>
 						<Item Name="Configuration" Type="Folder">
+							<Item Name="Core" Type="Folder">
+								<Item Name="Types" Type="Folder">
+									<Item Name="Core Channel Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Channel/Core Channel Configuration.lvclass"/>
+									<Item Name="Core Framework Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Framework/Core Framework Configuration.lvclass"/>
+									<Item Name="Core Group Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Group/Core Group Configuration.lvclass"/>
+									<Item Name="Core Plugin Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Plugin/Core Plugin Configuration.lvclass"/>
+									<Item Name="Core Thread Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Thread/Core Thread Configuration.lvclass"/>
+									<Item Name="Core Transfer Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Transfer/Core Transfer Configuration.lvclass"/>
+								</Item>
+								<Item Name="Core Configurations.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Core Configurations.lvclass"/>
+							</Item>
 							<Item Name="Runtime" Type="Folder">
 								<Item Name="Types" Type="Folder">
 									<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Framework/Framework Configuration.lvclass"/>
@@ -265,26 +231,34 @@
 							<Item Name="UDP" Type="Folder">
 								<Item Name="Configurations" Type="Folder">
 									<Item Name="UDP Thread Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/Configuration/UDP Thread Configuration.lvclass"/>
+									<Item Name="UDP Transfer Rx Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/Configuration/Rx Transfer/UDP Transfer Rx Configuration.lvclass"/>
+									<Item Name="UDP Transfer Tx Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/Configuration/Tx Transfer/UDP Transfer Tx Configuration.lvclass"/>
 								</Item>
 								<Item Name="User Interfaces" Type="Folder">
 									<Item Name="UDP Thread User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UI/Thread/UDP Thread User Interface.lvclass"/>
+									<Item Name="UDP Transfer Rx User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UI/Transfer Rx/UDP Transfer Rx User Interface.lvclass"/>
+									<Item Name="UDP Transfer Tx User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UI/Transfer Tx/UDP Transfer Tx User Interface.lvclass"/>
 								</Item>
-								<Item Name="UDP Configuration User Interfaces.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UI/UDP Configuration User Interfaces.lvclass"/>
 								<Item Name="UDP Configurations.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/Configuration/UDP Configurations.lvclass"/>
 								<Item Name="UDP Transceiver.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UDP Transceiver.lvclass"/>
+								<Item Name="UDP User Interfaces.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UI/UDP User Interfaces.lvclass"/>
 							</Item>
 							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
 						</Item>
 						<Item Name="User Interface" Type="Folder">
 							<Item Name="Core" Type="Folder">
-								<Item Name="Core Channel User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Channel/Core Channel User Interface.lvclass"/>
-								<Item Name="Core Group User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Group/Core Group User Interface.lvclass"/>
-								<Item Name="Core Plugin User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Plugin/Core Plugin User Interface.lvclass"/>
-								<Item Name="Core Thread User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Thread/Core Thread User Interface.lvclass"/>
-								<Item Name="Core Transfer User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Transfer/Core Transfer User Interface.lvclass"/>
+								<Item Name="Types" Type="Folder">
+									<Item Name="Core Channel User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Channel/Core Channel User Interface.lvclass"/>
+									<Item Name="Core Group User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Group/Core Group User Interface.lvclass"/>
+									<Item Name="Core Plugin User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Plugin/Core Plugin User Interface.lvclass"/>
+									<Item Name="Core Thread User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Thread/Core Thread User Interface.lvclass"/>
+									<Item Name="Core Transfer User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Transfer/Core Transfer User Interface.lvclass"/>
+								</Item>
+								<Item Name="Core User Interfaces.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Core/Core User Interfaces.lvclass"/>
 							</Item>
 							<Item Name="Editors" Type="Folder">
 								<Item Name="Component Settings Editor.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Plugin/Component Settings Editor.lvclass"/>
+								<Item Name="Settings Editor.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Settings Editor/Settings Editor.lvclass"/>
 							</Item>
 							<Item Name="User Interface Events.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface Events/User Interface Events.lvclass"/>
 							<Item Name="User Interface Handler.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface Handler/User Interface Handler.lvclass"/>
@@ -336,6 +310,9 @@
 						<Item Name="DSF Version Info.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Version Info.ctl"/>
 					</Item>
 					<Item Name="VIs" Type="Folder">
+						<Item Name="Test" Type="Folder">
+							<Item Name="Component UI Test.vi" Type="VI" URL="../DSF Core.lvlibp/Tests/Component UI Test.vi"/>
+						</Item>
 						<Item Name="Utilities" Type="Folder">
 							<Item Name="Async" Type="Folder">
 								<Item Name="Launch Data Viewer.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Data Viewer/Launch Data Viewer.vi"/>
@@ -409,12 +386,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
-			<Item Name="Get DSF Version.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Get DSF Version.vi"/>
-			<Item Name="Get Group Transfers.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Get Group Transfers.vi"/>
-			<Item Name="Get Plugin Groups.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Get Plugin Groups.vi"/>
-			<Item Name="Get Plugins.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Get Plugins.vi"/>
-			<Item Name="Get Transfer Channels.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Get Transfer Channels.vi"/>
-			<Item Name="Get Version.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Get Version.vi"/>
 			<Item Name="Load Configuration.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Load Configuration.vi"/>
 			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -425,7 +396,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Open Session.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Open Session.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
