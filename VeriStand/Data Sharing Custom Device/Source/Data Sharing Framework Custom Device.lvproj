@@ -107,7 +107,6 @@
 							<Item Name="Logging Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Logging/Logging Thread.lvclass"/>
 							<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread Manager/Thread Manager.lvclass"/>
 						</Item>
-						<Item Name="Component Loader.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component Loader/Component Loader.lvclass"/>
 						<Item Name="Plugin.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Plugin/Plugin.lvclass"/>
 						<Item Name="Timing.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Timing/Timing.lvclass"/>
 					</Item>
@@ -179,7 +178,6 @@
 							</Item>
 						</Item>
 						<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Base 10 Digit Count.vi"/>
-						<Item Name="Edit Configuration File.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration Session/Edit Configuration File.vi"/>
 						<Item Name="Internal Components.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Framework/Internal Components.vi"/>
 						<Item Name="Verison Cluster to String.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Verison Cluster to String.vi"/>
 						<Item Name="VI Name.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/VI Name.vi"/>
@@ -194,6 +192,9 @@
 							<Item Name="Buffer Converter.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffer Converter/Buffer Converter.lvclass"/>
 						</Item>
 						<Item Name="Component" Type="Folder">
+							<Item Name="Core" Type="Folder">
+								<Item Name="Core Component.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component/Core/Core Component.lvclass"/>
+							</Item>
 							<Item Name="Component Configurations.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component Configuration/Component Configurations.lvclass"/>
 							<Item Name="Component User Interfaces.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component User Interface/Component User Interfaces.lvclass"/>
 							<Item Name="Component.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component/Component.lvclass"/>
@@ -201,23 +202,14 @@
 						<Item Name="Configuration" Type="Folder">
 							<Item Name="Core" Type="Folder">
 								<Item Name="Types" Type="Folder">
-									<Item Name="Core Channel Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Channel/Core Channel Configuration.lvclass"/>
-									<Item Name="Core Framework Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Framework/Core Framework Configuration.lvclass"/>
-									<Item Name="Core Group Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Group/Core Group Configuration.lvclass"/>
-									<Item Name="Core Plugin Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Plugin/Core Plugin Configuration.lvclass"/>
-									<Item Name="Core Thread Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Thread/Core Thread Configuration.lvclass"/>
-									<Item Name="Core Transfer Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Transfer/Core Transfer Configuration.lvclass"/>
-								</Item>
-								<Item Name="Core Configurations.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Core Configurations.lvclass"/>
-							</Item>
-							<Item Name="Runtime" Type="Folder">
-								<Item Name="Types" Type="Folder">
+									<Item Name="Channel Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Base/Channel/Channel Configuration.lvclass"/>
 									<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Framework/Framework Configuration.lvclass"/>
 									<Item Name="Group Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Base/Group/Group Configuration.lvclass"/>
 									<Item Name="Plugin Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Base/Plugin/Plugin Configuration.lvclass"/>
 									<Item Name="Thread Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Base/Thread/Thread Configuration.lvclass"/>
 									<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Base/Transfer/Transfer Configuration.lvclass"/>
 								</Item>
+								<Item Name="Core Configurations.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Core/Core Configurations.lvclass"/>
 								<Item Name="Runtime Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Runtime/Runtime Configuration.lvclass"/>
 							</Item>
 							<Item Name="Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Configuration.lvclass"/>
@@ -228,21 +220,6 @@
 							<Item Name="Transceiver Thread.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Thread/Plugin/Transceiver/Transceiver Thread.lvclass"/>
 						</Item>
 						<Item Name="Transceivers" Type="Folder">
-							<Item Name="UDP" Type="Folder">
-								<Item Name="Configurations" Type="Folder">
-									<Item Name="UDP Thread Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/Configuration/UDP Thread Configuration.lvclass"/>
-									<Item Name="UDP Transfer Rx Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/Configuration/Rx Transfer/UDP Transfer Rx Configuration.lvclass"/>
-									<Item Name="UDP Transfer Tx Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/Configuration/Tx Transfer/UDP Transfer Tx Configuration.lvclass"/>
-								</Item>
-								<Item Name="User Interfaces" Type="Folder">
-									<Item Name="UDP Thread User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UI/Thread/UDP Thread User Interface.lvclass"/>
-									<Item Name="UDP Transfer Rx User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UI/Transfer Rx/UDP Transfer Rx User Interface.lvclass"/>
-									<Item Name="UDP Transfer Tx User Interface.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UI/Transfer Tx/UDP Transfer Tx User Interface.lvclass"/>
-								</Item>
-								<Item Name="UDP Configurations.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/Configuration/UDP Configurations.lvclass"/>
-								<Item Name="UDP Transceiver.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UDP Transceiver.lvclass"/>
-								<Item Name="UDP User Interfaces.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Components/Transceivers/UDP/UI/UDP User Interfaces.lvclass"/>
-							</Item>
 							<Item Name="Transceiver.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Transceiver/Transceiver.lvclass"/>
 						</Item>
 						<Item Name="User Interface" Type="Folder">
@@ -266,6 +243,7 @@
 						</Item>
 						<Item Name="Buffer.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffer/Buffer.lvclass"/>
 						<Item Name="Buffers.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Buffers/Buffers.lvclass"/>
+						<Item Name="Component Loader.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Component Loader/Component Loader.lvclass"/>
 						<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration Session/Configuration Session.lvclass"/>
 						<Item Name="Framework Status.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Framework Status/Framework Status.lvclass"/>
 						<Item Name="Framework.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Framework/Framework.lvclass"/>
@@ -310,14 +288,17 @@
 						<Item Name="DSF Version Info.ctl" Type="VI" URL="../DSF Core.lvlibp/Typedefs/DSF Version Info.ctl"/>
 					</Item>
 					<Item Name="VIs" Type="Folder">
-						<Item Name="Test" Type="Folder">
-							<Item Name="Component UI Test.vi" Type="VI" URL="../DSF Core.lvlibp/Tests/Component UI Test.vi"/>
+						<Item Name="Components" Type="Folder">
+							<Item Name="Add Component Configuration.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Add Component Configuration.vi"/>
+							<Item Name="Add Component Default Settings.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Add Component Default Settings.vi"/>
+							<Item Name="Get Component Settings.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Get Component Settings.vi"/>
 						</Item>
 						<Item Name="Utilities" Type="Folder">
 							<Item Name="Async" Type="Folder">
 								<Item Name="Launch Data Viewer.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Data Viewer/Launch Data Viewer.vi"/>
 							</Item>
 							<Item Name="Data Viewer.vi" Type="VI" URL="../DSF Core.lvlibp/VIs/Data Viewer/Data Viewer.vi"/>
+							<Item Name="Edit Configuration File.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration Session/Edit Configuration File.vi"/>
 						</Item>
 						<Item Name="Viewer API" Type="Folder">
 							<Item Name="Connect to Data Server.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Thread/Data Server/Connect to Data Server.vi"/>
