@@ -52,6 +52,11 @@
 				<Item Name="Create Transfer Sections.vi" Type="VI" URL="../Create Transfer Sections.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Components DVR" Type="Folder">
+			<Item Name="Create Components DVR.vi" Type="VI" URL="../Create Components DVR.vi"/>
+			<Item Name="Get Components.vi" Type="VI" URL="../Get Components.vi"/>
+			<Item Name="Set Components.vi" Type="VI" URL="../Set Components.vi"/>
+		</Item>
 		<Item Name="Configuration DVR" Type="Folder">
 			<Item Name="Create Configuration Data.vi" Type="VI" URL="../Create Configuration Data.vi"/>
 			<Item Name="Get Configuration Data.vi" Type="VI" URL="../Get Configuration Data.vi"/>
@@ -95,8 +100,11 @@
 		<Item Name="Version Cluster to String.vi" Type="VI" URL="../Version Cluster to String.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Components Ref.ctl" Type="VI" URL="../Components Ref.ctl"/>
+		<Item Name="Components.ctl" Type="VI" URL="../Components.ctl"/>
 		<Item Name="progress window data.ctl" Type="VI" URL="../progress window data.ctl"/>
 		<Item Name="shared data ref.ctl" Type="VI" URL="../shared data ref.ctl"/>
 		<Item Name="shared data.ctl" Type="VI" URL="../shared data.ctl"/>
 	</Item>
+	<Item Name="Load Components.vi" Type="VI" URL="../Load Components.vi"/>
 </Library>
