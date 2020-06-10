@@ -34,7 +34,6 @@
 				<Item Name="Logging Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Logging/Logging Thread.lvclass"/>
 				<Item Name="Thread Manager.lvclass" Type="LVClass" URL="../Classes/Thread Manager/Thread Manager.lvclass"/>
 			</Item>
-			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
 			<Item Name="Plugin.lvclass" Type="LVClass" URL="../Classes/Plugin/Plugin.lvclass"/>
 			<Item Name="Timing.lvclass" Type="LVClass" URL="../Classes/Timing/Timing.lvclass"/>
 		</Item>
@@ -172,6 +171,7 @@
 			</Item>
 			<Item Name="Buffer.lvclass" Type="LVClass" URL="../Classes/Buffer/Buffer.lvclass"/>
 			<Item Name="Buffers.lvclass" Type="LVClass" URL="../Classes/Buffers/Buffers.lvclass"/>
+			<Item Name="Component Loader.lvclass" Type="LVClass" URL="../Classes/Component Loader/Component Loader.lvclass"/>
 			<Item Name="Configuration Session.lvclass" Type="LVClass" URL="../Classes/Configuration Session/Configuration Session.lvclass"/>
 			<Item Name="Framework Status.lvclass" Type="LVClass" URL="../Classes/Framework Status/Framework Status.lvclass"/>
 			<Item Name="Framework.lvclass" Type="LVClass" URL="../Classes/Framework/Framework.lvclass"/>
