@@ -56,6 +56,7 @@
 		<Item Name="Get Configuration File Target Path.vi" Type="VI" URL="../Get Configuration File Target Path.vi"/>
 		<Item Name="Get Debug.vi" Type="VI" URL="../Get Debug.vi"/>
 		<Item Name="Get DSF Options.vi" Type="VI" URL="../Get DSF Options.vi"/>
+		<Item Name="Get Framework Configuration.vi" Type="VI" URL="../Get Framework Configuration.vi"/>
 		<Item Name="Get Launch Viewer Property.vi" Type="VI" URL="../Get Launch Viewer Property.vi"/>
 		<Item Name="Get MD5.vi" Type="VI" URL="../Get MD5.vi"/>
 		<Item Name="Get Show Error Dialog Property.vi" Type="VI" URL="../Get Show Error Dialog Property.vi"/>

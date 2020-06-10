@@ -54,13 +54,13 @@
 		</Item>
 		<Item Name="Components DVR" Type="Folder">
 			<Item Name="Create Components DVR.vi" Type="VI" URL="../Create Components DVR.vi"/>
-			<Item Name="Get Components.vi" Type="VI" URL="../Get Components.vi"/>
-			<Item Name="Set Components.vi" Type="VI" URL="../Set Components.vi"/>
+			<Item Name="Read Components DVR.vi" Type="VI" URL="../Read Components DVR.vi"/>
+			<Item Name="Write Components DVR.vi" Type="VI" URL="../Write Components DVR.vi"/>
 		</Item>
 		<Item Name="Configuration DVR" Type="Folder">
-			<Item Name="Create Configuration Data.vi" Type="VI" URL="../Create Configuration Data.vi"/>
-			<Item Name="Get Configuration Data.vi" Type="VI" URL="../Get Configuration Data.vi"/>
-			<Item Name="Set Configuration Data.vi" Type="VI" URL="../Set Configuration Data.vi"/>
+			<Item Name="Create Configuration DVR.vi" Type="VI" URL="../Create Configuration DVR.vi"/>
+			<Item Name="Read Configuration DVR.vi" Type="VI" URL="../Read Configuration DVR.vi"/>
+			<Item Name="Write Configuration DVR.vi" Type="VI" URL="../Write Configuration DVR.vi"/>
 		</Item>
 		<Item Name="Progress Window" Type="Folder">
 			<Item Name="New Progress Window.vi" Type="VI" URL="../New Progress Window.vi"/>
@@ -78,6 +78,7 @@
 			</Item>
 			<Item Name="Get Configuration ID.vi" Type="VI" URL="../Get Configuration ID.vi"/>
 			<Item Name="get dsf config file path.vi" Type="VI" URL="../get dsf config file path.vi"/>
+			<Item Name="Set Framework Configuration.vi" Type="VI" URL="../Set Framework Configuration.vi"/>
 			<Item Name="Get Settings ID.vi" Type="VI" URL="../Get Settings ID.vi"/>
 			<Item Name="Set Configuration ID.vi" Type="VI" URL="../Set Configuration ID.vi"/>
 			<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
@@ -92,11 +93,14 @@
 		<Item Name="Delete All Children.vi" Type="VI" URL="../Delete All Children.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
 		<Item Name="Get Component Dependencies.vi" Type="VI" URL="../Get Component Dependencies.vi"/>
+		<Item Name="Get Component Settings.vi" Type="VI" URL="../Get Component Settings.vi"/>
 		<Item Name="Get Framework Node.vi" Type="VI" URL="../Get Framework Node.vi"/>
 		<Item Name="Get Target IP Address.vi" Type="VI" URL="../Get Target IP Address.vi"/>
 		<Item Name="Get Target Name.vi" Type="VI" URL="../Get Target Name.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
+		<Item Name="Load Components.vi" Type="VI" URL="../Load Components.vi"/>
 		<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
+		<Item Name="Set Component Settings.vi" Type="VI" URL="../Set Component Settings.vi"/>
 		<Item Name="Version Cluster to String.vi" Type="VI" URL="../Version Cluster to String.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
@@ -106,5 +110,4 @@
 		<Item Name="shared data ref.ctl" Type="VI" URL="../shared data ref.ctl"/>
 		<Item Name="shared data.ctl" Type="VI" URL="../shared data.ctl"/>
 	</Item>
-	<Item Name="Load Components.vi" Type="VI" URL="../Load Components.vi"/>
 </Library>
