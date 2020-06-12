@@ -10,9 +10,7 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Configuration" Type="Folder">
-				<Item Name="Runtime Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Runtime/Runtime Configuration.lvclass"/>
-			</Item>
+			<Item Name="Configuration" Type="Folder"/>
 			<Item Name="Hardware Info" Type="Folder">
 				<Item Name="CPU Info.lvclass" Type="LVClass" URL="../Classes/Hardware/CPU Info/CPU Info.lvclass"/>
 				<Item Name="Hardware Info.lvclass" Type="LVClass" URL="../Classes/Hardware/Hardware Info/Hardware Info.lvclass"/>
@@ -150,6 +148,7 @@
 					<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Base/Transfer/Transfer Configuration.lvclass"/>
 				</Item>
 				<Item Name="Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Configuration.lvclass"/>
+				<Item Name="Runtime Configuration.lvclass" Type="LVClass" URL="../Classes/Configuration/Runtime/Runtime Configuration.lvclass"/>
 			</Item>
 			<Item Name="Thread" Type="Folder">
 				<Item Name="Plugin Thread.lvclass" Type="LVClass" URL="../Classes/Thread/Plugin/Plugin Thread.lvclass"/>
