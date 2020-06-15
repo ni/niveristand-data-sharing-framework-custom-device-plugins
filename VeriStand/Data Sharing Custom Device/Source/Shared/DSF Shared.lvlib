@@ -52,6 +52,13 @@
 		<Item Name="Get Transfers.vi" Type="VI" URL="../Get Transfers.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
+		<Item Name="Core Settings" Type="Folder">
+			<Item Name="Get Core Channel Settings.vi" Type="VI" URL="../Get Core Channel Settings.vi"/>
+			<Item Name="Get Core Group Settings.vi" Type="VI" URL="../Get Core Group Settings.vi"/>
+			<Item Name="Get Core Plugin Settings.vi" Type="VI" URL="../Get Core Plugin Settings.vi"/>
+			<Item Name="Get Core Thread Settings.vi" Type="VI" URL="../Get Core Thread Settings.vi"/>
+			<Item Name="Get Core Transfer Settings.vi" Type="VI" URL="../Get Core Transfer Settings.vi"/>
+		</Item>
 		<Item Name="Get Component Settings.vi" Type="VI" URL="../Get Component Settings.vi"/>
 		<Item Name="Get Components Target Directory.vi" Type="VI" URL="../Get Components Target Directory.vi"/>
 		<Item Name="Get Configuration File Target Path.vi" Type="VI" URL="../Get Configuration File Target Path.vi"/>
@@ -68,9 +75,4 @@
 		<Item Name="Set MD5.vi" Type="VI" URL="../Set MD5.vi"/>
 	</Item>
 	<Item Name="Calculate MD5 for Configuration File.vi" Type="VI" URL="../../System Explorer/Calculate MD5 for Configuration File.vi"/>
-	<Item Name="Get Core Channel Settings.vi" Type="VI" URL="../Get Core Channel Settings.vi"/>
-	<Item Name="Get Core Group Settings.vi" Type="VI" URL="../Get Core Group Settings.vi"/>
-	<Item Name="Get Core Plugin Settings.vi" Type="VI" URL="../Get Core Plugin Settings.vi"/>
-	<Item Name="Get Core Thread Settings.vi" Type="VI" URL="../Get Core Thread Settings.vi"/>
-	<Item Name="Get Core Transfer Settings.vi" Type="VI" URL="../Get Core Transfer Settings.vi"/>
 </Library>

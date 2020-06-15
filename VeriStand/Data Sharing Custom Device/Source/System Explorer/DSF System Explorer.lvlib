@@ -121,4 +121,5 @@
 		<Item Name="shared data ref.ctl" Type="VI" URL="../shared data ref.ctl"/>
 		<Item Name="shared data.ctl" Type="VI" URL="../shared data.ctl"/>
 	</Item>
+	<Item Name="Initialize Components UI.vi" Type="VI" URL="../Initialize Components UI.vi"/>
 </Library>
