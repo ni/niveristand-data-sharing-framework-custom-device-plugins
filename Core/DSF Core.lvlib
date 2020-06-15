@@ -217,10 +217,6 @@
 			<Item Name="Components" Type="Folder">
 				<Item Name="Add Component Configuration.vi" Type="VI" URL="../VIs/Add Component Configuration.vi"/>
 				<Item Name="Add Component Default Settings.vi" Type="VI" URL="../VIs/Add Component Default Settings.vi"/>
-				<Item Name="Get Component Settings.vi" Type="VI" URL="../VIs/Get Component Settings.vi"/>
-				<Item Name="Get Core Settings.vi" Type="VI" URL="../VIs/Get Core Settings.vi"/>
-				<Item Name="Set Component Settings.vi" Type="VI" URL="../VIs/Set Component Settings.vi"/>
-				<Item Name="Set Core Settings.vi" Type="VI" URL="../VIs/Set Core Settings.vi"/>
 			</Item>
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="Async" Type="Folder">

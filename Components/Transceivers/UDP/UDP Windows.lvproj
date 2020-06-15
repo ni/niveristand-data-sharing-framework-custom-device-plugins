@@ -226,10 +226,6 @@
 						<Item Name="Components" Type="Folder">
 							<Item Name="Add Component Configuration.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Add Component Configuration.vi"/>
 							<Item Name="Add Component Default Settings.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Add Component Default Settings.vi"/>
-							<Item Name="Get Component Settings.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Get Component Settings.vi"/>
-							<Item Name="Get Core Settings.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Get Core Settings.vi"/>
-							<Item Name="Set Component Settings.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Set Component Settings.vi"/>
-							<Item Name="Set Core Settings.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Set Core Settings.vi"/>
 						</Item>
 						<Item Name="Utilities" Type="Folder">
 							<Item Name="Async" Type="Folder">
@@ -315,7 +311,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/x86/Components</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{715B02BF-3678-42AC-8A84-B96BEAAE061F}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP Transceiver.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/x86/Components/UDP Transceiver.lvlibp</Property>
