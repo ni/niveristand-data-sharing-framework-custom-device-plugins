@@ -99,16 +99,19 @@
 		<Item Name="Apply DSF Configuration to Node.vi" Type="VI" URL="../Apply DSF Configuration to Node.vi"/>
 		<Item Name="Apply DSF Configuration.vi" Type="VI" URL="../Apply DSF Configuration.vi"/>
 		<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../Base 10 Digit Count.vi"/>
+		<Item Name="Collect Components UI.vi" Type="VI" URL="../Collect Components UI.vi"/>
 		<Item Name="Delete All Children.vi" Type="VI" URL="../Delete All Children.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
 		<Item Name="Get Component Dependencies.vi" Type="VI" URL="../Get Component Dependencies.vi"/>
 		<Item Name="Get Component Settings.vi" Type="VI" URL="../Get Component Settings.vi"/>
 		<Item Name="Get Framework Node.vi" Type="VI" URL="../Get Framework Node.vi"/>
+		<Item Name="Get Group Direction.vi" Type="VI" URL="../Get Group Direction.vi"/>
 		<Item Name="Get Plugin Components.vi" Type="VI" URL="../Get Plugin Components.vi"/>
 		<Item Name="Get Plugin Node.vi" Type="VI" URL="../Get Plugin Node.vi"/>
 		<Item Name="Get Target IP Address.vi" Type="VI" URL="../Get Target IP Address.vi"/>
 		<Item Name="Get Target Name.vi" Type="VI" URL="../Get Target Name.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
+		<Item Name="Initialize Components UI.vi" Type="VI" URL="../Initialize Components UI.vi"/>
 		<Item Name="Load Components.vi" Type="VI" URL="../Load Components.vi"/>
 		<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
 		<Item Name="Version Cluster to String.vi" Type="VI" URL="../Version Cluster to String.vi"/>
@@ -121,5 +124,4 @@
 		<Item Name="shared data ref.ctl" Type="VI" URL="../shared data ref.ctl"/>
 		<Item Name="shared data.ctl" Type="VI" URL="../shared data.ctl"/>
 	</Item>
-	<Item Name="Initialize Components UI.vi" Type="VI" URL="../Initialize Components UI.vi"/>
 </Library>
