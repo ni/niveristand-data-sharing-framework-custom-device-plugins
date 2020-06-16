@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Configurations" Type="Folder">
-		<Item Name="UDP Thread Configuration.lvclass" Type="LVClass" URL="../Configuration/UDP Thread Configuration.lvclass"/>
+		<Item Name="UDP Thread Configuration.lvclass" Type="LVClass" URL="../Configuration/Thread/UDP Thread Configuration.lvclass"/>
 		<Item Name="UDP Transfer Rx Configuration.lvclass" Type="LVClass" URL="../Configuration/Rx Transfer/UDP Transfer Rx Configuration.lvclass"/>
 		<Item Name="UDP Transfer Tx Configuration.lvclass" Type="LVClass" URL="../Configuration/Tx Transfer/UDP Transfer Tx Configuration.lvclass"/>
 	</Item>
