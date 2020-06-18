@@ -41,8 +41,8 @@
 			<Item Name="Sections" Type="Folder">
 				<Item Name="Add Data Section.vi" Type="VI" URL="../Add Data Section.vi"/>
 				<Item Name="Add Monitoring Section.vi" Type="VI" URL="../Add Monitoring Section.vi"/>
-				<Item Name="Add Plugin Group Transfer Sections.vi" Type="VI" URL="../Add Plugin Group Transfer Sections.vi"/>
 				<Item Name="Add Plugin Performance Sections.vi" Type="VI" URL="../Add Plugin Performance Sections.vi"/>
+				<Item Name="Add Plugin Sections.vi" Type="VI" URL="../Add Plugin Sections.vi"/>
 				<Item Name="Add Section.vi" Type="VI" URL="../Add Section.vi"/>
 				<Item Name="Add Status Section.vi" Type="VI" URL="../Add Status Section.vi"/>
 				<Item Name="Create Group Sections.vi" Type="VI" URL="../Create Group Sections.vi"/>
@@ -52,10 +52,10 @@
 				<Item Name="Create Transfer Sections.vi" Type="VI" URL="../Create Transfer Sections.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Components DVR" Type="Folder">
-			<Item Name="Create Components DVR.vi" Type="VI" URL="../Create Components DVR.vi"/>
-			<Item Name="Read Components DVR.vi" Type="VI" URL="../Read Components DVR.vi"/>
-			<Item Name="Write Components DVR.vi" Type="VI" URL="../Write Components DVR.vi"/>
+		<Item Name="Components Notifier" Type="Folder">
+			<Item Name="Obtain Components Notifier.vi" Type="VI" URL="../Obtain Components Notifier.vi"/>
+			<Item Name="Read Components Notifier.vi" Type="VI" URL="../Read Components Notifier.vi"/>
+			<Item Name="Write Components Notifier.vi" Type="VI" URL="../Write Components Notifier.vi"/>
 		</Item>
 		<Item Name="Configuration DVR" Type="Folder">
 			<Item Name="Create Configuration DVR.vi" Type="VI" URL="../Create Configuration DVR.vi"/>
@@ -99,6 +99,7 @@
 		<Item Name="Apply DSF Configuration to Node.vi" Type="VI" URL="../Apply DSF Configuration to Node.vi"/>
 		<Item Name="Apply DSF Configuration.vi" Type="VI" URL="../Apply DSF Configuration.vi"/>
 		<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../Base 10 Digit Count.vi"/>
+		<Item Name="Check Component Settings Change.vi" Type="VI" URL="../Check Component Settings Change.vi"/>
 		<Item Name="Collect Components UI.vi" Type="VI" URL="../Collect Components UI.vi"/>
 		<Item Name="Delete All Children.vi" Type="VI" URL="../Delete All Children.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
