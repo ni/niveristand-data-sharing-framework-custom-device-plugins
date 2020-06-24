@@ -35,8 +35,6 @@
 	<Item Name="Get" Type="Folder">
 		<Item Name="Get All Channels.vi" Type="VI" URL="../Get All Channels.vi"/>
 		<Item Name="Get All Data Channels.vi" Type="VI" URL="../Get All Data Channels.vi"/>
-		<Item Name="Get All Monitoring Channels.vi" Type="VI" URL="../Get All Monitoring Channels.vi"/>
-		<Item Name="Get All Status Channels from Section.vi" Type="VI" URL="../Get All Status Channels from Section.vi"/>
 		<Item Name="Get All Status Channels.vi" Type="VI" URL="../Get All Status Channels.vi"/>
 		<Item Name="Get Channels.vi" Type="VI" URL="../Get Channels.vi"/>
 		<Item Name="Get Data Channels.vi" Type="VI" URL="../Get Data Channels.vi"/>

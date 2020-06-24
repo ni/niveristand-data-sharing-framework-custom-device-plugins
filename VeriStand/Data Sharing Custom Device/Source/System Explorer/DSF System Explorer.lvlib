@@ -40,7 +40,6 @@
 			</Item>
 			<Item Name="Sections" Type="Folder">
 				<Item Name="Add Data Section.vi" Type="VI" URL="../Add Data Section.vi"/>
-				<Item Name="Add Monitoring Section.vi" Type="VI" URL="../Add Monitoring Section.vi"/>
 				<Item Name="Add Plugin Performance Sections.vi" Type="VI" URL="../Add Plugin Performance Sections.vi"/>
 				<Item Name="Add Plugin Sections.vi" Type="VI" URL="../Add Plugin Sections.vi"/>
 				<Item Name="Add Section.vi" Type="VI" URL="../Add Section.vi"/>
