@@ -16,8 +16,6 @@
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="Buffer Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Buffer Tests/Buffer Tests.lvclass"/>
 			<Item Name="Buffers Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Buffers Tests/Buffers Tests.lvclass"/>
-			<Item Name="Configuration Session Test.vi" Type="VI" URL="../VIs/Configuration Session Test.vi"/>
-			<Item Name="Configuration Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Configuration Tests/Configuration Tests.lvclass"/>
 			<Item Name="Framework Status Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Framework Status Tests/Framework Status Tests.lvclass"/>
 			<Item Name="Framework Test.vi" Type="VI" URL="../VIs/Framework Test.vi"/>
 			<Item Name="Performance Tests.lvclass" Type="LVClass" URL="../Tests/Classes/Performance Tests/Performance Tests.lvclass"/>

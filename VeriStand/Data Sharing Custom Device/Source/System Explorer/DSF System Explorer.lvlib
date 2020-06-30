@@ -23,6 +23,7 @@
 			<Item Name="Plugin Page.vi" Type="VI" URL="../Plugin Page.vi"/>
 			<Item Name="Status Channel Page.vi" Type="VI" URL="../Status Channel Page.vi"/>
 			<Item Name="Status Section Page.vi" Type="VI" URL="../Status Section Page.vi"/>
+			<Item Name="Thread Page.vi" Type="VI" URL="../Thread Page.vi"/>
 			<Item Name="Transfer Page.vi" Type="VI" URL="../Transfer Page.vi"/>
 		</Item>
 		<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
@@ -39,16 +40,26 @@
 			</Item>
 			<Item Name="Sections" Type="Folder">
 				<Item Name="Add Data Section.vi" Type="VI" URL="../Add Data Section.vi"/>
-				<Item Name="Add Monitoring Section.vi" Type="VI" URL="../Add Monitoring Section.vi"/>
-				<Item Name="Add Plugin Group Transfer Sections.vi" Type="VI" URL="../Add Plugin Group Transfer Sections.vi"/>
 				<Item Name="Add Plugin Performance Sections.vi" Type="VI" URL="../Add Plugin Performance Sections.vi"/>
+				<Item Name="Add Plugin Sections.vi" Type="VI" URL="../Add Plugin Sections.vi"/>
 				<Item Name="Add Section.vi" Type="VI" URL="../Add Section.vi"/>
 				<Item Name="Add Status Section.vi" Type="VI" URL="../Add Status Section.vi"/>
 				<Item Name="Create Group Sections.vi" Type="VI" URL="../Create Group Sections.vi"/>
 				<Item Name="Create Plugin Section.vi" Type="VI" URL="../Create Plugin Section.vi"/>
+				<Item Name="Create Thread Section.vi" Type="VI" URL="../Create Thread Section.vi"/>
 				<Item Name="Create Transfer Channels.vi" Type="VI" URL="../Create Transfer Channels.vi"/>
 				<Item Name="Create Transfer Sections.vi" Type="VI" URL="../Create Transfer Sections.vi"/>
 			</Item>
+		</Item>
+		<Item Name="Components Notifier" Type="Folder">
+			<Item Name="Obtain Components Notifier.vi" Type="VI" URL="../Obtain Components Notifier.vi"/>
+			<Item Name="Read Components Notifier.vi" Type="VI" URL="../Read Components Notifier.vi"/>
+			<Item Name="Write Components Notifier.vi" Type="VI" URL="../Write Components Notifier.vi"/>
+		</Item>
+		<Item Name="Configuration DVR" Type="Folder">
+			<Item Name="Create Configuration DVR.vi" Type="VI" URL="../Create Configuration DVR.vi"/>
+			<Item Name="Read Configuration DVR.vi" Type="VI" URL="../Read Configuration DVR.vi"/>
+			<Item Name="Write Configuration DVR.vi" Type="VI" URL="../Write Configuration DVR.vi"/>
 		</Item>
 		<Item Name="Progress Window" Type="Folder">
 			<Item Name="New Progress Window.vi" Type="VI" URL="../New Progress Window.vi"/>
@@ -56,12 +67,29 @@
 			<Item Name="Update Progress Window.vi" Type="VI" URL="../Update Progress Window.vi"/>
 		</Item>
 		<Item Name="Properties" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Settings ID" Type="Folder">
+				<Item Name="Get Settings ID (Plugin).vi" Type="VI" URL="../Get Settings ID (Plugin).vi"/>
+				<Item Name="Get Settings ID (Thread).vi" Type="VI" URL="../Get Settings ID (Thread).vi"/>
+				<Item Name="Get Settings ID (Channel).vi" Type="VI" URL="../Get Settings ID (Channel).vi"/>
+				<Item Name="Get Settings ID (Transfer).vi" Type="VI" URL="../Get Settings ID (Transfer).vi"/>
+				<Item Name="Get Settings ID (Group).vi" Type="VI" URL="../Get Settings ID (Group).vi"/>
+			</Item>
+			<Item Name="Core Settings" Type="Folder">
+				<Item Name="Set Core Channel Settings.vi" Type="VI" URL="../Set Core Channel Settings.vi"/>
+				<Item Name="Set Core Group Settings.vi" Type="VI" URL="../Set Core Group Settings.vi"/>
+				<Item Name="Set Core Plugin Settings.vi" Type="VI" URL="../Set Core Plugin Settings.vi"/>
+				<Item Name="Set Core Thread Settings.vi" Type="VI" URL="../Set Core Thread Settings.vi"/>
+				<Item Name="Set Core Transfer Settings.vi" Type="VI" URL="../Set Core Transfer Settings.vi"/>
+			</Item>
 			<Item Name="Get Configuration ID.vi" Type="VI" URL="../Get Configuration ID.vi"/>
-			<Item Name="Get Configuration Session.vi" Type="VI" URL="../Get Configuration Session.vi"/>
 			<Item Name="get dsf config file path.vi" Type="VI" URL="../get dsf config file path.vi"/>
+			<Item Name="Set Core Settings.vi" Type="VI" URL="../Set Core Settings.vi"/>
+			<Item Name="Set Framework Configuration.vi" Type="VI" URL="../Set Framework Configuration.vi"/>
+			<Item Name="Set Component Settings.vi" Type="VI" URL="../Set Component Settings.vi"/>
+			<Item Name="Get Settings ID.vi" Type="VI" URL="../Get Settings ID.vi"/>
 			<Item Name="Set Configuration ID.vi" Type="VI" URL="../Set Configuration ID.vi"/>
 			<Item Name="set dsf config file path.vi" Type="VI" URL="../set dsf config file path.vi"/>
-			<Item Name="set dsf config session.vi" Type="VI" URL="../set dsf config session.vi"/>
 			<Item Name="Set Show Error Dialog Property.vi" Type="VI" URL="../../Shared/Set Show Error Dialog Property.vi"/>
 		</Item>
 		<Item Name="Add Component Dependencies.vi" Type="VI" URL="../Add Component Dependencies.vi"/>
@@ -70,17 +98,28 @@
 		<Item Name="Apply DSF Configuration to Node.vi" Type="VI" URL="../Apply DSF Configuration to Node.vi"/>
 		<Item Name="Apply DSF Configuration.vi" Type="VI" URL="../Apply DSF Configuration.vi"/>
 		<Item Name="Base 10 Digit Count.vi" Type="VI" URL="../Base 10 Digit Count.vi"/>
+		<Item Name="Check Component Settings Change.vi" Type="VI" URL="../Check Component Settings Change.vi"/>
+		<Item Name="Collect Components UI.vi" Type="VI" URL="../Collect Components UI.vi"/>
 		<Item Name="Delete All Children.vi" Type="VI" URL="../Delete All Children.vi"/>
 		<Item Name="Find Available Files.vi" Type="VI" URL="../Find Available Files.vi"/>
 		<Item Name="Get Component Dependencies.vi" Type="VI" URL="../Get Component Dependencies.vi"/>
+		<Item Name="Get Component Settings.vi" Type="VI" URL="../Get Component Settings.vi"/>
 		<Item Name="Get Framework Node.vi" Type="VI" URL="../Get Framework Node.vi"/>
+		<Item Name="Get Group Direction.vi" Type="VI" URL="../Get Group Direction.vi"/>
+		<Item Name="Get Plugin Components.vi" Type="VI" URL="../Get Plugin Components.vi"/>
+		<Item Name="Get Plugin Node.vi" Type="VI" URL="../Get Plugin Node.vi"/>
 		<Item Name="Get Target IP Address.vi" Type="VI" URL="../Get Target IP Address.vi"/>
 		<Item Name="Get Target Name.vi" Type="VI" URL="../Get Target Name.vi"/>
 		<Item Name="Get VeriStand Common Directory.vi" Type="VI" URL="../Get VeriStand Common Directory.vi"/>
+		<Item Name="Initialize Components UI.vi" Type="VI" URL="../Initialize Components UI.vi"/>
+		<Item Name="Load Components.vi" Type="VI" URL="../Load Components.vi"/>
 		<Item Name="prompt user for configuration.vi" Type="VI" URL="../prompt user for configuration.vi"/>
 		<Item Name="Version Cluster to String.vi" Type="VI" URL="../Version Cluster to String.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Components Ref.ctl" Type="VI" URL="../Components Ref.ctl"/>
+		<Item Name="Components.ctl" Type="VI" URL="../Components.ctl"/>
+		<Item Name="Core Configuration.ctl" Type="VI" URL="../Core Configuration.ctl"/>
 		<Item Name="progress window data.ctl" Type="VI" URL="../progress window data.ctl"/>
 		<Item Name="shared data ref.ctl" Type="VI" URL="../shared data ref.ctl"/>
 		<Item Name="shared data.ctl" Type="VI" URL="../shared data.ctl"/>

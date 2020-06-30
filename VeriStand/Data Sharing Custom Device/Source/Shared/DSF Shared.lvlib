@@ -18,6 +18,7 @@
 			<Item Name="Plugin Page GUID.vi" Type="VI" URL="../Plugin Page GUID.vi"/>
 			<Item Name="Status Channel GUID.vi" Type="VI" URL="../Status Channel GUID.vi"/>
 			<Item Name="Status Page GUID.vi" Type="VI" URL="../Status Page GUID.vi"/>
+			<Item Name="Thread Page GUID.vi" Type="VI" URL="../Thread Page GUID.vi"/>
 			<Item Name="Transfer Page GUID.vi" Type="VI" URL="../Transfer Page GUID.vi"/>
 		</Item>
 		<Item Name="Property Names" Type="Folder">
@@ -34,8 +35,6 @@
 	<Item Name="Get" Type="Folder">
 		<Item Name="Get All Channels.vi" Type="VI" URL="../Get All Channels.vi"/>
 		<Item Name="Get All Data Channels.vi" Type="VI" URL="../Get All Data Channels.vi"/>
-		<Item Name="Get All Monitoring Channels.vi" Type="VI" URL="../Get All Monitoring Channels.vi"/>
-		<Item Name="Get All Status Channels from Section.vi" Type="VI" URL="../Get All Status Channels from Section.vi"/>
 		<Item Name="Get All Status Channels.vi" Type="VI" URL="../Get All Status Channels.vi"/>
 		<Item Name="Get Channels.vi" Type="VI" URL="../Get Channels.vi"/>
 		<Item Name="Get Data Channels.vi" Type="VI" URL="../Get Data Channels.vi"/>
@@ -47,13 +46,24 @@
 		<Item Name="Get Section.vi" Type="VI" URL="../Get Section.vi"/>
 		<Item Name="Get Status Channels.vi" Type="VI" URL="../Get Status Channels.vi"/>
 		<Item Name="Get Status Section.vi" Type="VI" URL="../Get Status Section.vi"/>
+		<Item Name="Get Threads.vi" Type="VI" URL="../Get Threads.vi"/>
 		<Item Name="Get Transfers.vi" Type="VI" URL="../Get Transfers.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
+		<Item Name="Core Settings" Type="Folder">
+			<Item Name="Get Core Channel Settings.vi" Type="VI" URL="../Get Core Channel Settings.vi"/>
+			<Item Name="Get Core Group Settings.vi" Type="VI" URL="../Get Core Group Settings.vi"/>
+			<Item Name="Get Core Plugin Settings.vi" Type="VI" URL="../Get Core Plugin Settings.vi"/>
+			<Item Name="Get Core Thread Settings.vi" Type="VI" URL="../Get Core Thread Settings.vi"/>
+			<Item Name="Get Core Transfer Settings.vi" Type="VI" URL="../Get Core Transfer Settings.vi"/>
+		</Item>
+		<Item Name="Get Component Settings.vi" Type="VI" URL="../Get Component Settings.vi"/>
 		<Item Name="Get Components Target Directory.vi" Type="VI" URL="../Get Components Target Directory.vi"/>
 		<Item Name="Get Configuration File Target Path.vi" Type="VI" URL="../Get Configuration File Target Path.vi"/>
+		<Item Name="Get Core Settings.vi" Type="VI" URL="../Get Core Settings.vi"/>
 		<Item Name="Get Debug.vi" Type="VI" URL="../Get Debug.vi"/>
 		<Item Name="Get DSF Options.vi" Type="VI" URL="../Get DSF Options.vi"/>
+		<Item Name="Get Framework Configuration.vi" Type="VI" URL="../Get Framework Configuration.vi"/>
 		<Item Name="Get Launch Viewer Property.vi" Type="VI" URL="../Get Launch Viewer Property.vi"/>
 		<Item Name="Get MD5.vi" Type="VI" URL="../Get MD5.vi"/>
 		<Item Name="Get Show Error Dialog Property.vi" Type="VI" URL="../Get Show Error Dialog Property.vi"/>
