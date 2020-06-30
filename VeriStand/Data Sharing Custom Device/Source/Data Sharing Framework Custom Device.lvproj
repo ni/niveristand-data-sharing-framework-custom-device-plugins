@@ -21,9 +21,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Test VIs" Type="Folder">
-			<Item Name="Dynamic Component UI.vi" Type="VI" URL="../Test VIs/Dynamic Component UI.vi"/>
-		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
@@ -82,8 +79,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Component Settings Editor.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/User Interface/Plugin/Component Settings Editor.lvclass"/>
-			<Item Name="Create.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/User Interface/Plugin/Create.vi"/>
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../DSF Core.lvlibp">
 				<Item Name="Private" Type="Folder">
 					<Item Name="Classes" Type="Folder">
@@ -371,11 +366,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
-			<Item Name="Framework Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Framework/Framework Configuration.lvclass"/>
-			<Item Name="Get Group Configurations.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Base/Thread/Get Group Configurations.vi"/>
-			<Item Name="Get Plugin Configurations.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Framework/Get Plugin Configurations.vi"/>
-			<Item Name="Get Thread Configurations.vi" Type="VI" URL="../DSF Core.lvlibp/Classes/Configuration/Base/Plugin/Get Thread Configurations.vi"/>
-			<Item Name="Group Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Base/Group/Group Configuration.lvclass"/>
 			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -385,7 +375,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../DSF Core.lvlibp/Classes/Configuration/Base/Transfer/Transfer Configuration.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
