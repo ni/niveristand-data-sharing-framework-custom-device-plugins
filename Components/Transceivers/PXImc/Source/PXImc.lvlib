@@ -4,5 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Configurations" Type="Folder">
+		<Item Name="Thread Configuration.lvclass" Type="LVClass" URL="../Configurations/Thread/Thread Configuration.lvclass"/>
+		<Item Name="Transfer Configuration.lvclass" Type="LVClass" URL="../Configurations/Transfer/Transfer Configuration.lvclass"/>
+	</Item>
+	<Item Name="User Interfaces" Type="Folder">
+		<Item Name="Thread User Interface.lvclass" Type="LVClass" URL="../User Interfaces/Thread/Thread User Interface.lvclass"/>
+		<Item Name="Transfer User Interface.lvclass" Type="LVClass" URL="../User Interfaces/Transfer/Transfer User Interface.lvclass"/>
+	</Item>
+	<Item Name="PXImc Configurations.lvclass" Type="LVClass" URL="../Configurations/PXImc Configurations.lvclass"/>
 	<Item Name="PXImc Transceiver.lvclass" Type="LVClass" URL="../PXImc Transceiver.lvclass"/>
+	<Item Name="PXImc User Interfaces.lvclass" Type="LVClass" URL="../User Interfaces/PXImc User Interfaces.lvclass"/>
 </Library>
