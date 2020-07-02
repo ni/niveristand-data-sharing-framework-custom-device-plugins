@@ -32,23 +32,6 @@
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
-	<Item Name="Get" Type="Folder">
-		<Item Name="Get All Channels.vi" Type="VI" URL="../Get All Channels.vi"/>
-		<Item Name="Get All Data Channels.vi" Type="VI" URL="../Get All Data Channels.vi"/>
-		<Item Name="Get All Status Channels.vi" Type="VI" URL="../Get All Status Channels.vi"/>
-		<Item Name="Get Channels.vi" Type="VI" URL="../Get Channels.vi"/>
-		<Item Name="Get Data Channels.vi" Type="VI" URL="../Get Data Channels.vi"/>
-		<Item Name="Get Data Section.vi" Type="VI" URL="../Get Data Section.vi"/>
-		<Item Name="Get Groups.vi" Type="VI" URL="../Get Groups.vi"/>
-		<Item Name="Get Performance Section.vi" Type="VI" URL="../Get Performance Section.vi"/>
-		<Item Name="Get Plugins.vi" Type="VI" URL="../Get Plugins.vi"/>
-		<Item Name="Get Section Channels.vi" Type="VI" URL="../Get Section Channels.vi"/>
-		<Item Name="Get Section.vi" Type="VI" URL="../Get Section.vi"/>
-		<Item Name="Get Status Channels.vi" Type="VI" URL="../Get Status Channels.vi"/>
-		<Item Name="Get Status Section.vi" Type="VI" URL="../Get Status Section.vi"/>
-		<Item Name="Get Threads.vi" Type="VI" URL="../Get Threads.vi"/>
-		<Item Name="Get Transfers.vi" Type="VI" URL="../Get Transfers.vi"/>
-	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Core Settings" Type="Folder">
 			<Item Name="Get Core Channel Settings.vi" Type="VI" URL="../Get Core Channel Settings.vi"/>
@@ -60,17 +43,21 @@
 		<Item Name="Get Component Settings.vi" Type="VI" URL="../Get Component Settings.vi"/>
 		<Item Name="Get Components Target Directory.vi" Type="VI" URL="../Get Components Target Directory.vi"/>
 		<Item Name="Get Configuration File Target Path.vi" Type="VI" URL="../Get Configuration File Target Path.vi"/>
-		<Item Name="Get Core Settings.vi" Type="VI" URL="../Get Core Settings.vi"/>
+		<Item Name="Get Configuration Version.vi" Type="VI" URL="../Get Configuration Version.vi"/>
 		<Item Name="Get Debug.vi" Type="VI" URL="../Get Debug.vi"/>
 		<Item Name="Get DSF Options.vi" Type="VI" URL="../Get DSF Options.vi"/>
 		<Item Name="Get Framework Configuration.vi" Type="VI" URL="../Get Framework Configuration.vi"/>
 		<Item Name="Get Launch Viewer Property.vi" Type="VI" URL="../Get Launch Viewer Property.vi"/>
-		<Item Name="Get MD5.vi" Type="VI" URL="../Get MD5.vi"/>
 		<Item Name="Get Show Error Dialog Property.vi" Type="VI" URL="../Get Show Error Dialog Property.vi"/>
 		<Item Name="Set Debug.vi" Type="VI" URL="../Set Debug.vi"/>
 		<Item Name="Set DSF Options.vi" Type="VI" URL="../Set DSF Options.vi"/>
 		<Item Name="Set Launch Viewer Property.vi" Type="VI" URL="../Set Launch Viewer Property.vi"/>
-		<Item Name="Set MD5.vi" Type="VI" URL="../Set MD5.vi"/>
 	</Item>
-	<Item Name="Calculate MD5 for Configuration File.vi" Type="VI" URL="../../System Explorer/Calculate MD5 for Configuration File.vi"/>
+	<Item Name="Sections" Type="Folder">
+		<Item Name="Get Channels.vi" Type="VI" URL="../Get Channels.vi"/>
+		<Item Name="Get Groups.vi" Type="VI" URL="../Get Groups.vi"/>
+		<Item Name="Get Plugins.vi" Type="VI" URL="../Get Plugins.vi"/>
+		<Item Name="Get Threads.vi" Type="VI" URL="../Get Threads.vi"/>
+		<Item Name="Get Transfers.vi" Type="VI" URL="../Get Transfers.vi"/>
+	</Item>
 </Library>
