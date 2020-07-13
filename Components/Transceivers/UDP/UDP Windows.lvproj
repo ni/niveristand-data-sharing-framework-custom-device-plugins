@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="UDP Transceiver.lvlib" Type="Library" URL="../UDP Transceiver.lvlib"/>
+		<Item Name="UDP.lvlib" Type="Library" URL="../UDP.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -306,18 +306,18 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="UDP Transceiver" Type="Packed Library">
+			<Item Name="UDP" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FFE46C77-796F-4026-80D5-DC311D09554C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">UDP Transceiver</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">UDP</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Windows/x86/Components</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{715B02BF-3678-42AC-8A84-B96BEAAE061F}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">UDP Transceiver.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/x86/Components/UDP Transceiver.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Builds/Data Sharing Framework/Windows/x86/Components/UDP.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -326,10 +326,10 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{33737A18-05B9-43CC-9598-4C2A466CB61C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8E52176-0A87-4AAE-9DF8-56ADE2A5145F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UDP Transceiver.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UDP.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -338,12 +338,12 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">UDP Transceiver</Property>
-				<Property Name="TgtF_internalName" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">UDP</Property>
+				<Property Name="TgtF_internalName" Type="Str">UDP</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">UDP Transceiver</Property>
+				<Property Name="TgtF_productName" Type="Str">UDP</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{78B8ABE1-1FD3-474E-9AF4-F43994FF0323}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">UDP Transceiver.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">UDP.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
