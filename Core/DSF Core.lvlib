@@ -46,14 +46,6 @@
 					<Item Name="Read Buffer.vi" Type="VI" URL="../VIs/Data Viewer/Source/Buffer Reader/Read Buffer.vi"/>
 				</Item>
 				<Item Name="Item Tree" Type="Folder">
-					<Item Name="ID to Tree Items" Type="Folder">
-						<Item Name="Channel ID to Tree Items.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Channel ID to Tree Items.vi"/>
-						<Item Name="Group ID to Tree Items.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Group ID to Tree Items.vi"/>
-						<Item Name="Plugin ID to Tree Items.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Plugin ID to Tree Items.vi"/>
-						<Item Name="Transfer ID to Tree Items.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Transfer ID to Tree Items.vi"/>
-						<Item Name="Tree Item Type.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Tree Item Type.ctl"/>
-					</Item>
-					<Item Name="Add Buffer Channels.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Buffer Channels.vi"/>
 					<Item Name="Add Buffer Data to Variant.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Buffer Data to Variant.vi"/>
 					<Item Name="Add Item to Tree.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Item to Tree.vi"/>
 					<Item Name="Add Item with Setting.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Add Item with Setting.vi"/>
@@ -73,8 +65,8 @@
 					<Item Name="Get Item Type.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Item Type.vi"/>
 					<Item Name="Is Item Preloaded" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Is Item Preloaded"/>
 					<Item Name="Load All Subitems.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Load All Subitems.vi"/>
-					<Item Name="Load Subitems.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Load Subitems.vi"/>
 					<Item Name="Select First Item.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Select First Item.vi"/>
+					<Item Name="Tree Item Type.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Tree Item Type.ctl"/>
 					<Item Name="Tree Item.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Tree Item.ctl"/>
 				</Item>
 				<Item Name="Main VI" Type="Folder">
