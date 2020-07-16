@@ -63,7 +63,7 @@
 					<Item Name="Get Buffer Data from Variant.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Buffer Data from Variant.vi"/>
 					<Item Name="Get Item Display Name.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Item Display Name.vi"/>
 					<Item Name="Get Item Type.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Item Type.vi"/>
-					<Item Name="Is Item Preloaded" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Is Item Preloaded"/>
+					<Item Name="Is Item Preloaded.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Is Item Preloaded.vi"/>
 					<Item Name="Load All Subitems.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Load All Subitems.vi"/>
 					<Item Name="Select First Item.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Select First Item.vi"/>
 					<Item Name="Tree Item Type.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Tree Item Type.ctl"/>
