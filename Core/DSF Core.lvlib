@@ -65,7 +65,6 @@
 					<Item Name="Get Item Type.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Get Item Type.vi"/>
 					<Item Name="Is Item Preloaded" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Is Item Preloaded"/>
 					<Item Name="Load All Subitems.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Load All Subitems.vi"/>
-					<Item Name="Load Subitems.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Load Subitems.vi"/>
 					<Item Name="Select First Item.vi" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Select First Item.vi"/>
 					<Item Name="Tree Item Type.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Tree Item Type.ctl"/>
 					<Item Name="Tree Item.ctl" Type="VI" URL="../VIs/Data Viewer/Source/Item Tree/Tree Item.ctl"/>
