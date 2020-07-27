@@ -1,40 +1,25 @@
 [archive]
-build_output_dir = 'C:\Builds\Data Sharing Framework'
-archive_location = '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework'
+build_output_dir = 'Components\Built'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework_plugins'
 
-[projects.windows]
-path = 'Core\Data Sharing Framework Core Build - Windows.lvproj'
+[dependencies.niveristand-data-sharing-framework-custom-device]
+libraries = ['Custom Device\{target}\DSF Core.lvlibp']
+copy_location = 'Components'
 
-[projects.pharlap]
-path = 'Core\Data Sharing Framework Core Build - PharLap x86.lvproj'
-
-[projects.linux_x64]
-path = 'Core\Data Sharing Framework Core Build - Linux RT x64.lvproj'
+[projects.UDPwindows]
+path = 'Components\Transceivers\UDP\UDP Windows.lvproj'
 
 [[build.steps]]
-name = 'Data Sharing Framework Core - Windows'
+name = 'Data Sharing Framework UDP Plugin - Windows'
 type = 'lvBuildSpec'
 project = '{windows}'
 target = 'My Computer'
 build_spec = 'Data Sharing Framework Core'
-
-[[build.steps]]
-name = 'Data Sharing Framework Core - Pharlap x86'
-type = 'lvBuildSpec'
-project = '{pharlap}'
-target = 'Pharlap x86'
-build_spec = 'Data Sharing Framework Core'
-
-[[build.steps]]
-name = 'Data Sharing Framework Core - Linux RT x64'
-type = 'lvBuildSpec'
-project = '{linux_x64}'
-target = 'Linux RT x64'
-build_spec = 'Data Sharing Framework Core'
+dependency_target = 'win\\x86'
 
 [[package]]
 type = 'nipkg'
 payload_dir = 'C:\Builds\Data Sharing Framework'
 install_destination = 'ProgramFiles_32\National Instruments\RT Images'
-control_file = 'control_dsf_core_windows'
+control_file = 'control_dsf_plugins'
 package_output_dir = 'Source\Built'

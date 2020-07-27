@@ -1,0 +1,15 @@
+Package: ni-data-sharing-framework-plugins-support-veristand-{veristand_version}
+Version: {nipkg_version}
+Architecture: windows_all
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description: Provides support for the NI Data Sharing Framework Plugins for NI VeriStand {veristand_version}.
+XB-Eula: eula-ni-standard
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: {display_version}
+XB-DisplayName: NI Data Sharing Framework Plugins for NI VeriStand {veristand_version}
+Depends: {ni-veristand-{labview_version}} (>= {labview_short_version}.0.0), ni-data-sharing-framework-custom-device-support-veristand-{veristand_version} (>= {display_version})
