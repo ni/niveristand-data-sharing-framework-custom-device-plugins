@@ -11,7 +11,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Build" Type="Folder">
+			<Item Name="Post-Build Action.vi" Type="VI" URL="../../Post-Build Action.vi"/>
+		</Item>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Linux RT x64" Type="RT CompactRIO">
@@ -71,30 +81,6 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Static Errors.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Static Errors.lvlib"/>
 			</Item>
-			<Item Name="Allocate.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Allocate.vi"/>
-			<Item Name="Base Error Code.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Constants/Base Error Code.vi"/>
-			<Item Name="Buffer Underflow.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Buffer Underflow.vi"/>
-			<Item Name="Channel Configuration.ctl" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Transfer/Channel Configuration.ctl"/>
-			<Item Name="Check Bounds (Buffer).vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Check Bounds (Buffer).vi"/>
-			<Item Name="Check Bounds (Pointer).vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Check Bounds (Pointer).vi"/>
-			<Item Name="Check Bounds (Power of 2).vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Check Bounds (Power of 2).vi"/>
-			<Item Name="Check Bounds.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Check Bounds.vi"/>
-			<Item Name="Check Count.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Check Count.vi"/>
-			<Item Name="Check Move.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Check Move.vi"/>
-			<Item Name="Check Null Pointer.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Check Null Pointer.vi"/>
-			<Item Name="Constants.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Constants/Constants.vi"/>
-			<Item Name="Constants.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Constants/Constants.vi"/>
-			<Item Name="Core Channel Configuration.ctl" Type="VI" URL="../../../DSF Core.lvlibp/Typedefs/Core Channel Configuration.ctl"/>
-			<Item Name="Core Group Configuration.ctl" Type="VI" URL="../../../DSF Core.lvlibp/Typedefs/Core Group Configuration.ctl"/>
-			<Item Name="Core Plugin Configuration.ctl" Type="VI" URL="../../../DSF Core.lvlibp/Typedefs/Core Plugin Configuration.ctl"/>
-			<Item Name="Core Thread Configuration.ctl" Type="VI" URL="../../../DSF Core.lvlibp/Typedefs/Core Thread Configuration.ctl"/>
-			<Item Name="Core Transfer Configuration.ctl" Type="VI" URL="../../../DSF Core.lvlibp/Typedefs/Core Transfer Configuration.ctl"/>
-			<Item Name="Create Error.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Create Error.vi"/>
-			<Item Name="Create.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Component/Default Buffer Converter/Create.vi"/>
-			<Item Name="Create.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/User Interface Events/Create.vi"/>
-			<Item Name="Default Components Directory.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Constants/Default Components Directory.vi"/>
-			<Item Name="Default User Interface.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/User Interface/Default User Interface.vi"/>
-			<Item Name="Destroy.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/User Interface Events/Destroy.vi"/>
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../../../DSF Core.lvlibp">
 				<Item Name="Private" Type="Folder">
 					<Item Name="Classes" Type="Folder">
@@ -134,14 +120,6 @@
 								<Item Name="Read Buffer.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Buffer Reader/Read Buffer.vi"/>
 							</Item>
 							<Item Name="Item Tree" Type="Folder">
-								<Item Name="ID to Tree Items" Type="Folder">
-									<Item Name="Channel ID to Tree Items.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Channel ID to Tree Items.vi"/>
-									<Item Name="Group ID to Tree Items.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Group ID to Tree Items.vi"/>
-									<Item Name="Plugin ID to Tree Items.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Plugin ID to Tree Items.vi"/>
-									<Item Name="Transfer ID to Tree Items.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Transfer ID to Tree Items.vi"/>
-									<Item Name="Tree Item Type.ctl" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Tree Item Type.ctl"/>
-								</Item>
-								<Item Name="Add Buffer Channels.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Add Buffer Channels.vi"/>
 								<Item Name="Add Buffer Data to Variant.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Add Buffer Data to Variant.vi"/>
 								<Item Name="Add Item to Tree.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Add Item to Tree.vi"/>
 								<Item Name="Add Item with Setting.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Add Item with Setting.vi"/>
@@ -159,10 +137,10 @@
 								<Item Name="Get Buffer Data from Variant.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Buffer Data from Variant.vi"/>
 								<Item Name="Get Item Display Name.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Item Display Name.vi"/>
 								<Item Name="Get Item Type.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Get Item Type.vi"/>
-								<Item Name="Is Item Preloaded" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Is Item Preloaded"/>
+								<Item Name="Is Item Preloaded.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Is Item Preloaded.vi"/>
 								<Item Name="Load All Subitems.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Load All Subitems.vi"/>
-								<Item Name="Load Subitems.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Load Subitems.vi"/>
 								<Item Name="Select First Item.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Select First Item.vi"/>
+								<Item Name="Tree Item Type.ctl" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/ID to Tree Items/Tree Item Type.ctl"/>
 								<Item Name="Tree Item.ctl" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Source/Item Tree/Tree Item.ctl"/>
 							</Item>
 							<Item Name="Main VI" Type="Folder">
@@ -325,136 +303,42 @@
 					</Item>
 				</Item>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Create Mask By Alpha.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
 				<Item Name="Memory Manager.lvlib" Type="Library" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Memory Manager.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="nirviCommon.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Busy.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Set Cursor.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Static Errors.lvlib" Type="Library" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Static Errors.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Unset Busy.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
-			<Item Name="Engine Library Name.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Constants/Engine Library Name.vi"/>
-			<Item Name="Error Offset (Configuration).vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Constants/Error Offset (Configuration).vi"/>
-			<Item Name="Errors.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Errors.ctl"/>
-			<Item Name="Errors.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Errors.vi"/>
-			<Item Name="FT_FileTypes.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/FT_FileTypes.ctl"/>
-			<Item Name="Get Active Buffer.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Transfer/Get Active Buffer.vi"/>
-			<Item Name="Get Active Buffer.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Transfer Group/Get Active Buffer.vi"/>
-			<Item Name="Get Address.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Get Address.vi"/>
-			<Item Name="Get Buffer Size.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Buffer/Get Buffer Size.vi"/>
-			<Item Name="Get Channels.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Transfer/Get Channels.vi"/>
-			<Item Name="Get Component Settings By Name.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Get Component Settings By Name.vi"/>
-			<Item Name="Get Configuration.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/User Interface/Get Configuration.vi"/>
-			<Item Name="Get Configurations.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Component/Get Configurations.vi"/>
-			<Item Name="Get Core.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Group/Get Core.vi"/>
-			<Item Name="Get Core.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Plugin/Get Core.vi"/>
-			<Item Name="Get Core.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Transfer/Get Core.vi"/>
-			<Item Name="Get Cycle Timing.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Plugin/Get Cycle Timing.vi"/>
-			<Item Name="Get Events.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/User Interface/Get Events.vi"/>
-			<Item Name="Get Exported File List.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/Get Exported File List.vi"/>
-			<Item Name="Get File Type.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/Get File Type.vi"/>
-			<Item Name="Get Group Configurations.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Thread/Get Group Configurations.vi"/>
-			<Item Name="Get ID.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Transfer Group/Get ID.vi"/>
-			<Item Name="Get Inline.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Transfer Group/Get Inline.vi"/>
-			<Item Name="Get Name.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Component/Get Name.vi"/>
-			<Item Name="Get Name.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Plugin/Get Name.vi"/>
-			<Item Name="Get Name.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Transfer Group/Get Name.vi"/>
-			<Item Name="Get Objects.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Component/Get Objects.vi"/>
-			<Item Name="Get Plugin Configurations.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Framework/Get Plugin Configurations.vi"/>
-			<Item Name="Get Size.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Get Size.vi"/>
-			<Item Name="Get Stop Event.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/User Interface/Get Stop Event.vi"/>
-			<Item Name="Get Stop Event.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/User Interface Events/Get Stop Event.vi"/>
-			<Item Name="Get Thread Configuration.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Plugin/Get Thread Configuration.vi"/>
-			<Item Name="Get Thread Configurations.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Plugin/Get Thread Configurations.vi"/>
-			<Item Name="Get Transfer Configurations.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration/Core/Group/Get Transfer Configurations.vi"/>
-			<Item Name="Get Transfers.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Transfer Group/Get Transfers.vi"/>
-			<Item Name="Invalidate Iteration.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Transfer Group/Invalidate Iteration.vi"/>
-			<Item Name="Is Null.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Is Null.vi"/>
-			<Item Name="Library Name.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Constants/Library Name.vi"/>
-			<Item Name="Load Configuration.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration Session/Load Configuration.vi"/>
-			<Item Name="Metrics.ctl" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Thread/Data Server/Metrics.ctl"/>
-			<Item Name="New Error Cluster (512B).vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/VIs/New Error Cluster (512B).vi"/>
-			<Item Name="New Error Cluster.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/VIs/New Error Cluster.vi"/>
-			<Item Name="Null Pointer.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Null Pointer.vi"/>
-			<Item Name="Out of Bounds.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Out of Bounds.vi"/>
-			<Item Name="Plugin.ctl" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Plugin/Plugin.lvclass/Plugin.ctl"/>
-			<Item Name="Pointer Class Name.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Constants/Pointer Class Name.vi"/>
-			<Item Name="Pointer Error Info.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Pointer Error Info.vi"/>
-			<Item Name="Pointer.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Pointer.lvclass/Pointer.ctl"/>
-			<Item Name="Pointer.lvclass" Type="LVClass" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Pointer.lvclass"/>
-			<Item Name="Read (No Check) Bool.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Read (No Check) Bool.vi"/>
-			<Item Name="Read (No Check).vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Read (No Check).vi"/>
-			<Item Name="Read Bool.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Read Bool.vi"/>
-			<Item Name="Read Buffer 1D U8.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Buffer/Read Buffer 1D U8.vi"/>
-			<Item Name="Read Buffer.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Buffer/Read Buffer.vi"/>
-			<Item Name="Read.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Read.vi"/>
-			<Item Name="Save Configuration.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration Session/Save Configuration.vi"/>
-			<Item Name="Set Address.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Set Address.vi"/>
-			<Item Name="Set Error Code.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/VIs/Set Error Code.vi"/>
-			<Item Name="Set Error Source.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/VIs/Set Error Source.vi"/>
-			<Item Name="Set Error Status.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/VIs/Set Error Status.vi"/>
-			<Item Name="Set Internal.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Set Internal.vi"/>
-			<Item Name="Set Size.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Set Size.vi"/>
-			<Item Name="Sizeof.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Sizeof.vi"/>
-			<Item Name="Write (No Check) Bool.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Write (No Check) Bool.vi"/>
-			<Item Name="Write (No Check).vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Write (No Check).vi"/>
-			<Item Name="Write Bool.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Write Bool.vi"/>
-			<Item Name="Write Buffer 1D U8.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Buffer/Write Buffer 1D U8.vi"/>
-			<Item Name="Write Buffer.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Buffer/Write Buffer.vi"/>
-			<Item Name="Write Numeric Scalar to Source (Base10 U64).vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/VIs/Write Numeric Scalar to Source (Base10 U64).vi"/>
-			<Item Name="Write Numeric to Source.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/VIs/Write Numeric to Source.vi"/>
-			<Item Name="Write Pointer Size to Error.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Write Pointer Size to Error.vi"/>
-			<Item Name="Write String to Source.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/VIs/Write String to Source.vi"/>
-			<Item Name="Write.vi" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/NI/Memory Manager/Classes/Pointer/Write.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="UDP" Type="Packed Library">
@@ -463,12 +347,15 @@
 				<Property Name="Bld_buildSpecName" Type="Str">UDP</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Builds/Data Sharing Framework/Linux/x64</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5591EE34-FC09-426E-A043-2490849D3184}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Components</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">../Built/linux/x64</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Components/UDP.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/linux/x64/UDP.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -476,7 +363,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Components</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E0729F8C-F35B-4F86-ACCF-0A3617EEECDB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D1D7DE9C-99E6-4A7F-8EF0-4ECBA84AF3FF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux RT x64/UDP.lvlib</Property>
