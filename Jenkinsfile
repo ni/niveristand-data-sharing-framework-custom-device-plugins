@@ -6,5 +6,5 @@ def lvVersions = ['2017', '2018', '2019', '2020']
 
 List<String> dependencies = ['niveristand-data-sharing-framework-custom-device']
 
-ni.vsbuild.PipelineExecutor.execute(this, lvVersions, dependencies)
+ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions, dependencies)
 diffPipeline(lvVersions[0])
