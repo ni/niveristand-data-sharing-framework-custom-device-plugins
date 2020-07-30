@@ -30,7 +30,7 @@ dependency_target = 'win\\x86'
 name = 'Data Sharing Framework UDP Plugin - Pharlap x86'
 type = 'lvBuildSpec'
 project = '{UDP_pharlap}'
-target = 'Pharlap x86'
+target = 'PharLap x86'
 build_spec = 'UDP'
 dependency_target = 'pharlap\\x86'
 
