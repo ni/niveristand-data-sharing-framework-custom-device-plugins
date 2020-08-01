@@ -352,11 +352,11 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3645800F-B43F-432D-B062-3A37DE31F74A}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">../Built/linux/arm</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">../Built/Linux_32_ARM/Components</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/linux/arm/UDP.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Linux_32_ARM/Components/UDP.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -364,7 +364,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Components</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F3B4C7CF-39D9-4EFC-971B-3B885C4DFD25}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{85BBBBBB-FAD1-4B95-9228-0AC5970D1B78}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux RT ARM/UDP.lvlib</Property>

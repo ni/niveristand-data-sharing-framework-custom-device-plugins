@@ -351,11 +351,11 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5591EE34-FC09-426E-A043-2490849D3184}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">../Built/linux/x64</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">../Built/Linux_x64/Components</Property>
 				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/linux/x64/UDP.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Linux_x64/Components/UDP.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -363,7 +363,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Components</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D1D7DE9C-99E6-4A7F-8EF0-4ECBA84AF3FF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{449F6A62-D12D-4002-BFDD-7ADFA0579A63}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux RT x64/UDP.lvlib</Property>

@@ -349,20 +349,20 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{39623DD4-457D-4C73-9D15-07B9155FD7D9}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">../Built/pharlap/x86</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">../Built/PharLap/Components</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UDP.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/pharlap/x86/UDP.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/PharLap/Components/UDP.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/pharlap/x86</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/PharLap/Components</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9031C3D7-CEC1-4D30-A4C7-11CA4F50CF8E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FE4620B2-C0AF-4B1E-9404-4EF80BBA1497}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/PharLap x86/UDP.lvlib</Property>

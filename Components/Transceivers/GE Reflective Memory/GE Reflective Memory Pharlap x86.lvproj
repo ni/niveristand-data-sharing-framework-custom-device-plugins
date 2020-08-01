@@ -356,19 +356,19 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BCAD9A20-DE3A-41D4-95F0-577B59A61CF2}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">../Built/pharlap/x86</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">../Built/PharLap/Components</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GE Reflective Memory.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/pharlap/x86/GE Reflective Memory.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/PharLap/Components/GE Reflective Memory.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/pharlap/x86</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/PharLap/Components</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AD578E6D-6C59-44FA-8831-A882205EF2C2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{137FE503-EDCF-4F44-924D-88C5FD52D048}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Pharlap PXI/GE Reflective Memory.lvlib</Property>
