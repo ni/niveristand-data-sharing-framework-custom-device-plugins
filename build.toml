@@ -1,40 +1,80 @@
 [archive]
-build_output_dir = 'C:\Builds\Data Sharing Framework'
-archive_location = '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework'
+build_output_dir = 'Components\Built'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework_plugins'
 
-[projects.windows]
-path = 'Core\Data Sharing Framework Core Build - Windows.lvproj'
+[dependencies.niveristand-data-sharing-framework-custom-device]
+libraries = ['Custom Device\{target}\DSF Core.lvlibp']
+copy_location = 'Components'
 
-[projects.pharlap]
-path = 'Core\Data Sharing Framework Core Build - PharLap x86.lvproj'
+[projects.UDP_windows]
+path = 'Components\Transceivers\UDP\UDP Windows.lvproj'
 
-[projects.linux_x64]
-path = 'Core\Data Sharing Framework Core Build - Linux RT x64.lvproj'
+[projects.UDP_pharlap]
+path = 'Components\Transceivers\UDP\UDP PharLap x86.lvproj'
+
+[projects.UDP_linux_arm]
+path = 'Components\Transceivers\UDP\UDP Linux RT ARM.lvproj'
+
+[projects.UDP_linux_x64]
+path = 'Components\Transceivers\UDP\UDP Linux RT x64.lvproj'
+
+[projects.GEReflectiveMemory_windows]
+path = 'Components\Transceivers\GE Reflective Memory\GE Reflective Memory Windows.lvproj'
+
+[projects.GEReflectiveMemory_pharlap]
+path = 'Components\Transceivers\GE Reflective Memory\GE Reflective Memory Pharlap x86.lvproj'
 
 [[build.steps]]
-name = 'Data Sharing Framework Core - Windows'
+name = 'Data Sharing Framework UDP Plugin - Windows'
 type = 'lvBuildSpec'
-project = '{windows}'
+project = '{UDP_windows}'
 target = 'My Computer'
-build_spec = 'Data Sharing Framework Core'
+build_spec = 'UDP'
+dependency_target = 'Windows'
 
 [[build.steps]]
-name = 'Data Sharing Framework Core - Pharlap x86'
+name = 'Data Sharing Framework UDP Plugin - Pharlap x86'
 type = 'lvBuildSpec'
-project = '{pharlap}'
-target = 'Pharlap x86'
-build_spec = 'Data Sharing Framework Core'
+project = '{UDP_pharlap}'
+target = 'PharLap x86'
+build_spec = 'UDP'
+dependency_target = 'PharLap'
 
 [[build.steps]]
-name = 'Data Sharing Framework Core - Linux RT x64'
+name = 'Data Sharing Framework UDP Plugin - Linux RT arm'
 type = 'lvBuildSpec'
-project = '{linux_x64}'
+project = '{UDP_linux_arm}'
+target = 'Linux RT ARM'
+build_spec = 'UDP'
+dependency_target = 'Linux_32_ARM'
+
+[[build.steps]]
+name = 'Data Sharing Framework UDP Plugin - Linux RT x64'
+type = 'lvBuildSpec'
+project = '{UDP_linux_x64}'
 target = 'Linux RT x64'
-build_spec = 'Data Sharing Framework Core'
+build_spec = 'UDP'
+dependency_target = 'Linux_x64'
+
+[[build.steps]]
+name = 'Data Sharing Framework GE Reflective Memory Plugin - Windows'
+type = 'lvBuildSpec'
+project = '{GEReflectiveMemory_windows}'
+target = 'My Computer'
+build_spec = 'GE Reflective Memory'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Data Sharing Framework GE Reflective Memory Plugin - Pharlap x86'
+type = 'lvBuildSpec'
+project = '{GEReflectiveMemory_pharlap}'
+target = 'Pharlap PXI'
+build_spec = 'GE Reflective Memory'
+dependency_target = 'PharLap'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'C:\Builds\Data Sharing Framework'
-install_destination = 'ProgramFiles_32\National Instruments\RT Images'
-control_file = 'control_dsf_core_windows'
-package_output_dir = 'Source\Built'
+payload_dir = 'Components\Built'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Data Sharing Framework'
+control_file = 'control_dsf_plugins'
+package_output_dir = 'Components\Built'
