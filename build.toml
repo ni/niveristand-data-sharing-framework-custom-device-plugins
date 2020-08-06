@@ -40,13 +40,13 @@ target = 'PharLap x86'
 build_spec = 'UDP'
 dependency_target = 'PharLap'
 
-[[build.steps]]
-name = 'Data Sharing Framework UDP Plugin - Linux RT arm'
-type = 'lvBuildSpec'
-project = '{UDP_linux_arm}'
-target = 'Linux RT ARM'
-build_spec = 'UDP'
-dependency_target = 'Linux_32_ARM'
+#[[build.steps]]
+#name = 'Data Sharing Framework UDP Plugin - Linux RT arm'
+#type = 'lvBuildSpec'
+#project = '{UDP_linux_arm}'
+#target = 'Linux RT ARM'
+#build_spec = 'UDP'
+#dependency_target = 'Linux_32_ARM'
 
 [[build.steps]]
 name = 'Data Sharing Framework UDP Plugin - Linux RT x64'
