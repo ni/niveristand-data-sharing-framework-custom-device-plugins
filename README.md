@@ -1,14 +1,27 @@
-# Data Sharing Framework
-The **data-sharing-framework** repository provides a plugin-based approach to reflecting data between applications.
+# Data Sharing Framework Plugins
+The **Data Sharing Framework Plugins** provide plugins as built components to the [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) and its VeriStand Custom Device for reflecting data between applications.
+
+## Current Plugins and Supported Targets
+
+
+|Plugin|Windows|Pharlap|Linux x64
+|---|---|---|---|
+|UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|GE Reflective Memory|:heavy_check_mark:|:heavy_check_mark:|:x:|
+|PXImc|:x:|:x:|:x:|
+
+[comment]: # (GitHub emoji support is documented here: https://gist.github.com/rxaviers/7360908)
 
 ## LabVIEW Version
-The LabVIEW source for code in this repository is saved for LabVIEW 2017, but is forward compatible to newer versions.
+The LabVIEW source for code in this repository is saved for LabVIEW 2017 but is forward compatible to newer versions.
 
 ## Dependencies
 The following top-level dependencies are required on the build machine to use the repository:
 
-- [LabVIEW Professional Development System](http:/ni.com/labview)
-- [Memory Manager API](https://github.com/ni/labview-memory-management-tools/releases/latest)
+- [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) (see note below)
+- [NI VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+
+**Note** The [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) core packed project libraries must be built and copied into the source location before attempting to modify or build the plugins. For manual build instructions, please see the [documentation](https://github.com/ni/niveristand-data-sharing-framework-custom-device/blob/master/Docs/Manual%20Build%20Instructions.md) in the other repository.
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
