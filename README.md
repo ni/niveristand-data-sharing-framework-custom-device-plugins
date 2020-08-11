@@ -4,11 +4,11 @@ The **Data Sharing Framework Plugins** provide plugins as built components to th
 ## Validated Plugin and Target Support
 This repository contains three plugins to the Data Sharing Framework(UDP, GE Reflective Memory, and PXImc) that each support a different set of targets. Currently, only a subset of these plugins and targets are validated and built as part of the automated build process. The table below shows the status of each plugin.
 
-|Plugin|Windows|Pharlap|Linux x64
-|---|---|---|---|
-|UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|GE Reflective Memory|:heavy_check_mark:|:heavy_check_mark:|:x:|
-|PXImc|:x:|:heavy_minus_sign:|:heavy_minus_sign:|
+|Plugin|Windows|Pharlap|PXI Linux x64|cRIO Linux x64|
+|---|---|---|---|---|
+|UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|GE Reflective Memory|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_minus_sign:|
+|PXImc|:x:|:x:|:heavy_minus_sign:|:heavy_minus_sign:|
 
 - :heavy_check_mark: - Supported, validated, and building
 - :x: - Potentially supported, not currently validated or building
