@@ -3,7 +3,6 @@ The **Data Sharing Framework Plugins** provide plugins as built components to th
 
 ## Current Plugins and Supported Targets
 
-
 |Plugin|Windows|Pharlap|Linux x64
 |---|---|---|---|
 |UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
