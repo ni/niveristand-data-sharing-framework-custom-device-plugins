@@ -15,6 +15,7 @@
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../../Post-Build Action.vi"/>
 		</Item>
 		<Item Name="GE Reflective Memory.lvlib" Type="Library" URL="../Source/GE Reflective Memory.lvlib"/>
+		<Item Name="GE5565PIORC_NetworkInterrupts_DMA.inf" Type="Document" URL="../Driver/Source/GE5565PIORC_NetworkInterrupts_DMA.inf"/>
 		<Item Name="User Interface.vit" Type="VI" URL="../User Interface.vit"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -336,7 +337,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F1DAF1AA-CDD9-4F63-ADD3-2333CBD5C126}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{127F1CBA-3512-4509-9B94-5E5E9D620C2C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GE Reflective Memory.lvlib</Property>
@@ -346,7 +347,10 @@
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GE5565PIORC_NetworkInterrupts_DMA.inf</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GE Reflective Memory</Property>
 				<Property Name="TgtF_internalName" Type="Str">GE Reflective Memory</Property>
