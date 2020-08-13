@@ -5,13 +5,20 @@ Use this document to create a new data sharing framework custom device that leve
 
 ## Prerequisites
 Before starting this exercise, install the following software:
+
 - VeriStand
-- Data Sharing Framework ([DSF Releases](https://github.com/ni/niveristand-data-sharing-framework-custom-device-plugins/releases))
-   - *Note*: this package installs the GE Reflective Memory Plugin and the GE Reflective Memory Driver on the host computer and depends on the Data Sharing Framework Custom Device for VeriStand.
-   - **_Incompatibility_**: The GE Reflective Memory driver for this custom device is incompatible with the GE Fanuc driver installed by other software (including VeriStand). You must uninstall GE Fanuc driver from the RT target before continuing. 
-   - *Note*: To install the support for this custom device, copy the GE5565PIORC_NetworkInterrupts_DMA.inf to the RT target at :/ni-rt/system/ and reboot.
+- Data Sharing Framework ([DSF Releases](https://github.com/ni/niveristand-data-sharing-framework-custom-device/releases))
+- Data Sharing Framework Plugins ([DSF Plugins Releases](https://github.com/ni/niveristand-data-sharing-framework-custom-device-plugins/releases))
+- RT driver support for the GE Reflective Memory device
+   - **_Incompatibility_**: The GE Reflective Memory driver for this custom device is incompatible with the GE Fanuc driver installed through MAX, which is used by VeriStand's built-in reflective memory support. You must uninstall the GE Fanuc driver from the RT target before continuing.
+   - Locate the GE5565PIORC_NetworkInterrupts_DMA.inf file on disk. The .inf file is installed by the NI Package for this component and can be found on disk at the file path below:
+   ```
+   <Public Documents>\National Instruments\NI VeriStand 20xx\Custom Devices\Data Sharing Framework\Windows\Components
+   ```
+   - Right-click on the RT target in MAX and select **File Transfer**. Copy the .inf file to the RT target at c:/ni-rt/system/. Reboot the RT target to take effect.
+
    ![](support/GERMFileTransferToRTTarget.png)
-   
+
 ## Connect to the Remote System
 Identify and connect to the remote system using NI-MAX. Take note of the IP address of the remote system. For this loopback exercise, a single GE Reflective Memory device will both send and receive data.
 
