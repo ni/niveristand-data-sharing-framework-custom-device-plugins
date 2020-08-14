@@ -1,3 +1,7 @@
+# Libraries
+*.lvlibp
+*.llb
+
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
@@ -11,4 +15,6 @@
 # Metadata
 *.aliases
 *.lvlps
-*.lvlibp
+
+# Directories
+Built/
