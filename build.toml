@@ -74,7 +74,10 @@ dependency_target = 'PharLap'
 
 [[package]]
 type = 'nipkg'
-payload_dir = 'Components\Built'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Data Sharing Framework'
-control_file = 'control_dsf_plugins'
 package_output_dir = 'Components\Built'
+control_file = 'control_dsf_plugins'
+
+[package.payload_map]
+'Components\\Built\\Plugins' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Data Sharing Framework'
+'Components\\Built\\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+
