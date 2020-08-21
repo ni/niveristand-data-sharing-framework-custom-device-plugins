@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <nidocument>
 <nicomment>
-https://decibel.ni.com/content/docs/DOC-15510
+https://github.com/ni/niveristand-data-sharing-framework-custom-device-plugins/tree/master
 </nicomment>
 <nierror code="537720">
 Incompatible GE Reflective Memory driver installed. Uninstall the incompatible driver and install GE5565PIORC_NetworkInterrupts_DMA.inf included with this GE Reflective Memory plugin component for the Data Sharing Framework.
