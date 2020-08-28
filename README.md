@@ -1,8 +1,12 @@
 # Data Sharing Framework Plugins
-The **Data Sharing Framework Plugins** provide plugins as built components to the [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) and its VeriStand Custom Device for reflecting data between applications.
+The **Data Sharing Framework Plugins** provides built components to the [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) and its VeriStand Custom Device for reflecting data between applications.
 
 ## Validated Plugin and Target Support
-This repository contains three plugins to the Data Sharing Framework(UDP, GE Reflective Memory, and PXImc) that each support a different set of targets. Currently, only a subset of these plugins and targets are validated and built as part of the automated build process. The table below shows the status of each plugin.
+This repository contains three Data Sharing Framework plugins:
+1. UDP
+1. GE Reflective Memory
+1. PXImc
+Each plugin supports a different set of targets. The following table displays the plugin support status for each target type.
 
 |Plugin|Windows|Pharlap|PXI Linux x64|cRIO Linux x64|
 |---|---|---|---|---|
@@ -17,15 +21,15 @@ This repository contains three plugins to the Data Sharing Framework(UDP, GE Ref
 [comment]: # (GitHub emoji support is documented here: https://gist.github.com/rxaviers/7360908)
 
 ## LabVIEW Version
-The LabVIEW source for code in this repository is saved for LabVIEW 2017 but is forward compatible to newer versions.
+The LabVIEW code source in this repository is compatible with LabVIEW 2017 and newer.
 
 ## Dependencies
-The following top-level dependencies are required on the build machine to use the repository:
+The following top-level dependencies are required on the build machine to use this repository:
 
 - [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) (see note below)
-- [NI VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
 
-**Note** The [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) core packed project libraries must be built and copied into the source location before attempting to modify or build the plugins. For manual build instructions, please see the [documentation](https://github.com/ni/niveristand-data-sharing-framework-custom-device/blob/master/Docs/Manual%20Build%20Instructions.md) in the other repository.
+**Note** You must build and copy all [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) core packed project libraries into the source location before attempting to modify or build the plugins. For information on building components manually, refer to [Manual Build Instructions for the Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device/blob/master/Docs/Manual%20Build%20Instructions.md).
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
