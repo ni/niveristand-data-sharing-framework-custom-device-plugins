@@ -11,15 +11,16 @@ Before starting this exercise, install the following software:
 - Data Sharing Framework Plugins ([DSF Plugins Releases](https://github.com/ni/niveristand-data-sharing-framework-custom-device-plugins/releases))
 - GE Reflective Memory RT driver support
 
-The GE Reflective Memory driver for this custom device is incompatible with the GE Fanuc driver installed through NI-MAX. The GE Fanuc driver is used by VeriStand's built-in reflective memory support. Uninstall the GE Fanuc driver from the RT target before continuing.
-  1. Locate the `GE5565PIORC_NetworkInterrupts_DMA.inf` file on disk. The `.inf` file is installed by the NI Package for this component and can be found on disk at the file path below:
-   ```
-   <Public Documents>\National Instruments\NI VeriStand 20xx\Custom Devices\Data Sharing Framework\Windows\Components
-   ```
-  1. Right-click the RT target in NI-MAX and select **File Transfer**.
-   ![](support/GERMFileTransferToRTTarget.png)
-  1. Copy the `.inf` file to the RT target at `c:/ni-rt/system/`.
-  1. Reboot the RT target.
+    The GE Reflective Memory driver for this custom device is incompatible with the GE Fanuc driver installed through NI-MAX. The GE Fanuc driver is used by VeriStand's built-in reflective memory support. Uninstall the GE Fanuc driver from the RT target before continuing.
+
+ 1. Locate the `GE5565PIORC_NetworkInterrupts_DMA.inf` file on disk. The `.inf` file is installed by the NI Package for this component and can be found on disk at the file path below:
+    ```
+    <Public Documents>\National Instruments\NI VeriStand 20xx\Custom Devices\Data Sharing Framework\Windows\Components
+    ```
+ 2. Right-click the RT target in NI-MAX and select **File Transfer**.
+    ![](support/GERMFileTransferToRTTarget.png)
+ 1. Copy the `.inf` file to the RT target at `c:/ni-rt/system/`.
+ 1. Reboot the RT target.
 
 ## Connect to the Remote System
 Identify and connect to the remote system using NI-MAX. Take note of the IP address of the remote system. For this loopback exercise, a GE Reflective Memory device will send and receive data.
