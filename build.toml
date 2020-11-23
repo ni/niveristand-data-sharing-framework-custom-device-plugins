@@ -81,3 +81,5 @@ control_file = 'control_dsf_plugins'
 'Components\\Built\\Plugins' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Data Sharing Framework'
 'Components\\Built\\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
 
+[notification]
+type = 'teams'
