@@ -9,11 +9,11 @@ This repository contains three Data Sharing Framework plugins:
 
 Each plugin supports a different set of targets. The following table displays the plugin support status for each target type.
 
-|Plugin|Windows|Pharlap|PXI Linux x64|cRIO Linux x64|
-|---|---|---|---|---|
-|UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|GE Reflective Memory|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_minus_sign:|
-|PXImc|:x:|:x:|:heavy_minus_sign:|:heavy_minus_sign:|
+|Plugin|Windows|PXI Linux x64|cRIO Linux x64|
+|---|---|---|---|
+|UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|GE Reflective Memory|:heavy_check_mark:|:x:|:heavy_minus_sign:|
+|PXImc|:x:|:heavy_minus_sign:|:heavy_minus_sign:|
 
 - :heavy_check_mark: - Supported, validated, and building.
 - :x: - Potentially supported, not currently validated or building.
