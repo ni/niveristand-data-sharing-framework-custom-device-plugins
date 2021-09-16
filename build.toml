@@ -46,7 +46,7 @@ control_file = 'control_dsf_plugins'
 
 [package.payload_map]
 'Components\\Built\\Plugins' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Data Sharing Framework'
-'Components\\Built\\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+'Components\\Built\\Errors' = 'ni-paths-NISHAREDDIR{nipaths_64_bitness_suffix}\LabVIEW Run-Time\{veristand_version}\errors\English'
 
 [notification]
 type = 'teams'
