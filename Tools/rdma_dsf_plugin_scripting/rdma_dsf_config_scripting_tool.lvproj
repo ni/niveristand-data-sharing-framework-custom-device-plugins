@@ -29,9 +29,6 @@
 				<Item Name="rdma_scripting_tutorial.md" Type="Document" URL="../docs/rdma_dsf_scripting_tutorial/rdma_scripting_tutorial.md"/>
 			</Item>
 		</Item>
-		<Item Name="QMH API" Type="Folder" URL="../QMH API">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="subvi" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="add_and_configure_target.vi" Type="VI" URL="../subvi/add_and_configure_target.vi"/>
@@ -341,6 +338,9 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
+			<Item Name="Create Queue.vi" Type="VI" URL="../QMH API/Create Queue.vi"/>
+			<Item Name="Dequeue Message.vi" Type="VI" URL="../QMH API/Dequeue Message.vi"/>
+			<Item Name="Enqueue Message.vi" Type="VI" URL="../QMH API/Enqueue Message.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -353,6 +353,7 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorageUI" Type="Document" URL="NationalInstruments.VeriStand.SystemStorageUI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="QMH Message Cluster.ctl" Type="VI" URL="../QMH API/Controls/QMH Message Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RDMA DSF Plugin Scripting Tool" Type="EXE">

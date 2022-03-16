@@ -78,7 +78,6 @@
 		<Item Name="RDMA.lvlib" Type="Library" URL="../RDMA.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="RDMA Accept.vi" Type="VI" URL="/&lt;vilib&gt;/rdma/rdma.llb/RDMA Accept.vi"/>
 				<Item Name="RDMA Acquire Received Buffer DBL.vi" Type="VI" URL="/&lt;vilib&gt;/rdma/rdma.llb/RDMA Acquire Received Buffer DBL.vi"/>
@@ -119,7 +118,6 @@
 				<Item Name="RDMA Listen.vi" Type="VI" URL="/&lt;vilib&gt;/rdma/rdma.llb/RDMA Listen.vi"/>
 				<Item Name="Static Errors.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Memory Manager/Static Errors.lvlib"/>
 			</Item>
-			<Item Name="append_to_vs_log.vi" Type="VI" URL="../../../../../../srd-adg-hil/src/lruts/Tools/rt_remote_console/subvis/console_io/append_to_vs_log.vi"/>
 			<Item Name="DSF Core.lvlibp" Type="LVLibp" URL="../../../DSF Core.lvlibp">
 				<Item Name="Private" Type="Folder">
 					<Item Name="Classes" Type="Folder">
@@ -379,11 +377,9 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
-			<Item Name="format_data_for_console.vi" Type="VI" URL="../../../../../../srd-adg-hil/src/lruts/Tools/rt_remote_console/subvis/console_io/format_data_for_console.vi"/>
 			<Item Name="nirdma.dll" Type="Document" URL="nirdma.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Temporal Marker.ctl" Type="VI" URL="../../../../../../srd-adg-hil/src/lruts/Tools/rt_remote_console/Controls/Temporal Marker.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RDMA" Type="Packed Library">
@@ -397,7 +393,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5591EE34-FC09-426E-A043-2490849D3184}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">../Built/Linux_x64/Components</Property>
-				<Property Name="Bld_version.build" Type="Int">163</Property>
+				<Property Name="Bld_version.build" Type="Int">164</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RDMA.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Linux_x64/Components/RDMA.lvlibp</Property>
