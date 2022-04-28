@@ -6,6 +6,7 @@ This repository contains three Data Sharing Framework plugins:
 1. UDP
 1. GE Reflective Memory
 1. PXImc
+1. RDMA
 
 Each plugin supports a different set of targets. The following table displays the plugin support status for each target type.
 
@@ -14,6 +15,7 @@ Each plugin supports a different set of targets. The following table displays th
 |UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |GE Reflective Memory|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_minus_sign:|
 |PXImc|:x:|:x:|:heavy_minus_sign:|:heavy_minus_sign:|
+|RDMA|:heavy_minus_sign:|:x:|:heavy_check_mark:|:heavy_minus_sign:|
 
 - :heavy_check_mark: - Supported, validated, and building.
 - :x: - Potentially supported, not currently validated or building.
