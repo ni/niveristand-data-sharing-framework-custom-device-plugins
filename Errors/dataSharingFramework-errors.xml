@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="DSF" familyname="DSF">
+  <nierror code="732450">
+    <![CDATA[VeriStand could not configure the RDMA plugin given the DSF configuration found in the System Definition. Check the IP addresses and ports specified in the configuration and try again. If this error persists, consider restarting the VeriStand engine on your target(s).]]>
+  </nierror>
+</nidocument>
