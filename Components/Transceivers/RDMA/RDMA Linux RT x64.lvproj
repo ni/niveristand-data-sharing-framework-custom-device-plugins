@@ -408,6 +408,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nirdma.dll" Type="Document" URL="nirdma.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Throw Error.vi" Type="VI" URL="../Transceiver/Throw Error.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RDMA" Type="Packed Library">
@@ -421,7 +422,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5591EE34-FC09-426E-A043-2490849D3184}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">../Built/Linux_x64/Components</Property>
-				<Property Name="Bld_version.build" Type="Int">207</Property>
+				<Property Name="Bld_version.build" Type="Int">208</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RDMA.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Linux_x64/Components/RDMA.lvlibp</Property>
