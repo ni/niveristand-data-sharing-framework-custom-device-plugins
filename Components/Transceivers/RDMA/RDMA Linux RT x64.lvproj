@@ -408,7 +408,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nirdma.dll" Type="Document" URL="nirdma.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="write_data_to_vs_log.vi" Type="VI" URL="../../../../../srd-adg-hil/src/lruts/Tools/labview_2020/rt_remote_console/debug_vis/write_data_to_vs_log.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RDMA" Type="Packed Library">
