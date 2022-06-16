@@ -9,7 +9,7 @@ This tutorial assumes general knowledge of RDMA technology and your familiarity 
 
 ### Required software:
 - [VeriStand](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html#442755) (2020 or later)
-- [NI-RDMA](https://www.ni.com/en-us/support/downloads/drivers/download.ni-rdma.html#442618) 21.5
+- [NI-RDMA](https://www.ni.com/en-us/support/downloads/drivers/download.ni-rdma.html#442618) 21.5 or later
 - Data Sharing Framework [Custom Device](https://github.com/ni/niveristand-data-sharing-framework-custom-device/releases/tag/v20.4.0)
 - Data Sharing Framework [Plugins](https://github.com/ni/niveristand-data-sharing-framework-custom-device-plugins/releases)
 
@@ -18,9 +18,9 @@ This tutorial assumes general knowledge of RDMA technology and your familiarity 
 
 ## Hardware setup
 
-Before proceeding any further in this tutorial, ensure that the physical ports that will be used are connected to each other.
+Before proceeding any further in this tutorial, ensure that the RDMA interfaces that will be used are physically connected to each other.
 
-**Note:** Performing loopbacks accross multiple physical ports belonging to modules of a single target is NOT supported. Attempting this will result in VeriStand errors. If you are interested in performing a loopback test while following this tutorial you must physically connect two RDMA ports (so that the ports will be assigned IP addresses), then use a single IP address for the TX and RX ends, and target different network ports. For example, RX = 10.0.20.35:5000 and TX = 10.0.20.35:5001 would be supported, but RX = 10.0.20.40:5000 and TX = 10.0.20.35:5001 would not be supported.
+**Note:** Performing loopbacks across multiple RDMA interfaces belonging to modules of a single target is NOT supported. Attempting this will result in VeriStand errors. If you are interested in performing a loopback test while following this tutorial you must physically connect two RDMA interfaces (so that the RDMA interfaces will be assigned IP addresses), then perform an internal loopback test on a single RDMA interface.
 
 ## Connect to and Identify Hardware in NI-MAX
 
@@ -56,8 +56,8 @@ On the page for the newly added Data Sharing Framework Custom Device, click **Ne
    - `component settings`: Leave this field blank, as there are no component settings for the RDMA Plugin. 
    
    ![rdma_config_plugin](support/rdma_config_plugin.png)
-1. ### Configure the Threads
-   Purpose: Threads enable you to run the plugin in a multi-threaded manner. For each element in the `threads` array, a new thread will be created to handle the transfer groups under that thread upon deployment. For the purposes of this tutorial, we will only use a single thread which will map to the first element of the `threads` array. The default settings for the thread configuration are sufficient, so leave these settings unchanged for now. 
+1. ### DSF Threads
+   The RDMA plugin does not currently support multi-threaded configurations. Edit the plugin configuration to have your desired number of sessions in one thread.
    
    For more information on threads, see the [DSF Theory of Operation](https://github.com/ni/niveristand-data-sharing-framework-custom-device/blob/main/Docs/Data%20Sharing%20Framework/Theory%20of%20Operations.md).
    
@@ -72,7 +72,7 @@ On the page for the newly added Data Sharing Framework Custom Device, click **Ne
    Configure each transfer group as follows:
    - `core.name`: Use this to specify how the transfer group will appear in the System Definition.
    - `core.direction`: Specifies whether the transfer(s) in this group will be TX or RX.
-   - `core.cycle timing`:  Configure how you wish, or use the values depicted below. Remember, a decimation of 0 puts the transfer group in line with the PCL). For more information on cycle timing, see the [DSF Theory of Operation](https://github.com/ni/niveristand-data-sharing-framework-custom-device/blob/main/Docs/Data%20Sharing%20Framework/Theory%20of%20Operations.md). 
+   - `core.cycle timing`:  Configure how you wish, or use the values depicted below. Remember, a decimation of 0 puts the transfer group in line with the PCL. For more information on cycle timing, see the [DSF Theory of Operation](https://github.com/ni/niveristand-data-sharing-framework-custom-device/blob/main/Docs/Data%20Sharing%20Framework/Theory%20of%20Operations.md). 
    - `core.timeout behavior`: Choose whatever you prefer, as it should not impact your success in following this tutorial.
    - `core.enable conversion`: Choose whatever you prefer, just be sure that corresponding enpoints have the same setting for this field.
    - `component settings`: Leave empty, as there are no component settings for RDMA transfer groups.
@@ -105,7 +105,7 @@ On the page for the newly added Data Sharing Framework Custom Device, click **Ne
    - There is no special configuration needed for the channels. You may configure them however you wish, with a few constraints:
       - You may add as many channels per transfer as you would like. Just keep in mind that each endpoint for a given connection must have the same number of channels. For the purposes of this tutorial, we recommend a single channel per transfer. **Note:** `channels`[n] in the RX transfer is sent from `channels`[n] in the corresponding TX transfer.
       - Make sure that the `engine data type` and `string data type` match between each endpoint. 
-   - There are no `component settings` for RDMA channels, so you can leave that field blank.
+   - There are no `component settings` for RDMA channels, so leave that field blank.
    For more information on DSF channel configurations, see the [DSF Theory of Operation](https://github.com/ni/niveristand-data-sharing-framework-custom-device/blob/main/Docs/Data%20Sharing%20Framework/Theory%20of%20Operations.md).
    ![rdma_config_channels](support/rdma_config_channels.png)
 1. ### Wrap up the configuration
