@@ -26,8 +26,8 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="RT PXI Target" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
+	<Item Name="Linux RT x64" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">Linux RT x64</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -421,7 +421,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5591EE34-FC09-426E-A043-2490849D3184}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">../Built/Linux_x64/Components</Property>
-				<Property Name="Bld_version.build" Type="Int">212</Property>
+				<Property Name="Bld_version.build" Type="Int">213</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RDMA.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Linux_x64/Components/RDMA.lvlibp</Property>
@@ -432,10 +432,10 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/Components</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A5C11438-2D25-43FB-8547-2F84F3A1F5B5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{143C9DB3-6F08-483B-8C9A-420653A3ACD1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/RDMA.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux RT x64/RDMA.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
