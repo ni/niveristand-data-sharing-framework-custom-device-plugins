@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="DSF" familyname="DSF">
+  <nierror code="732450">
+    <![CDATA[The RDMA plugin for the Data Sharing Framework could not be initialized with the provided configuration. Check the physical connection(s) and the network addresses specified in the system definition under the Data Sharing Framework custom device, then try again. If this error persists, consider restarting the VeriStand engine on your target(s).]]>
+  </nierror>
+</nidocument>
