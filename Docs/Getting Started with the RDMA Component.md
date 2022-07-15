@@ -115,6 +115,8 @@ On the page for the newly added Data Sharing Framework Custom Device, click **Ne
 1. ### Export your configuration (optional, but strongly recommended)
    Click the `Export...` button on the Data Sharing Framework custom device page to export a JSON representation of the configuration that you just created. This will enable you to quickly configure similar DSF custom devices or quickly modify the existing configuration by editing the JSON then using the `Import...` feature.
    
+   **NOTE:** If you'd like to quickly configure the plugin without interacting with the DSF configuration cluster, there exists a TX and RX example configuration file in this directory. Modify the fields to match your setup and use the `Import...` feature.
+   
    ![rdma_export_button](support/rdma_export_button.png)
 1. ### Repeat DSF Configuration for each target in your System Definition 
 1. ### Save and Close the VeriStand System Definition Explorer
