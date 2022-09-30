@@ -2,7 +2,7 @@
 The **Data Sharing Framework Plugins** provides built components to the [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) and its VeriStand Custom Device for reflecting data between applications.
 
 ## Validated Plugin and Target Support
-This repository contains three Data Sharing Framework plugins:
+This repository contains four Data Sharing Framework plugins:
 1. UDP
 1. GE Reflective Memory
 1. PXImc
@@ -10,12 +10,12 @@ This repository contains three Data Sharing Framework plugins:
 
 Each plugin supports a different set of targets. The following table displays the plugin support status for each target type.
 
-|Plugin|Windows|Pharlap|PXI Linux x64|cRIO Linux x64|
-|---|---|---|---|---|
-|UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|GE Reflective Memory|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_minus_sign:|
-|PXImc|:x:|:x:|:heavy_minus_sign:|:heavy_minus_sign:|
-|RDMA|:heavy_minus_sign:|:x:|:heavy_check_mark:|:heavy_minus_sign:|
+|Plugin|Windows|PXI Linux x64|cRIO Linux x64|
+|---|---|---|---|
+|UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|GE Reflective Memory|:heavy_check_mark:|:x:|:heavy_minus_sign:|
+|PXImc|:x:|:heavy_minus_sign:|:heavy_minus_sign:|
+|RDMA|:heavy_minus_sign:|:heavy_check_mark:|:heavy_minus_sign:|
 
 - :heavy_check_mark: - Supported, validated, and building.
 - :x: - Potentially supported, not currently validated or building.
@@ -24,7 +24,9 @@ Each plugin supports a different set of targets. The following table displays th
 [comment]: # (GitHub emoji support is documented here: https://gist.github.com/rxaviers/7360908)
 
 ## LabVIEW Version
-The LabVIEW code source in this repository is compatible with LabVIEW 2017 and newer.
+Most of the LabVIEW code source in this repository is compatible with LabVIEW 2017 and newer.
+
+Note that NI-RDMA only supports LabVIEW 2020 and newer.
 
 ## Dependencies
 The following top-level dependencies are required on the build machine to use this repository:
