@@ -2,10 +2,9 @@
 The **Data Sharing Framework Plugins** provides built components to the [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) and its VeriStand Custom Device for reflecting data between applications.
 
 ## Validated Plugin and Target Support
-This repository contains four Data Sharing Framework plugins:
+This repository contains three Data Sharing Framework plugins:
 1. UDP
 1. GE Reflective Memory
-1. PXImc
 1. RDMA
 
 Each plugin supports a different set of targets. The following table displays the plugin support status for each target type.
@@ -14,7 +13,6 @@ Each plugin supports a different set of targets. The following table displays th
 |---|---|---|---|
 |UDP|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |GE Reflective Memory|:heavy_check_mark:|:x:|:heavy_minus_sign:|
-|PXImc|:x:|:heavy_minus_sign:|:heavy_minus_sign:|
 |RDMA|:heavy_minus_sign:|:heavy_check_mark:|:heavy_minus_sign:|
 
 - :heavy_check_mark: - Supported, validated, and building.
@@ -23,16 +21,28 @@ Each plugin supports a different set of targets. The following table displays th
 
 [comment]: # (GitHub emoji support is documented here: https://gist.github.com/rxaviers/7360908)
 
-## LabVIEW Version
-Most of the LabVIEW code source in this repository is compatible with LabVIEW 2017 and newer.
+## LabVIEW Source Code Version
 
-Note that NI-RDMA only supports LabVIEW 2020 and newer.
+LabVIEW 2020
 
 ## Dependencies
-The following top-level dependencies are required on the build machine to use this repository:
 
-- [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) (see note below)
+### Running the plugins with the custom device
+
+- [VeriStand 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [NI-VISA 20.0 or later](https://www.ni.com/en-us/support/downloads/drivers/download.ni-visa.html)
+- Optional (if using RDMA): [NI-RDMA 21.5 or later](https://www.ni.com/fi-fi/support/downloads/drivers/download.ni-rdma.html)
+- [Data Sharing Framework Custom Device](https://github.com/ni/niveristand-data-sharing-framework-custom-device/releases)
+
+### Developing or building from source 
+
+- `DSF Core.lvlibp` from [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) (See note below)
+- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
+- [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
 **Note:** You must build and copy all [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) core packed project libraries into the source location before attempting to modify or build the plugins. For more information on building components manually, refer to [Manual Build Instructions for the Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device/blob/master/Docs/Manual%20Build%20Instructions.md).
 
