@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -244,6 +244,7 @@
 							<Item Name="Async" Type="Folder">
 								<Item Name="Launch Data Viewer.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Launch Data Viewer.vi"/>
 							</Item>
+							<Item Name="Convert Data String to Display.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Convert Data String to Display.vi"/>
 							<Item Name="Data Viewer.vi" Type="VI" URL="../../../DSF Core.lvlibp/VIs/Data Viewer/Data Viewer.vi"/>
 							<Item Name="Edit Configuration File.vi" Type="VI" URL="../../../DSF Core.lvlibp/Classes/Configuration Session/Edit Configuration File.vi"/>
 						</Item>
