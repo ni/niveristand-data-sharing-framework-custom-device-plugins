@@ -76,6 +76,16 @@ On the page for the newly added Data Sharing Framework Custom Device, click **Ne
    - `core.timeout behavior`: Choose whatever you prefer, as it should not impact your success in following this tutorial.
    - `core.enable conversion`: Choose whatever you prefer, just be sure that corresponding enpoints have the same setting for this field.
    - `component settings`: Leave empty, as there are no component settings for RDMA transfer groups.
+
+      **Note:** The effective timing for each end of a data transfer must be equal to ensure deterministic data transfer. The effective timing can be calculated as follows:
+
+      ```
+
+      [Effective Timing] = [Target PCL Rate] / ([DSF Custom Device Decimation] * [DSF Plugin Decimation] * [DSF Transfer Group Decimation])
+
+      ```
+
+      If TX and RX endpoints are configured with differing effective timings, then the transfer group late count monitoring channel (located under each transfer group) on the endpoint effectively running faster will begin ticking up upon deployment.
    
       ![rdma_config_transfer_groups_TX](support/rdma_config_transfer_groups_tx.png)
 1. ### Configure the Transfers in Each Transfer Group
