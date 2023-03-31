@@ -1,0 +1,68 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+      - release/*
+
+resources:
+  repositories:
+    - repository: niveristand-custom-device-build-tools
+      type:       github
+      ref:        main
+      endpoint:   nivs-custom-devices
+      name:       ni/niveristand-custom-device-build-tools
+
+stages:
+  - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+    parameters:
+      lvVersionsToBuild:
+        - version: '2020'
+          bitness: '32bit'
+        - version: '2021'
+          bitness: '64bit'
+        - version: '2023'
+          bitness: '64bit'
+
+      dependencies: # NOT READY YET
+        - source: '\\nirvana\Measurements\VeriStandAddons\prototype\dependency-test-1'
+          file: 'Custom Device\{target}\DSF Core.lvlibp'
+          destination: 'test-build\Includes'
+
+      buildSteps:
+        - projectLocation: 'Components\Transceivers\UDP\UDP Windows.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'UDP'
+
+        - projectLocation: 'Components\Transceivers\UDP\UDP Linux RT x64.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'Linux RT x64'
+          buildSpec: 'UDP'
+
+        - projectLocation: 'Components\Transceivers\GE Reflective Memory\GE Reflective Memory Windows.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'GE Reflective Memory'
+
+        - projectLocation: 'Components\Transceivers\RDMA\RDMA Windows.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'RDMA'
+
+        - projectLocation: 'Components\Transceivers\RDMA\RDMA Linux RT x64.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'Linux RT x64'
+          buildSpec: 'RDMA'
+
+      releaseVersion: '23.3.0'
+      buildOutputLocation: 'Components\Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework_plugins'
+
+      packages:
+        - controlFileName: 'control_dsf_plugins'
+          payloadMaps:
+            - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Data Sharing Framework'
+              payloadLocation: 'Components\Built\Plugins'
+            - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
+              payloadLocation: 'Components\Built\Errors'
