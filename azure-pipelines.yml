@@ -55,7 +55,7 @@ stages:
           target: 'Linux RT x64'
           buildSpec: 'RDMA'
 
-      releaseVersion: '23.3.0'
+      releaseVersion: '23.5.0'
       buildOutputLocation: 'Components\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework_plugins'
 
