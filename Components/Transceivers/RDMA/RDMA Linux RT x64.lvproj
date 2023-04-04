@@ -26,8 +26,8 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="Linux RT x64" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">Linux RT x64</Property>
+	<Item Name="Linux x64" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">Linux x64</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -456,7 +456,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{7A6446C2-26E4-4F9D-89A0-24A1DD2D93A9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux RT x64/RDMA.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/RDMA.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>

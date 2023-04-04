@@ -37,7 +37,7 @@ stages:
 
         - projectLocation: 'Components\Transceivers\UDP\UDP Linux RT x64.lvproj'
           buildOperation: 'ExecuteBuildSpec'
-          target: 'Linux RT x64'
+          target: 'Linux x64'
           buildSpec: 'UDP'
 
         - projectLocation: 'Components\Transceivers\GE Reflective Memory\GE Reflective Memory Windows.lvproj'
@@ -52,7 +52,7 @@ stages:
 
         - projectLocation: 'Components\Transceivers\RDMA\RDMA Linux RT x64.lvproj'
           buildOperation: 'ExecuteBuildSpec'
-          target: 'Linux RT x64'
+          target: 'Linux x64'
           buildSpec: 'RDMA'
 
       releaseVersion: '23.5.0'
