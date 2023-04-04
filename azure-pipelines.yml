@@ -24,10 +24,10 @@ stages:
         - version: '2023'
           bitness: '64bit'
 
-      dependencies: # NOT READY YET
-        - source: '\\nirvana\Measurements\VeriStandAddons\prototype\dependency-test-1'
-          file: 'Custom Device\{target}\DSF Core.lvlibp'
-          destination: 'test-build\Includes'
+      dependencies:
+        - source: '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework_CD'
+          file: 'Custom Device\$target\DSF Core.lvlibp'
+          destination: 'Components'
 
       buildSteps:
         - projectLocation: 'Components\Transceivers\UDP\UDP Windows.lvproj'
