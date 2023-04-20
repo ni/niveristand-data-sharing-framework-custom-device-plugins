@@ -12,6 +12,10 @@ resources:
       ref:        main
       endpoint:   nivs-custom-devices
       name:       ni/niveristand-custom-device-build-tools
+  pipelines:
+    - pipeline: DataSharingFrameworkCD
+      source:   ni.niveristand-data-sharing-framework-custom-device
+      trigger:  true
 
 stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
