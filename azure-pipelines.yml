@@ -67,6 +67,6 @@ stages:
         - controlFileName: 'control_dsf_plugins'
           payloadMaps:
             - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Data Sharing Framework'
-              payloadLocation: 'Components\Built\Plugins'
+              payloadLocation: 'Plugins'
             - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
-              payloadLocation: 'Components\Built\Errors'
+              payloadLocation: 'Errors'
