@@ -13,3 +13,13 @@ Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI Data Sharing Framework Plugins for VeriStand {veristand_version}
 Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0), ni-data-sharing-framework-veristand-{veristand_version}-support (>= {major_version}.0.0)
+Description-zh-CN:为NI VeriStand {veristand_version}提供NI Data Sharing Framework插件的支持。
+XB-DisplayName-zh-CN: NI Data Sharing Framework Plugins for VeriStand {veristand_version}
+Description-de:  Stellt Unterstützung für NI Data Sharing Framework Plugins für NI VeriStand {veristand_version} bereit
+XB-DisplayName-de: NI Data Sharing Framework Plugins für VeriStand {veristand_version}
+Description-fr: Fournit le support pour les plug-ins NI Data Sharing Framework pour NI VeriStand {veristand_version}
+XB-DisplayName-fr: NI Data Sharing Framework - Plugins pour VeriStand {veristand_version}
+Description-ja: NI VeriStand {veristand_version}用 NI Data Sharing Framework Pluginsサポートを提供します。
+XB-DisplayName-ja: NI Data Sharing Framework Plugins - VeriStand  {veristand_version}用
+Description-ko: NI VeriStand {veristand_version}을(를) 위한 NI Data Sharing Framework Plugins의 지원을 제공합니다.
+XB-DisplayName-ko: NI Data Sharing Framework Plugins - VeriStand {veristand_version} 지원
