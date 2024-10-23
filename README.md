@@ -29,7 +29,7 @@ LabVIEW 2020
 
 ### Running the plugins with the custom device
 
-- [VeriStand 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [VeriStand 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
 - [NI-VISA 20.0 or later](https://www.ni.com/en-us/support/downloads/drivers/download.ni-visa.html)
 - Optional (if using RDMA): [NI-RDMA 21.5 or later](https://www.ni.com/fi-fi/support/downloads/drivers/download.ni-rdma.html)
 - [Data Sharing Framework Custom Device](https://github.com/ni/niveristand-data-sharing-framework-custom-device/releases)
@@ -37,7 +37,7 @@ LabVIEW 2020
 ### Developing or building from source 
 
 - `DSF Core.lvlibp` from [Data Sharing Framework](https://github.com/ni/niveristand-data-sharing-framework-custom-device) (See note below)
-- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
   - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
