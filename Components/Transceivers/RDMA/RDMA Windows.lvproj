@@ -3,7 +3,7 @@
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="CCSymbols" Type="Str">VS_DEBUG,True;</Property>
+		<Property Name="CCSymbols" Type="Str">VS_DEBUG,False;</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -14,7 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Debug" Type="Folder">
-			<Item Name="VsDebugLibrary.lvlib" Type="Library" URL="../Debug/VsDebugLibrary.lvlib"/>
+			<Item Name="VsDebugLibrary.lvlib" Type="Library" URL="../../Utilities/Debug/VsDebugLibrary.lvlib"/>
 		</Item>
 		<Item Name="Documents" Type="Folder">
 			<Item Name="dsf-RDMA-errors.txt" Type="Document" URL="../../../../Errors/dsf-RDMA-errors.txt"/>
@@ -386,7 +386,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{67CE99F6-1C6A-4B89-A757-873E956685CE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6434A91A-1940-40C1-B68A-1BAF9F54CFBF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RDMA.lvlib</Property>
