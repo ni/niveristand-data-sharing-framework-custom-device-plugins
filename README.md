@@ -23,7 +23,7 @@ Each plugin supports a different set of targets. The following table displays th
 
 ## LabVIEW Source Code Version
 
-LabVIEW 2020
+LabVIEW 2024
 
 ## Dependencies
 
