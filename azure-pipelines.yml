@@ -5,13 +5,17 @@ trigger:
       - main
       - release/*
 
+variables:
+  - name: ConvertNetCore
+    value: false
+
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
-      type:       github
-      ref:        main
-      endpoint:   nivs-custom-devices
-      name:       ni/niveristand-custom-device-build-tools
+      type: github
+      ref: main
+      endpoint: nivs-custom-devices
+      name: ni/niveristand-custom-device-build-tools
   pipelines:
     - pipeline: DataSharingFrameworkCD
       source:   ni.niveristand-data-sharing-framework-custom-device
@@ -66,7 +70,6 @@ stages:
       buildOutputLocation: 'Components\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework_plugins'
       repoName: 'niveristand-data-sharing-framework-custom-device-plugins'
-      createNetCoreRepo: true
 
       packages:
         - controlFileName: 'control_dsf_plugins'
