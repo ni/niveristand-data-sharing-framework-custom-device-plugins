@@ -30,6 +30,8 @@ stages:
           bitness: '64bit'
         - version: '2026'
           bitness: '64bit'
+        - version: '2027'
+          bitness: '64bit'
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework_CD'
@@ -62,7 +64,7 @@ stages:
           target: 'Linux x64'
           buildSpec: 'RDMA'
 
-      releaseVersion: '26.5.0'
+      releaseVersion: '26.8.0'
       buildOutputLocation: 'Components\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework_plugins'
       repoName: 'niveristand-data-sharing-framework-custom-device-plugins'
