@@ -2,8 +2,7 @@ trigger:
   batch: true
   branches:
     include:
-      - main
-      - release/*
+      - legacy
 
 resources:
   repositories:
@@ -24,13 +23,9 @@ stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
       lvVersionsToBuild:
-        - version: '2024'
-          bitness: '64bit'
         - version: '2025'
           bitness: '64bit'
         - version: '2026'
-          bitness: '64bit'
-        - version: '2027'
           bitness: '64bit'
 
       dependencies:
@@ -64,16 +59,16 @@ stages:
           target: 'Linux x64'
           buildSpec: 'RDMA'
 
-      releaseVersion: '26.8.0'
+      releaseVersion: '27.0.0'
       buildOutputLocation: 'Components\Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\data_sharing_framework_plugins'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\legacy\data_sharing_framework_plugins'
       repoName: 'niveristand-data-sharing-framework-custom-device-plugins'
-      createNetCoreRepo: true
+      createNetCoreRepo: false
 
       packages:
         - controlFileName: 'control_dsf_plugins'
           payloadMaps:
-            - installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices\Data Sharing Framework'
+            - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\Data Sharing Framework'
               payloadLocation: 'Plugins'
             - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
               payloadLocation: 'Errors'
