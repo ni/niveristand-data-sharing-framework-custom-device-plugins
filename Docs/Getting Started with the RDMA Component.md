@@ -53,9 +53,14 @@ On the page for the newly added Data Sharing Framework Custom Device, click **Ne
    - `name`: Set this value to specify how the plugin will appear in the System Explorer. It does not matter what you choose to use for this field, as long as it is not empty.
    - `components`: Set the first element to be "RDMA"
    - `cycle timing`: Set the decimation to 0 to ensure that the plugin runs inline with the PCL. For more information about priority and offset, see the [DSF Theory of Operation](https://github.com/ni/niveristand-data-sharing-framework-custom-device/blob/main/Docs/Data%20Sharing%20Framework/Theory%20of%20Operations.md).
-   - `component settings`: Leave this field blank, as there are no component settings for the RDMA Plugin. 
+   - `component settings`: (Optional) You can configure a timeout for the initialization of the RDMA sessions. This is useful when managing several RT targets with multiple transfers per each device. If left blank, the default timeout is **30** seconds. You can change by setting the following:
+      - `component`: "RDMA"
+      - `values`:
+         - element 0
+            - `key`: "initialization timeout"
+            - `value`: value in seconds
    
-   ![rdma_config_plugin](support/rdma_config_plugin.png)
+   ![rdma_config_plugin](support/rdma_config_plugin_init_timeout.png)
 1. ### DSF Threads
    The RDMA plugin does not currently support multi-threaded configurations. Edit the plugin configuration to have your desired number of sessions in one thread.
    
